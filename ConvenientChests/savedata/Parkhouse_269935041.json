@@ -235,7 +235,7 @@
         "LocationType": "Normal",
         "LocationName": "FarmHouse",
         "BuildingName": "",
-        "Tile": "16, 4"
+        "Tile": "19, 13"
       },
       "AcceptedItems": {}
     },

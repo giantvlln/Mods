@@ -4,7 +4,7 @@
   "CommunityCenterVariant": "standard",
   "UseFlowerValleyDigspot": "false",
   "LogBridgeEnabled": "false",
-  "FlowerValleyDoorsEnabled": "false",
+  "FlowerValleyDoorsEnabled": "true",
   "FarmBuildingsEnabled": "true",
   "FoliageEnabled": "true",
   "TranslationEnabled": "true",

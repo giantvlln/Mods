@@ -7,6 +7,7 @@
   "MilkSpeed": 2.28,
   "MountOrDismountSpeed": 2.0,
   "ShearSpeed": 2.28,
+  "UseSlingshotSpeed": 1.0,
   "ToolSwingSpeed": 1.0,
   "WeaponSwingSpeed": 1.0,
   "BreakGeodeSpeed": 4.08,
