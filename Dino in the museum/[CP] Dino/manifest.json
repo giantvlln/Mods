@@ -1,0 +1,12 @@
+{
+	"Name": "Dino in the Museum [CP]",
+	"Author": "Zilch",
+	"Version": "1.1.1",
+	"Description": "Adds dinosaur in the museum",
+	"UniqueID": "Zilch.DinoMuseumCP",	
+	"UpdateKeys": [ "Nexus:11456" ],
+	"MinimumApiVersion": "3.6.0",
+	"ContentPackFor": {
+		"UniqueID": "Pathoschild.ContentPatcher"
+	}
+}

@@ -1,0 +1,10 @@
+{
+  "Fruits": [ "Air Essence", "Blooming Heart", "Cosmic Fragment", "Crystal Bell", "Earth Essence", "Essence Of Seasons", "Fire Essence", "Forest Dew", "Graceful Soul", "Grateful Tear", "Inner Peace", "Iron Will", "Moon Passenger", "Northern's Lullaby", "Soothing Song", "Splashing Stream", "Summer Drops", "Sun Passenger", "Untold Story", "Water Essence" ],
+  "Vegetables": [ "Golden Wave" ],
+  "Flowers": null,
+  "Honey": null,
+  "Jelly": "assets/magictreejelly.png",
+  "Juice": "assets/magictreejuice.png",
+  "Pickles": "assets/magictreepickles.png",
+  "Wine": "assets/magictreewine.png"
+}

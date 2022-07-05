@@ -1,0 +1,11 @@
+{
+
+	"Name": "Seasons Watcher",
+	"Product": "Crystal Bell",
+	"SaplingName": "Magic Root-Seasons Watcher Sapling",
+	"SaplingDescription": "Image of The Guardian of the Seasons, it takes 28 days to grows. The seasons turn in a blink of your eyes.",
+	"Season": "winter",
+	"SaplingPurchaseFrom": "Krobus",
+	"SaplingPurchasePrice": 5000,
+	"SaplingPurchaseRequirements": null
+}

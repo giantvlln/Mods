@@ -1,0 +1,13 @@
+﻿{
+  "Name": "[FS]Butterfly Veil",
+  "Author": "Kyuya",
+  "Version": "1.0.0",
+  "Description": "A veil held by butterflies.",
+  "UniqueID": "Kyuya.FSButterflyVeil",
+  "UpdateKeys": ["Nexus:11635"],
+  "Dependencies": [],
+  "ContentPackFor": {
+    "UniqueID": "PeacefulEnd.FashionSense",
+    "MinimumVersion": "4.3.0"
+  }
+}

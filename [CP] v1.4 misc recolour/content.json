@@ -1,0 +1,135 @@
+{
+	"Format": "1.10",
+	"ConfigSchema": {
+		"Enable Fish Pond" : {
+			"AllowValues" : "true, false",
+                                                "Default": "true"
+		},
+		"Enable Mini-fridge" : {
+			"AllowValues" : "true, false",
+                                                "Default": "true"
+		},
+		"Enable Garden Pot" : {
+			"AllowValues" : "true, false",
+                                                "Default": "true"
+		},
+	},
+
+	"Changes": [
+
+//Craftables
+		{
+			"Action": "EditImage",
+			"Patchmode": "replace",
+                                                "Target": "TileSheets/craftables",
+                                                "FromFile": "assets/gardenpot.png",
+			"ToArea": { "X": 96, "Y": 224, "Width": 32, "Height": 32},
+			"When" : {
+				"Enable Garden Pot" : "true"
+			}
+		},
+		{
+			"Action": "EditImage",
+			"Patchmode": "replace",
+                                                "Target": "TileSheets/craftables",
+                                                "FromFile": "assets/minifridge.png",
+			"ToArea": { "X": 0, "Y": 864, "Width": 48, "Height": 32},
+			"When" : {
+				"Enable Mini-fridge" : "true"
+			}
+		},
+		{
+			"Action": "EditImage",
+			"Patchmode": "replace",
+                                                "Target": "TileSheets/craftables",
+                                                "FromFile": "assets/crystalarium.png",
+			"ToArea": { "X": 80, "Y": 64, "Width": 16, "Height": 32},
+		},
+		{
+			"Action": "EditImage",
+			"Patchmode": "replace",
+                                                "Target": "TileSheets/craftables",
+                                                "FromFile": "assets/wormbin.png",
+			"ToArea": { "X": 32, "Y": 608, "Width": 16, "Height": 32},
+		},
+		{
+			"Action": "EditImage",
+			"Patchmode": "replace",
+                                                "Target": "TileSheets/craftables",
+                                                "FromFile": "assets/logs.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32},
+			"ToArea": { "X": 48, "Y": 128, "Width": 16, "Height": 32},
+		},
+		{
+			"Action": "EditImage",
+			"Patchmode": "replace",
+                                                "Target": "TileSheets/craftables",
+                                                "FromFile": "assets/logs.png",
+			"FromArea": { "X": 16, "Y": 0, "Width": 16, "Height": 32},
+			"ToArea": { "X": 96, "Y": 160, "Width": 16, "Height": 32},
+		},
+		{
+			"Action": "EditImage",
+			"Patchmode": "replace",
+                                                "Target": "TileSheets/craftables",
+                                                "FromFile": "assets/totoro_{{season}}.png",
+			"ToArea": { "X": 112, "Y": 640, "Width": 16, "Height": 32},
+		},
+		{
+			"Action": "EditImage",
+			"Patchmode": "replace",
+                                                "Target": "TileSheets/craftables",
+                                                "FromFile": "assets/ps4.png",
+			"FromArea": { "X": 32, "Y": 0, "Width": 32, "Height": 32},
+			"ToArea": { "X": 48, "Y": 864, "Width": 32, "Height": 32},
+		},
+		{
+			"Action": "EditImage",
+			"Patchmode": "replace",
+                                                "Target": "TileSheets/craftables",
+                                                "FromFile": "assets/ps4.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 32, "Height": 32},
+			"ToArea": { "X": 80, "Y": 544, "Width": 32, "Height": 32},
+		},
+		{
+			"Action": "EditImage",
+			"Patchmode": "replace",
+                                                "Target": "TileSheets/craftables",
+                                                "FromFile": "assets/turntable.png",
+			"ToArea": { "X": 16, "Y": 832, "Width": 32, "Height": 32},
+		},
+		{
+			"Action": "EditImage",
+			"Patchmode": "replace",
+                                                "Target": "TileSheets/craftables",
+                                                "FromFile": "assets/woodchipper.png",
+			"ToArea": { "X": 48, "Y": 832, "Width": 48, "Height": 32},
+		},
+		{
+			"Action": "EditImage",
+			"Patchmode": "replace",
+                                                "Target": "TileSheets/craftables",
+                                                "FromFile": "assets/workbench.png",
+			"ToArea": { "X": 0, "Y": 832, "Width": 16, "Height": 32},
+		},
+
+//Fish Pond
+			{
+			"Action": "EditImage",
+			"Target": "Buildings/Fish Pond",
+			"FromFile": "assets/Fish Pond_{{season}}.png",
+			"When" : {
+				"Enable Fish Pond" : "true",
+                                                                "HasMod:Gweniaczek.Fish_Pond": "false"
+			}
+		},
+			{
+			"Action": "EditImage",
+			"Target": "Buildings/Fish Pond",
+			"FromFile": "assets/Fish Pond_Gwen_{{season}}.png",
+			"When" : {
+                                                                "HasMod:Gweniaczek.Fish_Pond": "true"
+			}
+		},
+	]
+}

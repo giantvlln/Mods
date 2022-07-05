@@ -1,0 +1,354 @@
+[
+    // Load in the furniture
+    {
+        "$ItemType": "Furniture",
+        "ID": "Planter1",
+        "Type": "Decoration",
+        "Configurations": [
+            {
+                "Texture": "Assets/flowerpower.png:0",
+                "DisplaySize": { "X": 2, "Y": 2 },
+                "CollisionHeight": 1,
+          
+            }
+        ]
+    },
+    {
+        "$ItemType": "Furniture",
+        "ID": "Planter2",
+        "Type": "Decoration",
+        "Configurations": [
+            {
+                "Texture": "Assets/flowerpower.png:1",
+                "DisplaySize": { "X": 2, "Y": 2 },
+                "CollisionHeight": 1,
+          
+            }
+        ]
+    },
+    {
+        "$ItemType": "Furniture",
+        "ID": "Planter3",
+        "Type": "Decoration",
+        "Configurations": [
+            {
+                "Texture": "Assets/flowerpower.png:2",
+                "DisplaySize": { "X": 2, "Y": 2 },
+                "CollisionHeight": 1,
+          
+            }
+        ]
+    },
+    {
+        "$ItemType": "Furniture",
+        "ID": "Planter4",
+        "Type": "Rug",
+        "Configurations": [
+            {
+                "Texture": "Assets/flowerpower.png:3",
+                "DisplaySize": { "X": 2, "Y": 2 },
+                "CollisionHeight": 2,
+          
+            }
+        ]
+    },
+    {
+        "$ItemType": "Furniture",
+        "ID": "Planter5",
+        "Type": "Rug",
+        "Configurations": [
+            {
+                "Texture": "Assets/flowerpower.png:4",
+                "DisplaySize": { "X": 2, "Y": 2 },
+                "CollisionHeight": 2,
+          
+            }
+        ]
+    },
+    {
+        "$ItemType": "Furniture",
+        "ID": "Treestump",
+        "Type": "Decoration",
+        "Configurations": [
+            {
+                "Texture": "Assets/flowerpower.png:5",
+                "DisplaySize": { "X": 2, "Y": 2 },
+                "CollisionHeight": 2,
+          
+            }
+        ]
+    },
+    {
+        "$ItemType": "Furniture",
+        "ID": "Waterpump1",
+        "Type": "Decoration",
+        "Configurations": [
+            {
+                "Texture": "Assets/flowerpower.png:6",
+                "DisplaySize": { "X": 2, "Y": 2 },
+                "CollisionHeight": 1,
+          
+            }
+        ]
+    },
+    {
+        "$ItemType": "Furniture",
+        "ID": "Lanterns1",
+        "Type": "Lamp",
+        "Configurations": [
+            {
+                "Texture": "Assets/flowerpower.png:7",
+                "DisplaySize": { "X": 2, "Y": 2 },
+                "CollisionHeight": 1,
+          
+            }
+        ]
+    },
+    {
+        "$ItemType": "Furniture",
+        "ID": "Lanterns2",
+        "Type": "Lamp",
+        "Configurations": [
+            {
+                "Texture": "Assets/flowerpower.png:16",
+                "DisplaySize": { "X": 1, "Y": 2 },
+                "CollisionHeight": 1,
+            },
+            {
+                "Texture": "Assets/flowerpower.png:36",
+                "DisplaySize": { "X": 1, "Y": 2 },
+                "CollisionHeight": 1
+          
+            }
+        ]
+    },
+    {
+        "$ItemType": "Furniture",
+        "ID": "Bucket1",
+        "Type": "Decoration",
+        "Configurations": [
+            {
+                "Texture": "Assets/flowerpower.png:17",
+                "DisplaySize": { "X": 1, "Y": 2 },
+                "CollisionHeight": 1,
+          
+            }
+        ]
+    },
+    {
+        "$ItemType": "Furniture",
+        "ID": "Bucket2",
+        "Type": "Decoration",
+        "Configurations": [
+            {
+                "Texture": "Assets/flowerpower.png:18",
+                "DisplaySize": { "X": 1, "Y": 2 },
+                "CollisionHeight": 1,
+          
+            }
+        ]
+    },
+    {
+        "$ItemType": "Furniture",
+        "ID": "Waterpump2",
+        "Type": "Decoration",
+        "Configurations": [
+            {
+                "Texture": "Assets/flowerpower.png:19",
+                "DisplaySize": { "X": 1, "Y": 2 },
+                "CollisionHeight": 1,
+          
+            }
+        ]
+    },
+    {
+        "$ItemType": "Furniture",
+        "ID": "Pots1",
+        "Type": "Decoration",
+        "Configurations": [
+            {
+                "Texture": "Assets/flowerpower.png:20",
+                "DisplaySize": { "X": 1, "Y": 2 },
+                "CollisionHeight": 1,
+          
+            }
+        ]
+    },
+    {
+        "$ItemType": "Furniture",
+        "ID": "Pots2",
+        "Type": "Decoration",
+        "Configurations": [
+            {
+                "Texture": "Assets/flowerpower.png:21",
+                "DisplaySize": { "X": 1, "Y": 2 },
+                "CollisionHeight": 1,
+          
+            }
+        ]
+    },
+    {
+        "$ItemType": "Furniture",
+        "ID": "Wheelbarrow",
+        "Type": "Decoration",
+        "Configurations": [
+            {
+                "Texture": "Assets/flowerpower.png:11",
+                "DisplaySize": { "X": 2, "Y": 2 },
+                "CollisionHeight": 1,
+          
+            }
+        ]
+    },
+    {
+        "$ItemType": "Furniture",
+        "ID": "Ferns",
+        "Type": "Rug",
+        "Configurations": [
+            {
+                "Texture": "Assets/flowerpower.png:48",
+                "DisplaySize": { "X": 1, "Y": 1 },
+                "CollisionHeight": 1,
+          
+            }
+        ]
+    },
+    {
+        "$ItemType": "Furniture",
+        "ID": "Wateringcan",
+        "Type": "Decoration",
+        "Configurations": [
+            {
+                "Texture": "Assets/flowerpower.png:49",
+                "DisplaySize": { "X": 1, "Y": 1 },
+                "CollisionHeight": 1,
+          
+            }
+        ]
+    },
+    {
+        "$ItemType": "Furniture",
+        "ID": "Pots3",
+        "Type": "Decoration",
+        "Configurations": [
+            {
+                "Texture": "Assets/flowerpower.png:50",
+                "DisplaySize": { "X": 1, "Y": 1 },
+                "CollisionHeight": 1,
+          
+            }
+        ]
+    },
+    {
+        "$ItemType": "Furniture",
+        "ID": "Pots4",
+        "Type": "Decoration",
+        "Configurations": [
+            {
+                "Texture": "Assets/flowerpower.png:51",
+                "DisplaySize": { "X": 1, "Y": 1 },
+                "CollisionHeight": 1,
+          
+            }
+        ]
+    },
+    {
+        "$ItemType": "Furniture",
+        "ID": "Cart1",
+        "Type": "Decoration",
+        "Configurations": [
+            {
+                "Texture": "Assets/flowerpower.png:14",
+                "DisplaySize": { "X": 2, "Y": 2 },
+                "CollisionHeight": 1,
+          
+            }
+        ]
+    },
+    {
+        "$ItemType": "Furniture",
+        "ID": "Corner1",
+        "Type": "Decoration",
+        "Configurations": [
+            {
+                "Texture": "Assets/flowerpower.png:56",
+                "DisplaySize": { "X": 1, "Y": 1 },
+                "CollisionHeight": 1,
+            },
+            {
+                "Texture": "Assets/flowerpower.png:57",
+                "DisplaySize": { "X": 1, "Y": 1 },
+                "CollisionHeight": 1
+          
+            }
+        ]
+    },
+    {
+        "$ItemType": "Furniture",
+        "ID": "Corner2",
+        "Type": "Decoration",
+        "Configurations": [
+            {
+                "Texture": "Assets/flowerpower.png:58",
+                "DisplaySize": { "X": 1, "Y": 1 },
+                "CollisionHeight": 1,
+            },
+            {
+                "Texture": "Assets/flowerpower.png:59",
+                "DisplaySize": { "X": 1, "Y": 1 },
+                "CollisionHeight": 1
+          
+            }
+        ]
+    },
+    {
+        "$ItemType": "Furniture",
+        "ID": "Wall1",
+        "Type": "Rug",
+        "Configurations": [
+            {
+                "Texture": "Assets/flowerpower.png:64",
+                "DisplaySize": { "X": 1, "Y": 1 },
+                "CollisionHeight": 1,
+            },
+            {
+                "Texture": "Assets/flowerpower.png:65",
+                "DisplaySize": { "X": 1, "Y": 1 },
+                "CollisionHeight": 1
+          
+            }
+        ]
+    },
+    {
+        "$ItemType": "Furniture",
+        "ID": "Wall2",
+        "Type": "Rug",
+        "Configurations": [
+            {
+                "Texture": "Assets/flowerpower.png:66",
+                "DisplaySize": { "X": 1, "Y": 1 },
+                "CollisionHeight": 1,
+            },
+            {
+                "Texture": "Assets/flowerpower.png:67",
+                "DisplaySize": { "X": 1, "Y": 1 },
+                "CollisionHeight": 1
+          
+            }
+        ]
+    },
+    {
+        "$ItemType": "Furniture",
+        "ID": "Cart2",
+        "Type": "Decoration",
+        "Configurations": [
+            {
+                "Texture": "Assets/flowerpower.png:15",
+                "DisplaySize": { "X": 2, "Y": 2 },
+                "CollisionHeight": 1,
+
+          
+            }
+        ]
+    },
+]

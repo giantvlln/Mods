@@ -1,0 +1,11 @@
+ {
+ "Name": "Fairy Mushroom Tree",
+  "Author": "lumiepop",
+  "Version": "1.0.0",
+  "Description": "Gives the mushroom tree a more realistic and magical look.",
+  "UniqueID": "lumiepop.fairymushroomtree",
+ 
+ "ContentPackFor": {
+      "UniqueID": "Pathoschild.ContentPatcher",
+   }
+}

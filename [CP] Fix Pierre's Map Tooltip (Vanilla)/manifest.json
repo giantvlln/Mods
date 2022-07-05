@@ -1,0 +1,12 @@
+﻿{
+	"Name": "[CP] Fix Pierre's Map Tooltip (Vanilla)",
+	"Author": "CyanFire",
+	"Version": "1.0.0",
+	"Description": "Corrects Pierre's map tooltip after completing the Community Center bundles in vanilla game.",
+	"UniqueID": "CF.FixMapTooltipV",
+	"MinimumApiVersion": "3.0.0",
+	"UpdateKeys": [],
+	"ContentPackFor": {
+		"UniqueID": "Pathoschild.ContentPatcher"
+	}
+}

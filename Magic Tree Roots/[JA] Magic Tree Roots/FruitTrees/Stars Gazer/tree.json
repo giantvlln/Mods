@@ -1,0 +1,10 @@
+{
+	"Name": "Stars Gazer",
+	"Product": "Cosmic Fragment",
+	"SaplingName": "Magic Root-Stars Gazer Sapling",
+	"SaplingDescription": "Takes 28 days to grows to mature. Bathes under the Star Light to bear the fruit of wisdom. The stump can be use as a Sundial",
+	"Season": "fall",
+	"SaplingPurchaseFrom": "Sandy",
+	"SaplingPurchasePrice": 6000,
+	"SaplingPurchaseRequirements": null
+}

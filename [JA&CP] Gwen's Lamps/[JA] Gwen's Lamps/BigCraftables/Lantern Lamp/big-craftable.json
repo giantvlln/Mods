@@ -1,0 +1,25 @@
+{
+	"Name": "Lantern Lamp",
+	"Description": "Iron lantern lamp post. Provides a good amount of light.",
+	"Price": 1000,
+	"ProvidesLight": true,
+	"Recipe": 
+	{
+		"ResultCount": 1,
+		"Ingredients": 
+		[
+			{
+			"Object": 335,
+			"Count": 1,
+			},
+			{
+			"Object": 787,
+			"Count": 1,
+			},
+		],
+	"IsDefault": false,
+	"CanPurchase": true,
+	"PurchaseFrom": "Robin", 
+	"PurchasePrice": 1000,
+	},
+}

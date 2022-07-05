@@ -1,0 +1,12 @@
+﻿{
+	"Name": "Dino in the Museum [CC]",
+	"Author": "Zilch",
+	"Version": "1.0.1",
+	"Description": "Adds dinosaur in the museum",
+	"UniqueID": "Zilch.DinoMuseumCC",
+	"UpdateKeys": [ "Nexus:" ],
+	"ContentPackFor": {
+		"UniqueID": "PeacefulEnd.CustomCompanions",
+		"MinimumVersion": "1.4.3"
+  }
+}

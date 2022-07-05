@@ -1,0 +1,43 @@
+{
+  "Format": "1.20.0",
+   "ConfigSchema": {
+		  "UIColor": {
+			 "AllowValues": "Vintage, Pink, PinkBlue, PinkDust",
+			 "Default": "Vintage",
+			 "Description": "﻿Recolor match",
+		  },
+		  "BookColor": {
+			 "AllowValues": "Red, Brown, Pink, Blue, Ivory",
+			 "Default": "Red",
+			 "Description": "﻿Cook UI 's Book Cover color",
+		  },
+		  "Edge": {
+			 "AllowValues": "Old, Clean",
+			 "Default": "Old",
+			 "Description": "﻿Page Edge Style",
+		  },
+	  },
+	"Changes": [
+		{
+			"Action": "EditImage",
+			"Target": "Mods/blueberry.LoveOfCooking.Assets/Sprites",
+			"FromFile": "assets/UI_{{UIColor}}.png",
+			 "PatchMode": "Overlay"
+		},
+		{
+			"Action": "EditImage",
+			"Target": "Mods/blueberry.LoveOfCooking.Assets/Sprites",
+			"FromFile": "assets/Cover_{{BookColor}}.png",
+			 "PatchMode": "Overlay",
+		},
+		{
+			"Action": "EditImage",
+			"Target": "Mods/blueberry.LoveOfCooking.Assets/Sprites",
+			"FromFile": "assets/Page_{{UIColor}}.png",
+			 "PatchMode": "Overlay",
+			 "When": {
+				"Edge": "Clean"
+			 }
+		},
+  ]
+}

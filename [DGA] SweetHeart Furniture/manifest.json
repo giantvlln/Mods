@@ -1,0 +1,14 @@
+{
+    "Name": "[CF] SweetHeart Furniture",
+    "Author": "Wabi",
+    "Version": "1.0.0",
+    "Description": "Adds a set of cute, pink furniture",
+    "UniqueID": "Wabi.DGA.sweatheartfurn",
+    "UpdateKeys": [],
+    "ContentPackFor": {
+        "UniqueID": "spacechase0.DynamicGameAssets",
+        "MinimumVersion": "1.4.2"
+    },
+    "DGA.FormatVersion": 2,
+    "DGA.ConditionsFormatVersion": "1.25.0"
+}

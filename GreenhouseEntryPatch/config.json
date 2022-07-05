@@ -1,0 +1,20 @@
+{
+  "HideGreenhouseTiles": false,
+  "HideGreenhouseShadow": false,
+  "GreenhouseSoftShadow": false,
+  "HideAllOtherShadows": false,
+  "HideBarnShadow": false,
+  "HideCoopShadow": false,
+  "HideShedShadow": false,
+  "HideWellShadow": false,
+  "HideMillShadow": false,
+  "HideSiloShadow": true,
+  "HideStableShadow": false,
+  "HideFishPondShadow": false,
+  "HideShippingBinShadow": false,
+  "HideSlimeHutchShadow": false,
+  "HideCabinShadow": false,
+  "HideObeliskShadow": true,
+  "HideGoldClockShadow": false,
+  "HideJunimoHutShadow": false
+}

@@ -1,0 +1,200 @@
+{
+	"Format": "1.24.0",
+	
+	"Changes": [
+		//Pierre Opening Times
+
+		{//English
+                        "Action": "EditData",
+                        "Target": "Strings/StringsFromCSFiles",                          
+                        "Entries": {
+                            "MapPage.cs.11080": "Open 9:00AM to 5:00PM (Closed Wednesday)",
+                }
+       	        },
+                {
+                        "Action": "EditData",
+                        "Target": "Strings/StringsFromCSFiles",
+			"When": {"IsCommunityCenterComplete": "true", "HasSeenEvent": "191393"},
+                        "Entries": {
+                            "MapPage.cs.11080": "Open 9:00AM to 5:00PM",
+                }
+		},
+
+		{//German
+                        "Action": "EditData",
+                        "Target": "Strings/StringsFromCSFiles.de-DE",                          
+                        "Entries": {
+                            "MapPage.cs.11080": "Geöffnet von 9:00 bis 17:00 Uhr (mittwochs geschlossen)",
+                }
+       	        },
+                {
+                        "Action": "EditData",
+                        "Target": "Strings/StringsFromCSFiles.de-DE",
+			"When": {"IsCommunityCenterComplete": "true", "HasSeenEvent": "191393"},
+                        "Entries": {
+                            "MapPage.cs.11080": "Geöffnet von 9:00 bis 17:00 Uhr",
+                }
+		},
+
+		{//Spanish
+                        "Action": "EditData",
+                        "Target": "Strings/StringsFromCSFiles.es-ES",                          
+                        "Entries": {
+                            "MapPage.cs.11080": "Abierta de 09:00 a 17:00 (Cierra los miércoles)",
+                }
+       	        },
+                {
+                        "Action": "EditData",
+                        "Target": "Strings/StringsFromCSFiles.es-ES",
+			"When": {"IsCommunityCenterComplete": "true", "HasSeenEvent": "191393"},
+                        "Entries": {
+                            "MapPage.cs.11080": "Abierta de 09:00 a 17:00",
+                }
+		},
+
+		{//French
+                        "Action": "EditData",
+                        "Target": "Strings/StringsFromCSFiles.fr-FR",                          
+                        "Entries": {
+                            "MapPage.cs.11080": "Ouvert de 9 h à 17 h (Fermé le mercredi)",
+                }
+       	        },
+                {
+                        "Action": "EditData",
+                        "Target": "Strings/StringsFromCSFiles.fr-FR",
+			"When": {"IsCommunityCenterComplete": "true", "HasSeenEvent": "191393"},
+                        "Entries": {
+                            "MapPage.cs.11080": "Ouvert de 9 h à 17 h",
+                }
+		},
+
+		{//Hungarian
+                        "Action": "EditData",
+                        "Target": "Strings/StringsFromCSFiles.hu-HU",                          
+                        "Entries": {
+                            "MapPage.cs.11080": "09:00 és 17:00 között nyitva (Szerdánként Zárva)",
+                }
+       	        },
+                {
+                        "Action": "EditData",
+                        "Target": "Strings/StringsFromCSFiles.hu-HU",
+			"When": {"IsCommunityCenterComplete": "true", "HasSeenEvent": "191393"},
+                        "Entries": {
+                            "MapPage.cs.11080": "09:00 és 17:00 között nyitva",
+                }
+		},
+
+		{//Italian
+                        "Action": "EditData",
+                        "Target": "Strings/StringsFromCSFiles.it-IT",                          
+                        "Entries": {
+                            "MapPage.cs.11080": "Aperto 9:00AM - 5:00PM (Mercoledì chiuso)",
+                }
+       	        },
+                {
+                        "Action": "EditData",
+                        "Target": "Strings/StringsFromCSFiles.it-IT",
+			"When": {"IsCommunityCenterComplete": "true", "HasSeenEvent": "191393"},
+                        "Entries": {
+                            "MapPage.cs.11080": "Aperto 9:00AM - 5:00PM",
+                }
+		},
+
+		{//Japanese
+                        "Action": "EditData",
+                        "Target": "Strings/StringsFromCSFiles.ja-JP",                          
+                        "Entries": {
+                            "MapPage.cs.11080": "営業時間： 午前9時 - 午後5時 (水曜 定休日)",
+                }
+       	        },
+                {
+                        "Action": "EditData",
+                        "Target": "Strings/StringsFromCSFiles.ja-JP",
+			"When": {"IsCommunityCenterComplete": "true", "HasSeenEvent": "191393"},
+                        "Entries": {
+                            "MapPage.cs.11080": "営業時間： 午前9時 - 午後5時",
+                }
+		},
+
+		{//Korean
+                        "Action": "EditData",
+                        "Target": "Strings/StringsFromCSFiles.ko-KR",                          
+                        "Entries": {
+                            "MapPage.cs.11080": "오전 9시부터 오후 5시까지 영업 (수요일 휴무)",
+                }
+       	        },
+                {
+                        "Action": "EditData",
+                        "Target": "Strings/StringsFromCSFiles.ko-KR",
+			"When": {"IsCommunityCenterComplete": "true", "HasSeenEvent": "191393"},
+                        "Entries": {
+                            "MapPage.cs.11080": "오전 9시부터 오후 5시까지 영업",
+                }
+		},
+
+		{//Brazilian Portuguese
+                        "Action": "EditData",
+                        "Target": "Strings/StringsFromCSFiles.pt-BR",                          
+                        "Entries": {
+                            "MapPage.cs.11080": "Aberto das 9h às 17h (fechado quarta-feira)",
+                }
+       	        },
+                {
+                        "Action": "EditData",
+                        "Target": "Strings/StringsFromCSFiles.pt-BR",
+			"When": {"IsCommunityCenterComplete": "true", "HasSeenEvent": "191393"},
+                        "Entries": {
+                            "MapPage.cs.11080": "Aberto das 9h às 17h",
+                }
+		},
+
+		{//Russian
+                        "Action": "EditData",
+                        "Target": "Strings/StringsFromCSFiles.ru-RU",                          
+                        "Entries": {
+                            "MapPage.cs.11080": "Открыто с 9:00 до 17:00 (Закрыто по средам)",
+                }
+       	        },
+                {
+                        "Action": "EditData",
+                        "Target": "Strings/StringsFromCSFiles.ru-RU",
+			"When": {"IsCommunityCenterComplete": "true", "HasSeenEvent": "191393"},
+                        "Entries": {
+                            "MapPage.cs.11080": "Открыто с 9:00 до 17:00",
+                }
+		},
+
+		{//Turkish
+                        "Action": "EditData",
+                        "Target": "Strings/StringsFromCSFiles.tr-TR",                          
+                        "Entries": {
+                            "MapPage.cs.11080": "Sabah 9 ile öğleden sonra 5 arası açıktır (Çarşambaları kapalıdır).",
+                }
+       	        },
+                {
+                        "Action": "EditData",
+                        "Target": "Strings/StringsFromCSFiles.tr-TR",
+			"When": {"IsCommunityCenterComplete": "true", "HasSeenEvent": "191393"},
+                        "Entries": {
+                            "MapPage.cs.11080": "Sabah 9 ile öğleden sonra 5 arası açıktır.",
+                }
+		},
+
+		{//Simplified Chinese
+                        "Action": "EditData",
+                        "Target": "Strings/StringsFromCSFiles.zh-CN",                          
+                        "Entries": {
+                            "MapPage.cs.11080": "上午9:00至下午5:00开放（星期三休息）",
+                }
+       	        },
+                {
+                        "Action": "EditData",
+                        "Target": "Strings/StringsFromCSFiles.zh-CN",
+			"When": {"IsCommunityCenterComplete": "true", "HasSeenEvent": "191393"},
+                        "Entries": {
+                            "MapPage.cs.11080": "上午9:00至下午5:00开放",
+                }
+		},
+
+	]
+}

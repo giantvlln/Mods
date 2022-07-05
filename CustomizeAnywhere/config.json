@@ -1,0 +1,9 @@
+{
+  "canAccessMenusAnywhere": true,
+  "ActivateButton": "LeftShift",
+  "customizeButton": "D1",
+  "dyeButton": "NumPad0",
+  "tailoringButton": "NumPad1",
+  "dresserButton": "NumPad2",
+  "canTailorWithoutEvent": false
+}

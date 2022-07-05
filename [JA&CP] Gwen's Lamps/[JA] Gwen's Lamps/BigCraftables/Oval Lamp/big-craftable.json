@@ -1,0 +1,25 @@
+{
+	"Name": "Oval Lamp",
+	"Description": "A fancy oval lamp post. Provides a good amount of light.",
+	"Price": 1000,
+	"ProvidesLight": true,
+	"Recipe": 
+	{
+		"ResultCount": 1,
+		"Ingredients": 
+		[
+			{
+			"Object": 388,
+			"Count": 50,
+			},
+			{
+			"Object": 335,
+			"Count": 1,
+			},
+		],
+	"IsDefault": false,
+	"CanPurchase": true,
+	"PurchaseFrom": "Robin", 
+	"PurchasePrice": 1000,
+	},
+}

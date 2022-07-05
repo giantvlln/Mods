@@ -1,0 +1,25 @@
+{
+	"Name": "Stone Lamp",
+	"Description": "The hole in this rock seems to glow.",
+	"Price": 1000,
+	"ProvidesLight": true,
+	"Recipe": 
+	{
+		"ResultCount": 1,
+		"Ingredients": 
+		[
+			{
+			"Object": 390,
+			"Count": 25,
+			},
+			{
+			"Object": 535,
+			"Count": 1,
+			},
+		],
+	"IsDefault": false,
+	"CanPurchase": true,
+	"PurchaseFrom": "Robin", 
+	"PurchasePrice": 1000,
+	},
+}

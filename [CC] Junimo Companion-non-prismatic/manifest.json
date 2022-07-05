@@ -1,0 +1,12 @@
+{
+"Name": "Junimo Companion",
+  "Author": "Alicia",
+  "Version": "1.0.0",
+  "Description": "Adds a prismatic Junimo to be your companion.",
+  "UniqueID": "Alicia.JunimoCompanion",
+  "UpdateKeys": [],
+  "ContentPackFor": {
+    "UniqueID": "PeacefulEnd.CustomCompanions",
+    "MinimumVersion": "1.6.3"
+}
+}

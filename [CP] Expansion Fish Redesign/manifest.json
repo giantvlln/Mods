@@ -1,0 +1,55 @@
+{
+  "Name": "[CP] Expansion Fish Redesign",
+  "Author": "Taiyokun",
+  "Version": "3.0.0",
+  "Description": "A simple mod that redesign some fish from huge mods.",
+  "UniqueID": "Taiyo.EFR",
+  "MinimumApiVersion": "3.7.5",
+  "UpdateKeys": ["Nexus:8980"],
+  "ContentPackFor": {
+    "UniqueID": "Pathoschild.ContentPatcher",
+    "MinimumVersion": "1.19.0"
+				},
+    "Dependencies": [ 
+    {
+      "UniqueID": "spacechase0.JsonAssets",
+      "IsRequired": true
+    },
+    {
+      "UniqueID": "Rafseazz.RSVJA",
+      "IsRequired": false
+    },
+    {
+      "UniqueID": "FlashShifter.JA.SVE",
+      "IsRequired": false
+    },
+    {
+      "UniqueID": "FlashShifter.StardewValleyExpandedCP",
+      "IsRequired": false
+    },
+    {
+      "UniqueID": "Rafseazz.LunnaCP",
+      "IsRequired": false
+    },
+    {
+      "UniqueID": "Rafseazz.LunnaItems",
+      "IsRequired": false
+    },
+    {
+      "UniqueID": "tiakall.seabass",
+      "IsRequired": false
+    },
+    {
+      "UniqueID": "tiakall.seabassCP",
+      "IsRequired": false
+    },
+    {
+      "UniqueID": "Boogie.PearlFish.JA",
+      "IsRequired": false
+    },
+    {
+      "UniqueID": "Boogie.PearlFish.CP",
+      "IsRequired": false
+    }
+  ]
+}

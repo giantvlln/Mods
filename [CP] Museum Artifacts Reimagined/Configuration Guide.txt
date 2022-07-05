@@ -1,0 +1,61 @@
+Run the game once to generate your config.json file!
+
+By default, all of the sprite changes made by the mod are set to on. 
+
+To disable a specific sprite change (e.g. you prefer the vanilla game's chicken statue, or you want to install a different mod that changes it), simply find the name of the object in the config and type "off" where it says "on".
+Then, restart your game and your changes should take effect! You can also find a mod called Generic Mod Config Menu on Nexus which allows you to change your config from within the game!
+
+There are also a select few sprites with alternate textures I have created in case some people preferred a different style. 
+You can see the alternate textures by going into the mod's assets folder. They are the small images with only one sprite on them, not the large sheet with lots of sprites.
+The file names of these alternate textures are the name of the object they are replacing followed by the config option.
+So, if you want to use one of the alternate textures, scroll through the config to find the name of the object they are replacing and type the end of the name in lowercase where it says "on".
+For example, if you want to use the alien terminal style dwarf gadget rather than the typewriter style default, your config should have a line that reads: "DwarfGadget": "alien".
+
+As for the text changes field, this updates the names and/or descriptions of a few items to match their new sprites. 
+Sprites that have been disabled via their individual config options will not be affected. 
+Set this to "off" only if you would prefer to keep the new sprites with the vanilla descriptions and names.
+
+If spelling / keyboard localisation is an issue, here is a list of accepted config values for each field:
+
+  TextChanges: on, off
+  GoldenMask: on, off
+  GoldenRelic: on, off
+  ElvishJewelry: on, off
+  ChippedAmphora: on, off
+  AncientDrum: on, off
+  GlassShards: on, off, blue
+  AncientSeed: on, off
+  RustySpoon: on, off
+  ChewingStick: on, off
+  PrehistoricTools: on, off
+  Arrowhead: on, off
+  PrehistoricHandaxe: on, off
+  Anchor: on, off
+  DriedStarfish: on, off
+  DwarfScrollI: on, off
+  DwarfScrollII: on, off
+  DwarfScrollIII: on, off
+  DwarfScrollIV: on, off
+  RustySpur: on, off
+  RustyCog: on, off
+  OrnamentalFan: on, off
+  BoneFlute: on, off
+  AncientSword: on, off
+  RareDisc: on, off
+  PrehistoricScapulae: on, off
+  PrehistoricTibiae: on, off
+  PrehistoricSkull: on, off
+  SkeletalHands: on, off
+  PrehistoricRibcage: on, off
+  PrehistoricVertebrae: on, off
+  SkeletalTail: on, off
+  DwarfGadget: on, off, alien
+  DwarvenHelm: on, off, green
+  StrangeDoll1: on, off
+  StrangeDoll2: on, off
+  AncientDoll: on, off
+  NautilusFossil: on, off
+  ChickenStatue: on, off
+  AmphibianFossil: on, off
+  PalmFossil: on, off
+  Trilobyte: on off

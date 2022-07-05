@@ -1,0 +1,11 @@
+{
+
+	"Name": "Zang-Zen",
+	"Product": "Iron Will",
+	"SaplingName": "Magic Root-Zang-Zen Sapling",
+	"SaplingDescription": "Can not be one without the other. Controls the body and strength. Only bears fruit when it found balance.",
+	"Season": "spring",
+	"SaplingPurchaseFrom": "Dwarf",
+	"SaplingPurchasePrice": 5000,
+	"SaplingPurchaseRequirements": null
+}

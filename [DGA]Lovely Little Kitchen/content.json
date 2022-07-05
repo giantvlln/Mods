@@ -1,0 +1,10 @@
+[   
+    {
+        "$ItemType": "ContentIndex",
+        "FilePath": "Jsons/furniture.json"
+    },
+    {
+        "$ItemType": "ContentIndex",
+        "FilePath": "Jsons/shop-entries.json"
+    },
+]

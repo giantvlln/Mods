@@ -1,0 +1,40 @@
+{
+    "Name": "Golden Wave",
+    "Description": "A fragment of someone's Dream. If you eat one, you may dream about the same thing as them when you are about to go to sleep. ",
+    "Category": "Vegetable",
+    "CategoryTextOverride": "Herb",
+    "CategoryColorOverride": "93, 153, 80, 255",
+    "Edibility": 47,
+    "EdibleBuffs":
+    {
+        "Farming": 0,
+        "Fishing": 0,
+        "Mining": 0,
+        "Luck": 5,
+        "Foraging": 0,
+        "MaxStamina": 0,
+        "MagnetRadius": 0,
+        "Speed": 0,
+        "Defense": 3,
+        "Attack": 0,
+        "Duration": 400
+    },
+    "Price": 300,
+    "IsColored": false,
+	"Recipe": null,
+    "GiftTastes":
+    {
+        "Love": ["Abigail", "Elliot", "Kent", "Lewis", "Harvey", "Maru", "Penny", "Pierre", "Sandy", "Sebastian"],
+		"Like": ["Alex", "Emily", "Gus", "Leah", "Pam"],
+		"Neutral": ["Demetrius", "Dwarf", "Haley", "Krobus","Evelyn", "George", "Marnie", "Sam", "Shane", "Wizard"],
+		"Dislike": ["Linus", "Robin", "Willy"],
+		"Hate": [ "Jodi"]
+    },
+	"ContextTags": [
+        "season_fall",
+        "color_yellow",
+        "fruit_tree_item",
+        "herb_item",
+        "fruit_tree_herb_item"
+    ]
+}

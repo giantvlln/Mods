@@ -1,0 +1,9 @@
+{
+  "Name": "Sherry lighter emotes",
+  "Author": "Sherry",
+  "Version": "1.1.0",
+  "Description": "Replaces emotes",
+  "UniqueID": "Sherry.emotes",
+  "MinimumApiVersion": "3.7.3",
+  "ContentPackFor": { "UniqueID": "Pathoschild.ContentPatcher" }
+}

@@ -1,0 +1,7 @@
+{
+	"Name": "Bird Perch",
+	"Description": "This one's sure to turn heads.",
+	"PurchasePrice": "1000",
+	"ShowHair": true,
+	"IgnoreHairstyleOffset": false
+}

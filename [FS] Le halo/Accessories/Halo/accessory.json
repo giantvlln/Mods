@@ -1,0 +1,140 @@
+{
+  "Name": "Halo",
+  "FrontAccessory": {
+    "DisableGrayscale": true,
+    "StartingPosition": {
+      "X": 0,
+      "Y": 0
+    },
+    "HeadPosition": {
+      "X": 0,
+      "Y": 8
+    },
+    "AccessorySize": {
+      "Width": 16,
+      "Length": 32
+    },
+    "UniformAnimation": [
+      {
+        "Frame": 0,
+        "Duration": 300
+      },
+      {
+        "Frame": 1,
+        "Duration": 300
+      },
+      {
+        "Frame": 2,
+        "Duration": 300
+      },
+      {
+        "Frame": 3,
+        "Duration": 300
+      }
+    ]
+  },
+  "BackAccessory": {
+    "DisableGrayscale": true,
+    "DrawBeforePlayer": true,
+    "DrawBeforeHair": true,
+    "StartingPosition": {
+      "X": 0,
+      "Y": 0
+    },
+    "HeadPosition": {
+      "X": 0,
+      "Y": 8
+    },
+    "AccessorySize": {
+      "Width": 16,
+      "Length": 32
+    },
+    "UniformAnimation": [
+      {
+        "Frame": 0,
+        "Duration": 300
+      },
+      {
+        "Frame": 1,
+        "Duration": 300
+      },
+      {
+        "Frame": 2,
+        "Duration": 300
+      },
+      {
+        "Frame": 3,
+        "Duration": 300
+      }
+    ]
+  },
+  "RightAccessory": {
+    "DisableGrayscale": true,
+    "DrawBeforePlayer": true,
+    "Flipped": true,
+    "StartingPosition": {
+      "X": 0,
+      "Y": 32
+    },
+    "HeadPosition": {
+      "X": 0,
+      "Y": 8
+    },
+    "AccessorySize": {
+      "Width": 16,
+      "Length": 32
+    },
+    "UniformAnimation": [
+      {
+        "Frame": 0,
+        "Duration": 300
+      },
+      {
+        "Frame": 1,
+        "Duration": 300
+      },
+      {
+        "Frame": 2,
+        "Duration": 300
+      },
+      {
+        "Frame": 3,
+        "Duration": 300
+      }
+    ]
+  },
+  "LeftAccessory": {
+    "DisableGrayscale": true,
+    "DrawBeforePlayer": true,
+    "StartingPosition": {
+      "X": 0,
+      "Y": 32
+    },
+    "HeadPosition": {
+      "X": 0,
+      "Y": 8
+    },
+    "AccessorySize": {
+      "Width": 16,
+      "Length": 32
+    },
+    "UniformAnimation": [
+      {
+        "Frame": 0,
+        "Duration": 300
+      },
+      {
+        "Frame": 1,
+        "Duration": 300
+      },
+      {
+        "Frame": 2,
+        "Duration": 300
+      },
+      {
+        "Frame": 3,
+        "Duration": 300
+      }
+    ]
+  }
+}

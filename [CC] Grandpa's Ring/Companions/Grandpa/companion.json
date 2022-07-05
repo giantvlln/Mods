@@ -1,0 +1,28 @@
+{
+  "Name": "GrandpaCompanion",
+  "Type": "Flying",
+  "TravelSpeed": 2,
+  "EnableShadow": false,
+  "SpawnOffsetX": -5,
+  "SpawnOffsetY": -5,
+  "MaxIdleDistance": 512,
+  "MaxDistanceBeforeTeleport": -1,
+  "IdleBehavior": "Wander",
+  "IdleArguments": [ 5, 5000 ],
+  
+  "FrameSizeWidth": 18,
+  "FrameSizeHeight": 34,
+  "UniformAnimation": {
+    "StartingFrame": 0,
+    "NumberOfFrames": 2,
+    "Duration": 350
+},
+  "Light": {
+  "Color": [ 255, 255, 255, 255 ],
+  "Radius": 5,
+  "OffsetX": 8,
+  "OffsetY": 16,
+  "PulseSpeed": 5000,
+  "PulseMinRadius": 3
+ }
+}

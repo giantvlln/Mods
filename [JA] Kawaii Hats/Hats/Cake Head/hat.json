@@ -1,0 +1,7 @@
+{
+	"Name": "Cake Head",
+	"Description": "Reminds you of your 8th Birthday party...",
+	"PurchasePrice": "1000",
+	"ShowHair": false,
+	"IgnoreHairstyleOffset": true
+}

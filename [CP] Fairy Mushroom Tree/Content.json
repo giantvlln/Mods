@@ -1,0 +1,33 @@
+{
+   "Format": "1.19.0",
+   "ConfigSchema":
+   { 
+       "TreeColorVariant":
+       {
+           "AllowValues": "bright, dull",
+           "Default": "bright"
+       },
+   },
+   "Changes": [
+           {
+	       "LogName": "bright",
+               "Action": "Load",
+               "Target": "TerrainFeatures/mushroom_tree.xnb",
+               "FromFile": "assets/mushroom_tree.png",
+               "When":
+               {
+                  "TreeColorVariant": "bright"
+               }
+           },
+           {
+	       "LogName": "Dull",
+               "Action": "Load",
+               "Target": "TerrainFeatures/mushroom_tree.xnb",
+               "FromFile": "assets/mushroom_tree_desaturated.png",
+               "When":
+               {
+                  "TreeColorVariant": "dull"
+               }
+           }
+    ]
+}

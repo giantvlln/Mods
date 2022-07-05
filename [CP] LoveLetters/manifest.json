@@ -1,0 +1,11 @@
+{
+  "Name": "LoveLetters",
+  "Author": "applesauce",
+  "Version": "1.0.0",
+  "Description": "Replaces both bouquets with handwritten letters!",
+  "UniqueID": "applesauce.LoveLetters",
+  "UpdateKeys": [],
+  "ContentPackFor": {
+    "UniqueID": "Pathoschild.ContentPatcher"
+  }
+}

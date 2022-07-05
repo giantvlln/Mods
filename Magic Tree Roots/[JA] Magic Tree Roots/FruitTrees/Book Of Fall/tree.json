@@ -1,0 +1,11 @@
+{
+
+	"Name": "Book Of Fall",
+	"Product": "Earth Essence",
+	"SaplingName": "Magic Root- Book Of Fall Sapling",
+	"SaplingDescription": "The third Book of Ancient Seasons, it collects the ground's tremor from 4 seasons to crystalize the Earth Essence.",
+	"Season": "fall",
+	"SaplingPurchaseFrom": null,
+	"SaplingPurchasePrice": 500,
+	"SaplingPurchaseRequirements": null
+}

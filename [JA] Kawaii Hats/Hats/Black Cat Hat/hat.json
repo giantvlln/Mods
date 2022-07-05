@@ -1,0 +1,7 @@
+{
+	"Name": "Black Cat Hat",
+	"Description": "Almost feels like real cat hair.",
+	"PurchasePrice": "1000",
+	"ShowHair": false,
+	"IgnoreHairstyleOffset": true
+}

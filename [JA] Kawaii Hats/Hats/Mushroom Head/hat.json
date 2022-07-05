@@ -1,0 +1,7 @@
+{
+	"Name": "Mushroom Head",
+	"Description": "You might want to see a doctor..",
+	"PurchasePrice": "1000",
+	"ShowHair": true,
+	"IgnoreHairstyleOffset": true
+}

@@ -1,0 +1,80 @@
+{
+  "Theme": "automatic",
+  "ReplaceCooking": false,
+  "ReplaceCrafting": true,
+  "UseCategories": true,
+  "ShowSettingsButton": false,
+  "MaxQuality": "Iridium",
+  "LowQualityFirst": true,
+  "ShowKeybindTooltip": "ForController",
+  "SuppressBC": "LeftShift",
+  "ModiferKey": "LeftShift, RightTrigger",
+  "FavoriteKey": "F, ControllerBack",
+  "BulkCraftKey": "None",
+  "SearchKey": "F3",
+  "LeftClick": "Craft",
+  "RightClick": "BulkCraft",
+  "UseUniformGrid": false,
+  "SortBigLast": true,
+  "CraftingAlphabetic": false,
+  "UseSeasoning": "Enabled",
+  "HideUnknown": false,
+  "CookingAlphabetic": false,
+  "UseDiscovery": true,
+  "MaxInventories": 32,
+  "MaxDistance": 30,
+  "MaxCheckedTiles": 500,
+  "UseDiagonalConnections": true,
+  "ValidConnectors": [
+    "Brick Floor",
+    "Cobblestone Path",
+    "Crystal Floor",
+    "Crystal Path",
+    "Gravel Path",
+    "Rustic Plank Floor",
+    "Stepping Stone Path",
+    "Stone Floor",
+    "Stone Walkway Floor",
+    "Straw Floor",
+    "Weathered Floor",
+    "Wood Floor",
+    "Wood Path"
+  ],
+  "UseTransfer": false,
+  "AddToBehaviors": {
+    "UseTool": {
+      "Mode": "All",
+      "Quantity": 1
+    },
+    "UseToolModified": {
+      "Mode": "AllButQuantity",
+      "Quantity": 1
+    },
+    "Action": {
+      "Mode": "Quantity",
+      "Quantity": 1
+    },
+    "ActionModified": {
+      "Mode": "Half",
+      "Quantity": 1
+    }
+  },
+  "FillFromBehaviors": {
+    "UseTool": {
+      "Mode": "All",
+      "Quantity": 1
+    },
+    "UseToolModified": {
+      "Mode": "AllButQuantity",
+      "Quantity": 1
+    },
+    "Action": {
+      "Mode": "Quantity",
+      "Quantity": 1
+    },
+    "ActionModified": {
+      "Mode": "Half",
+      "Quantity": 1
+    }
+  }
+}

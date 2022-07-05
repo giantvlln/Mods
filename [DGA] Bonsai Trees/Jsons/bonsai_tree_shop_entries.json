@@ -1,0 +1,86 @@
+[
+  // Sell bonsai at Robin's
+  {
+    "$ItemType": "ShopEntry",
+    "Item": { "Value": "violetlizabet.DynamicGameAssets.BonsaiTrees/Bonsai1" },
+    "ShopId": "Carpenter",
+    "MaxSold": 1,
+    "Cost": 1000,
+    "DynamicFields": [
+      {
+        "Conditions": { "DayOfWeek |contains=Monday": false},
+        "Enabled": false,
+      }
+    ]
+  },
+
+  {
+    "$ItemType": "ShopEntry",
+    "Item": { "Value": "violetlizabet.DynamicGameAssets.BonsaiTrees/Bonsai2" },
+    "ShopId": "Carpenter",
+    "MaxSold": 1,
+    "Cost": 1000,
+    "DynamicFields": [
+      {
+        "Conditions": { "DayOfWeek |contains=Wednesday": false},
+        "Enabled": false,
+      }
+    ]
+  },
+
+  {
+    "$ItemType": "ShopEntry",
+    "Item": { "Value": "violetlizabet.DynamicGameAssets.BonsaiTrees/Bonsai3" },
+    "ShopId": "Carpenter",
+    "MaxSold": 1,
+    "Cost": 1000,
+    "DynamicFields": [
+      {
+        "Conditions": { "DayOfWeek |contains=Thursday": false},
+        "Enabled": false,
+      }
+    ]
+  },
+
+    {
+    "$ItemType": "ShopEntry",
+    "Item": { "Value": "violetlizabet.DynamicGameAssets.BonsaiTrees/Bonsai4" },
+    "ShopId": "Carpenter",
+    "MaxSold": 1,
+    "Cost": 1000,
+    "DynamicFields": [
+      {
+        "Conditions": { "DayOfWeek |contains=Friday": false},
+        "Enabled": false,
+      }
+    ]
+  },
+
+  {
+    "$ItemType": "ShopEntry",
+    "Item": { "Value": "violetlizabet.DynamicGameAssets.BonsaiTrees/Bonsai5" },
+    "ShopId": "Carpenter",
+    "MaxSold": 1,
+    "Cost": 1000,
+    "DynamicFields": [
+      {
+        "Conditions": { "DayOfWeek |contains=Saturday": false},
+        "Enabled": false,
+      }
+    ]
+  },
+
+  {
+    "$ItemType": "ShopEntry",
+    "Item": { "Value": "violetlizabet.DynamicGameAssets.BonsaiTrees/Bonsai6" },
+    "ShopId": "Carpenter",
+    "MaxSold": 1,
+    "Cost": 1000,
+    "DynamicFields": [
+      {
+        "Conditions": { "DayOfWeek |contains=Sunday": false},
+        "Enabled": false,
+      }
+    ]
+  },
+]

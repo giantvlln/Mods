@@ -1,0 +1,11 @@
+﻿{
+  "Name": "Le halo",
+  "Author": "LePhantom",
+  "Version": "2.0.0",
+  "Description": "FS pack with a halo",
+  "UniqueID": "LePhantom.LeHalo",
+  "ContentPackFor": {
+    "UniqueID": "PeacefulEnd.FashionSense",
+    "MinimumVersion": "2.0.0"
+  }
+}

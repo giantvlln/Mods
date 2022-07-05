@@ -1,0 +1,37 @@
+{
+    "Name": "Summer Drops",
+    "Description": "The fruit contains the clean and fresh rain of Summer. It sparkle under the Sun.",
+    "Category": "Fruit",
+    "Edibility": 47,
+    "EdibleBuffs":
+    {
+        "Farming": 0,
+        "Fishing": 3,
+        "Mining": 0,
+        "Luck": 2,
+        "Foraging": 0,
+        "MaxStamina": 0,
+        "MagnetRadius": 0,
+        "Speed": 0,
+        "Defense": 0,
+        "Attack": 0,
+        "Duration": 400
+    },
+    "Price": 55,
+    "IsColored": false,
+	"Recipe": null,
+    "GiftTastes":
+    {
+        "Love": ["Alex", "Abigail", "Caroline", "Haley", "Harvey", "Maru", "Sam", "Evelyn"],
+		"Like": ["Emily", "Jodi", "Kent", "Marnie", "Sandy", "Willy", "Sebastian", "Elliot"],
+		"Neutral": ["Dwarf", "Leah", "Penny", "Shane", "Pam"],
+		"Dislike": ["Lewis", "Linus", "Robin", "Wizard", "Krobus"],
+		"Hate": ["Clint", "Demetrius", "George", "Gus", "Pierre"]
+    },
+	"ContextTags": [
+        "season_spring",
+        "color_blue",
+        "fruit_tree_item",
+        "fruit_item",
+    ]
+}

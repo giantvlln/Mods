@@ -1,0 +1,13 @@
+{
+    "Format": "1.24.0",
+	
+	"Changes": [
+	    {
+        "Action": "EditImage",
+        "Target": "loosesprites/cursors",
+        "FromFile": "assets/witch.png",
+		"FromArea": {"X":0, "Y":0, "Width":34, "Height":57, },
+		"ToArea": {"X":277, "Y":1886, "Width":34, "Height":57, },
+		},
+    ]
+}

@@ -1,0 +1,10 @@
+{
+   "Name": "Ran's Suits and Tuxedos for JsonAssets",
+   "Author": "ran",
+   "Version": "1.0.0",
+   "Description": "Suit up! A shirt mod to cater to your formal wear needs. ",
+   "UniqueID": "ran.suitstuxedosja",
+   "ContentPackFor": {
+    	"UniqueID": "spacechase0.JsonAssets"
+    },
+}

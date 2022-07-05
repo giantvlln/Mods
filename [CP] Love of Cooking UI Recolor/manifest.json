@@ -1,0 +1,18 @@
+﻿{
+  "Name": "[CP] Love of Cooking UI Recolor",
+  "Author": "KAYA",
+  "Version": "2.1.0",
+  "Description": "Love of Cooking UI Recolor set",
+  "UniqueID": "KAYA.LOCrecolor",
+  "MinimumApiVersion": "3.0.0",
+  "UpdateKeys": [ "Nexus:7591" ],
+  "ContentPackFor": {
+    "UniqueID": "Pathoschild.ContentPatcher"
+  },
+  "Dependencies": [
+    {
+      "UniqueID": "blueberry.LoveOfCooking",
+	  "MinimumVersion": "1.0.17"
+    }
+  ]
+}

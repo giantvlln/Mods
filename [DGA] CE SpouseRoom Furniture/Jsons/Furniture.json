@@ -1,0 +1,1458 @@
+[
+	{
+        "$ItemType": "Furniture",
+        "ID": "Frog Sanctuary",
+        "Type": "Decoration",
+        "Configurations": [
+            {
+                "Texture": "Assets/Frog Sanctuary.png:0@40, Assets/Frog Sanctuary.png:1@10, Assets/Frog Sanctuary.png:2@20, Assets/Frog Sanctuary.png:1@10, Assets/Frog Sanctuary.png:2@20, Assets/Frog Sanctuary.png:0@40, Assets/Frog Sanctuary.png:0@40, Assets/Frog Sanctuary.png:1@10, Assets/Frog Sanctuary.png:2@20, Assets/Frog Sanctuary.png:1@10, Assets/Frog Sanctuary.png:2@20, Assets/Frog Sanctuary.png:0@333, Assets/Frog Sanctuary.png:1@10, Assets/Frog Sanctuary.png:2@20, Assets/Frog Sanctuary.png:1@10, Assets/Frog Sanctuary.png:2@20, Assets/Frog Sanctuary.png:0@223, Assets/Frog Sanctuary.png:3..6@5, Assets/Frog Sanctuary.png:7@40, Assets/Frog Sanctuary.png:8@10, Assets/Frog Sanctuary.png:9@20, Assets/Frog Sanctuary.png:8@10, Assets/Frog Sanctuary.png:9@20, Assets/Frog Sanctuary.png:7@40, Assets/Frog Sanctuary.png:7@40, Assets/Frog Sanctuary.png:8@10, Assets/Frog Sanctuary.png:9@20, Assets/Frog Sanctuary.png:8@10, Assets/Frog Sanctuary.png:9@20, Assets/Frog Sanctuary.png:7@333, Assets/Frog Sanctuary.png:8@10, Assets/Frog Sanctuary.png:9@20, Assets/Frog Sanctuary.png:8@10, Assets/Frog Sanctuary.png:9@20, Assets/Frog Sanctuary.png:7@223, Assets/Frog Sanctuary.png:11..15@5",
+                "DisplaySize": { "X": 3, "Y": 3 },
+                "CollisionHeight": 2,
+            }
+        ]
+    },
+	{
+        "$ItemType": "Furniture",
+        "ID": "Hamster Cage",
+        "Type": "Decoration",
+        "Configurations": [
+            {
+                "Texture": "Assets/Hamster Cage.png:0..2@10, Assets/Hamster Cage.png:0..2@10, Assets/Hamster Cage.png:0..2@10, Assets/Hamster Cage.png:0..2@10, Assets/Hamster Cage.png:0..2@10, Assets/Hamster Cage.png:0@333",
+                "DisplaySize": { "X": 2, "Y": 2 },
+                "CollisionHeight": 1,
+            }
+        ]
+    },
+	{
+        "$ItemType": "Furniture",
+        "ID": "Parrot Stand",
+        "Type": "Decoration",
+        "Configurations": [
+            {
+                "Texture": "Assets/Parrot Stand.png:2@42, Assets/Parrot Stand.png:3@12, Assets/Parrot Stand.png:2@12, Assets/Parrot Stand.png:3@12, Assets/Parrot Stand.png:2@12, Assets/Parrot Stand.png:3@12, Assets/Parrot Stand.png:2@12, Assets/Parrot Stand.png:3@12, Assets/Parrot Stand.png:2@12, Assets/Parrot Stand.png:3@12, Assets/Parrot Stand.png:8@32, Assets/Parrot Stand.png:9@12, Assets/Parrot Stand.png:8@113, Assets/Parrot Stand.png:6@12, Assets/Parrot Stand.png:7@12, Assets/Parrot Stand.png:6@12, Assets/Parrot Stand.png:7@12, Assets/Parrot Stand.png:6@12, Assets/Parrot Stand.png:2@223, Assets/Parrot Stand.png:8@32, Assets/Parrot Stand.png:10@32, Assets/Parrot Stand.png:11@42, Assets/Parrot Stand.png:10@22, Assets/Parrot Stand.png:11@42, Assets/Parrot Stand.png:10@22, Assets/Parrot Stand.png:11@42, Assets/Parrot Stand.png:10@22, Assets/Parrot Stand.png:11@42, Assets/Parrot Stand.png:10@22, Assets/Parrot Stand.png:11@42, Assets/Parrot Stand.png:10@22, Assets/Parrot Stand.png:11@42, Assets/Parrot Stand.png:10@22, Assets/Parrot Stand.png:11@42, Assets/Parrot Stand.png:10@22, Assets/Parrot Stand.png:11@42, Assets/Parrot Stand.png:10@22, Assets/Parrot Stand.png:11@42, Assets/Parrot Stand.png:10@22, Assets/Parrot Stand.png:11@42, Assets/Parrot Stand.png:10@22, Assets/Parrot Stand.png:11@42, Assets/Parrot Stand.png:10@22, Assets/Parrot Stand.png:8@32, Assets/Parrot Stand.png:9@32, Assets/Parrot Stand.png:3..8@12, Assets/Parrot Stand.png:2@42, Assets/Parrot Stand.png:3@12, Assets/Parrot Stand.png:2@12, Assets/Parrot Stand.png:3@12, Assets/Parrot Stand.png:2@12, Assets/Parrot Stand.png:3@12, Assets/Parrot Stand.png:2@12, Assets/Parrot Stand.png:3@12, Assets/Parrot Stand.png:2@12, Assets/Parrot Stand.png:3@12, Assets/Parrot Stand.png:8@32, Assets/Parrot Stand.png:9@12, Assets/Parrot Stand.png:8@113, Assets/Parrot Stand.png:6@12, Assets/Parrot Stand.png:7@12, Assets/Parrot Stand.png:6@12, Assets/Parrot Stand.png:7@12, Assets/Parrot Stand.png:6@12, Assets/Parrot Stand.png:2@223",
+                "DisplaySize": { "X": 1, "Y": 3 },
+                "CollisionHeight": 1,
+            }
+        ]
+    },
+	{
+        "$ItemType": "Furniture",
+        "ID": "Blue Stool",
+        "Type": "Decoration",
+        "Configurations": [
+            {
+                "Texture": "Assets/Blue Stool.png:0",
+                "FrontTexture": "Assets/Blue Stool.png:1",
+                "DisplaySize": { "X": 1, "Y": 2 },
+                "CollisionHeight": 1,
+                "Flipped": false,
+                "Seats": [ { "X": 0, "Y": 0 } ],
+                "SittingDirection": "Any"
+            }
+        ]
+    },
+	{
+        "$ItemType": "Furniture",
+        "ID": "Oak Stool",
+        "Type": "Decoration",
+        "Configurations": [
+            {
+                "Texture": "Assets/Oak Stool.png:0",
+                "FrontTexture": "Assets/Oak Stool.png:1",
+                "DisplaySize": { "X": 1, "Y": 2 },
+                "CollisionHeight": 1,
+                "Flipped": false,
+                "Seats": [ { "X": 0, "Y": 0 } ],
+                "SittingDirection": "Any"
+            }
+        ]
+    },
+	{
+        "$ItemType": "Furniture",
+        "ID": "Pine Chair",
+        "Type": "Decoration",
+        "Configurations": [
+            {
+                "Texture": "Assets/Pine Chair.png:0",
+                "FrontTexture": "Assets/Pine Chair.png:1",
+                "DisplaySize": { "X": 1, "Y": 2 },
+                "CollisionHeight": 1,
+                "Flipped": false,
+                "Seats": [ { "X": 0, "Y": 0 } ],
+                "SittingDirection": "Right"
+            }
+        ]
+    },
+	{
+        "$ItemType": "Furniture",
+        "ID": "Excercise Bench",
+        "Type": "Decoration",
+        "Configurations": [
+            {
+                "Texture": "Assets/Excercise Bench.png:0",
+                "FrontTexture": "Assets/Excercise Bench.png:1",
+                "DisplaySize": { "X": 1, "Y": 3 },
+                "CollisionHeight": 1,
+                "Flipped": false,
+                "Seats": [ { "X": 0, "Y": 0 } ],
+                "SittingDirection": "Down"
+            }
+        ]
+    },
+	{
+        "$ItemType": "Furniture",
+        "ID": "Pink Country Stool",
+        "Type": "Decoration",
+        "Configurations": [
+            {
+                "Texture": "Assets/Pink Country Stool.png:0",
+                "FrontTexture": "Assets/Pink Country Stool.png:1",
+                "DisplaySize": { "X": 1, "Y": 2 },
+                "CollisionHeight": 1,
+                "Flipped": false,
+                "Seats": [ { "X": 0, "Y": 0 } ],
+                "SittingDirection": "Any"
+            }
+        ]
+    },
+	{
+        "$ItemType": "Furniture",
+        "ID": "Red Bar Stool",
+        "Type": "Decoration",
+        "Configurations": [
+            {
+                "Texture": "Assets/Red Bar Stool.png:0",
+                "FrontTexture": "Assets/Red Bar Stool.png:1",
+                "DisplaySize": { "X": 1, "Y": 2 },
+                "CollisionHeight": 1,
+                "Flipped": false,
+                "Seats": [ { "X": 0, "Y": 0 } ],
+                "SittingDirection": "Any"
+            }
+        ]
+    },
+	{
+        "$ItemType": "Furniture",
+        "ID": "White Stool",
+        "Type": "Decoration",
+        "Configurations": [
+            {
+                "Texture": "Assets/White Stool.png:0",
+                "FrontTexture": "Assets/White Stool.png:1",
+                "DisplaySize": { "X": 1, "Y": 2 },
+                "CollisionHeight": 1,
+                "Flipped": false,
+                "Seats": [ { "X": 0, "Y": 0 } ],
+                "SittingDirection": "Any"
+            }
+        ]
+    },
+	{
+        "$ItemType": "Furniture",
+        "ID": "Big Barrel",
+        "Type": "Decoration",
+        "Configurations": [
+            {
+                "Texture": "Assets/Big Barrel.png",
+                "DisplaySize": { "X": 2, "Y": 2 },
+                "CollisionHeight": 1,
+            }
+        ]
+    },
+	{
+        "$ItemType": "Furniture",
+        "ID": "Buff Poster",
+        "Type": "Painting",
+        "Configurations": [
+            {
+                "Texture": "Assets/Buff Poster.png",
+                "DisplaySize": { "X": 1, "Y": 1 },
+                "CollisionHeight": 1,
+            }
+        ]
+    },
+	{
+        "$ItemType": "Furniture",
+        "ID": "Earth Poster",
+        "Type": "Painting",
+        "Configurations": [
+            {
+                "Texture": "Assets/Earth Poster.png",
+                "DisplaySize": { "X": 1, "Y": 1 },
+                "CollisionHeight": 1,
+            }
+        ]
+    },
+	{
+        "$ItemType": "Furniture",
+        "ID": "Guitar",
+        "Type": "Decoration",
+        "Configurations": [
+            {
+                "Texture": "Assets/Guitar.png",
+                "DisplaySize": { "X": 1, "Y": 2 },
+                "CollisionHeight": 1,
+            }
+        ]
+    },
+	{
+        "$ItemType": "Furniture",
+        "ID": "Leah Easel",
+        "Type": "Decoration",
+        "Configurations": [
+            {
+                "Texture": "Assets/Leah Easel.png",
+                "DisplaySize": { "X": 1, "Y": 2 },
+                "CollisionHeight": 1,
+            }
+        ]
+    },
+	{
+        "$ItemType": "Furniture",
+        "ID": "Band Poster",
+        "Type": "Painting",
+        "Configurations": [
+            {
+                "Texture": "Assets/Band Poster.png",
+                "DisplaySize": { "X": 1, "Y": 1 },
+                "CollisionHeight": 1,
+            }
+        ]
+    },
+	{
+        "$ItemType": "Furniture",
+        "ID": "Chicken Painting",
+        "Type": "Painting",
+        "Configurations": [
+            {
+                "Texture": "Assets/Chicken Painting.png",
+                "DisplaySize": { "X": 1, "Y": 1 },
+                "CollisionHeight": 1,
+            }
+        ]
+    },
+	{
+        "$ItemType": "Furniture",
+        "ID": "Dark Poster",
+        "Type": "Painting",
+        "Configurations": [
+            {
+                "Texture": "Assets/Dark Poster.png",
+                "DisplaySize": { "X": 1, "Y": 1 },
+                "CollisionHeight": 1,
+            }
+        ]
+    },
+	{
+        "$ItemType": "Furniture",
+        "ID": "Desert Painting",
+        "Type": "Painting",
+        "Configurations": [
+            {
+                "Texture": "Assets/Desert Painting.png",
+                "DisplaySize": { "X": 2, "Y": 2 },
+                "CollisionHeight": 2,
+            }
+        ]
+    },
+	{
+        "$ItemType": "Furniture",
+        "ID": "Grey Poster",
+        "Type": "Painting",
+        "Configurations": [
+            {
+                "Texture": "Assets/Grey Poster.png",
+                "DisplaySize": { "X": 1, "Y": 2 },
+                "CollisionHeight": 2,
+            }
+        ]
+    },
+	{
+        "$ItemType": "Furniture",
+        "ID": "Light In The Darkness",
+        "Type": "Painting",
+        "Configurations": [
+            {
+                "Texture": "Assets/Light In The Darkness.png",
+                "DisplaySize": { "X": 2, "Y": 2 },
+                "CollisionHeight": 2,
+            }
+        ]
+    },
+	{
+        "$ItemType": "Furniture",
+        "ID": "Lightning Poster",
+        "Type": "Painting",
+        "Configurations": [
+            {
+                "Texture": "Assets/Lightning Poster.png",
+                "DisplaySize": { "X": 1, "Y": 1 },
+                "CollisionHeight": 1,
+            }
+        ]
+    },
+	{
+        "$ItemType": "Furniture",
+        "ID": "little house Framed",
+        "Type": "Painting",
+        "Configurations": [
+            {
+                "Texture": "Assets/little house Framed.png",
+                "DisplaySize": { "X": 1, "Y": 1 },
+                "CollisionHeight": 1,
+            }
+        ]
+    },
+	{
+        "$ItemType": "Furniture",
+        "ID": "Music Notes",
+        "Type": "Painting",
+        "Configurations": [
+            {
+                "Texture": "Assets/Music Notes.png",
+                "DisplaySize": { "X": 1, "Y": 1 },
+                "CollisionHeight": 1,
+            }
+        ]
+    },
+	{
+        "$ItemType": "Furniture",
+        "ID": "Pendant Frame",
+        "Type": "Painting",
+        "Configurations": [
+            {
+                "Texture": "Assets/Pendant Frame.png",
+                "DisplaySize": { "X": 1, "Y": 1 },
+                "CollisionHeight": 1,
+            }
+        ]
+    },
+	{
+        "$ItemType": "Furniture",
+        "ID": "Plane Diagrams",
+        "Type": "Painting",
+        "Configurations": [
+            {
+                "Texture": "Assets/Plane Diagrams.png",
+                "DisplaySize": { "X": 2, "Y": 2 },
+                "CollisionHeight": 2,
+            }
+        ]
+    },
+	{
+        "$ItemType": "Furniture",
+        "ID": "Post-it notes",
+        "Type": "Painting",
+        "Configurations": [
+            {
+                "Texture": "Assets/Post-it notes.png",
+                "DisplaySize": { "X": 1, "Y": 1 },
+                "CollisionHeight": 1,
+            }
+        ]
+    },
+	{
+        "$ItemType": "Furniture",
+        "ID": "Round Portrait",
+        "Type": "Painting",
+        "Configurations": [
+            {
+                "Texture": "Assets/Round Portrait.png",
+                "DisplaySize": { "X": 1, "Y": 1 },
+                "CollisionHeight": 1,
+            }
+        ]
+    },
+	{
+        "$ItemType": "Furniture",
+        "ID": "Small Flower Painting",
+        "Type": "Painting",
+        "Configurations": [
+            {
+                "Texture": "Assets/Small Flower Painting.png",
+                "DisplaySize": { "X": 1, "Y": 2 },
+                "CollisionHeight": 2,
+            }
+        ]
+    },
+	{
+        "$ItemType": "Furniture",
+        "ID": "Smiley Heart",
+        "Type": "Painting",
+        "Configurations": [
+            {
+                "Texture": "Assets/Smiley Heart.png",
+                "DisplaySize": { "X": 1, "Y": 1 },
+                "CollisionHeight": 1,
+            }
+        ]
+    },
+	{
+        "$ItemType": "Furniture",
+        "ID": "Strange Doll Poster",
+        "Type": "Painting",
+        "Configurations": [
+            {
+                "Texture": "Assets/Strange Doll Poster.png",
+                "DisplaySize": { "X": 1, "Y": 1 },
+                "CollisionHeight": 1,
+            }
+        ]
+    },
+	{
+        "$ItemType": "Furniture",
+        "ID": "Stranger Poster",
+        "Type": "Painting",
+        "Configurations": [
+            {
+                "Texture": "Assets/Stranger Poster.png",
+                "DisplaySize": { "X": 1, "Y": 1 },
+                "CollisionHeight": 1,
+            }
+        ]
+    },
+	{
+        "$ItemType": "Furniture",
+        "ID": "Summer Balloon Poster",
+        "Type": "Painting",
+        "Configurations": [
+            {
+                "Texture": "Assets/Summer Balloon Poster.png",
+                "DisplaySize": { "X": 1, "Y": 2 },
+                "CollisionHeight": 2,
+            }
+        ]
+    },
+	{
+        "$ItemType": "Furniture",
+        "ID": "Wall Bookshelf",
+        "Type": "Painting",
+        "Configurations": [
+            {
+                "Texture": "Assets/Wall Bookshelf.png:0",
+                "DisplaySize": { "X": 2, "Y": 2 },
+                "CollisionHeight": 2,
+            },
+			{
+                "Texture": "Assets/Wall Bookshelf.png:1",
+                "DisplaySize": { "X": 2, "Y": 2 },
+                "CollisionHeight": 2,
+            },
+			{
+                "Texture": "Assets/Wall Bookshelf.png:2",
+                "DisplaySize": { "X": 2, "Y": 2 },
+                "CollisionHeight": 2,
+            },
+			{
+                "Texture": "Assets/Wall Bookshelf.png:3",
+                "DisplaySize": { "X": 2, "Y": 2 },
+                "CollisionHeight": 2,
+            }
+        ]
+    },
+	{
+        "$ItemType": "Furniture",
+        "ID": "Weightlifting Poster",
+        "Type": "Painting",
+        "Configurations": [
+            {
+                "Texture": "Assets/Weightlifting Poster.png",
+                "DisplaySize": { "X": 1, "Y": 2 },
+                "CollisionHeight": 2,
+            }
+        ]
+    },
+	{
+        "$ItemType": "Furniture",
+        "ID": "Plane Shelf",
+        "Type": "Painting",
+        "Configurations": [
+            {
+                "Texture": "Assets/Plane Shelf.png:0",
+                "DisplaySize": { "X": 2, "Y": 3 },
+                "CollisionHeight": 3,
+            },
+			{
+                "Texture": "Assets/Plane Shelf.png:1",
+                "DisplaySize": { "X": 2, "Y": 3 },
+                "CollisionHeight": 3,
+            }
+        ]
+    },
+	{
+        "$ItemType": "Furniture",
+        "ID": "Sine Wave Chart",
+        "Type": "Painting",
+        "Configurations": [
+            {
+                "Texture": "Assets/Sine Wave Chart.png:0",
+                "DisplaySize": { "X": 1, "Y": 3 },
+                "CollisionHeight": 3,
+            },
+			{
+                "Texture": "Assets/Sine Wave Chart.png:1",
+                "DisplaySize": { "X": 1, "Y": 3 },
+                "CollisionHeight": 3,
+            }
+        ]
+    },
+	{
+        "$ItemType": "Furniture",
+        "ID": "Another Book Stack",
+        "Type": "Decoration",
+        "Configurations": [
+            {
+                "Texture": "Assets/Another Book Stack.png",
+                "DisplaySize": { "X": 1, "Y": 1 },
+                "CollisionHeight": 1,
+            }
+        ]
+    },
+	{
+        "$ItemType": "Furniture",
+        "ID": "Blue Cloth",
+        "Type": "Decoration",
+        "Configurations": [
+            {
+                "Texture": "Assets/Blue Cloth.png",
+                "DisplaySize": { "X": 1, "Y": 1 },
+                "CollisionHeight": 1,
+            }
+        ]
+    },
+	{
+        "$ItemType": "Furniture",
+        "ID": "Barbell",
+        "Type": "Decoration",
+        "Configurations": [
+            {
+                "Texture": "Assets/Barbell.png",
+                "DisplaySize": { "X": 3, "Y": 2 },
+                "CollisionHeight": 1,
+            }
+        ]
+    },
+	{
+        "$ItemType": "Furniture",
+        "ID": "Blue Vase",
+        "Type": "Decoration",
+        "Configurations": [
+            {
+                "Texture": "Assets/Blue Vase.png",
+                "DisplaySize": { "X": 1, "Y": 1 },
+                "CollisionHeight": 1,
+            }
+        ]
+    },
+	{
+        "$ItemType": "Furniture",
+        "ID": "Book stack",
+        "Type": "Decoration",
+        "Configurations": [
+            {
+                "Texture": "Assets/Book stack.png",
+                "DisplaySize": { "X": 1, "Y": 1 },
+                "CollisionHeight": 1,
+            }
+        ]
+    },
+	{
+        "$ItemType": "Furniture",
+        "ID": "Cactus Plant",
+        "Type": "Decoration",
+        "Configurations": [
+            {
+                "Texture": "Assets/Cactus Plant.png",
+                "DisplaySize": { "X": 1, "Y": 1 },
+                "CollisionHeight": 1,
+            }
+        ]
+    },
+	{
+        "$ItemType": "Furniture",
+        "ID": "Camera",
+        "Type": "Decoration",
+        "Configurations": [
+            {
+                "Texture": "Assets/Camera.png",
+                "DisplaySize": { "X": 1, "Y": 1 },
+                "CollisionHeight": 1,
+            }
+        ]
+    },
+	{
+        "$ItemType": "Furniture",
+        "ID": "Canned Drink",
+        "Type": "Decoration",
+        "Configurations": [
+            {
+                "Texture": "Assets/Canned Drink.png",
+                "DisplaySize": { "X": 1, "Y": 1 },
+                "CollisionHeight": 1,
+            }
+        ]
+    },
+	{
+        "$ItemType": "Furniture",
+        "ID": "Computer",
+        "Type": "Decoration",
+        "Configurations": [
+            {
+                "Texture": "Assets/Computer.png",
+                "DisplaySize": { "X": 1, "Y": 1 },
+                "CollisionHeight": 1,
+            }
+        ]
+    },
+	{
+        "$ItemType": "Furniture",
+        "ID": "Desktop PC",
+        "Type": "Decoration",
+        "Configurations": [
+            {
+                "Texture": "Assets/Desktop PC.png",
+                "DisplaySize": { "X": 1, "Y": 1 },
+                "CollisionHeight": 1,
+            }
+        ]
+    },
+	{
+        "$ItemType": "Furniture",
+        "ID": "Dumbbell",
+        "Type": "Decoration",
+        "Configurations": [
+            {
+                "Texture": "Assets/Dumbbell.png",
+                "DisplaySize": { "X": 1, "Y": 1 },
+                "CollisionHeight": 1,
+            }
+        ]
+    },
+	{
+        "$ItemType": "Furniture",
+        "ID": "Football",
+        "Type": "Decoration",
+        "Configurations": [
+            {
+                "Texture": "Assets/Football.png",
+                "DisplaySize": { "X": 1, "Y": 1 },
+                "CollisionHeight": 1,
+            }
+        ]
+    },
+	{
+        "$ItemType": "Furniture",
+        "ID": "Gridball",
+        "Type": "Decoration",
+        "Configurations": [
+            {
+                "Texture": "Assets/Gridball.png",
+                "DisplaySize": { "X": 1, "Y": 1 },
+                "CollisionHeight": 1,
+            }
+        ]
+    },
+	{
+        "$ItemType": "Furniture",
+        "ID": "Kettlebot",
+        "Type": "Decoration",
+        "Configurations": [
+            {
+                "Texture": "Assets/Kettlebot.png",
+                "DisplaySize": { "X": 1, "Y": 1 },
+                "CollisionHeight": 1,
+            }
+        ]
+    },
+	{
+        "$ItemType": "Furniture",
+        "ID": "Hammer",
+        "Type": "Decoration",
+        "Configurations": [
+            {
+                "Texture": "Assets/Hammer.png",
+                "DisplaySize": { "X": 1, "Y": 1 },
+                "CollisionHeight": 1,
+            }
+        ]
+    },
+	{
+        "$ItemType": "Furniture",
+        "ID": "Mini MarILDA",
+        "Type": "Decoration",
+        "Configurations": [
+            {
+                "Texture": "Assets/Mini MarILDA.png",
+                "DisplaySize": { "X": 1, "Y": 1 },
+                "CollisionHeight": 1,
+            }
+        ]
+    },
+	{
+        "$ItemType": "Furniture",
+        "ID": "Small Potted Plant",
+        "Type": "Decoration",
+        "Configurations": [
+            {
+                "Texture": "Assets/Small Potted Plant.png:0",
+                "DisplaySize": { "X": 1, "Y": 1 },
+                "CollisionHeight": 1,
+            },
+			{
+                "Texture": "Assets/Small Potted Plant.png:1",
+                "DisplaySize": { "X": 1, "Y": 1 },
+                "CollisionHeight": 1,
+            },
+			{
+                "Texture": "Assets/Small Potted Plant.png:2",
+                "DisplaySize": { "X": 1, "Y": 1 },
+                "CollisionHeight": 1,
+            },
+			{
+                "Texture": "Assets/Small Potted Plant.png:3",
+                "DisplaySize": { "X": 1, "Y": 1 },
+                "CollisionHeight": 1,
+            },
+			{
+                "Texture": "Assets/Small Potted Plant.png:4",
+                "DisplaySize": { "X": 1, "Y": 1 },
+                "CollisionHeight": 1,
+            }
+        ]
+    },
+	{
+        "$ItemType": "Furniture",
+        "ID": "Upturned Book",
+        "Type": "Decoration",
+        "Configurations": [
+            {
+                "Texture": "Assets/Upturned Book.png",
+                "DisplaySize": { "X": 1, "Y": 1 },
+                "CollisionHeight": 1,
+            }
+        ]
+    },
+	{
+        "$ItemType": "Furniture",
+        "ID": "Open Book",
+        "Type": "Decoration",
+        "Configurations": [
+            {
+                "Texture": "Assets/Open Book.png",
+                "DisplaySize": { "X": 1, "Y": 1 },
+                "CollisionHeight": 1,
+            }
+        ]
+    },
+	{
+        "$ItemType": "Furniture",
+        "ID": "Game Station",
+        "Type": "Decoration",
+        "Configurations": [
+            {
+                "Texture": "Assets/Game Station.png:0",
+                "DisplaySize": { "X": 1, "Y": 1 },
+                "CollisionHeight": 1,
+            },
+			{
+                "Texture": "Assets/Game Station.png:1",
+                "DisplaySize": { "X": 1, "Y": 1 },
+                "CollisionHeight": 1,
+            }
+        ]
+    },
+	{
+        "$ItemType": "Furniture",
+        "ID": "Spilled Beer",
+        "Type": "Decoration",
+        "Configurations": [
+            {
+                "Texture": "Assets/Spilled Beer.png",
+                "DisplaySize": { "X": 1, "Y": 1 },
+                "CollisionHeight": 1,
+            }
+        ]
+    },
+	{
+        "$ItemType": "Furniture",
+        "ID": "Scissors",
+        "Type": "Decoration",
+        "Configurations": [
+            {
+                "Texture": "Assets/Scissors.png",
+                "DisplaySize": { "X": 1, "Y": 1 },
+                "CollisionHeight": 1,
+            }
+        ]
+    },
+	{
+        "$ItemType": "Furniture",
+        "ID": "Solorian Chronicles Game",
+        "Type": "Decoration",
+        "Configurations": [
+            {
+                "Texture": "Assets/Solorian Chronicles Game.png",
+                "DisplaySize": { "X": 1, "Y": 1 },
+                "CollisionHeight": 1,
+            }
+        ]
+    },
+	{
+        "$ItemType": "Furniture",
+        "ID": "Pizza Box",
+        "Type": "Decoration",
+        "Configurations": [
+            {
+                "Texture": "Assets/Pizza Box.png",
+                "DisplaySize": { "X": 1, "Y": 1 },
+                "CollisionHeight": 1,
+            }
+        ]
+    },
+	{
+        "$ItemType": "Furniture",
+        "ID": "Monitor",
+        "Type": "Decoration",
+        "Configurations": [
+            {
+                "Texture": "Assets/Monitor.png:0",
+                "DisplaySize": { "X": 1, "Y": 1 },
+                "CollisionHeight": 1,
+            },
+			{
+                "Texture": "Assets/Monitor.png:1",
+                "DisplaySize": { "X": 1, "Y": 1 },
+                "CollisionHeight": 1,
+            }
+        ]
+    },
+	{
+        "$ItemType": "Furniture",
+        "ID": "Big Oak Bookcase",
+        "Type": "Decoration",
+        "Configurations": [
+            {
+                "Texture": "Assets/Big Oak Bookcase.png",
+                "DisplaySize": { "X": 3, "Y": 3 },
+                "CollisionHeight": 1,
+            }
+        ]
+    },
+	{
+        "$ItemType": "Furniture",
+        "ID": "Computer Desk",
+        "Type": "Decoration",
+        "Configurations": [
+            {
+                "Texture": "Assets/Computer Desk.png:0",
+                "DisplaySize": { "X": 1, "Y": 3 },
+                "CollisionHeight": 2,
+            },
+			{
+                "Texture": "Assets/Computer Desk.png:1",
+                "DisplaySize": { "X": 2, "Y": 2 },
+                "CollisionHeight": 1,
+            }
+        ]
+    },
+	{
+        "$ItemType": "Furniture",
+        "ID": "Dye Pots",
+        "Type": "Decoration",
+        "Configurations": [
+            {
+                "Texture": "Assets/Dye Pots.png",
+                "DisplaySize": { "X": 1, "Y": 2 },
+                "CollisionHeight": 2,
+				"TileProperties": {					
+					"0, 0": {
+                        "Buildings": {
+                            "Action": "DyePot"
+                        },	
+                    },
+					"0, 1": {
+                        "Buildings": {
+                            "Action": "DyePot"
+                        },	
+                    },
+					"0, 2": {
+                        "Buildings": {
+                            "Action": "DyePot"
+                        },	
+                    },
+					"0, 3": {
+                        "Buildings": {
+                            "Action": "DyePot"
+                        },	
+                    },
+                }
+            }
+        ]
+    },
+	{
+        "$ItemType": "Furniture",
+        "ID": "Dressing Table",
+        "Type": "Decoration",
+        "Configurations": [
+            {
+                "Texture": "Assets/Dressing Table.png",
+                "DisplaySize": { "X": 1, "Y": 3 },
+                "CollisionHeight": 2,
+            }
+        ]
+    },
+	{
+        "$ItemType": "Furniture",
+        "ID": "Drum Set",
+        "Type": "Decoration",
+        "Configurations": [
+            {
+                "Texture": "Assets/Drum Set.png",
+                "DisplaySize": { "X": 2, "Y": 2 },
+                "CollisionHeight": 1,
+            }
+        ]
+    },
+	{
+        "$ItemType": "Furniture",
+        "ID": "Ficus",
+        "Type": "Decoration",
+        "Configurations": [
+            {
+                "Texture": "Assets/Ficus.png",
+                "DisplaySize": { "X": 1, "Y": 2 },
+                "CollisionHeight": 1,
+            }
+        ]
+    },
+	{
+        "$ItemType": "Furniture",
+        "ID": "Indoor Planter",
+        "Type": "Decoration",
+        "Configurations": [
+            {
+                "Texture": "Assets/Indoor Planter.png",
+                "DisplaySize": { "X": 2, "Y": 2 },
+                "CollisionHeight": 1,
+            }
+        ]
+    },
+	{
+        "$ItemType": "Furniture",
+        "ID": "Keyboard",
+        "Type": "Decoration",
+        "Configurations": [
+            {
+                "Texture": "Assets/Keyboard.png",
+                "DisplaySize": { "X": 2, "Y": 2 },
+                "CollisionHeight": 1,
+            }
+        ]
+    },
+	{
+        "$ItemType": "Furniture",
+        "ID": "Landscape Paintings",
+        "Type": "Decoration",
+        "Configurations": [
+            {
+                "Texture": "Assets/Landscape Paintings.png",
+                "DisplaySize": { "X": 1, "Y": 2 },
+                "CollisionHeight": 1,
+            }
+        ]
+    },
+	{
+        "$ItemType": "Furniture",
+        "ID": "Leaning Sword",
+        "Type": "Decoration",
+        "Configurations": [
+            {
+                "Texture": "Assets/Leaning Sword.png",
+                "DisplaySize": { "X": 1, "Y": 2 },
+                "CollisionHeight": 1,
+            }
+        ]
+    },
+	{
+        "$ItemType": "Furniture",
+        "ID": "Mini Fridge",
+        "Type": "Decoration",
+        "Configurations": [
+            {
+                "Texture": "Assets/Mini Fridge.png",
+                "DisplaySize": { "X": 1, "Y": 2 },
+                "CollisionHeight": 1
+			}
+		]
+	},
+	{
+        "$ItemType": "Furniture",
+        "ID": "Oak Barrel",
+        "Type": "Decoration",
+        "Configurations": [
+            {
+                "Texture": "Assets/Oak Barrel.png",
+                "DisplaySize": { "X": 1, "Y": 2 },
+                "CollisionHeight": 1,
+            }
+        ]
+    },
+	{
+        "$ItemType": "Furniture",
+        "ID": "Pile of Logs",
+        "Type": "Decoration",
+        "Configurations": [
+            {
+                "Texture": "Assets/Pile of Logs.png",
+                "DisplaySize": { "X": 1, "Y": 2 },
+                "CollisionHeight": 1,
+            }
+        ]
+    },
+	{
+        "$ItemType": "Furniture",
+        "ID": "Photo Board",
+        "Type": "Decoration",
+        "Configurations": [
+            {
+                "Texture": "Assets/Photo Board.png",
+                "DisplaySize": { "X": 3, "Y": 3 },
+                "CollisionHeight": 1,
+            }
+        ]
+    },
+	{
+        "$ItemType": "Furniture",
+        "ID": "Potted Money Tree",
+        "Type": "Decoration",
+        "Configurations": [
+            {
+                "Texture": "Assets/Potted Money Tree.png",
+                "DisplaySize": { "X": 3, "Y": 3 },
+                "CollisionHeight": 1,
+            }
+        ]
+    },
+	{
+        "$ItemType": "Furniture",
+        "ID": "Radio Table",
+        "Type": "Decoration",
+        "Configurations": [
+            {
+                "Texture": "Assets/Radio Table.png",
+                "DisplaySize": { "X": 2, "Y": 3 },
+                "CollisionHeight": 1,
+            }
+        ]
+    },
+	{
+        "$ItemType": "Furniture",
+        "ID": "Yellow Bookcase",
+        "Type": "Decoration",
+        "Configurations": [
+            {
+                "Texture": "Assets/Yellow Bookcase.png",
+                "DisplaySize": { "X": 2, "Y": 3 },
+                "CollisionHeight": 1,
+            }
+        ]
+    },
+	{
+        "$ItemType": "Furniture",
+        "ID": "Telescope",
+        "Type": "Decoration",
+        "Configurations": [
+            {
+                "Texture": "Assets/Telescope.png",
+                "DisplaySize": { "X": 1, "Y": 2 },
+                "CollisionHeight": 1,
+            }
+        ]
+    },
+	{
+        "$ItemType": "Furniture",
+        "ID": "Tied Logs",
+        "Type": "Decoration",
+        "Configurations": [
+            {
+                "Texture": "Assets/Tied Logs.png",
+                "DisplaySize": { "X": 1, "Y": 2 },
+                "CollisionHeight": 1,
+            }
+        ]
+    },
+	{
+        "$ItemType": "Furniture",
+        "ID": "Blue Floor Cushion",
+        "Type": "Rug",
+        "Configurations": [
+            {
+                "Texture": "Assets/Blue Floor Cushion.png",
+                "DisplaySize": { "X": 1, "Y": 1 },
+                "CollisionHeight": 1,
+            }
+        ]
+    },
+	{
+        "$ItemType": "Furniture",
+        "ID": "Faded Green Cottage Rug",
+        "Type": "Rug",
+        "Configurations": [
+            {
+                "Texture": "Assets/Faded Green Cottage Rug.png",
+                "DisplaySize": { "X": 3, "Y": 2 },
+                "CollisionHeight": 2,
+            }
+        ]
+    },
+	{
+        "$ItemType": "Furniture",
+        "ID": "Flaxen Cottage Rug",
+        "Type": "Rug",
+        "Configurations": [
+            {
+                "Texture": "Assets/Flaxen Cottage Rug.png",
+                "DisplaySize": { "X": 3, "Y": 2 },
+                "CollisionHeight": 2,
+            }
+        ]
+    },
+	{
+        "$ItemType": "Furniture",
+        "ID": "Large Red Funky Rug",
+        "Type": "Rug",
+        "Configurations": [
+            {
+                "Texture": "Assets/Large Red Funky Rug.png",
+                "DisplaySize": { "X": 4, "Y": 5 },
+                "CollisionHeight": 5,
+            }
+        ]
+    },
+	{
+        "$ItemType": "Furniture",
+        "ID": "Lilac Cottage Rug",
+        "Type": "Rug",
+        "Configurations": [
+            {
+                "Texture": "Assets/Lilac Cottage Rug.png",
+                "DisplaySize": { "X": 3, "Y": 2 },
+                "CollisionHeight": 2,
+            }
+        ]
+    },
+	{
+        "$ItemType": "Furniture",
+        "ID": "Plum Floor Cushion",
+        "Type": "Rug",
+        "Configurations": [
+            {
+                "Texture": "Assets/Plum Floor Cushion.png",
+                "DisplaySize": { "X": 1, "Y": 1 },
+                "CollisionHeight": 1,
+            }
+        ]
+    },
+	{
+        "$ItemType": "Furniture",
+        "ID": "Purple Cottage Rug",
+        "Type": "Rug",
+        "Configurations": [
+            {
+                "Texture": "Assets/Purple Cottage Rug.png",
+                "DisplaySize": { "X": 3, "Y": 2 },
+                "CollisionHeight": 2,
+            }
+        ]
+    },
+	{
+        "$ItemType": "Furniture",
+        "ID": "Small Red Rug",
+        "Type": "Rug",
+        "Configurations": [
+            {
+                "Texture": "Assets/Small Red Rug.png",
+                "DisplaySize": { "X": 2, "Y": 1 },
+                "CollisionHeight": 1,
+            }
+        ]
+    },
+	{
+        "$ItemType": "Furniture",
+        "ID": "Teal Floor Cushion",
+        "Type": "Rug",
+        "Configurations": [
+            {
+                "Texture": "Assets/Teal Floor Cushion.png",
+                "DisplaySize": { "X": 1, "Y": 1 },
+                "CollisionHeight": 1,
+            }
+        ]
+    },
+	{
+        "$ItemType": "Furniture",
+        "ID": "Black End Table",
+        "Type": "Table",
+        "Configurations": [
+            {
+                // Front
+                "Texture": "Assets/Black End Table.png:0",
+                "DisplaySize": { "X": 1, "Y": 2 },
+                "CollisionHeight": 1,
+                "Flipped": false,
+            },
+            {
+                // Back
+                "Texture": "Assets/Black End Table.png:1",
+                "DisplaySize": { "X": 1, "Y": 2 },
+                "CollisionHeight": 1,
+                "Flipped": false,
+            },
+        ]
+    },
+	{
+        "$ItemType": "Furniture",
+        "ID": "Large Oak Table",
+        "Type": "Table",
+        "Configurations": [
+            {
+                // Front
+                "Texture": "Assets/Large Oak Table.png:0",
+                "DisplaySize": { "X": 3, "Y": 3 },
+                "CollisionHeight": 2,
+                "Flipped": false,
+            },
+            {
+                // Back
+                "Texture": "Assets/Large Oak Table.png:1",
+                "DisplaySize": { "X": 3, "Y": 3 },
+                "CollisionHeight": 2,
+                "Flipped": false,
+            },
+        ]
+    },
+	{
+        "$ItemType": "Furniture",
+        "ID": "Yellow Endtable",
+        "Type": "Table",
+        "Configurations": [
+            {
+                // Front
+                "Texture": "Assets/Yellow Endtable.png:0",
+                "DisplaySize": { "X": 1, "Y": 2 },
+                "CollisionHeight": 1,
+                "Flipped": false,
+            },
+            {
+                // Back
+                "Texture": "Assets/Yellow Endtable.png:1",
+                "DisplaySize": { "X": 1, "Y": 2 },
+                "CollisionHeight": 1,
+                "Flipped": false,
+            }
+        ]
+    },
+	{
+        "$ItemType": "Furniture",
+        "ID": "Large Oak Tea Table",
+        "Type": "Table",
+        "Configurations": [
+            {
+                // Front
+                "Texture": "Assets/Large Oak Tea Table.png:0",
+                "DisplaySize": { "X": 3, "Y": 3 },
+                "CollisionHeight": 2,
+                "Flipped": false,
+            },
+            {
+                // Left
+                "Texture": "Assets/Large Oak Tea Table.png:1",
+                "DisplaySize": { "X": 3, "Y": 3 },
+                "CollisionHeight": 2,
+                "Flipped": false,
+            },
+            {
+                // Back
+                "Texture": "Assets/Large Oak Tea Table.png:2",
+                "DisplaySize": { "X": 3, "Y": 3 },
+                "CollisionHeight": 2,
+                "Flipped": false,
+            },
+            {
+                // Right
+                "Texture": "Assets/Large Oak Tea Table.png:3",
+                "DisplaySize": { "X": 3, "Y": 3 },
+                "CollisionHeight": 2,
+                "Flipped": false,
+            }
+        ]
+    },
+	{
+        "$ItemType": "Furniture",
+        "ID": "Cardboard Box",
+        "Type": "Table",
+        "Configurations": [
+            {
+                "Texture": "Assets/Cardboard Box.png",
+                "DisplaySize": { "X": 1, "Y": 2 },
+                "CollisionHeight": 1,
+                "Flipped": false,
+            }
+        ]
+    },
+	{
+        "$ItemType": "Furniture",
+        "ID": "Oak End Table",
+        "Type": "Table",
+        "Configurations": [
+            {
+                "Texture": "Assets/Oak End Table.png",
+                "DisplaySize": { "X": 1, "Y": 2 },
+                "CollisionHeight": 1,
+                "Flipped": false,
+            }
+        ]
+    },
+	{
+        "$ItemType": "Furniture",
+        "ID": "Ouija Table",
+        "Type": "Table",
+        "Configurations": [
+            {
+                "Texture": "Assets/Ouija Table.png",
+                "DisplaySize": { "X": 1, "Y": 2 },
+                "CollisionHeight": 1,
+                "Flipped": false,
+            }
+        ]
+    },
+	{
+        "$ItemType": "Furniture",
+        "ID": "Steel Keg",
+        "Type": "Table",
+        "Configurations": [
+            {
+                "Texture": "Assets/Steel Keg.png",
+                "DisplaySize": { "X": 1, "Y": 2 },
+                "CollisionHeight": 1,
+                "Flipped": false,
+            }
+        ]
+    },
+	{
+        "$ItemType": "Furniture",
+        "ID": "Long Bookcase",
+        "Type": "Decoration",
+        "Configurations": [
+			{
+                "Texture": "Assets/Long Bookcase.png:1",
+                "DisplaySize": { "X": 4, "Y": 3 },
+                "CollisionHeight": 1,
+            },
+			{
+                "Texture": "Assets/Long Bookcase.png:0",
+                "DisplaySize": { "X": 1, "Y": 6 },
+                "CollisionHeight": 3,
+            }
+        ]
+    },
+	{
+        "$ItemType": "Furniture",
+        "ID": "Longer Bookcase",
+        "Type": "Decoration",
+        "Configurations": [
+			{
+                "Texture": "Assets/Longer Bookcase.png:1",
+                "DisplaySize": { "X": 5, "Y": 3 },
+                "CollisionHeight": 1,
+            },
+			{
+                "Texture": "Assets/Longer Bookcase.png:0",
+                "DisplaySize": { "X": 1, "Y": 7 },
+                "CollisionHeight": 4,
+			}
+        ]
+    },
+	{
+        "$ItemType": "Furniture",
+        "ID": "Floor TV",
+        "Type": "TV",
+        "Configurations": [
+            {
+                "Texture": "Assets/Floor TV.png",
+                "DisplaySize": { "X": 2, "Y": 2 },
+                "CollisionHeight": 1,
+            }
+        ]
+    },
+	{
+        "$ItemType": "Furniture",
+        "ID": "Small Yellow Dresser",
+        "Type": "Dresser",
+        "Configurations": [
+            {
+                // Front
+                "Texture": "Assets/Small Yellow Dresser.png:1",
+                "DisplaySize": { "X": 2, "Y": 2 },
+                "CollisionHeight": 1,
+                "Flipped": false
+            },
+            {
+                // Left
+                "Texture": "Assets/Small Yellow Dresser.png:0",
+                "DisplaySize": { "X": 1, "Y": 3 },
+                "CollisionHeight": 2,
+                "Flipped": false
+            },
+            {
+                // Back
+                "Texture": "Assets/Small Yellow Dresser.png:2",
+                "DisplaySize": { "X": 2, "Y": 2 },
+                "CollisionHeight": 1,
+                "Flipped": false
+            },
+            {
+                // Right
+                "Texture": "Assets/Small Yellow Dresser.png:0",
+                "DisplaySize": { "X": 1, "Y": 3 },
+                "CollisionHeight": 2,
+                "Flipped": true
+            }
+        ]
+    },
+	{
+        "$ItemType": "Furniture",
+        "ID": "Yellow Dresser",
+        "Type": "Dresser",
+        "Configurations": [
+            {
+                // Front
+                "Texture": "Assets/Yellow Dresser.png:1",
+                "DisplaySize": { "X": 2, "Y": 2 },
+                "CollisionHeight": 1,
+                "Flipped": false
+            },
+            {
+                // Left
+                "Texture": "Assets/Yellow Dresser.png:0",
+                "DisplaySize": { "X": 1, "Y": 3 },
+                "CollisionHeight": 2,
+                "Flipped": false
+            },
+            {
+                // Back
+                "Texture": "Assets/Yellow Dresser.png:2",
+                "DisplaySize": { "X": 2, "Y": 2 },
+                "CollisionHeight": 1,
+                "Flipped": false
+            },
+            {
+                // Right
+                "Texture": "Assets/Yellow Dresser.png:0",
+                "DisplaySize": { "X": 1, "Y": 3 },
+                "CollisionHeight": 2,
+                "Flipped": true
+            }
+        ]
+    }
+]

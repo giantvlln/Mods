@@ -1,0 +1,13 @@
+{
+   "Name": "Garden Pot Retexture",
+   "Author": "naeldeus",
+   "Version": "1.0",
+   "Description": "Retexture for the garden pot.",
+   "UniqueID": "nael.gardenpot",
+   "MinimumApiVersion": "2.5",
+   "UpdateKeys": ["Nexus:3794"],
+   "ContentPackFor": {
+      "UniqueID": "Pathoschild.ContentPatcher",
+      "MinimumVersion": "1.0.0"
+   }
+}

@@ -1,0 +1,14 @@
+{
+  "name": "Life Cycle - Maru & Harvey",
+  "version": "3.2.5", 
+  "author": "nraittanna",
+  "loadLate": true,
+  "replaceMaps":
+   [
+    {
+      "name": "HarveyRoom",
+      "file": "assets/HarveyRoom.tmx",
+      "conditions": "e 59020038"
+    }
+  ], 
+}

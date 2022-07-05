@@ -1,0 +1,13 @@
+﻿{
+  "Name": "[FS] Coii's Hairstyles Pack",
+  "Author": "Coii, conversion by BikiFae",
+  "Version": "1.0.0",
+  "Description": "Fashion Sense Conversion for Coii's Hairstyles Pack",
+  "UniqueID": "Coii.FS.HairstylesPack",
+  "UpdateKeys": [],
+  "Dependencies": [],
+  "ContentPackFor": {
+    "UniqueID": "PeacefulEnd.FashionSense",
+    "MinimumVersion": "4.3.0"
+  }
+}

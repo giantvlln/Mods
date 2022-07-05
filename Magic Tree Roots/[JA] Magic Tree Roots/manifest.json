@@ -1,0 +1,13 @@
+{
+	"Name": "Magic Tree Roots",
+	"Author": "nottomention",
+	"Version": "3.7",
+	"Description": "Grow magic Creatures from the sapling. Best to use as decorative",
+	"UniqueID": "nottomention.MagicTreeRoots",
+	"UpdateKeys": [ "Nexus: 8646" ],
+
+    "ContentPackFor":
+    {
+        "UniqueID": "spacechase0.JsonAssets"
+    }
+}

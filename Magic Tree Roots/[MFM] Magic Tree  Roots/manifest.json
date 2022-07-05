@@ -1,0 +1,18 @@
+﻿{
+	"Name": "[MFM] Magic Tree Roots",
+	"Author": "nottomention",
+	"Version": "1.0",
+	"Description": "Sends Magic sapling to the player.",
+	"UniqueID": "nottomention.MFM.MagicTreeRoots",
+	"MinimumApiVersion": "3.2.0",
+	"UpdateKeys": [ "Nexus:???" ],
+	"Dependencies": [
+		{
+			"UniqueID": "nottomention.MagicTreeRoots",
+			"IsRequired": true
+		}
+	],
+	"ContentPackFor": {
+		"UniqueID": "DIGUS.MailFrameworkMod"
+	}
+}

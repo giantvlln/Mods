@@ -1,0 +1,11 @@
+{
+  "Name": "[CP] Vintage Candle & Magical Vials",
+  "Author": "Maraluna",
+  "Version": "1.0.0",
+  "Description": "Drugs from the clinic, craftable elixirs and the torch reimagined.",
+  "UniqueID": "Maraluna.CandleandVials",
+  "UpdateKeys": [ "Nexus:12441" ],
+  "ContentPackFor": {
+    "UniqueID": "Pathoschild.ContentPatcher"
+  }
+}

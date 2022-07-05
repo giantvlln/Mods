@@ -1,0 +1,132 @@
+[
+  {
+    //橱柜
+    "$ItemType": "ShopEntry",
+    "Item": { "Value": "Kyuya.CuteFurniture/Decoration1" },
+    "ShopId": "Carpenter",
+    "Cost": 500,
+	"DynamicFields": [
+	  {
+		"Conditions": { "DayOfWeek |contains=Monday": false},
+		"Enabled": false,
+	  }
+	]
+  },
+  {
+    //洗手槽
+    "$ItemType": "ShopEntry",
+    "Item": { "Value": "Kyuya.CuteFurniture/Decoration2" },
+    "ShopId": "Carpenter",
+    "Cost": 500,
+	"DynamicFields": [
+	  {
+		"Conditions": { "DayOfWeek |contains=Wednesday": false},
+		"Enabled": false,
+	  }
+	]
+  },
+   {
+    //灶台
+    "$ItemType": "ShopEntry",
+    "Item": { "Value": "Kyuya.CuteFurniture/Decoration3" },
+    "ShopId": "Carpenter",
+    "Cost": 500,
+	"DynamicFields": [
+	  {
+		"Conditions": { "DayOfWeek |contains=Wednesday": false},
+		"Enabled": false,
+	  }
+	]
+  },
+  {
+    //冰箱
+    "$ItemType": "ShopEntry",
+    "Item": { "Value": "Kyuya.CuteFurniture/Decoration4" },
+    "ShopId": "Carpenter",
+    "Cost": 1000,
+	"DynamicFields": [
+	  {
+		"Conditions": { "DayOfWeek |contains=Thursday": false},
+		"Enabled": false,
+	  }
+	]
+  },
+  {
+    //碗柜
+    "$ItemType": "ShopEntry",
+    "Item": { "Value": "Kyuya.CuteFurniture/Decoration5" },
+    "ShopId": "Carpenter",
+    "Cost": 500,
+	"DynamicFields": [
+	  {
+		"Conditions": { "DayOfWeek |contains=Thursday": false},
+		"Enabled": false,
+	  }
+	]
+  },
+  {
+    //组合橱柜
+    "$ItemType": "ShopEntry",
+    "Item": { "Value": "Kyuya.CuteFurniture/Decoration6" },
+    "ShopId": "Carpenter",
+    "Cost": 800,
+	"DynamicFields": [
+	  {
+		"Conditions": { "DayOfWeek |contains=Friday": false},
+		"Enabled": false,
+	  }
+	]
+  },
+  {
+    //椅子
+    "$ItemType": "ShopEntry",
+    "Item": { "Value": "Kyuya.CuteFurniture/Decoration7" },
+    "ShopId": "Carpenter",
+    "Cost": 200,
+	"DynamicFields": [
+	  {
+		"Conditions": { "DayOfWeek |contains=Saturday": false},
+		"Enabled": false,
+	  }
+	]
+  },
+  {
+    //桌子
+    "$ItemType": "ShopEntry",
+    "Item": { "Value": "Kyuya.CuteFurniture/Decoration8" },
+    "ShopId": "Carpenter",
+    "Cost": 500,
+	"DynamicFields": [
+	  {
+		"Conditions": { "DayOfWeek |contains=Saturday": false},
+		"Enabled": false,
+	  }
+	]
+  },
+  {
+    //扫帚
+    "$ItemType": "ShopEntry",
+    "Item": { "Value": "Kyuya.CuteFurniture/Painting1" },
+    "ShopId": "Carpenter",
+    "Cost": 200,
+	"DynamicFields": [
+	  {
+		"Conditions": { "DayOfWeek |contains=Sunday": false},
+		"Enabled": false,
+	  }
+	]
+  },
+  {
+    //地毯
+    "$ItemType": "ShopEntry",
+    "Item": { "Value": "Kyuya.CuteFurniture/Rug1" },
+    "ShopId": "Carpenter",
+    "Cost": 700,
+	"DynamicFields": [
+	  {
+		"Conditions": { "DayOfWeek |contains=Sunday": false},
+		"Enabled": false,
+	  }
+	]
+  },
+  ]

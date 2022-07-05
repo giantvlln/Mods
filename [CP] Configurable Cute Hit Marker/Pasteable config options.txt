@@ -1,0 +1,35 @@
+for non-english keyboards or those worried about spelling words wrong
+only paste the word without the space or dash (-)
+
+color options
+- pink
+- purple
+- blue
+- green
+- yellow
+- orange
+- white
+
+shape options
+- box
+- bars
+- gradient
+- heartthin
+- heartthick
+- flower
+- lotus
+
+stripes options
+- true
+    (only use this if the shape option is box, bars, or gradient)
+- false
+
+randomise options
+- true
+    (randomises the color, shape and stripes options)
+- false
+
+turnModOff options
+- true
+    (disables the mod)
+- false

@@ -1,0 +1,10 @@
+{
+	"Name": "Nature's Embrace",
+	"Product": "Northern's Lullaby",
+	"SaplingName": "Magic Root-Nature's Embrace Sapling",
+	"SaplingDescription": "Image of the Nature Mother, takes 28 days to grows. Only bears fruits in Winter.. When the sky is clearest and the North star shine the brightest.",
+	"Season": "winter",
+	"SaplingPurchaseFrom": "Sandy",
+	"SaplingPurchasePrice": 5000,
+	"SaplingPurchaseRequirements": null
+}

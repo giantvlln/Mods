@@ -1,0 +1,352 @@
+[
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "Wabi.DGA.sweatheartfurn/Pinkheartchair0"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 300,
+		"DynamicFields": [
+		  {
+			"Conditions": { "DayOfWeek |contains=Thursday": false},
+			"Enabled": false,
+		  }
+		]
+	},
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "Wabi.DGA.sweatheartfurn/Largewhitebookcase2"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 800,
+		"DynamicFields": [
+		  {
+			"Conditions": { "DayOfWeek |contains=Thursday": false},
+			"Enabled": false,
+		  }
+		]
+	},
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "Wabi.DGA.sweatheartfurn/Whitevanitydresser3"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 600,
+		"DynamicFields": [
+		  {
+			"Conditions": { "DayOfWeek |contains=Thursday": false},
+			"Enabled": false,
+		  }
+		]
+	},
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "Wabi.DGA.sweatheartfurn/Circularwhitetable4"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 500,
+		"DynamicFields": [
+		  {
+			"Conditions": { "DayOfWeek |contains=Thursday": false},
+			"Enabled": false,
+		  }
+		]
+	},
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "Wabi.DGA.sweatheartfurn/Teasettable5"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 500,
+		"DynamicFields": [
+		  {
+			"Conditions": { "DayOfWeek |contains=Monday": false},
+			"Enabled": false,
+		  }
+		]
+	},
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "Wabi.DGA.sweatheartfurn/Tablewithpinkcloth6"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 500,
+		"DynamicFields": [
+		  {
+			"Conditions": { "DayOfWeek |contains=Monday": false},
+			"Enabled": false,
+		  }
+		]
+	},
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "Wabi.DGA.sweatheartfurn/Frillylamp7"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 200,
+		"DynamicFields": [
+		  {
+			"Conditions": { "DayOfWeek |contains=Monday": false},
+			"Enabled": false,
+		  }
+		]
+	},
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "Wabi.DGA.sweatheartfurn/Largevictoriandresser8"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 800,
+		"DynamicFields": [
+		  {
+			"Conditions": { "DayOfWeek |contains=Monday": false},
+			"Enabled": false,
+		  }
+		]
+	},
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "Wabi.DGA.sweatheartfurn/Nightstandwithlamp9"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 300,
+		"DynamicFields": [
+		  {
+			"Conditions": { "DayOfWeek |contains=Wednesday": false},
+			"Enabled": false,
+		  }
+		]
+	},
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "Wabi.DGA.sweatheartfurn/Nightstandwithvase10"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 300,
+		"DynamicFields": [
+		  {
+			"Conditions": { "DayOfWeek |contains=Wednesday": false},
+			"Enabled": false,
+		  }
+		]
+	},
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "Wabi.DGA.sweatheartfurn/Tinywhiteendtable11"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 200,
+		"DynamicFields": [
+		  {
+			"Conditions": { "DayOfWeek |contains=Wednesday": false},
+			"Enabled": false,
+		  }
+		]
+	},
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "Wabi.DGA.sweatheartfurn/Tinywhiteendtablewithvase12"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 200,
+		"DynamicFields": [
+		  {
+			"Conditions": { "DayOfWeek |contains=Wednesday": false},
+			"Enabled": false,
+		  }
+		]
+	},
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "Wabi.DGA.sweatheartfurn/Plainwhitemannequin13"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 300,
+		"DynamicFields": [
+		  {
+			"Conditions": { "DayOfWeek |contains=Friday": false},
+			"Enabled": false,
+		  }
+		]
+	},
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "Wabi.DGA.sweatheartfurn/Whitemannequinwithpinkdress14"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 300,
+		"DynamicFields": [
+		  {
+			"Conditions": { "DayOfWeek |contains=Friday": false},
+			"Enabled": false,
+		  }
+		]
+	},
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "Wabi.DGA.sweatheartfurn/Whitemannequinwithwhitedress15"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 300,
+		"DynamicFields": [
+		  {
+			"Conditions": { "DayOfWeek |contains=Friday": false},
+			"Enabled": false,
+		  }
+		]
+	},
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "Wabi.DGA.sweatheartfurn/Pinkottomanstool16"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 300,
+		"DynamicFields": [
+		  {
+			"Conditions": { "DayOfWeek |contains=Friday": false},
+			"Enabled": false,
+		  }
+		]
+	},
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "Wabi.DGA.sweatheartfurn/Bigfroggyplush17"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 300,
+		"DynamicFields": [
+		  {
+			"Conditions": { "DayOfWeek |contains=Saturday": false},
+			"Enabled": false,
+		  }
+		]
+	},
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "Wabi.DGA.sweatheartfurn/OvergrownWallmirror18"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 300,
+		"DynamicFields": [
+		  {
+			"Conditions": { "DayOfWeek |contains=Saturday": false},
+			"Enabled": false,
+		  }
+		]
+	},
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "Wabi.DGA.sweatheartfurn/Cactiwallshelf19"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 300,
+		"DynamicFields": [
+		  {
+			"Conditions": { "DayOfWeek |contains=Saturday": false},
+			"Enabled": false,
+		  }
+		]
+	},
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "Wabi.DGA.sweatheartfurn/Florawallprints20"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 200,
+		"DynamicFields": [
+		  {
+			"Conditions": { "DayOfWeek |contains=Saturday": false},
+			"Enabled": false,
+		  }
+		]
+	},
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "Wabi.DGA.sweatheartfurn/Hangingvineplanter21"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 200,
+		"DynamicFields": [
+		  {
+			"Conditions": { "DayOfWeek |contains=Sunday": false},
+			"Enabled": false,
+		  }
+		]
+	},
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "Wabi.DGA.sweatheartfurn/Wallvines22"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 200,
+		"DynamicFields": [
+		  {
+			"Conditions": { "DayOfWeek |contains=Sunday": false},
+			"Enabled": false,
+		  }
+		]
+	},
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "Wabi.DGA.sweatheartfurn/Aestheticstyleprints23"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 200,
+		"DynamicFields": [
+		  {
+			"Conditions": { "DayOfWeek |contains=Sunday": false},
+			"Enabled": false,
+		  }
+		]
+	},
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "Wabi.DGA.sweatheartfurn/Wallvinyldiscs24"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 200,
+		"DynamicFields": [
+		  {
+			"Conditions": { "DayOfWeek |contains=Sunday": false},
+			"Enabled": false,
+		  }
+		]
+	},
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "Wabi.DGA.sweatheartfurn/Fluffyheartrug25"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 300,
+		"DynamicFields": [
+		  {
+			"Conditions": { "DayOfWeek |contains=Sunday": false},
+			"Enabled": false,
+		  }
+		]
+	}
+]

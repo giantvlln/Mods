@@ -1,0 +1,18 @@
+{
+  "Name": "Alicia.Rings.JunimoRing",
+  "Companions": {
+    "JunimoCompanion": {
+      "NumberToSummon": 1
+    }
+  },
+  "Description": "Brings a Junimo friend along for your journey in Stardew Valley.",
+  "Category": "Ring",
+  "Recipe": null,
+  "Price": 1500,
+  "CanPurchase": true,
+  "PurchaseFrom": "HatMouse",
+  "PurchasePrice": 10000,
+  "NameLocalization": {
+    "en": "Junimo Ring"
+  }
+}

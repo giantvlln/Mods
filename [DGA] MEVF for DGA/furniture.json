@@ -1,0 +1,3790 @@
+[
+    {
+        "$ItemType": "Furniture",
+        "ID": "WoodDiningChair0",
+        "Type": "Decoration",
+        "ShowInCatalogue": true,
+        "Configurations": [
+            {
+                "Texture": "dga_furniture_tilesheet.png:206",
+                "DisplaySize": {
+                    "X": 1,
+                    "Y": 2
+                },
+                "CollisionHeight": 1,
+                "Seats": [
+                    {
+                        "X": 0,
+                        "Y": 0
+                    }
+                ],
+                "SittingDirection": "Down",
+                "FrontTexture": "dga_front_tilesheet.png:206"
+            },
+            {
+                "Texture": "dga_furniture_tilesheet.png:236",
+                "DisplaySize": {
+                    "X": 1,
+                    "Y": 2
+                },
+                "CollisionHeight": 1,
+                "Seats": [
+                    {
+                        "X": 0,
+                        "Y": 0
+                    }
+                ],
+                "SittingDirection": "Right",
+                "FrontTexture": "dga_front_tilesheet.png:236"
+            },
+            {
+                "Texture": "dga_furniture_tilesheet.png:291",
+                "DisplaySize": {
+                    "X": 1,
+                    "Y": 2
+                },
+                "CollisionHeight": 1,
+                "Seats": [
+                    {
+                        "X": 0,
+                        "Y": 0
+                    }
+                ],
+                "SittingDirection": "Up",
+                "FrontTexture": "dga_front_tilesheet.png:291"
+            },
+            {
+                "Texture": "dga_furniture_tilesheet.png:420",
+                "DisplaySize": {
+                    "X": 1,
+                    "Y": 2
+                },
+                "CollisionHeight": 1,
+                "Seats": [
+                    {
+                        "X": 0,
+                        "Y": 0
+                    }
+                ],
+                "SittingDirection": "Left",
+                "FrontTexture": "dga_front_tilesheet.png:420"
+            }
+        ]
+    },
+    {
+        "$ItemType": "Furniture",
+        "ID": "WoodDiningChair1",
+        "Type": "Decoration",
+        "ShowInCatalogue": true,
+        "Configurations": [
+            {
+                "Texture": "dga_furniture_tilesheet.png:421",
+                "DisplaySize": {
+                    "X": 1,
+                    "Y": 2
+                },
+                "CollisionHeight": 1,
+                "Seats": [
+                    {
+                        "X": 0,
+                        "Y": 0
+                    }
+                ],
+                "SittingDirection": "Down",
+                "FrontTexture": "dga_front_tilesheet.png:421"
+            },
+            {
+                "Texture": "dga_furniture_tilesheet.png:422",
+                "DisplaySize": {
+                    "X": 1,
+                    "Y": 2
+                },
+                "CollisionHeight": 1,
+                "Seats": [
+                    {
+                        "X": 0,
+                        "Y": 0
+                    }
+                ],
+                "SittingDirection": "Right",
+                "FrontTexture": "dga_front_tilesheet.png:422"
+            },
+            {
+                "Texture": "dga_furniture_tilesheet.png:423",
+                "DisplaySize": {
+                    "X": 1,
+                    "Y": 2
+                },
+                "CollisionHeight": 1,
+                "Seats": [
+                    {
+                        "X": 0,
+                        "Y": 0
+                    }
+                ],
+                "SittingDirection": "Up",
+                "FrontTexture": "dga_front_tilesheet.png:423"
+            },
+            {
+                "Texture": "dga_furniture_tilesheet.png:424",
+                "DisplaySize": {
+                    "X": 1,
+                    "Y": 2
+                },
+                "CollisionHeight": 1,
+                "Seats": [
+                    {
+                        "X": 0,
+                        "Y": 0
+                    }
+                ],
+                "SittingDirection": "Left",
+                "FrontTexture": "dga_front_tilesheet.png:424"
+            }
+        ]
+    },
+    {
+        "$ItemType": "Furniture",
+        "ID": "WoodDiningChair2",
+        "Type": "Decoration",
+        "ShowInCatalogue": true,
+        "Configurations": [
+            {
+                "Texture": "dga_furniture_tilesheet.png:425",
+                "DisplaySize": {
+                    "X": 1,
+                    "Y": 2
+                },
+                "CollisionHeight": 1,
+                "Seats": [
+                    {
+                        "X": 0,
+                        "Y": 0
+                    }
+                ],
+                "SittingDirection": "Down",
+                "FrontTexture": "dga_front_tilesheet.png:425"
+            },
+            {
+                "Texture": "dga_furniture_tilesheet.png:426",
+                "DisplaySize": {
+                    "X": 1,
+                    "Y": 2
+                },
+                "CollisionHeight": 1,
+                "Seats": [
+                    {
+                        "X": 0,
+                        "Y": 0
+                    }
+                ],
+                "SittingDirection": "Right",
+                "FrontTexture": "dga_front_tilesheet.png:426"
+            },
+            {
+                "Texture": "dga_furniture_tilesheet.png:427",
+                "DisplaySize": {
+                    "X": 1,
+                    "Y": 2
+                },
+                "CollisionHeight": 1,
+                "Seats": [
+                    {
+                        "X": 0,
+                        "Y": 0
+                    }
+                ],
+                "SittingDirection": "Up",
+                "FrontTexture": "dga_front_tilesheet.png:427"
+            },
+            {
+                "Texture": "dga_furniture_tilesheet.png:428",
+                "DisplaySize": {
+                    "X": 1,
+                    "Y": 2
+                },
+                "CollisionHeight": 1,
+                "Seats": [
+                    {
+                        "X": 0,
+                        "Y": 0
+                    }
+                ],
+                "SittingDirection": "Left",
+                "FrontTexture": "dga_front_tilesheet.png:428"
+            }
+        ]
+    },
+    {
+        "$ItemType": "Furniture",
+        "ID": "WoodStool3",
+        "Type": "Decoration",
+        "ShowInCatalogue": true,
+        "Configurations": [
+            {
+                "Texture": "dga_furniture_tilesheet.png:429",
+                "DisplaySize": {
+                    "X": 1,
+                    "Y": 2
+                },
+                "CollisionHeight": 1,
+                "Seats": [
+                    {
+                        "X": 0,
+                        "Y": 0
+                    }
+                ],
+                "SittingDirection": "Any",
+                "FrontTexture": "dga_front_tilesheet.png:429"
+            }
+        ]
+    },
+    {
+        "$ItemType": "Furniture",
+        "ID": "WoodDiningChair4",
+        "Type": "Decoration",
+        "ShowInCatalogue": true,
+        "Configurations": [
+            {
+                "Texture": "dga_furniture_tilesheet.png:430",
+                "DisplaySize": {
+                    "X": 1,
+                    "Y": 2
+                },
+                "CollisionHeight": 1,
+                "Seats": [
+                    {
+                        "X": 0,
+                        "Y": 0
+                    }
+                ],
+                "SittingDirection": "Down",
+                "FrontTexture": "dga_front_tilesheet.png:430"
+            },
+            {
+                "Texture": "dga_furniture_tilesheet.png:431",
+                "DisplaySize": {
+                    "X": 1,
+                    "Y": 2
+                },
+                "CollisionHeight": 1,
+                "Seats": [
+                    {
+                        "X": 0,
+                        "Y": 0
+                    }
+                ],
+                "SittingDirection": "Right",
+                "FrontTexture": "dga_front_tilesheet.png:431"
+            },
+            {
+                "Texture": "dga_furniture_tilesheet.png:432",
+                "DisplaySize": {
+                    "X": 1,
+                    "Y": 2
+                },
+                "CollisionHeight": 1,
+                "Seats": [
+                    {
+                        "X": 0,
+                        "Y": 0
+                    }
+                ],
+                "SittingDirection": "Up",
+                "FrontTexture": "dga_front_tilesheet.png:432"
+            },
+            {
+                "Texture": "dga_furniture_tilesheet.png:433",
+                "DisplaySize": {
+                    "X": 1,
+                    "Y": 2
+                },
+                "CollisionHeight": 1,
+                "Seats": [
+                    {
+                        "X": 0,
+                        "Y": 0
+                    }
+                ],
+                "SittingDirection": "Left",
+                "FrontTexture": "dga_front_tilesheet.png:433"
+            }
+        ]
+    },
+    {
+        "$ItemType": "Furniture",
+        "ID": "Violin5",
+        "Type": "Decoration",
+        "ShowInCatalogue": true,
+        "Configurations": [
+            {
+                "Texture": "dga_furniture_tilesheet.png:434",
+                "DisplaySize": {
+                    "X": 1,
+                    "Y": 2
+                },
+                "CollisionHeight": 1
+            },
+            {
+                "Texture": "dga_furniture_tilesheet.png:435",
+                "DisplaySize": {
+                    "X": 1,
+                    "Y": 2
+                },
+                "CollisionHeight": 1
+            },
+            {
+                "Texture": "dga_furniture_tilesheet.png:436",
+                "DisplaySize": {
+                    "X": 1,
+                    "Y": 2
+                },
+                "CollisionHeight": 1
+            },
+            {
+                "Texture": "dga_furniture_tilesheet.png:437",
+                "DisplaySize": {
+                    "X": 1,
+                    "Y": 2
+                },
+                "CollisionHeight": 1
+            }
+        ]
+    },
+    {
+        "$ItemType": "Furniture",
+        "ID": "Viola6",
+        "Type": "Decoration",
+        "ShowInCatalogue": true,
+        "Configurations": [
+            {
+                "Texture": "dga_furniture_tilesheet.png:438",
+                "DisplaySize": {
+                    "X": 1,
+                    "Y": 2
+                },
+                "CollisionHeight": 1
+            },
+            {
+                "Texture": "dga_furniture_tilesheet.png:439",
+                "DisplaySize": {
+                    "X": 1,
+                    "Y": 2
+                },
+                "CollisionHeight": 1
+            },
+            {
+                "Texture": "dga_furniture_tilesheet.png:440",
+                "DisplaySize": {
+                    "X": 1,
+                    "Y": 2
+                },
+                "CollisionHeight": 1
+            },
+            {
+                "Texture": "dga_furniture_tilesheet.png:441",
+                "DisplaySize": {
+                    "X": 1,
+                    "Y": 2
+                },
+                "CollisionHeight": 1
+            }
+        ]
+    },
+    {
+        "$ItemType": "Furniture",
+        "ID": "Woodenstool7",
+        "Type": "Decoration",
+        "ShowInCatalogue": true,
+        "Configurations": [
+            {
+                "Texture": "dga_furniture_tilesheet.png:442",
+                "DisplaySize": {
+                    "X": 1,
+                    "Y": 2
+                },
+                "CollisionHeight": 1,
+                "Seats": [
+                    {
+                        "X": 0,
+                        "Y": 0
+                    }
+                ],
+                "SittingDirection": "Any",
+                "FrontTexture": "dga_front_tilesheet.png:442"
+            }
+        ]
+    },
+    {
+        "$ItemType": "Furniture",
+        "ID": "Guitar8",
+        "Type": "Decoration",
+        "ShowInCatalogue": true,
+        "Configurations": [
+            {
+                "Texture": "dga_furniture_tilesheet.png:445",
+                "DisplaySize": {
+                    "X": 1,
+                    "Y": 2
+                },
+                "CollisionHeight": 1
+            },
+            {
+                "Texture": "dga_furniture_tilesheet.png:444",
+                "DisplaySize": {
+                    "X": 1,
+                    "Y": 2
+                },
+                "CollisionHeight": 1
+            },
+            {
+                "Texture": "dga_furniture_tilesheet.png:0",
+                "DisplaySize": {
+                    "X": 1,
+                    "Y": 2
+                },
+                "CollisionHeight": 1
+            },
+            {
+                "Texture": "dga_furniture_tilesheet.png:446",
+                "DisplaySize": {
+                    "X": 1,
+                    "Y": 2
+                },
+                "CollisionHeight": 1
+            }
+        ]
+    },
+    {
+        "$ItemType": "Furniture",
+        "ID": "AccousticGuitar9",
+        "Type": "Decoration",
+        "ShowInCatalogue": true,
+        "Configurations": [
+            {
+                "Texture": "dga_furniture_tilesheet.png:449",
+                "DisplaySize": {
+                    "X": 1,
+                    "Y": 2
+                },
+                "CollisionHeight": 1
+            },
+            {
+                "Texture": "dga_furniture_tilesheet.png:448",
+                "DisplaySize": {
+                    "X": 1,
+                    "Y": 2
+                },
+                "CollisionHeight": 1
+            },
+            {
+                "Texture": "dga_furniture_tilesheet.png:0",
+                "DisplaySize": {
+                    "X": 1,
+                    "Y": 2
+                },
+                "CollisionHeight": 1
+            },
+            {
+                "Texture": "dga_furniture_tilesheet.png:450",
+                "DisplaySize": {
+                    "X": 1,
+                    "Y": 2
+                },
+                "CollisionHeight": 1
+            }
+        ]
+    },
+    {
+        "$ItemType": "Furniture",
+        "ID": "Banjo10",
+        "Type": "Decoration",
+        "ShowInCatalogue": true,
+        "Configurations": [
+            {
+                "Texture": "dga_furniture_tilesheet.png:454",
+                "DisplaySize": {
+                    "X": 1,
+                    "Y": 2
+                },
+                "CollisionHeight": 1
+            },
+            {
+                "Texture": "dga_furniture_tilesheet.png:452",
+                "DisplaySize": {
+                    "X": 1,
+                    "Y": 2
+                },
+                "CollisionHeight": 1
+            },
+            {
+                "Texture": "dga_furniture_tilesheet.png:0",
+                "DisplaySize": {
+                    "X": 1,
+                    "Y": 2
+                },
+                "CollisionHeight": 1
+            },
+            {
+                "Texture": "dga_furniture_tilesheet.png:0",
+                "DisplaySize": {
+                    "X": 1,
+                    "Y": 2
+                },
+                "CollisionHeight": 1
+            }
+        ]
+    },
+    {
+        "$ItemType": "Furniture",
+        "ID": "PianoBench11",
+        "Type": "Decoration",
+        "ShowInCatalogue": true,
+        "Configurations": [
+            {
+                "Texture": "dga_furniture_tilesheet.png:455",
+                "DisplaySize": {
+                    "X": 1,
+                    "Y": 2
+                },
+                "CollisionHeight": 1
+            }
+        ]
+    },
+    {
+        "$ItemType": "Furniture",
+        "ID": "ElectricGuitar12",
+        "Type": "Decoration",
+        "ShowInCatalogue": true,
+        "Configurations": [
+            {
+                "Texture": "dga_furniture_tilesheet.png:459",
+                "DisplaySize": {
+                    "X": 1,
+                    "Y": 2
+                },
+                "CollisionHeight": 1
+            },
+            {
+                "Texture": "dga_furniture_tilesheet.png:457",
+                "DisplaySize": {
+                    "X": 1,
+                    "Y": 2
+                },
+                "CollisionHeight": 1
+            },
+            {
+                "Texture": "dga_furniture_tilesheet.png:0",
+                "DisplaySize": {
+                    "X": 1,
+                    "Y": 2
+                },
+                "CollisionHeight": 1
+            },
+            {
+                "Texture": "dga_furniture_tilesheet.png:0",
+                "DisplaySize": {
+                    "X": 1,
+                    "Y": 2
+                },
+                "CollisionHeight": 1
+            }
+        ]
+    },
+    {
+        "$ItemType": "Furniture",
+        "ID": "ElectricGuitar13",
+        "Type": "Decoration",
+        "ShowInCatalogue": true,
+        "Configurations": [
+            {
+                "Texture": "dga_furniture_tilesheet.png:463",
+                "DisplaySize": {
+                    "X": 1,
+                    "Y": 2
+                },
+                "CollisionHeight": 1
+            },
+            {
+                "Texture": "dga_furniture_tilesheet.png:461",
+                "DisplaySize": {
+                    "X": 1,
+                    "Y": 2
+                },
+                "CollisionHeight": 1
+            },
+            {
+                "Texture": "dga_furniture_tilesheet.png:0",
+                "DisplaySize": {
+                    "X": 1,
+                    "Y": 2
+                },
+                "CollisionHeight": 1
+            },
+            {
+                "Texture": "dga_furniture_tilesheet.png:0",
+                "DisplaySize": {
+                    "X": 1,
+                    "Y": 2
+                },
+                "CollisionHeight": 1
+            }
+        ]
+    },
+    {
+        "$ItemType": "Furniture",
+        "ID": "ElectricGuitar14",
+        "Type": "Decoration",
+        "ShowInCatalogue": true,
+        "Configurations": [
+            {
+                "Texture": "dga_furniture_tilesheet.png:464",
+                "DisplaySize": {
+                    "X": 1,
+                    "Y": 2
+                },
+                "CollisionHeight": 1
+            },
+            {
+                "Texture": "dga_furniture_tilesheet.png:465",
+                "DisplaySize": {
+                    "X": 1,
+                    "Y": 2
+                },
+                "CollisionHeight": 1
+            },
+            {
+                "Texture": "dga_furniture_tilesheet.png:467",
+                "DisplaySize": {
+                    "X": 1,
+                    "Y": 2
+                },
+                "CollisionHeight": 1
+            },
+            {
+                "Texture": "dga_furniture_tilesheet.png:0",
+                "DisplaySize": {
+                    "X": 1,
+                    "Y": 2
+                },
+                "CollisionHeight": 1
+            }
+        ]
+    },
+    {
+        "$ItemType": "Furniture",
+        "ID": "MediumElectricAmp15",
+        "Type": "Decoration",
+        "ShowInCatalogue": true,
+        "Configurations": [
+            {
+                "Texture": "dga_furniture_tilesheet.png:468",
+                "DisplaySize": {
+                    "X": 1,
+                    "Y": 2
+                },
+                "CollisionHeight": 1
+            },
+            {
+                "Texture": "dga_furniture_tilesheet.png:469",
+                "DisplaySize": {
+                    "X": 1,
+                    "Y": 2
+                },
+                "CollisionHeight": 1
+            },
+            {
+                "Texture": "dga_furniture_tilesheet.png:470",
+                "DisplaySize": {
+                    "X": 1,
+                    "Y": 2
+                },
+                "CollisionHeight": 1
+            },
+            {
+                "Texture": "dga_furniture_tilesheet.png:471",
+                "DisplaySize": {
+                    "X": 1,
+                    "Y": 2
+                },
+                "CollisionHeight": 1
+            }
+        ]
+    },
+    {
+        "$ItemType": "Furniture",
+        "ID": "SmallElectricAmp16",
+        "Type": "Decoration",
+        "ShowInCatalogue": true,
+        "Configurations": [
+            {
+                "Texture": "dga_furniture_tilesheet.png:475",
+                "DisplaySize": {
+                    "X": 1,
+                    "Y": 2
+                },
+                "CollisionHeight": 1
+            },
+            {
+                "Texture": "dga_furniture_tilesheet.png:473",
+                "DisplaySize": {
+                    "X": 1,
+                    "Y": 2
+                },
+                "CollisionHeight": 1
+            },
+            {
+                "Texture": "dga_furniture_tilesheet.png:474",
+                "DisplaySize": {
+                    "X": 1,
+                    "Y": 2
+                },
+                "CollisionHeight": 1
+            },
+            {
+                "Texture": "dga_furniture_tilesheet.png:0",
+                "DisplaySize": {
+                    "X": 1,
+                    "Y": 2
+                },
+                "CollisionHeight": 1
+            }
+        ]
+    },
+    {
+        "$ItemType": "Furniture",
+        "ID": "Suitcases17",
+        "Type": "Decoration",
+        "ShowInCatalogue": true,
+        "Configurations": [
+            {
+                "Texture": "dga_furniture_tilesheet.png:146",
+                "DisplaySize": {
+                    "X": 2,
+                    "Y": 2
+                },
+                "CollisionHeight": 1
+            }
+        ]
+    },
+    {
+        "$ItemType": "Furniture",
+        "ID": "Suitcases18",
+        "Type": "Decoration",
+        "ShowInCatalogue": true,
+        "Configurations": [
+            {
+                "Texture": "dga_furniture_tilesheet.png:147",
+                "DisplaySize": {
+                    "X": 2,
+                    "Y": 2
+                },
+                "CollisionHeight": 1
+            }
+        ]
+    },
+    {
+        "$ItemType": "Furniture",
+        "ID": "LargeAmp19",
+        "Type": "Decoration",
+        "ShowInCatalogue": true,
+        "Configurations": [
+            {
+                "Texture": "dga_furniture_tilesheet.png:148",
+                "DisplaySize": {
+                    "X": 2,
+                    "Y": 2
+                },
+                "CollisionHeight": 1
+            },
+            {
+                "Texture": "dga_furniture_tilesheet.png:149",
+                "DisplaySize": {
+                    "X": 2,
+                    "Y": 2
+                },
+                "CollisionHeight": 1
+            },
+            {
+                "Texture": "dga_furniture_tilesheet.png:150",
+                "DisplaySize": {
+                    "X": 2,
+                    "Y": 2
+                },
+                "CollisionHeight": 1
+            },
+            {
+                "Texture": "dga_furniture_tilesheet.png:151",
+                "DisplaySize": {
+                    "X": 2,
+                    "Y": 2
+                },
+                "CollisionHeight": 1
+            }
+        ]
+    },
+    {
+        "$ItemType": "Furniture",
+        "ID": "Suitcase20",
+        "Type": "Decoration",
+        "ShowInCatalogue": true,
+        "Configurations": [
+            {
+                "Texture": "dga_furniture_tilesheet.png:152",
+                "DisplaySize": {
+                    "X": 2,
+                    "Y": 2
+                },
+                "CollisionHeight": 1
+            }
+        ]
+    },
+    {
+        "$ItemType": "Furniture",
+        "ID": "MusicStand21",
+        "Type": "Decoration",
+        "ShowInCatalogue": true,
+        "Configurations": [
+            {
+                "Texture": "dga_furniture_tilesheet.png:476",
+                "DisplaySize": {
+                    "X": 1,
+                    "Y": 2
+                },
+                "CollisionHeight": 1
+            }
+        ]
+    },
+    {
+        "$ItemType": "Furniture",
+        "ID": "BanjoonanInstrumentStand22",
+        "Type": "Decoration",
+        "ShowInCatalogue": true,
+        "Configurations": [
+            {
+                "Texture": "dga_furniture_tilesheet.png:477",
+                "DisplaySize": {
+                    "X": 1,
+                    "Y": 2
+                },
+                "CollisionHeight": 1
+            }
+        ]
+    },
+    {
+        "$ItemType": "Furniture",
+        "ID": "WoodenBench23",
+        "Type": "Decoration",
+        "ShowInCatalogue": true,
+        "Configurations": [
+            {
+                "Texture": "dga_furniture_tilesheet.png:153",
+                "DisplaySize": {
+                    "X": 2,
+                    "Y": 2
+                },
+                "CollisionHeight": 1,
+                "Seats": [
+                    {
+                        "X": 0.5,
+                        "Y": 0
+                    },
+                    {
+                        "X": 1.5,
+                        "Y": 0
+                    }
+                ],
+                "SittingDirection": "Down",
+                "FrontTexture": "dga_front_tilesheet.png:153"
+            },
+            {
+                "Texture": "dga_furniture_tilesheet.png:3",
+                "DisplaySize": {
+                    "X": 1,
+                    "Y": 3
+                },
+                "CollisionHeight": 2,
+                "Seats": [
+                    {
+                        "X": 1,
+                        "Y": 0.5
+                    },
+                    {
+                        "X": 1,
+                        "Y": 1.5
+                    }
+                ],
+                "SittingDirection": "Right",
+                "FrontTexture": "dga_front_tilesheet.png:3"
+            },
+            {
+                "Texture": "dga_furniture_tilesheet.png:154",
+                "DisplaySize": {
+                    "X": 2,
+                    "Y": 2
+                },
+                "CollisionHeight": 1,
+                "Seats": [
+                    {
+                        "X": 0.5,
+                        "Y": 0
+                    },
+                    {
+                        "X": 1.5,
+                        "Y": 0
+                    }
+                ],
+                "SittingDirection": "Up",
+                "FrontTexture": "dga_front_tilesheet.png:154"
+            },
+            {
+                "Texture": "dga_furniture_tilesheet.png:33",
+                "DisplaySize": {
+                    "X": 1,
+                    "Y": 3
+                },
+                "CollisionHeight": 2,
+                "Seats": [
+                    {
+                        "X": 0,
+                        "Y": 0.5
+                    },
+                    {
+                        "X": 0,
+                        "Y": 1.5
+                    }
+                ],
+                "SittingDirection": "Left",
+                "FrontTexture": "dga_front_tilesheet.png:33"
+            }
+        ]
+    },
+    {
+        "$ItemType": "Furniture",
+        "ID": "WoodenBench24",
+        "Type": "Decoration",
+        "ShowInCatalogue": true,
+        "Configurations": [
+            {
+                "Texture": "dga_furniture_tilesheet.png:155",
+                "DisplaySize": {
+                    "X": 2,
+                    "Y": 2
+                },
+                "CollisionHeight": 1,
+                "Seats": [
+                    {
+                        "X": 0.5,
+                        "Y": 0
+                    },
+                    {
+                        "X": 1.5,
+                        "Y": 0
+                    }
+                ],
+                "SittingDirection": "Down",
+                "FrontTexture": "dga_front_tilesheet.png:155"
+            },
+            {
+                "Texture": "dga_furniture_tilesheet.png:75",
+                "DisplaySize": {
+                    "X": 1,
+                    "Y": 3
+                },
+                "CollisionHeight": 2,
+                "Seats": [
+                    {
+                        "X": 1,
+                        "Y": 0.5
+                    },
+                    {
+                        "X": 1,
+                        "Y": 1.5
+                    }
+                ],
+                "SittingDirection": "Right",
+                "FrontTexture": "dga_front_tilesheet.png:75"
+            },
+            {
+                "Texture": "dga_furniture_tilesheet.png:156",
+                "DisplaySize": {
+                    "X": 2,
+                    "Y": 2
+                },
+                "CollisionHeight": 1,
+                "Seats": [
+                    {
+                        "X": 0.5,
+                        "Y": 0
+                    },
+                    {
+                        "X": 1.5,
+                        "Y": 0
+                    }
+                ],
+                "SittingDirection": "Up",
+                "FrontTexture": "dga_front_tilesheet.png:156"
+            },
+            {
+                "Texture": "dga_furniture_tilesheet.png:116",
+                "DisplaySize": {
+                    "X": 1,
+                    "Y": 3
+                },
+                "CollisionHeight": 2,
+                "Seats": [
+                    {
+                        "X": 0,
+                        "Y": 0.5
+                    },
+                    {
+                        "X": 0,
+                        "Y": 1.5
+                    }
+                ],
+                "SittingDirection": "Left",
+                "FrontTexture": "dga_front_tilesheet.png:116"
+            }
+        ]
+    },
+    {
+        "$ItemType": "Furniture",
+        "ID": "WoodenBench25",
+        "Type": "Decoration",
+        "ShowInCatalogue": true,
+        "Configurations": [
+            {
+                "Texture": "dga_furniture_tilesheet.png:157",
+                "DisplaySize": {
+                    "X": 2,
+                    "Y": 2
+                },
+                "CollisionHeight": 1,
+                "Seats": [
+                    {
+                        "X": 0.5,
+                        "Y": 0
+                    },
+                    {
+                        "X": 1.5,
+                        "Y": 0
+                    }
+                ],
+                "SittingDirection": "Down",
+                "FrontTexture": "dga_front_tilesheet.png:157"
+            },
+            {
+                "Texture": "dga_furniture_tilesheet.png:117",
+                "DisplaySize": {
+                    "X": 1,
+                    "Y": 3
+                },
+                "CollisionHeight": 1,
+                "Seats": [
+                    {
+                        "X": 1,
+                        "Y": 0.5
+                    },
+                    {
+                        "X": 1,
+                        "Y": 1.5
+                    }
+                ],
+                "SittingDirection": "Right",
+                "FrontTexture": "dga_front_tilesheet.png:117"
+            },
+            {
+                "Texture": "dga_furniture_tilesheet.png:158",
+                "DisplaySize": {
+                    "X": 2,
+                    "Y": 2
+                },
+                "CollisionHeight": 1,
+                "Seats": [
+                    {
+                        "X": 0.5,
+                        "Y": 0
+                    },
+                    {
+                        "X": 1.5,
+                        "Y": 0
+                    }
+                ],
+                "SittingDirection": "Up",
+                "FrontTexture": "dga_front_tilesheet.png:158"
+            },
+            {
+                "Texture": "dga_furniture_tilesheet.png:118",
+                "DisplaySize": {
+                    "X": 1,
+                    "Y": 3
+                },
+                "CollisionHeight": 1,
+                "Seats": [
+                    {
+                        "X": 0,
+                        "Y": 0.5
+                    },
+                    {
+                        "X": 0,
+                        "Y": 1.5
+                    }
+                ],
+                "SittingDirection": "Left",
+                "FrontTexture": "dga_front_tilesheet.png:118"
+            }
+        ]
+    },
+    {
+        "$ItemType": "Furniture",
+        "ID": "WoodenBench26",
+        "Type": "Decoration",
+        "ShowInCatalogue": true,
+        "Configurations": [
+            {
+                "Texture": "dga_furniture_tilesheet.png:159",
+                "DisplaySize": {
+                    "X": 2,
+                    "Y": 2
+                },
+                "CollisionHeight": 1,
+                "Seats": [
+                    {
+                        "X": 0.5,
+                        "Y": 0
+                    },
+                    {
+                        "X": 1.5,
+                        "Y": 0
+                    }
+                ],
+                "SittingDirection": "Down",
+                "FrontTexture": "dga_front_tilesheet.png:159"
+            },
+            {
+                "Texture": "dga_furniture_tilesheet.png:119",
+                "DisplaySize": {
+                    "X": 1,
+                    "Y": 3
+                },
+                "CollisionHeight": 2,
+                "Seats": [
+                    {
+                        "X": 1,
+                        "Y": 0.5
+                    },
+                    {
+                        "X": 1,
+                        "Y": 1.5
+                    }
+                ],
+                "SittingDirection": "Right",
+                "FrontTexture": "dga_front_tilesheet.png:119"
+            },
+            {
+                "Texture": "dga_furniture_tilesheet.png:160",
+                "DisplaySize": {
+                    "X": 2,
+                    "Y": 2
+                },
+                "CollisionHeight": 1,
+                "Seats": [
+                    {
+                        "X": 0.5,
+                        "Y": 0
+                    },
+                    {
+                        "X": 1.5,
+                        "Y": 0
+                    }
+                ],
+                "SittingDirection": "Up",
+                "FrontTexture": "dga_front_tilesheet.png:160"
+            },
+            {
+                "Texture": "dga_furniture_tilesheet.png:120",
+                "DisplaySize": {
+                    "X": 1,
+                    "Y": 3
+                },
+                "CollisionHeight": 2,
+                "Seats": [
+                    {
+                        "X": 0,
+                        "Y": 0.5
+                    },
+                    {
+                        "X": 0,
+                        "Y": 1.5
+                    }
+                ],
+                "SittingDirection": "Left",
+                "FrontTexture": "dga_front_tilesheet.png:120"
+            }
+        ]
+    },
+    {
+        "$ItemType": "Furniture",
+        "ID": "GraySofa27",
+        "Type": "Decoration",
+        "ShowInCatalogue": true,
+        "Configurations": [
+            {
+                "Texture": "dga_furniture_tilesheet.png:161",
+                "DisplaySize": {
+                    "X": 2,
+                    "Y": 2
+                },
+                "CollisionHeight": 1,
+                "Seats": [
+                    {
+                        "X": 1,
+                        "Y": 0
+                    }
+                ],
+                "SittingDirection": "Down",
+                "FrontTexture": "dga_front_tilesheet.png:161"
+            },
+            {
+                "Texture": "dga_furniture_tilesheet.png:121",
+                "DisplaySize": {
+                    "X": 1,
+                    "Y": 3
+                },
+                "CollisionHeight": 2,
+                "Seats": [
+                    {
+                        "X": 1,
+                        "Y": 1
+                    }
+                ],
+                "SittingDirection": "Right",
+                "FrontTexture": "dga_front_tilesheet.png:121"
+            },
+            {
+                "Texture": "dga_furniture_tilesheet.png:162",
+                "DisplaySize": {
+                    "X": 2,
+                    "Y": 2
+                },
+                "CollisionHeight": 1,
+                "Seats": [
+                    {
+                        "X": 1,
+                        "Y": 0
+                    }
+                ],
+                "SittingDirection": "Up",
+                "FrontTexture": "dga_front_tilesheet.png:162"
+            },
+            {
+                "Texture": "dga_furniture_tilesheet.png:122",
+                "DisplaySize": {
+                    "X": 1,
+                    "Y": 3
+                },
+                "CollisionHeight": 2,
+                "Seats": [
+                    {
+                        "X": 0,
+                        "Y": 1
+                    }
+                ],
+                "SittingDirection": "Left",
+                "FrontTexture": "dga_front_tilesheet.png:122"
+            }
+        ]
+    },
+    {
+        "$ItemType": "Furniture",
+        "ID": "WhiteCusionedBench28",
+        "Type": "Decoration",
+        "ShowInCatalogue": true,
+        "Configurations": [
+            {
+                "Texture": "dga_furniture_tilesheet.png:163",
+                "DisplaySize": {
+                    "X": 2,
+                    "Y": 2
+                },
+                "CollisionHeight": 1,
+                "Seats": [
+                    {
+                        "X": 1,
+                        "Y": 0
+                    }
+                ],
+                "SittingDirection": "Down",
+                "FrontTexture": "dga_front_tilesheet.png:163"
+            },
+            {
+                "Texture": "dga_furniture_tilesheet.png:123",
+                "DisplaySize": {
+                    "X": 1,
+                    "Y": 3
+                },
+                "CollisionHeight": 2,
+                "Seats": [
+                    {
+                        "X": 1,
+                        "Y": 0
+                    }
+                ],
+                "SittingDirection": "Up",
+                "FrontTexture": "dga_front_tilesheet.png:123"
+            }
+        ]
+    },
+    {
+        "$ItemType": "Furniture",
+        "ID": "WhiteArmchair29",
+        "Type": "Decoration",
+        "ShowInCatalogue": true,
+        "Configurations": [
+            {
+                "Texture": "dga_furniture_tilesheet.png:164",
+                "DisplaySize": {
+                    "X": 2,
+                    "Y": 2
+                },
+                "CollisionHeight": 1,
+                "Seats": [
+                    {
+                        "X": 0.5,
+                        "Y": 0
+                    }
+                ],
+                "SittingDirection": "Down",
+                "FrontTexture": "dga_front_tilesheet.png:164"
+            },
+            {
+                "Texture": "dga_furniture_tilesheet.png:165",
+                "DisplaySize": {
+                    "X": 2,
+                    "Y": 2
+                },
+                "CollisionHeight": 2,
+                "Seats": [
+                    {
+                        "X": 1,
+                        "Y": 0
+                    }
+                ],
+                "SittingDirection": "Right",
+                "FrontTexture": "dga_front_tilesheet.png:165"
+            },
+            {
+                "Texture": "dga_furniture_tilesheet.png:166",
+                "DisplaySize": {
+                    "X": 2,
+                    "Y": 2
+                },
+                "CollisionHeight": 1,
+                "Seats": [
+                    {
+                        "X": 0.5,
+                        "Y": 0
+                    }
+                ],
+                "SittingDirection": "Up",
+                "FrontTexture": "dga_front_tilesheet.png:166"
+            },
+            {
+                "Texture": "dga_furniture_tilesheet.png:167",
+                "DisplaySize": {
+                    "X": 2,
+                    "Y": 2
+                },
+                "CollisionHeight": 2,
+                "Seats": [
+                    {
+                        "X": 0,
+                        "Y": 0
+                    }
+                ],
+                "SittingDirection": "Left",
+                "FrontTexture": "dga_front_tilesheet.png:167"
+            }
+        ]
+    },
+    {
+        "$ItemType": "Furniture",
+        "ID": "Keyboard30",
+        "Type": "Decoration",
+        "ShowInCatalogue": true,
+        "Configurations": [
+            {
+                "Texture": "dga_furniture_tilesheet.png:168",
+                "DisplaySize": {
+                    "X": 2,
+                    "Y": 2
+                },
+                "CollisionHeight": 1
+            },
+            {
+                "Texture": "dga_furniture_tilesheet.png:124",
+                "DisplaySize": {
+                    "X": 1,
+                    "Y": 3
+                },
+                "CollisionHeight": 2
+            }
+        ]
+    },
+    {
+        "$ItemType": "Furniture",
+        "ID": "RedArmchair31",
+        "Type": "Decoration",
+        "ShowInCatalogue": true,
+        "Configurations": [
+            {
+                "Texture": "dga_furniture_tilesheet.png:169",
+                "DisplaySize": {
+                    "X": 2,
+                    "Y": 2
+                },
+                "CollisionHeight": 1,
+                "Seats": [
+                    {
+                        "X": 0.5,
+                        "Y": 0
+                    }
+                ],
+                "SittingDirection": "Down",
+                "FrontTexture": "dga_front_tilesheet.png:169"
+            },
+            {
+                "Texture": "dga_furniture_tilesheet.png:170",
+                "DisplaySize": {
+                    "X": 2,
+                    "Y": 2
+                },
+                "CollisionHeight": 2,
+                "Seats": [
+                    {
+                        "X": 1,
+                        "Y": 0
+                    }
+                ],
+                "SittingDirection": "Right",
+                "FrontTexture": "dga_front_tilesheet.png:170"
+            },
+            {
+                "Texture": "dga_furniture_tilesheet.png:171",
+                "DisplaySize": {
+                    "X": 2,
+                    "Y": 2
+                },
+                "CollisionHeight": 1,
+                "Seats": [
+                    {
+                        "X": 0.5,
+                        "Y": 0
+                    }
+                ],
+                "SittingDirection": "Up",
+                "FrontTexture": "dga_front_tilesheet.png:171"
+            },
+            {
+                "Texture": "dga_furniture_tilesheet.png:172",
+                "DisplaySize": {
+                    "X": 2,
+                    "Y": 2
+                },
+                "CollisionHeight": 2,
+                "Seats": [
+                    {
+                        "X": 0,
+                        "Y": 0
+                    }
+                ],
+                "SittingDirection": "Left",
+                "FrontTexture": "dga_front_tilesheet.png:172"
+            }
+        ]
+    },
+    {
+        "$ItemType": "Furniture",
+        "ID": "Cello32",
+        "Type": "Decoration",
+        "ShowInCatalogue": true,
+        "Configurations": [
+            {
+                "Texture": "dga_furniture_tilesheet.png:125",
+                "DisplaySize": {
+                    "X": 1,
+                    "Y": 3
+                },
+                "CollisionHeight": 1
+            }
+        ]
+    },
+    {
+        "$ItemType": "Furniture",
+        "ID": "Bass33",
+        "Type": "Decoration",
+        "ShowInCatalogue": true,
+        "Configurations": [
+            {
+                "Texture": "dga_furniture_tilesheet.png:126",
+                "DisplaySize": {
+                    "X": 1,
+                    "Y": 3
+                },
+                "CollisionHeight": 1
+            }
+        ]
+    },
+    {
+        "$ItemType": "Furniture",
+        "ID": "Drums34",
+        "Type": "Decoration",
+        "ShowInCatalogue": true,
+        "Configurations": [
+            {
+                "Texture": "dga_furniture_tilesheet.png:173",
+                "DisplaySize": {
+                    "X": 2,
+                    "Y": 2
+                },
+                "CollisionHeight": 1
+            },
+            {
+                "Texture": "dga_furniture_tilesheet.png:176",
+                "DisplaySize": {
+                    "X": 2,
+                    "Y": 2
+                },
+                "CollisionHeight": 2
+            },
+            {
+                "Texture": "dga_furniture_tilesheet.png:0",
+                "DisplaySize": {
+                    "X": 2,
+                    "Y": 2
+                },
+                "CollisionHeight": 1
+            },
+            {
+                "Texture": "dga_furniture_tilesheet.png:0",
+                "DisplaySize": {
+                    "X": 2,
+                    "Y": 2
+                },
+                "CollisionHeight": 2
+            }
+        ]
+    },
+    {
+        "$ItemType": "Furniture",
+        "ID": "BrownArmchair35",
+        "Type": "Decoration",
+        "ShowInCatalogue": true,
+        "Configurations": [
+            {
+                "Texture": "dga_furniture_tilesheet.png:177",
+                "DisplaySize": {
+                    "X": 2,
+                    "Y": 2
+                },
+                "CollisionHeight": 1,
+                "Seats": [
+                    {
+                        "X": 0.5,
+                        "Y": 0
+                    }
+                ],
+                "SittingDirection": "Down",
+                "FrontTexture": "dga_front_tilesheet.png:177"
+            },
+            {
+                "Texture": "dga_furniture_tilesheet.png:178",
+                "DisplaySize": {
+                    "X": 2,
+                    "Y": 2
+                },
+                "CollisionHeight": 2,
+                "Seats": [
+                    {
+                        "X": 1,
+                        "Y": 0
+                    }
+                ],
+                "SittingDirection": "Right",
+                "FrontTexture": "dga_front_tilesheet.png:178"
+            },
+            {
+                "Texture": "dga_furniture_tilesheet.png:179",
+                "DisplaySize": {
+                    "X": 2,
+                    "Y": 2
+                },
+                "CollisionHeight": 1,
+                "Seats": [
+                    {
+                        "X": 0.5,
+                        "Y": 0
+                    }
+                ],
+                "SittingDirection": "Up",
+                "FrontTexture": "dga_front_tilesheet.png:179"
+            },
+            {
+                "Texture": "dga_furniture_tilesheet.png:180",
+                "DisplaySize": {
+                    "X": 2,
+                    "Y": 2
+                },
+                "CollisionHeight": 2,
+                "Seats": [
+                    {
+                        "X": 0,
+                        "Y": 0
+                    }
+                ],
+                "SittingDirection": "Left",
+                "FrontTexture": "dga_front_tilesheet.png:180"
+            }
+        ]
+    },
+    {
+        "$ItemType": "Furniture",
+        "ID": "GlassEndTable36",
+        "Type": "Table",
+        "ShowInCatalogue": true,
+        "Configurations": [
+            {
+                "Texture": "dga_furniture_tilesheet.png:69",
+                "DisplaySize": {
+                    "X": 3,
+                    "Y": 2
+                },
+                "CollisionHeight": 1
+            },
+            {
+                "Texture": "dga_furniture_tilesheet.png:8",
+                "DisplaySize": {
+                    "X": 2,
+                    "Y": 3
+                },
+                "CollisionHeight": 3
+            },
+            {
+                "Texture": "dga_furniture_tilesheet.png:79",
+                "DisplaySize": {
+                    "X": 3,
+                    "Y": 2
+                },
+                "CollisionHeight": 1
+            },
+            {
+                "Texture": "dga_furniture_tilesheet.png:9",
+                "DisplaySize": {
+                    "X": 2,
+                    "Y": 3
+                },
+                "CollisionHeight": 3
+            }
+        ]
+    },
+    {
+        "$ItemType": "Furniture",
+        "ID": "CherryBuffetTable37",
+        "Type": "Table",
+        "ShowInCatalogue": true,
+        "Configurations": [
+            {
+                "Texture": "dga_furniture_tilesheet.png:80",
+                "DisplaySize": {
+                    "X": 3,
+                    "Y": 2
+                },
+                "CollisionHeight": 1
+            },
+            {
+                "Texture": "dga_furniture_tilesheet.png:23",
+                "DisplaySize": {
+                    "X": 2,
+                    "Y": 3
+                },
+                "CollisionHeight": 3
+            },
+            {
+                "Texture": "dga_furniture_tilesheet.png:81",
+                "DisplaySize": {
+                    "X": 3,
+                    "Y": 2
+                },
+                "CollisionHeight": 1
+            },
+            {
+                "Texture": "dga_furniture_tilesheet.png:24",
+                "DisplaySize": {
+                    "X": 2,
+                    "Y": 3
+                },
+                "CollisionHeight": 3
+            }
+        ]
+    },
+    {
+        "$ItemType": "Furniture",
+        "ID": "WalnutBuffetTable38",
+        "Type": "Table",
+        "ShowInCatalogue": true,
+        "Configurations": [
+            {
+                "Texture": "dga_furniture_tilesheet.png:82",
+                "DisplaySize": {
+                    "X": 3,
+                    "Y": 2
+                },
+                "CollisionHeight": 1
+            },
+            {
+                "Texture": "dga_furniture_tilesheet.png:35",
+                "DisplaySize": {
+                    "X": 2,
+                    "Y": 3
+                },
+                "CollisionHeight": 3
+            },
+            {
+                "Texture": "dga_furniture_tilesheet.png:83",
+                "DisplaySize": {
+                    "X": 3,
+                    "Y": 2
+                },
+                "CollisionHeight": 1
+            },
+            {
+                "Texture": "dga_furniture_tilesheet.png:38",
+                "DisplaySize": {
+                    "X": 2,
+                    "Y": 3
+                },
+                "CollisionHeight": 3
+            }
+        ]
+    },
+    {
+        "$ItemType": "Furniture",
+        "ID": "CherryWoodDresserSet39",
+        "Type": "Dresser",
+        "ShowInCatalogue": true,
+        "Configurations": [
+            {
+                "Texture": "dga_furniture_tilesheet.png:84",
+                "DisplaySize": {
+                    "X": 3,
+                    "Y": 2
+                },
+                "CollisionHeight": 1
+            },
+            {
+                "Texture": "dga_furniture_tilesheet.png:39",
+                "DisplaySize": {
+                    "X": 2,
+                    "Y": 3
+                },
+                "CollisionHeight": 3
+            },
+            {
+                "Texture": "dga_furniture_tilesheet.png:85",
+                "DisplaySize": {
+                    "X": 3,
+                    "Y": 2
+                },
+                "CollisionHeight": 1
+            },
+            {
+                "Texture": "dga_furniture_tilesheet.png:40",
+                "DisplaySize": {
+                    "X": 2,
+                    "Y": 3
+                },
+                "CollisionHeight": 3
+            }
+        ]
+    },
+    {
+        "$ItemType": "Furniture",
+        "ID": "ElegantWhiteandWalnutSofa40",
+        "Type": "Decoration",
+        "ShowInCatalogue": true,
+        "Configurations": [
+            {
+                "Texture": "dga_furniture_tilesheet.png:86",
+                "DisplaySize": {
+                    "X": 3,
+                    "Y": 2
+                },
+                "CollisionHeight": 1,
+                "Seats": [
+                    {
+                        "X": 1,
+                        "Y": 0
+                    },
+                    {
+                        "X": 2,
+                        "Y": 0
+                    }
+                ],
+                "SittingDirection": "Down",
+                "FrontTexture": "dga_front_tilesheet.png:86"
+            },
+            {
+                "Texture": "dga_furniture_tilesheet.png:41",
+                "DisplaySize": {
+                    "X": 2,
+                    "Y": 3
+                },
+                "CollisionHeight": 3,
+                "Seats": [
+                    {
+                        "X": 1,
+                        "Y": 1
+                    },
+                    {
+                        "X": 1,
+                        "Y": 2
+                    }
+                ],
+                "SittingDirection": "Right",
+                "FrontTexture": "dga_front_tilesheet.png:41"
+            },
+            {
+                "Texture": "dga_furniture_tilesheet.png:87",
+                "DisplaySize": {
+                    "X": 3,
+                    "Y": 2
+                },
+                "CollisionHeight": 1,
+                "Seats": [
+                    {
+                        "X": 1,
+                        "Y": 0
+                    },
+                    {
+                        "X": 2,
+                        "Y": 0
+                    }
+                ],
+                "SittingDirection": "Up",
+                "FrontTexture": "dga_front_tilesheet.png:87"
+            },
+            {
+                "Texture": "dga_furniture_tilesheet.png:42",
+                "DisplaySize": {
+                    "X": 2,
+                    "Y": 3
+                },
+                "CollisionHeight": 3,
+                "Seats": [
+                    {
+                        "X": 0,
+                        "Y": 1
+                    },
+                    {
+                        "X": 0,
+                        "Y": 2
+                    }
+                ],
+                "SittingDirection": "Left",
+                "FrontTexture": "dga_front_tilesheet.png:42"
+            }
+        ]
+    },
+    {
+        "$ItemType": "Furniture",
+        "ID": "ElegantRedandCherrySofa41",
+        "Type": "Decoration",
+        "ShowInCatalogue": true,
+        "Configurations": [
+            {
+                "Texture": "dga_furniture_tilesheet.png:88",
+                "DisplaySize": {
+                    "X": 3,
+                    "Y": 2
+                },
+                "CollisionHeight": 1,
+                "Seats": [
+                    {
+                        "X": 1,
+                        "Y": 0
+                    },
+                    {
+                        "X": 2,
+                        "Y": 0
+                    }
+                ],
+                "SittingDirection": "Down",
+                "FrontTexture": "dga_front_tilesheet.png:88"
+            },
+            {
+                "Texture": "dga_furniture_tilesheet.png:43",
+                "DisplaySize": {
+                    "X": 2,
+                    "Y": 3
+                },
+                "CollisionHeight": 3,
+                "Seats": [
+                    {
+                        "X": 1,
+                        "Y": 1
+                    },
+                    {
+                        "X": 1,
+                        "Y": 2
+                    }
+                ],
+                "SittingDirection": "Right",
+                "FrontTexture": "dga_front_tilesheet.png:43"
+            },
+            {
+                "Texture": "dga_furniture_tilesheet.png:89",
+                "DisplaySize": {
+                    "X": 3,
+                    "Y": 2
+                },
+                "CollisionHeight": 1,
+                "Seats": [
+                    {
+                        "X": 1,
+                        "Y": 0
+                    },
+                    {
+                        "X": 2,
+                        "Y": 0
+                    }
+                ],
+                "SittingDirection": "Up",
+                "FrontTexture": "dga_front_tilesheet.png:89"
+            },
+            {
+                "Texture": "dga_furniture_tilesheet.png:44",
+                "DisplaySize": {
+                    "X": 2,
+                    "Y": 3
+                },
+                "CollisionHeight": 3,
+                "Seats": [
+                    {
+                        "X": 0,
+                        "Y": 1
+                    },
+                    {
+                        "X": 0,
+                        "Y": 2
+                    }
+                ],
+                "SittingDirection": "Left",
+                "FrontTexture": "dga_front_tilesheet.png:44"
+            }
+        ]
+    },
+    {
+        "$ItemType": "Furniture",
+        "ID": "WhiteWalnutChaise42",
+        "Type": "Decoration",
+        "ShowInCatalogue": true,
+        "Configurations": [
+            {
+                "Texture": "dga_furniture_tilesheet.png:90",
+                "DisplaySize": {
+                    "X": 3,
+                    "Y": 2
+                },
+                "CollisionHeight": 1,
+                "Seats": [
+                    {
+                        "X": 1,
+                        "Y": 0
+                    },
+                    {
+                        "X": 2,
+                        "Y": 0
+                    }
+                ],
+                "SittingDirection": "Down",
+                "FrontTexture": "dga_front_tilesheet.png:90"
+            },
+            {
+                "Texture": "dga_furniture_tilesheet.png:45",
+                "DisplaySize": {
+                    "X": 2,
+                    "Y": 3
+                },
+                "CollisionHeight": 3,
+                "Seats": [
+                    {
+                        "X": 1,
+                        "Y": 1
+                    },
+                    {
+                        "X": 1,
+                        "Y": 2
+                    }
+                ],
+                "SittingDirection": "Right",
+                "FrontTexture": "dga_front_tilesheet.png:45"
+            },
+            {
+                "Texture": "dga_furniture_tilesheet.png:91",
+                "DisplaySize": {
+                    "X": 3,
+                    "Y": 2
+                },
+                "CollisionHeight": 1,
+                "Seats": [
+                    {
+                        "X": 1,
+                        "Y": 0
+                    },
+                    {
+                        "X": 2,
+                        "Y": 0
+                    }
+                ],
+                "SittingDirection": "Up",
+                "FrontTexture": "dga_front_tilesheet.png:91"
+            },
+            {
+                "Texture": "dga_furniture_tilesheet.png:46",
+                "DisplaySize": {
+                    "X": 2,
+                    "Y": 3
+                },
+                "CollisionHeight": 3,
+                "Seats": [
+                    {
+                        "X": 0,
+                        "Y": 1
+                    },
+                    {
+                        "X": 0,
+                        "Y": 2
+                    }
+                ],
+                "SittingDirection": "Left",
+                "FrontTexture": "dga_front_tilesheet.png:46"
+            }
+        ]
+    },
+    {
+        "$ItemType": "Furniture",
+        "ID": "MahoganyBench43",
+        "Type": "Decoration",
+        "ShowInCatalogue": true,
+        "Configurations": [
+            {
+                "Texture": "dga_furniture_tilesheet.png:92",
+                "DisplaySize": {
+                    "X": 3,
+                    "Y": 2
+                },
+                "CollisionHeight": 1,
+                "Seats": [
+                    {
+                        "X": 1,
+                        "Y": 0
+                    },
+                    {
+                        "X": 2,
+                        "Y": 0
+                    }
+                ],
+                "SittingDirection": "Down",
+                "FrontTexture": "dga_front_tilesheet.png:92"
+            },
+            {
+                "Texture": "dga_furniture_tilesheet.png:47",
+                "DisplaySize": {
+                    "X": 2,
+                    "Y": 3
+                },
+                "CollisionHeight": 3,
+                "Seats": [
+                    {
+                        "X": 1,
+                        "Y": 1
+                    },
+                    {
+                        "X": 1,
+                        "Y": 2
+                    }
+                ],
+                "SittingDirection": "Right",
+                "FrontTexture": "dga_front_tilesheet.png:47"
+            },
+            {
+                "Texture": "dga_furniture_tilesheet.png:93",
+                "DisplaySize": {
+                    "X": 3,
+                    "Y": 2
+                },
+                "CollisionHeight": 1,
+                "Seats": [
+                    {
+                        "X": 1,
+                        "Y": 0
+                    },
+                    {
+                        "X": 2,
+                        "Y": 0
+                    }
+                ],
+                "SittingDirection": "Up",
+                "FrontTexture": "dga_front_tilesheet.png:93"
+            },
+            {
+                "Texture": "dga_furniture_tilesheet.png:48",
+                "DisplaySize": {
+                    "X": 2,
+                    "Y": 3
+                },
+                "CollisionHeight": 3,
+                "Seats": [
+                    {
+                        "X": 0,
+                        "Y": 1
+                    },
+                    {
+                        "X": 0,
+                        "Y": 2
+                    }
+                ],
+                "SittingDirection": "Left",
+                "FrontTexture": "dga_front_tilesheet.png:48"
+            }
+        ]
+    },
+    {
+        "$ItemType": "Furniture",
+        "ID": "WalnutDrawers44",
+        "Type": "Dresser",
+        "ShowInCatalogue": true,
+        "Configurations": [
+            {
+                "Texture": "dga_furniture_tilesheet.png:181",
+                "DisplaySize": {
+                    "X": 2,
+                    "Y": 2
+                },
+                "CollisionHeight": 1
+            },
+            {
+                "Texture": "dga_furniture_tilesheet.png:127",
+                "DisplaySize": {
+                    "X": 1,
+                    "Y": 3
+                },
+                "CollisionHeight": 2
+            },
+            {
+                "Texture": "dga_furniture_tilesheet.png:182",
+                "DisplaySize": {
+                    "X": 2,
+                    "Y": 2
+                },
+                "CollisionHeight": 1
+            },
+            {
+                "Texture": "dga_furniture_tilesheet.png:128",
+                "DisplaySize": {
+                    "X": 1,
+                    "Y": 3
+                },
+                "CollisionHeight": 2
+            }
+        ]
+    },
+    {
+        "$ItemType": "Furniture",
+        "ID": "WalnutDrawers45",
+        "Type": "Dresser",
+        "ShowInCatalogue": true,
+        "Configurations": [
+            {
+                "Texture": "dga_furniture_tilesheet.png:183",
+                "DisplaySize": {
+                    "X": 2,
+                    "Y": 2
+                },
+                "CollisionHeight": 1
+            },
+            {
+                "Texture": "dga_furniture_tilesheet.png:129",
+                "DisplaySize": {
+                    "X": 1,
+                    "Y": 3
+                },
+                "CollisionHeight": 2
+            },
+            {
+                "Texture": "dga_furniture_tilesheet.png:184",
+                "DisplaySize": {
+                    "X": 2,
+                    "Y": 2
+                },
+                "CollisionHeight": 1
+            },
+            {
+                "Texture": "dga_furniture_tilesheet.png:130",
+                "DisplaySize": {
+                    "X": 1,
+                    "Y": 3
+                },
+                "CollisionHeight": 2
+            }
+        ]
+    },
+    {
+        "$ItemType": "Furniture",
+        "ID": "WalnutEndTable46",
+        "Type": "Table",
+        "ShowInCatalogue": true,
+        "Configurations": [
+            {
+                "Texture": "dga_furniture_tilesheet.png:185",
+                "DisplaySize": {
+                    "X": 2,
+                    "Y": 2
+                },
+                "CollisionHeight": 1
+            },
+            {
+                "Texture": "dga_furniture_tilesheet.png:131",
+                "DisplaySize": {
+                    "X": 1,
+                    "Y": 3
+                },
+                "CollisionHeight": 2
+            },
+            {
+                "Texture": "dga_furniture_tilesheet.png:186",
+                "DisplaySize": {
+                    "X": 2,
+                    "Y": 2
+                },
+                "CollisionHeight": 1
+            },
+            {
+                "Texture": "dga_furniture_tilesheet.png:132",
+                "DisplaySize": {
+                    "X": 1,
+                    "Y": 3
+                },
+                "CollisionHeight": 2
+            }
+        ]
+    },
+    {
+        "$ItemType": "Furniture",
+        "ID": "MahoganyBuffetTable47",
+        "Type": "Table",
+        "ShowInCatalogue": true,
+        "Configurations": [
+            {
+                "Texture": "dga_furniture_tilesheet.png:187",
+                "DisplaySize": {
+                    "X": 2,
+                    "Y": 2
+                },
+                "CollisionHeight": 1
+            },
+            {
+                "Texture": "dga_furniture_tilesheet.png:133",
+                "DisplaySize": {
+                    "X": 1,
+                    "Y": 3
+                },
+                "CollisionHeight": 2
+            },
+            {
+                "Texture": "dga_furniture_tilesheet.png:188",
+                "DisplaySize": {
+                    "X": 2,
+                    "Y": 2
+                },
+                "CollisionHeight": 1
+            },
+            {
+                "Texture": "dga_furniture_tilesheet.png:134",
+                "DisplaySize": {
+                    "X": 1,
+                    "Y": 3
+                },
+                "CollisionHeight": 2
+            }
+        ]
+    },
+    {
+        "$ItemType": "Furniture",
+        "ID": "WalnutDinnerTable48",
+        "Type": "Table",
+        "ShowInCatalogue": true,
+        "Configurations": [
+            {
+                "Texture": "dga_furniture_tilesheet.png:4",
+                "DisplaySize": {
+                    "X": 5,
+                    "Y": 3
+                },
+                "CollisionHeight": 2
+            },
+            {
+                "Texture": "dga_furniture_tilesheet.png:2",
+                "DisplaySize": {
+                    "X": 2,
+                    "Y": 5
+                },
+                "CollisionHeight": 4
+            }
+        ]
+    },
+    {
+        "$ItemType": "Furniture",
+        "ID": "WalnutLamp49",
+        "Type": "Lamp",
+        "ShowInCatalogue": true,
+        "Configurations": [
+            {
+                "Texture": "dga_furniture_tilesheet.png:478",
+                "DisplaySize": {
+                    "X": 1,
+                    "Y": 2
+                },
+                "CollisionHeight": 1,
+                "NightTexture": "dga_furniture_tilesheet.png:479"
+            }
+        ]
+    },
+    {
+        "$ItemType": "Furniture",
+        "ID": "CherryDinnerTable50",
+        "Type": "Table",
+        "ShowInCatalogue": true,
+        "Configurations": [
+            {
+                "Texture": "dga_furniture_tilesheet.png:5",
+                "DisplaySize": {
+                    "X": 5,
+                    "Y": 3
+                },
+                "CollisionHeight": 2
+            },
+            {
+                "Texture": "dga_furniture_tilesheet.png:3",
+                "DisplaySize": {
+                    "X": 2,
+                    "Y": 5
+                },
+                "CollisionHeight": 4
+            }
+        ]
+    },
+    {
+        "$ItemType": "Furniture",
+        "ID": "HangingFlowerBasket51",
+        "Type": "Painting",
+        "ShowInCatalogue": true,
+        "Configurations": [
+            {
+                "Texture": "dga_furniture_tilesheet.png:480",
+                "DisplaySize": {
+                    "X": 1,
+                    "Y": 2
+                },
+                "CollisionHeight": 2
+            }
+        ]
+    },
+    {
+        "$ItemType": "Furniture",
+        "ID": "HangingIvyBasket52",
+        "Type": "Painting",
+        "ShowInCatalogue": true,
+        "Configurations": [
+            {
+                "Texture": "dga_furniture_tilesheet.png:481",
+                "DisplaySize": {
+                    "X": 1,
+                    "Y": 2
+                },
+                "CollisionHeight": 2
+            }
+        ]
+    },
+    {
+        "$ItemType": "Furniture",
+        "ID": "ElegantStuffedBear53",
+        "Type": "Decoration",
+        "ShowInCatalogue": true,
+        "Configurations": [
+            {
+                "Texture": "dga_furniture_tilesheet.png:189",
+                "DisplaySize": {
+                    "X": 2,
+                    "Y": 2
+                },
+                "CollisionHeight": 1
+            }
+        ]
+    },
+    {
+        "$ItemType": "Furniture",
+        "ID": "WalnutDinnerTable54",
+        "Type": "Table",
+        "ShowInCatalogue": true,
+        "Configurations": [
+            {
+                "Texture": "dga_furniture_tilesheet.png:10",
+                "DisplaySize": {
+                    "X": 5,
+                    "Y": 3
+                },
+                "CollisionHeight": 2
+            },
+            {
+                "Texture": "dga_furniture_tilesheet.png:4",
+                "DisplaySize": {
+                    "X": 2,
+                    "Y": 5
+                },
+                "CollisionHeight": 4
+            }
+        ]
+    },
+    {
+        "$ItemType": "Furniture",
+        "ID": "ElegantStuffedRabbit55",
+        "Type": "Decoration",
+        "ShowInCatalogue": true,
+        "Configurations": [
+            {
+                "Texture": "dga_furniture_tilesheet.png:190",
+                "DisplaySize": {
+                    "X": 2,
+                    "Y": 2
+                },
+                "CollisionHeight": 1
+            }
+        ]
+    },
+    {
+        "$ItemType": "Furniture",
+        "ID": "WhiteMap56",
+        "Type": "Painting",
+        "ShowInCatalogue": true,
+        "Configurations": [
+            {
+                "Texture": "dga_furniture_tilesheet.png:191",
+                "DisplaySize": {
+                    "X": 2,
+                    "Y": 2
+                },
+                "CollisionHeight": 2
+            }
+        ]
+    },
+    {
+        "$ItemType": "Furniture",
+        "ID": "WalnutMirror57",
+        "Type": "Painting",
+        "ShowInCatalogue": true,
+        "Configurations": [
+            {
+                "Texture": "dga_furniture_tilesheet.png:192",
+                "DisplaySize": {
+                    "X": 2,
+                    "Y": 2
+                },
+                "CollisionHeight": 2
+            }
+        ]
+    },
+    {
+        "$ItemType": "Furniture",
+        "ID": "CherryDinnerTable58",
+        "Type": "Table",
+        "ShowInCatalogue": true,
+        "Configurations": [
+            {
+                "Texture": "dga_furniture_tilesheet.png:11",
+                "DisplaySize": {
+                    "X": 5,
+                    "Y": 3
+                },
+                "CollisionHeight": 2
+            },
+            {
+                "Texture": "dga_furniture_tilesheet.png:5",
+                "DisplaySize": {
+                    "X": 2,
+                    "Y": 5
+                },
+                "CollisionHeight": 4
+            }
+        ]
+    },
+    {
+        "$ItemType": "Furniture",
+        "ID": "MountedFish59",
+        "Type": "Painting",
+        "ShowInCatalogue": true,
+        "Configurations": [
+            {
+                "Texture": "dga_furniture_tilesheet.png:75",
+                "DisplaySize": {
+                    "X": 2,
+                    "Y": 1
+                },
+                "CollisionHeight": 1
+            }
+        ]
+    },
+    {
+        "$ItemType": "Furniture",
+        "ID": "Ladder60",
+        "Type": "Painting",
+        "ShowInCatalogue": true,
+        "Configurations": [
+            {
+                "Texture": "dga_furniture_tilesheet.png:135",
+                "DisplaySize": {
+                    "X": 1,
+                    "Y": 3
+                },
+                "CollisionHeight": 3
+            }
+        ]
+    },
+    {
+        "$ItemType": "Furniture",
+        "ID": "EngravedWalnutDinnerTable61",
+        "Type": "Table",
+        "ShowInCatalogue": true,
+        "Configurations": [
+            {
+                "Texture": "dga_furniture_tilesheet.png:12",
+                "DisplaySize": {
+                    "X": 5,
+                    "Y": 3
+                },
+                "CollisionHeight": 2
+            },
+            {
+                "Texture": "dga_furniture_tilesheet.png:6",
+                "DisplaySize": {
+                    "X": 2,
+                    "Y": 5
+                },
+                "CollisionHeight": 4
+            }
+        ]
+    },
+    {
+        "$ItemType": "Furniture",
+        "ID": "CoveredWalnutDinnerTable62",
+        "Type": "Table",
+        "ShowInCatalogue": true,
+        "Configurations": [
+            {
+                "Texture": "dga_furniture_tilesheet.png:13",
+                "DisplaySize": {
+                    "X": 5,
+                    "Y": 3
+                },
+                "CollisionHeight": 2
+            },
+            {
+                "Texture": "dga_furniture_tilesheet.png:7",
+                "DisplaySize": {
+                    "X": 2,
+                    "Y": 5
+                },
+                "CollisionHeight": 4
+            }
+        ]
+    },
+    {
+        "$ItemType": "Furniture",
+        "ID": "WhiteWoodLamp63",
+        "Type": "Lamp",
+        "ShowInCatalogue": true,
+        "Configurations": [
+            {
+                "Texture": "dga_furniture_tilesheet.png:136",
+                "DisplaySize": {
+                    "X": 1,
+                    "Y": 3
+                },
+                "CollisionHeight": 2,
+                "NightTexture": "dga_furniture_tilesheet.png:137"
+            }
+        ]
+    },
+    {
+        "$ItemType": "Furniture",
+        "ID": "GlassCoffeeTable64",
+        "Type": "Table",
+        "ShowInCatalogue": true,
+        "Configurations": [
+            {
+                "Texture": "dga_furniture_tilesheet.png:193",
+                "DisplaySize": {
+                    "X": 2,
+                    "Y": 2
+                },
+                "CollisionHeight": 2
+            }
+        ]
+    },
+    {
+        "$ItemType": "Furniture",
+        "ID": "CherryCoffeeTable65",
+        "Type": "Table",
+        "ShowInCatalogue": true,
+        "Configurations": [
+            {
+                "Texture": "dga_furniture_tilesheet.png:194",
+                "DisplaySize": {
+                    "X": 2,
+                    "Y": 2
+                },
+                "CollisionHeight": 2
+            }
+        ]
+    },
+    {
+        "$ItemType": "Furniture",
+        "ID": "WalnutCoffeeTable66",
+        "Type": "Table",
+        "ShowInCatalogue": true,
+        "Configurations": [
+            {
+                "Texture": "dga_furniture_tilesheet.png:195",
+                "DisplaySize": {
+                    "X": 2,
+                    "Y": 2
+                },
+                "CollisionHeight": 2
+            }
+        ]
+    },
+    {
+        "$ItemType": "Furniture",
+        "ID": "CherryTeaTable67",
+        "Type": "Table",
+        "ShowInCatalogue": true,
+        "Configurations": [
+            {
+                "Texture": "dga_furniture_tilesheet.png:196",
+                "DisplaySize": {
+                    "X": 2,
+                    "Y": 2
+                },
+                "CollisionHeight": 2
+            }
+        ]
+    },
+    {
+        "$ItemType": "Furniture",
+        "ID": "WalnutTeaTable68",
+        "Type": "Table",
+        "ShowInCatalogue": true,
+        "Configurations": [
+            {
+                "Texture": "dga_furniture_tilesheet.png:197",
+                "DisplaySize": {
+                    "X": 2,
+                    "Y": 2
+                },
+                "CollisionHeight": 2
+            }
+        ]
+    },
+    {
+        "$ItemType": "Furniture",
+        "ID": "RoundWalnutTeaTable69",
+        "Type": "Table",
+        "ShowInCatalogue": true,
+        "Configurations": [
+            {
+                "Texture": "dga_furniture_tilesheet.png:198",
+                "DisplaySize": {
+                    "X": 2,
+                    "Y": 2
+                },
+                "CollisionHeight": 2
+            }
+        ]
+    },
+    {
+        "$ItemType": "Furniture",
+        "ID": "RoundCoveredTeaTable70",
+        "Type": "Table",
+        "ShowInCatalogue": true,
+        "Configurations": [
+            {
+                "Texture": "dga_furniture_tilesheet.png:199",
+                "DisplaySize": {
+                    "X": 2,
+                    "Y": 2
+                },
+                "CollisionHeight": 2
+            }
+        ]
+    },
+    {
+        "$ItemType": "Furniture",
+        "ID": "RoundWalnutTeaTable71",
+        "Type": "Table",
+        "ShowInCatalogue": true,
+        "Configurations": [
+            {
+                "Texture": "dga_furniture_tilesheet.png:200",
+                "DisplaySize": {
+                    "X": 2,
+                    "Y": 2
+                },
+                "CollisionHeight": 2
+            }
+        ]
+    },
+    {
+        "$ItemType": "Furniture",
+        "ID": "RoundWalnutTable72",
+        "Type": "Table",
+        "ShowInCatalogue": true,
+        "Configurations": [
+            {
+                "Texture": "dga_furniture_tilesheet.png:49",
+                "DisplaySize": {
+                    "X": 2,
+                    "Y": 3
+                },
+                "CollisionHeight": 2
+            }
+        ]
+    },
+    {
+        "$ItemType": "Furniture",
+        "ID": "MahoganyEngravedTable73",
+        "Type": "Table",
+        "ShowInCatalogue": true,
+        "Configurations": [
+            {
+                "Texture": "dga_furniture_tilesheet.png:50",
+                "DisplaySize": {
+                    "X": 2,
+                    "Y": 3
+                },
+                "CollisionHeight": 2
+            }
+        ]
+    },
+    {
+        "$ItemType": "Furniture",
+        "ID": "WalnutArmoire74",
+        "Type": "Dresser",
+        "ShowInCatalogue": true,
+        "Configurations": [
+            {
+                "Texture": "dga_furniture_tilesheet.png:24",
+                "DisplaySize": {
+                    "X": 3,
+                    "Y": 3
+                },
+                "CollisionHeight": 1
+            }
+        ]
+    },
+    {
+        "$ItemType": "Furniture",
+        "ID": "WalnutDresser75",
+        "Type": "Dresser",
+        "ShowInCatalogue": true,
+        "Configurations": [
+            {
+                "Texture": "dga_furniture_tilesheet.png:51",
+                "DisplaySize": {
+                    "X": 2,
+                    "Y": 3
+                },
+                "CollisionHeight": 1
+            }
+        ]
+    },
+    {
+        "$ItemType": "Furniture",
+        "ID": "WalnutChinaCabinet76",
+        "Type": "Dresser",
+        "ShowInCatalogue": true,
+        "Configurations": [
+            {
+                "Texture": "dga_furniture_tilesheet.png:52",
+                "DisplaySize": {
+                    "X": 2,
+                    "Y": 3
+                },
+                "CollisionHeight": 1
+            }
+        ]
+    },
+    {
+        "$ItemType": "Furniture",
+        "ID": "WalnutBookcase77",
+        "Type": "Decoration",
+        "ShowInCatalogue": true,
+        "Configurations": [
+            {
+                "Texture": "dga_furniture_tilesheet.png:53",
+                "DisplaySize": {
+                    "X": 2,
+                    "Y": 3
+                },
+                "CollisionHeight": 1
+            }
+        ]
+    },
+    {
+        "$ItemType": "Furniture",
+        "ID": "WalnutGrandfatherClock78",
+        "Type": "Decoration",
+        "ShowInCatalogue": true,
+        "Configurations": [
+            {
+                "Texture": "dga_furniture_tilesheet.png:54",
+                "DisplaySize": {
+                    "X": 2,
+                    "Y": 3
+                },
+                "CollisionHeight": 1
+            }
+        ]
+    },
+    {
+        "$ItemType": "Furniture",
+        "ID": "WalnutDesk79",
+        "Type": "Decoration",
+        "ShowInCatalogue": true,
+        "Configurations": [
+            {
+                "Texture": "dga_furniture_tilesheet.png:201",
+                "DisplaySize": {
+                    "X": 2,
+                    "Y": 2
+                },
+                "CollisionHeight": 1
+            }
+        ]
+    },
+    {
+        "$ItemType": "Furniture",
+        "ID": "WalnutCoatRack80",
+        "Type": "Decoration",
+        "ShowInCatalogue": true,
+        "Configurations": [
+            {
+                "Texture": "dga_furniture_tilesheet.png:138",
+                "DisplaySize": {
+                    "X": 1,
+                    "Y": 3
+                },
+                "CollisionHeight": 1
+            }
+        ]
+    },
+    {
+        "$ItemType": "Furniture",
+        "ID": "WalnutHalfBookcase81",
+        "Type": "Decoration",
+        "ShowInCatalogue": true,
+        "Configurations": [
+            {
+                "Texture": "dga_furniture_tilesheet.png:139",
+                "DisplaySize": {
+                    "X": 1,
+                    "Y": 3
+                },
+                "CollisionHeight": 1
+            }
+        ]
+    },
+    {
+        "$ItemType": "Furniture",
+        "ID": "WalnutHalfBookcase82",
+        "Type": "Decoration",
+        "ShowInCatalogue": true,
+        "Configurations": [
+            {
+                "Texture": "dga_furniture_tilesheet.png:140",
+                "DisplaySize": {
+                    "X": 1,
+                    "Y": 3
+                },
+                "CollisionHeight": 1
+            }
+        ]
+    },
+    {
+        "$ItemType": "Furniture",
+        "ID": "Topiary83",
+        "Type": "Decoration",
+        "ShowInCatalogue": true,
+        "Configurations": [
+            {
+                "Texture": "dga_furniture_tilesheet.png:141",
+                "DisplaySize": {
+                    "X": 1,
+                    "Y": 3
+                },
+                "CollisionHeight": 1
+            }
+        ]
+    },
+    {
+        "$ItemType": "Furniture",
+        "ID": "Statue125",
+        "Type": "Decoration",
+        "ShowInCatalogue": true,
+        "Configurations": [
+            {
+                "Texture": "dga_furniture_tilesheet.png:482",
+                "DisplaySize": {
+                    "X": 1,
+                    "Y": 2
+                },
+                "CollisionHeight": 1
+            }
+        ]
+    },
+    {
+        "$ItemType": "Furniture",
+        "ID": "Gramophone84",
+        "Type": "Decoration",
+        "ShowInCatalogue": true,
+        "Configurations": [
+            {
+                "Texture": "dga_furniture_tilesheet.png:483",
+                "DisplaySize": {
+                    "X": 1,
+                    "Y": 2
+                },
+                "CollisionHeight": 1
+            }
+        ]
+    },
+    {
+        "$ItemType": "Furniture",
+        "ID": "TeddyBear85",
+        "Type": "Decoration",
+        "ShowInCatalogue": true,
+        "Configurations": [
+            {
+                "Texture": "dga_furniture_tilesheet.png:152",
+                "DisplaySize": {
+                    "X": 1,
+                    "Y": 1
+                },
+                "CollisionHeight": 1
+            }
+        ]
+    },
+    {
+        "$ItemType": "Furniture",
+        "ID": "RotaryPhone86",
+        "Type": "Decoration",
+        "ShowInCatalogue": true,
+        "Configurations": [
+            {
+                "Texture": "dga_furniture_tilesheet.png:154",
+                "DisplaySize": {
+                    "X": 1,
+                    "Y": 1
+                },
+                "CollisionHeight": 1
+            }
+        ]
+    },
+    {
+        "$ItemType": "Furniture",
+        "ID": "CupofTea124",
+        "Type": "Decoration",
+        "ShowInCatalogue": true,
+        "Configurations": [
+            {
+                "Texture": "dga_furniture_tilesheet.png:155",
+                "DisplaySize": {
+                    "X": 1,
+                    "Y": 1
+                },
+                "CollisionHeight": 1
+            }
+        ]
+    },
+    {
+        "$ItemType": "Furniture",
+        "ID": "OldPhone87",
+        "Type": "Decoration",
+        "ShowInCatalogue": true,
+        "Configurations": [
+            {
+                "Texture": "dga_furniture_tilesheet.png:156",
+                "DisplaySize": {
+                    "X": 1,
+                    "Y": 1
+                },
+                "CollisionHeight": 1
+            }
+        ]
+    },
+    {
+        "$ItemType": "Furniture",
+        "ID": "Skull88",
+        "Type": "Decoration",
+        "ShowInCatalogue": true,
+        "Configurations": [
+            {
+                "Texture": "dga_furniture_tilesheet.png:157",
+                "DisplaySize": {
+                    "X": 1,
+                    "Y": 1
+                },
+                "CollisionHeight": 1
+            }
+        ]
+    },
+    {
+        "$ItemType": "Furniture",
+        "ID": "Candlestick89",
+        "Type": "Decoration",
+        "ShowInCatalogue": true,
+        "Configurations": [
+            {
+                "Texture": "dga_furniture_tilesheet.png:158",
+                "DisplaySize": {
+                    "X": 1,
+                    "Y": 1
+                },
+                "CollisionHeight": 1
+            }
+        ]
+    },
+    {
+        "$ItemType": "Furniture",
+        "ID": "WhiteTeddyBear90",
+        "Type": "Decoration",
+        "ShowInCatalogue": true,
+        "Configurations": [
+            {
+                "Texture": "dga_furniture_tilesheet.png:159",
+                "DisplaySize": {
+                    "X": 1,
+                    "Y": 1
+                },
+                "CollisionHeight": 1
+            }
+        ]
+    },
+    {
+        "$ItemType": "Furniture",
+        "ID": "Globe91",
+        "Type": "Decoration",
+        "ShowInCatalogue": true,
+        "Configurations": [
+            {
+                "Texture": "dga_furniture_tilesheet.png:160",
+                "DisplaySize": {
+                    "X": 1,
+                    "Y": 1
+                },
+                "CollisionHeight": 1
+            }
+        ]
+    },
+    {
+        "$ItemType": "Furniture",
+        "ID": "Smallpotofflowers92",
+        "Type": "Decoration",
+        "ShowInCatalogue": true,
+        "Configurations": [
+            {
+                "Texture": "dga_furniture_tilesheet.png:161",
+                "DisplaySize": {
+                    "X": 1,
+                    "Y": 1
+                },
+                "CollisionHeight": 1
+            }
+        ]
+    },
+    {
+        "$ItemType": "Furniture",
+        "ID": "TabletopLantern93",
+        "Type": "Decoration",
+        "ShowInCatalogue": true,
+        "Configurations": [
+            {
+                "Texture": "dga_furniture_tilesheet.png:162",
+                "DisplaySize": {
+                    "X": 1,
+                    "Y": 1
+                },
+                "CollisionHeight": 1
+            }
+        ]
+    },
+    {
+        "$ItemType": "Furniture",
+        "ID": "PottedPlant94",
+        "Type": "Decoration",
+        "ShowInCatalogue": true,
+        "Configurations": [
+            {
+                "Texture": "dga_furniture_tilesheet.png:484",
+                "DisplaySize": {
+                    "X": 1,
+                    "Y": 2
+                },
+                "CollisionHeight": 1
+            }
+        ]
+    },
+    {
+        "$ItemType": "Furniture",
+        "ID": "PottedPlant95",
+        "Type": "Decoration",
+        "ShowInCatalogue": true,
+        "Configurations": [
+            {
+                "Texture": "dga_furniture_tilesheet.png:485",
+                "DisplaySize": {
+                    "X": 1,
+                    "Y": 2
+                },
+                "CollisionHeight": 1
+            }
+        ]
+    },
+    {
+        "$ItemType": "Furniture",
+        "ID": "Vaseofflowers96",
+        "Type": "Decoration",
+        "ShowInCatalogue": true,
+        "Configurations": [
+            {
+                "Texture": "dga_furniture_tilesheet.png:486",
+                "DisplaySize": {
+                    "X": 1,
+                    "Y": 2
+                },
+                "CollisionHeight": 1
+            }
+        ]
+    },
+    {
+        "$ItemType": "Furniture",
+        "ID": "Vaseofflowers123",
+        "Type": "Decoration",
+        "ShowInCatalogue": true,
+        "Configurations": [
+            {
+                "Texture": "dga_furniture_tilesheet.png:487",
+                "DisplaySize": {
+                    "X": 1,
+                    "Y": 2
+                },
+                "CollisionHeight": 1
+            }
+        ]
+    },
+    {
+        "$ItemType": "Furniture",
+        "ID": "Vaseofflowers97",
+        "Type": "Decoration",
+        "ShowInCatalogue": true,
+        "Configurations": [
+            {
+                "Texture": "dga_furniture_tilesheet.png:488",
+                "DisplaySize": {
+                    "X": 1,
+                    "Y": 2
+                },
+                "CollisionHeight": 1
+            }
+        ]
+    },
+    {
+        "$ItemType": "Furniture",
+        "ID": "Candlabra98",
+        "Type": "Decoration",
+        "ShowInCatalogue": true,
+        "Configurations": [
+            {
+                "Texture": "dga_furniture_tilesheet.png:489",
+                "DisplaySize": {
+                    "X": 1,
+                    "Y": 2
+                },
+                "CollisionHeight": 1
+            }
+        ]
+    },
+    {
+        "$ItemType": "Furniture",
+        "ID": "Vaseofflowers99",
+        "Type": "Decoration",
+        "ShowInCatalogue": true,
+        "Configurations": [
+            {
+                "Texture": "dga_furniture_tilesheet.png:490",
+                "DisplaySize": {
+                    "X": 1,
+                    "Y": 2
+                },
+                "CollisionHeight": 1
+            }
+        ]
+    },
+    {
+        "$ItemType": "Furniture",
+        "ID": "PottedRedRoses100",
+        "Type": "Decoration",
+        "ShowInCatalogue": true,
+        "Configurations": [
+            {
+                "Texture": "dga_furniture_tilesheet.png:491",
+                "DisplaySize": {
+                    "X": 1,
+                    "Y": 2
+                },
+                "CollisionHeight": 1
+            }
+        ]
+    },
+    {
+        "$ItemType": "Furniture",
+        "ID": "PottedWhiteRoses101",
+        "Type": "Decoration",
+        "ShowInCatalogue": true,
+        "Configurations": [
+            {
+                "Texture": "dga_furniture_tilesheet.png:492",
+                "DisplaySize": {
+                    "X": 1,
+                    "Y": 2
+                },
+                "CollisionHeight": 1
+            }
+        ]
+    },
+    {
+        "$ItemType": "Furniture",
+        "ID": "PottedYellowFlower102",
+        "Type": "Decoration",
+        "ShowInCatalogue": true,
+        "Configurations": [
+            {
+                "Texture": "dga_furniture_tilesheet.png:493",
+                "DisplaySize": {
+                    "X": 1,
+                    "Y": 2
+                },
+                "CollisionHeight": 1
+            }
+        ]
+    },
+    {
+        "$ItemType": "Furniture",
+        "ID": "WalnutEndTable103",
+        "Type": "Decoration",
+        "ShowInCatalogue": true,
+        "Configurations": [
+            {
+                "Texture": "dga_furniture_tilesheet.png:494",
+                "DisplaySize": {
+                    "X": 1,
+                    "Y": 2
+                },
+                "CollisionHeight": 1
+            }
+        ]
+    },
+    {
+        "$ItemType": "Furniture",
+        "ID": "CherryDesk104",
+        "Type": "Table",
+        "ShowInCatalogue": true,
+        "Configurations": [
+            {
+                "Texture": "dga_furniture_tilesheet.png:202",
+                "DisplaySize": {
+                    "X": 2,
+                    "Y": 2
+                },
+                "CollisionHeight": 1
+            }
+        ]
+    },
+    {
+        "$ItemType": "Furniture",
+        "ID": "CherryEndTable105",
+        "Type": "Table",
+        "ShowInCatalogue": true,
+        "Configurations": [
+            {
+                "Texture": "dga_furniture_tilesheet.png:495",
+                "DisplaySize": {
+                    "X": 1,
+                    "Y": 2
+                },
+                "CollisionHeight": 1
+            }
+        ]
+    },
+    {
+        "$ItemType": "Furniture",
+        "ID": "CoveredCherryEndTable106",
+        "Type": "Table",
+        "ShowInCatalogue": true,
+        "Configurations": [
+            {
+                "Texture": "dga_furniture_tilesheet.png:496",
+                "DisplaySize": {
+                    "X": 1,
+                    "Y": 2
+                },
+                "CollisionHeight": 1
+            }
+        ]
+    },
+    {
+        "$ItemType": "Furniture",
+        "ID": "WalnutEndTable107",
+        "Type": "Table",
+        "ShowInCatalogue": true,
+        "Configurations": [
+            {
+                "Texture": "dga_furniture_tilesheet.png:497",
+                "DisplaySize": {
+                    "X": 1,
+                    "Y": 2
+                },
+                "CollisionHeight": 1
+            }
+        ]
+    },
+    {
+        "$ItemType": "Furniture",
+        "ID": "CoveredWalnutEndTable108",
+        "Type": "Table",
+        "ShowInCatalogue": true,
+        "Configurations": [
+            {
+                "Texture": "dga_furniture_tilesheet.png:498",
+                "DisplaySize": {
+                    "X": 1,
+                    "Y": 2
+                },
+                "CollisionHeight": 1
+            }
+        ]
+    },
+    {
+        "$ItemType": "Furniture",
+        "ID": "TableLamp109",
+        "Type": "Lamp",
+        "ShowInCatalogue": true,
+        "Configurations": [
+            {
+                "Texture": "dga_furniture_tilesheet.png:499",
+                "DisplaySize": {
+                    "X": 1,
+                    "Y": 2
+                },
+                "CollisionHeight": 1,
+                "NightTexture": "dga_furniture_tilesheet.png:500"
+            }
+        ]
+    },
+    {
+        "$ItemType": "Furniture",
+        "ID": "TableLamp110",
+        "Type": "Lamp",
+        "ShowInCatalogue": true,
+        "Configurations": [
+            {
+                "Texture": "dga_furniture_tilesheet.png:501",
+                "DisplaySize": {
+                    "X": 1,
+                    "Y": 2
+                },
+                "CollisionHeight": 1,
+                "NightTexture": "dga_furniture_tilesheet.png:502"
+            }
+        ]
+    },
+    {
+        "$ItemType": "Furniture",
+        "ID": "HangingIvy111",
+        "Type": "Painting",
+        "ShowInCatalogue": true,
+        "Configurations": [
+            {
+                "Texture": "dga_furniture_tilesheet.png:503",
+                "DisplaySize": {
+                    "X": 1,
+                    "Y": 2
+                },
+                "CollisionHeight": 1
+            }
+        ]
+    },
+    {
+        "$ItemType": "Furniture",
+        "ID": "PileofBooks112",
+        "Type": "Decoration",
+        "ShowInCatalogue": true,
+        "Configurations": [
+            {
+                "Texture": "dga_furniture_tilesheet.png:504",
+                "DisplaySize": {
+                    "X": 1,
+                    "Y": 2
+                },
+                "CollisionHeight": 1
+            }
+        ]
+    },
+    {
+        "$ItemType": "Furniture",
+        "ID": "PileofBooks113",
+        "Type": "Decoration",
+        "ShowInCatalogue": true,
+        "Configurations": [
+            {
+                "Texture": "dga_furniture_tilesheet.png:505",
+                "DisplaySize": {
+                    "X": 1,
+                    "Y": 2
+                },
+                "CollisionHeight": 1
+            }
+        ]
+    },
+    {
+        "$ItemType": "Furniture",
+        "ID": "WallSconces114",
+        "Type": "Painting",
+        "ShowInCatalogue": true,
+        "Configurations": [
+            {
+                "Texture": "dga_furniture_tilesheet.png:203",
+                "DisplaySize": {
+                    "X": 2,
+                    "Y": 2
+                },
+                "CollisionHeight": 2
+            }
+        ]
+    },
+    {
+        "$ItemType": "Furniture",
+        "ID": "WallShelves115",
+        "Type": "Painting",
+        "ShowInCatalogue": true,
+        "Configurations": [
+            {
+                "Texture": "dga_furniture_tilesheet.png:204",
+                "DisplaySize": {
+                    "X": 2,
+                    "Y": 2
+                },
+                "CollisionHeight": 2
+            }
+        ]
+    },
+    {
+        "$ItemType": "Furniture",
+        "ID": "WallShelves116",
+        "Type": "Painting",
+        "ShowInCatalogue": true,
+        "Configurations": [
+            {
+                "Texture": "dga_furniture_tilesheet.png:205",
+                "DisplaySize": {
+                    "X": 2,
+                    "Y": 2
+                },
+                "CollisionHeight": 2
+            }
+        ]
+    },
+    {
+        "$ItemType": "Furniture",
+        "ID": "DarkBlueRug117",
+        "Type": "Rug",
+        "ShowInCatalogue": true,
+        "Configurations": [
+            {
+                "Texture": "dga_furniture_tilesheet.png:94",
+                "DisplaySize": {
+                    "X": 3,
+                    "Y": 2
+                },
+                "CollisionHeight": 2
+            },
+            {
+                "Texture": "dga_furniture_tilesheet.png:55",
+                "DisplaySize": {
+                    "X": 2,
+                    "Y": 3
+                },
+                "CollisionHeight": 3
+            }
+        ]
+    },
+    {
+        "$ItemType": "Furniture",
+        "ID": "GrayStripedRug118",
+        "Type": "Rug",
+        "ShowInCatalogue": true,
+        "Configurations": [
+            {
+                "Texture": "dga_furniture_tilesheet.png:95",
+                "DisplaySize": {
+                    "X": 3,
+                    "Y": 2
+                },
+                "CollisionHeight": 2
+            },
+            {
+                "Texture": "dga_furniture_tilesheet.png:56",
+                "DisplaySize": {
+                    "X": 2,
+                    "Y": 3
+                },
+                "CollisionHeight": 3
+            }
+        ]
+    },
+    {
+        "$ItemType": "Furniture",
+        "ID": "ElegantChristmasTree119",
+        "Type": "Decoration",
+        "ShowInCatalogue": true,
+        "Configurations": [
+            {
+                "Texture": "dga_furniture_tilesheet.png:0",
+                "DisplaySize": {
+                    "X": 3,
+                    "Y": 5
+                },
+                "CollisionHeight": 2
+            }
+        ]
+    },
+    {
+        "$ItemType": "Furniture",
+        "ID": "DarkGrayRug120",
+        "Type": "Rug",
+        "ShowInCatalogue": true,
+        "Configurations": [
+            {
+                "Texture": "dga_furniture_tilesheet.png:96",
+                "DisplaySize": {
+                    "X": 3,
+                    "Y": 2
+                },
+                "CollisionHeight": 2
+            },
+            {
+                "Texture": "dga_furniture_tilesheet.png:57",
+                "DisplaySize": {
+                    "X": 2,
+                    "Y": 3
+                },
+                "CollisionHeight": 3
+            }
+        ]
+    },
+    {
+        "$ItemType": "Furniture",
+        "ID": "CherryWoodBench121",
+        "Type": "Decoration",
+        "ShowInCatalogue": true,
+        "Configurations": [
+            {
+                "Texture": "dga_furniture_tilesheet.png:206",
+                "DisplaySize": {
+                    "X": 2,
+                    "Y": 2
+                },
+                "CollisionHeight": 2,
+                "Seats": [
+                    {
+                        "X": 0.5,
+                        "Y": 0
+                    },
+                    {
+                        "X": 1.5,
+                        "Y": 0
+                    }
+                ],
+                "SittingDirection": "Down",
+                "FrontTexture": "dga_front_tilesheet.png:206"
+            },
+            {
+                "Texture": "dga_furniture_tilesheet.png:142",
+                "DisplaySize": {
+                    "X": 1,
+                    "Y": 3
+                },
+                "CollisionHeight": 2,
+                "Seats": [
+                    {
+                        "X": 1,
+                        "Y": 0.5
+                    },
+                    {
+                        "X": 1,
+                        "Y": 1.5
+                    }
+                ],
+                "SittingDirection": "Right",
+                "FrontTexture": "dga_front_tilesheet.png:142"
+            },
+            {
+                "Texture": "dga_furniture_tilesheet.png:207",
+                "DisplaySize": {
+                    "X": 2,
+                    "Y": 2
+                },
+                "CollisionHeight": 2,
+                "Seats": [
+                    {
+                        "X": 0.5,
+                        "Y": 0
+                    },
+                    {
+                        "X": 1.5,
+                        "Y": 0
+                    }
+                ],
+                "SittingDirection": "Up",
+                "FrontTexture": "dga_front_tilesheet.png:207"
+            },
+            {
+                "Texture": "dga_furniture_tilesheet.png:143",
+                "DisplaySize": {
+                    "X": 1,
+                    "Y": 3
+                },
+                "CollisionHeight": 2,
+                "Seats": [
+                    {
+                        "X": 0,
+                        "Y": 0.5
+                    },
+                    {
+                        "X": 0,
+                        "Y": 1.5
+                    }
+                ],
+                "SittingDirection": "Left",
+                "FrontTexture": "dga_front_tilesheet.png:143"
+            }
+        ]
+    },
+    {
+        "$ItemType": "Furniture",
+        "ID": "WalnutWoodBench122",
+        "Type": "Decoration",
+        "ShowInCatalogue": true,
+        "Configurations": [
+            {
+                "Texture": "dga_furniture_tilesheet.png:208",
+                "DisplaySize": {
+                    "X": 2,
+                    "Y": 2
+                },
+                "CollisionHeight": 2,
+                "Seats": [
+                    {
+                        "X": 0.5,
+                        "Y": 0
+                    },
+                    {
+                        "X": 1.5,
+                        "Y": 0
+                    }
+                ],
+                "SittingDirection": "Down",
+                "FrontTexture": "dga_front_tilesheet.png:208"
+            },
+            {
+                "Texture": "dga_furniture_tilesheet.png:144",
+                "DisplaySize": {
+                    "X": 1,
+                    "Y": 3
+                },
+                "CollisionHeight": 2,
+                "Seats": [
+                    {
+                        "X": 1,
+                        "Y": 0.5
+                    },
+                    {
+                        "X": 1,
+                        "Y": 1.5
+                    }
+                ],
+                "SittingDirection": "Right",
+                "FrontTexture": "dga_front_tilesheet.png:144"
+            },
+            {
+                "Texture": "dga_furniture_tilesheet.png:209",
+                "DisplaySize": {
+                    "X": 2,
+                    "Y": 2
+                },
+                "CollisionHeight": 2,
+                "Seats": [
+                    {
+                        "X": 0.5,
+                        "Y": 0
+                    },
+                    {
+                        "X": 1.5,
+                        "Y": 0
+                    }
+                ],
+                "SittingDirection": "Up",
+                "FrontTexture": "dga_front_tilesheet.png:209"
+            },
+            {
+                "Texture": "dga_furniture_tilesheet.png:145",
+                "DisplaySize": {
+                    "X": 1,
+                    "Y": 3
+                },
+                "CollisionHeight": 2,
+                "Seats": [
+                    {
+                        "X": 0,
+                        "Y": 0.5
+                    },
+                    {
+                        "X": 0,
+                        "Y": 1.5
+                    }
+                ],
+                "SittingDirection": "Left",
+                "FrontTexture": "dga_front_tilesheet.png:145"
+            }
+        ]
+    }
+]

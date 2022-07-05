@@ -1,0 +1,3 @@
+ver 1.1.0
+- added randomize config option that gives a different hit marker every day
+- changed the heart shapes slightly, originals can be found as an optional download

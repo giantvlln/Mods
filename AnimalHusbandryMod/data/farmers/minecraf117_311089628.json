@@ -1,0 +1,84 @@
+{
+  "PregnancyData": [],
+  "AnimalData": [],
+  "AnimalContestData": [
+    {
+      "EventId": 657201026,
+      "_date": "26 spring Y1",
+      "Contenders": [
+        "Marnie",
+        "Jas",
+        "Jodi"
+      ],
+      "VincentAnimal": "Frog",
+      "MarnieAnimal": "Duck",
+      "PlayerAnimal": "White Chicken",
+      "Winner": "Marnie",
+      "ParticipantId": 258416840083139851,
+      "FarmAnimalScore": {
+        "FriendshipPoints": 0,
+        "MonthsOld": 1,
+        "AgePoints": 1,
+        "TreatVariatyPoints": 0,
+        "TreatAveragePoints": 0,
+        "ParentWinnerPoints": 0,
+        "TotalPoints": 1
+      }
+    },
+    {
+      "EventId": 657201226,
+      "_date": "26 fall Y1",
+      "Contenders": [
+        "Marnie"
+      ],
+      "VincentAnimal": null,
+      "MarnieAnimal": null,
+      "PlayerAnimal": "Brown Cow",
+      "Winner": "Marnie",
+      "ParticipantId": 259950626474192140,
+      "FarmAnimalScore": {
+        "FriendshipPoints": 5,
+        "MonthsOld": 2,
+        "AgePoints": 2,
+        "TreatVariatyPoints": 1,
+        "TreatAveragePoints": 0,
+        "ParentWinnerPoints": 0,
+        "TotalPoints": 8
+      }
+    },
+    {
+      "EventId": 657202026,
+      "_date": "26 spring Y2",
+      "Contenders": [
+        "Marnie"
+      ],
+      "VincentAnimal": null,
+      "MarnieAnimal": null,
+      "PlayerAnimal": "Cat",
+      "Winner": "Marnie",
+      "ParticipantId": -10,
+      "FarmAnimalScore": null
+    },
+    {
+      "EventId": 657202226,
+      "_date": "26 fall Y2",
+      "Contenders": [
+        "Marnie"
+      ],
+      "VincentAnimal": null,
+      "MarnieAnimal": null,
+      "PlayerAnimal": "Goat",
+      "Winner": "Marnie",
+      "ParticipantId": 292140126692338958,
+      "FarmAnimalScore": {
+        "FriendshipPoints": 5,
+        "MonthsOld": 2,
+        "AgePoints": 2,
+        "TreatVariatyPoints": 0,
+        "TreatAveragePoints": 0,
+        "ParentWinnerPoints": 0,
+        "TotalPoints": 7
+      }
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+	"Name": "Pumpkin Head",
+	"Description": "Keep your dome in one piece.",
+	"PurchasePrice": "1000",
+	"ShowHair": false,
+	"IgnoreHairstyleOffset": true
+}

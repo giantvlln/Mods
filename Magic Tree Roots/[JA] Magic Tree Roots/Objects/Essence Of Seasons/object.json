@@ -1,0 +1,66 @@
+{
+    "Name": "Essence Of Seasons",
+    "Description": "Contains the Essence of four Seasons. Buffs all stats, but at what cost...",
+    "Category": "Fruit",
+    "CategoryTextOverride": "Essence",
+    "CategoryColorOverride": "93, 153, 80, 255",
+    "Edibility": 1,
+    "EdibleBuffs":
+    {
+        "Farming": 5,
+        "Fishing": 5,
+        "Mining": 5,
+        "Luck": 5,
+        "Foraging": 5,
+        "MaxStamina": 0,
+        "MagnetRadius": 0,
+        "Speed": 5,
+        "Defense": 10,
+        "Attack": 10,
+        "Duration": 400
+    },
+    "Price": 2500,
+    "IsColored": false,
+	"Recipe":  
+	{
+		"ResultCount": 1,
+		"Ingredients": 
+		[
+			{
+			"Object": "Air Essence",
+			"Count": 1,
+			},
+			{
+			"Object": "Fire Essence",
+			"Count": 1,
+			},
+			{
+			"Object": "Earth Essence",
+			"Count": 1,
+			},
+			{
+			"Object": "Water Essence",
+			"Count": 1,
+			},
+			
+		],
+	"IsDefault": false,
+	"CanPurchase": true,
+	"PurchaseFrom": "Krobus", 
+	"PurchasePrice": 1000,
+	},
+    "GiftTastes":
+    {
+        "Love": ["Krobus"],
+		"Like": ["Elliot", "Penny", "Maru", "Sam", "Shane", "Abigail", "Alex", "Haley", "Harvey", "Leah", "Emily", "Sebastian"],
+		"Neutral": ["Dwarf", "Gus", "Wizard", "Clint", "Willy", "Pam", "Sandy"],
+		"Dislike": ["Caroline", "Jodi", "Lewis", "Linus", "Marnie", "Kent", "Demetrius", "Pierre", "Robin"],
+		"Hate": ["Evelyn", "George"]
+    },
+	"ContextTags": [
+        "season_spring",
+        "color_white",
+        "fruit_tree_item",
+        "fruit_item",
+    ]
+}

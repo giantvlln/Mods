@@ -1,0 +1,7 @@
+{
+	"Name": "Magicians Hat",
+	"Description": "The magicians choice!",
+	"PurchasePrice": "1000",
+	"ShowHair": false,
+	"IgnoreHairstyleOffset": true
+}

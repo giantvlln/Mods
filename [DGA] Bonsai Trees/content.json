@@ -1,0 +1,11 @@
+[    // Loads furniture Json
+    {
+        "$ItemType": "ContentIndex",
+        "FilePath": "Jsons/bonsai_trees.json"
+    },
+    // Loads shop entries Json
+    {
+        "$ItemType": "ContentIndex",
+        "FilePath": "Jsons/bonsai_tree_shop_entries.json"
+    },
+]

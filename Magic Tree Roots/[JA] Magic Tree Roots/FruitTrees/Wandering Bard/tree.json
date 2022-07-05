@@ -1,0 +1,11 @@
+{
+
+	"Name": "Wandering Bard",
+	"Product": "Soothing Song",
+	"SaplingName": "Magic roots-Wandering Bard Sapling",
+	"SaplingDescription": "The Image of a mysterious Bard, Who wandered accross the Land singing a forgotten ancient song. Some time you can still hear it echoes.",
+	"Season": "spring",
+	"SaplingPurchaseFrom": "Sandy",
+	"SaplingPurchasePrice": 9000,
+	"SaplingPurchaseRequirements": null
+}

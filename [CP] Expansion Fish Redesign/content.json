@@ -1,0 +1,967 @@
+{
+    "Format": "1.19.0",
+    "ConfigSchema": {
+
+        // Ridgeside Village Fish
+
+        "Bladetail Sturgeon": {"AllowValues": "true, false",
+        "Default": "true"},
+        "Golden Rose Fin": {"AllowValues": "true, false",
+        "Default": "true"},
+        "Lullaby Carp": {"AllowValues": "true, false",
+        "Default": "true"},
+        "Fairytale Lionfish": {"AllowValues": "true, false",
+        "Default": "true"},
+        "Harvester Trout": {"AllowValues": "true, false",
+        "Default": "true"},
+        "Cardia Septal Jellyfish": {"AllowValues": "true, false",
+        "Default": "true"},
+        "Fixer Eel": {"AllowValues": "true, false",
+        "Default": "true"},
+        "Pebble Back Crab": {"AllowValues": "true, false",
+        "Default": "true"},
+        "Caped Tree Frog": {"AllowValues": "true, false",
+        "Default": "true"},
+        "Crimson Spiked Clam": {"AllowValues": "true, false",
+        "Default": "true"},
+
+        // Stardew Valley Expanded Fish
+
+        "SVE Aquarium Animations": {"AllowValues": "true, false",
+        "Default": "true"},
+        "Void Eel": {"AllowValues": "true, false",
+        "Default": "true"},
+        "Minnow": {"AllowValues": "true, false",
+        "Default": "true"},
+        "Baby Lunaloo": {"AllowValues": "true, false",
+        "Default": "true"},
+        "Lunaloo": {"AllowValues": "true, false",
+        "Default": "true"},
+        "Starfish": {"AllowValues": "true, false",
+        "Default": "true"},
+        "Clownfish": {"AllowValues": "true, false",
+        "Default": "true"},
+        "Frog": {"AllowValues": "true, false",
+        "Default": "true"},
+        "Sea Sponge": {"AllowValues": "true, false",
+        "Default": "true"},
+        "Shiny Lunaloo": {"AllowValues": "true, false",
+        "Default": "true"},
+        "Razor Trout": {"AllowValues": "true, false",
+        "Default": "true"},
+        "Seahorse": {"AllowValues": "true, false",
+        "Default": "true"},
+        "Puppyfish": {"AllowValues": "true, false",
+        "Default": "true"},
+        "Kittyfish": {"AllowValues": "true, false",
+        "Default": "true"},
+        "Butterfish": {"AllowValues": "true, false",
+        "Default": "true"},
+        "King Salmon": {"AllowValues": "true, false",
+        "Default": "true"},
+
+        // Lunna Astray Fish
+
+        "Lunna Astray Aquarium Animations": {"AllowValues": "true, false",
+        "Default": "true"},
+        "Dewdrop Fish": {"AllowValues": "true, false",
+        "Default": "true"},
+        "Purple Spotted Trout": {"AllowValues": "true, false",
+        "Default": "true"},
+        "Relicantlette": {"AllowValues": "true, false",
+        "Default": "true"},
+        "Serafin": {"AllowValues": "true, false",
+        "Default": "true"},
+        "Umuwi Carp": {"AllowValues": "true, false",
+        "Default": "true"},
+
+        // Pearl Fish
+
+        "Pearl Fish Aquarium Animations": {"AllowValues": "true, false",
+        "Default": "true"},
+        "Pearl Fish": {"AllowValues": "true, false",
+        "Default": "true"},
+        "Pearl Fish Animated": {"AllowValues": "true, false",
+        "Default": "false"},
+
+        // Not You Again Fish
+
+        "Sea Bass Aquarium Animations": {"AllowValues": "true, false",
+        "Default": "true"},
+        "Sea Bass": {"AllowValues": "true, false",
+        "Default": "true"},
+        "Sea Bass Animated": {"AllowValues": "true, false",
+        "Default": "false"}
+    },
+
+    "Changes": [
+
+        // RV Fish
+
+        {
+            "LogName": "Bladetail Sturgeon Fish",
+            "Action": "EditImage",
+            "Target": "{{spacechase0.JsonAssets/ObjectSpriteTilesheet:Bladetail Sturgeon}}",
+            "FromFile": "assets/Ridgeside Village/Ridgeside Fish 1.png",
+            "FromArea": {
+                   "X": 0,
+                   "Y": 0,
+                   "Width": 16,
+                   "Height": 16
+               },
+               "ToArea": {
+                   "X": "{{spacechase0.JsonAssets/ObjectSpriteX:Bladetail Sturgeon}}",
+                   "Y": "{{spacechase0.JsonAssets/ObjectSpriteY:Bladetail Sturgeon}}",
+                   "Width": 16,
+                   "Height": 16
+           },
+           "When": { 
+           "Bladetail Sturgeon": "true",
+           "HasMod": "Rafseazz.RSVJA"
+               }
+       },
+       {
+            "LogName": "Golden Rose Fin Fish",
+            "Action": "EditImage",
+            "Target": "{{spacechase0.JsonAssets/ObjectSpriteTilesheet:Golden Rose Fin}}",
+            "FromFile": "assets/Ridgeside Village/Ridgeside Fish 2.png",
+            "FromArea": {
+               "X": 0,
+               "Y": 0,
+               "Width": 16,
+               "Height": 16
+           },
+           "ToArea": {
+               "X": "{{spacechase0.JsonAssets/ObjectSpriteX:Golden Rose Fin}}",
+               "Y": "{{spacechase0.JsonAssets/ObjectSpriteY:Golden Rose Fin}}",
+               "Width": 16,
+               "Height": 16
+       },
+            "When": { 
+            "Golden Rose Fin": "true",
+            "HasMod": "Rafseazz.RSVJA"
+           }
+   },
+   {
+    "LogName": "Lullaby Carp Fish",
+    "Action": "EditImage",
+    "Target": "{{spacechase0.JsonAssets/ObjectSpriteTilesheet:Lullaby Carp}}",
+    "FromFile": "assets/Ridgeside Village/Ridgeside Fish 3.png",
+    "FromArea": {
+           "X": 0,
+           "Y": 0,
+           "Width": 16,
+           "Height": 16
+       },
+       "ToArea": {
+           "X": "{{spacechase0.JsonAssets/ObjectSpriteX:Lullaby Carp}}",
+           "Y": "{{spacechase0.JsonAssets/ObjectSpriteY:Lullaby Carp}}",
+           "Width": 16,
+           "Height": 16
+   },
+   "When": { 
+   "Lullaby Carp": "true",
+   "HasMod": "Rafseazz.RSVJA"
+       }
+},
+{
+    "LogName": "Fairytale Lionfish",
+    "Action": "EditImage",
+    "Target": "{{spacechase0.JsonAssets/ObjectSpriteTilesheet:Fairytale Lionfish}}",
+    "FromFile": "assets/Ridgeside Village/Ridgeside Fish 4.png",
+    "FromArea": {
+           "X": 0,
+           "Y": 0,
+           "Width": 16,
+           "Height": 16
+       },
+       "ToArea": {
+           "X": "{{spacechase0.JsonAssets/ObjectSpriteX:Fairytale Lionfish}}",
+           "Y": "{{spacechase0.JsonAssets/ObjectSpriteY:Fairytale Lionfish}}",
+           "Width": 16,
+           "Height": 16
+   },
+   "When": { 
+   "Fairytale Lionfish": "true",
+   "HasMod": "Rafseazz.RSVJA"
+       }
+},
+{
+    "LogName": "Harvester Trout Fish",
+    "Action": "EditImage",
+    "Target": "{{spacechase0.JsonAssets/ObjectSpriteTilesheet:Harvester Trout}}",
+    "FromFile": "assets/Ridgeside Village/Ridgeside Fish 5.png",
+    "FromArea": {
+           "X": 0,
+           "Y": 0,
+           "Width": 16,
+           "Height": 16
+       },
+       "ToArea": {
+           "X": "{{spacechase0.JsonAssets/ObjectSpriteX:Harvester Trout}}",
+           "Y": "{{spacechase0.JsonAssets/ObjectSpriteY:Harvester Trout}}",
+           "Width": 16,
+           "Height": 16
+   },
+   "When": { 
+   "Harvester Trout": "true",
+   "HasMod": "Rafseazz.RSVJA"
+       }
+},
+{
+    "LogName": "Cardia Septal Jellyfish",
+    "Action": "EditImage",
+    "Target": "{{spacechase0.JsonAssets/ObjectSpriteTilesheet:Cardia Septal Jellyfish}}",
+    "FromFile": "assets/Ridgeside Village/Ridgeside Fish 6.png",
+    "FromArea": {
+           "X": 0,
+           "Y": 0,
+           "Width": 16,
+           "Height": 16
+       },
+       "ToArea": {
+           "X": "{{spacechase0.JsonAssets/ObjectSpriteX:Cardia Septal Jellyfish}}",
+           "Y": "{{spacechase0.JsonAssets/ObjectSpriteY:Cardia Septal Jellyfish}}",
+           "Width": 16,
+           "Height": 16
+   },
+   "When": { 
+   "Cardia Septal Jellyfish": "true",
+   "HasMod": "Rafseazz.RSVJA"
+       }
+},
+{
+    "LogName": "Fixer Eel Fish",
+    "Action": "EditImage",
+    "Target": "{{spacechase0.JsonAssets/ObjectSpriteTilesheet:Fixer Eel}}",
+    "FromFile": "assets/Ridgeside Village/Ridgeside Fish 7.png",
+    "FromArea": {
+           "X": 0,
+           "Y": 0,
+           "Width": 16,
+           "Height": 16
+       },
+       "ToArea": {
+           "X": "{{spacechase0.JsonAssets/ObjectSpriteX:Fixer Eel}}",
+           "Y": "{{spacechase0.JsonAssets/ObjectSpriteY:Fixer Eel}}",
+           "Width": 16,
+           "Height": 16
+   },
+   "When": { 
+   "Fixer Eel": "true",
+   "HasMod": "Rafseazz.RSVJA"
+       }
+},
+{
+    "LogName": "Pebble Back Crab",
+    "Action": "EditImage",
+    "Target": "{{spacechase0.JsonAssets/ObjectSpriteTilesheet:Pebble Back Crab}}",
+    "FromFile": "assets/Ridgeside Village/Ridgeside Fish 8.png",
+    "FromArea": {
+           "X": 0,
+           "Y": 0,
+           "Width": 16,
+           "Height": 16
+       },
+       "ToArea": {
+           "X": "{{spacechase0.JsonAssets/ObjectSpriteX:Pebble Back Crab}}",
+           "Y": "{{spacechase0.JsonAssets/ObjectSpriteY:Pebble Back Crab}}",
+           "Width": 16,
+           "Height": 16
+   },
+   "When": { 
+   "Pebble Back Crab": "true",
+   "HasMod": "Rafseazz.RSVJA"
+       }
+},
+{
+    "LogName": "Caped Tree Frog",
+    "Action": "EditImage",
+    "Target": "{{spacechase0.JsonAssets/ObjectSpriteTilesheet:Caped Tree Frog}}",
+    "FromFile": "assets/Ridgeside Village/Ridgeside Fish 9.png",
+    "FromArea": {
+           "X": 0,
+           "Y": 0,
+           "Width": 16,
+           "Height": 16
+       },
+       "ToArea": {
+           "X": "{{spacechase0.JsonAssets/ObjectSpriteX:Caped Tree Frog}}",
+           "Y": "{{spacechase0.JsonAssets/ObjectSpriteY:Caped Tree Frog}}",
+           "Width": 16,
+           "Height": 16
+   },
+   "When": { 
+   "Caped Tree Frog": "true",
+   "HasMod": "Rafseazz.RSVJA"
+       }
+},
+{
+    "LogName": "Crimson Spiked Clam",
+    "Action": "EditImage",
+    "Target": "{{spacechase0.JsonAssets/ObjectSpriteTilesheet:Crimson Spiked Clam}}",
+    "FromFile": "assets/Ridgeside Village/Ridgeside Fish 10.png",
+    "FromArea": {
+           "X": 0,
+           "Y": 0,
+           "Width": 16,
+           "Height": 16
+       },
+       "ToArea": {
+           "X": "{{spacechase0.JsonAssets/ObjectSpriteX:Crimson Spiked Clam}}",
+           "Y": "{{spacechase0.JsonAssets/ObjectSpriteY:Crimson Spiked Clam}}",
+           "Width": 16,
+           "Height": 16
+   },
+   "When": { 
+   "Crimson Spiked Clam": "true",
+   "HasMod": "Rafseazz.RSVJA"
+            }
+        },
+
+        // SVE Fish
+
+        {
+            "LogName": "Void Eel",
+            "Action": "EditImage",
+            "Target": "{{spacechase0.JsonAssets/ObjectSpriteTilesheet:Void Eel}}",
+            "FromFile": "assets/Stardew Valley Expanded/Stardew Valley Expanded Fish 1.png",
+            "FromArea": {
+                   "X": 0,
+                   "Y": 0,
+                   "Width": 16,
+                   "Height": 16
+               },
+               "ToArea": {
+                   "X": "{{spacechase0.JsonAssets/ObjectSpriteX:Void Eel}}",
+                   "Y": "{{spacechase0.JsonAssets/ObjectSpriteY:Void Eel}}",
+                   "Width": 16,
+                   "Height": 16
+           },
+           "When": { 
+           "Void Eel": "true",
+           "HasMod": "FlashShifter.JA.SVE"
+                    }
+                },
+                {
+                    "LogName": "Minnow",
+                    "Action": "EditImage",
+                    "Target": "{{spacechase0.JsonAssets/ObjectSpriteTilesheet:Minnow}}",
+                    "FromFile": "assets/Stardew Valley Expanded/Stardew Valley Expanded Fish 2.png",
+                    "FromArea": {
+                           "X": 0,
+                           "Y": 0,
+                           "Width": 16,
+                           "Height": 16
+                       },
+                       "ToArea": {
+                           "X": "{{spacechase0.JsonAssets/ObjectSpriteX:Minnow}}",
+                           "Y": "{{spacechase0.JsonAssets/ObjectSpriteY:Minnow}}",
+                           "Width": 16,
+                           "Height": 16
+                   },
+                   "When": { 
+                   "Minnow": "true",
+                   "HasMod": "FlashShifter.JA.SVE"
+                            }
+                        },
+                        {
+                            "LogName": "Baby Lunaloo",
+                            "Action": "EditImage",
+                            "Target": "{{spacechase0.JsonAssets/ObjectSpriteTilesheet:Baby Lunaloo}}",
+                            "FromFile": "assets/Stardew Valley Expanded/Stardew Valley Expanded Fish 3.png",
+                            "FromArea": {
+                                   "X": 0,
+                                   "Y": 0,
+                                   "Width": 16,
+                                   "Height": 16
+                               },
+                               "ToArea": {
+                                   "X": "{{spacechase0.JsonAssets/ObjectSpriteX:Baby Lunaloo}}",
+                                   "Y": "{{spacechase0.JsonAssets/ObjectSpriteY:Baby Lunaloo}}",
+                                   "Width": 16,
+                                   "Height": 16
+                           },
+                           "When": { 
+                           "Baby Lunaloo": "true",
+                           "HasMod": "FlashShifter.JA.SVE"
+                                    }
+                                },
+                                {
+                                    "LogName": "Lunaloo",
+                                    "Action": "EditImage",
+                                    "Target": "{{spacechase0.JsonAssets/ObjectSpriteTilesheet:Lunaloo}}",
+                                    "FromFile": "assets/Stardew Valley Expanded/Stardew Valley Expanded Fish 4.png",
+                                    "FromArea": {
+                                           "X": 0,
+                                           "Y": 0,
+                                           "Width": 16,
+                                           "Height": 16
+                                       },
+                                       "ToArea": {
+                                           "X": "{{spacechase0.JsonAssets/ObjectSpriteX:Lunaloo}}",
+                                           "Y": "{{spacechase0.JsonAssets/ObjectSpriteY:Lunaloo}}",
+                                           "Width": 16,
+                                           "Height": 16
+                                   },
+                                   "When": { 
+                                   "Lunaloo": "true",
+                                   "HasMod": "FlashShifter.JA.SVE"
+                                            }
+                                        },
+                                        {
+                                            "LogName": "Starfish",
+                                            "Action": "EditImage",
+                                            "Target": "{{spacechase0.JsonAssets/ObjectSpriteTilesheet:Starfish}}",
+                                            "FromFile": "assets/Stardew Valley Expanded/Stardew Valley Expanded Fish 5.png",
+                                            "FromArea": {
+                                                   "X": 0,
+                                                   "Y": 0,
+                                                   "Width": 16,
+                                                   "Height": 16
+                                               },
+                                               "ToArea": {
+                                                   "X": "{{spacechase0.JsonAssets/ObjectSpriteX:Starfish}}",
+                                                   "Y": "{{spacechase0.JsonAssets/ObjectSpriteY:Starfish}}",
+                                                   "Width": 16,
+                                                   "Height": 16
+                                           },
+                                           "When": { 
+                                           "Starfish": "true",
+                                           "HasMod": "FlashShifter.JA.SVE"
+                                                    }
+                                                },
+                                                {
+                                                    "LogName": "Clownfish",
+                                                    "Action": "EditImage",
+                                                    "Target": "{{spacechase0.JsonAssets/ObjectSpriteTilesheet:Clownfish}}",
+                                                    "FromFile": "assets/Stardew Valley Expanded/Stardew Valley Expanded Fish 6.png",
+                                                    "FromArea": {
+                                                           "X": 0,
+                                                           "Y": 0,
+                                                           "Width": 16,
+                                                           "Height": 16
+                                                       },
+                                                       "ToArea": {
+                                                           "X": "{{spacechase0.JsonAssets/ObjectSpriteX:Clownfish}}",
+                                                           "Y": "{{spacechase0.JsonAssets/ObjectSpriteY:Clownfish}}",
+                                                           "Width": 16,
+                                                           "Height": 16
+                                                   },
+                                                   "When": { 
+                                                   "Clownfish": "true",
+                                                   "HasMod": "FlashShifter.JA.SVE"
+                                                            }
+                                                        },
+                                                        {
+                                                            "LogName": "Frog",
+                                                            "Action": "EditImage",
+                                                            "Target": "{{spacechase0.JsonAssets/ObjectSpriteTilesheet:Frog}}",
+                                                            "FromFile": "assets/Stardew Valley Expanded/Stardew Valley Expanded Fish 7.png",
+                                                            "FromArea": {
+                                                                   "X": 0,
+                                                                   "Y": 0,
+                                                                   "Width": 16,
+                                                                   "Height": 16
+                                                               },
+                                                               "ToArea": {
+                                                                   "X": "{{spacechase0.JsonAssets/ObjectSpriteX:Frog}}",
+                                                                   "Y": "{{spacechase0.JsonAssets/ObjectSpriteY:Frog}}",
+                                                                   "Width": 16,
+                                                                   "Height": 16
+                                                           },
+                                                           "When": { 
+                                                           "Frog": "true",
+                                                           "HasMod": "FlashShifter.JA.SVE"
+                                                                    }
+                                                                },
+                                                                {
+                                                                    "LogName": "Sea Sponge",
+                                                                    "Action": "EditImage",
+                                                                    "Target": "{{spacechase0.JsonAssets/ObjectSpriteTilesheet:Sea Sponge}}",
+                                                                    "FromFile": "assets/Stardew Valley Expanded/Stardew Valley Expanded Fish 8.png",
+                                                                    "FromArea": {
+                                                                           "X": 0,
+                                                                           "Y": 0,
+                                                                           "Width": 16,
+                                                                           "Height": 16
+                                                                       },
+                                                                       "ToArea": {
+                                                                           "X": "{{spacechase0.JsonAssets/ObjectSpriteX:Sea Sponge}}",
+                                                                           "Y": "{{spacechase0.JsonAssets/ObjectSpriteY:Sea Sponge}}",
+                                                                           "Width": 16,
+                                                                           "Height": 16
+                                                                   },
+                                                                   "When": { 
+                                                                   "Sea Sponge": "true",
+                                                                   "HasMod": "FlashShifter.JA.SVE"
+                                                                            }
+                                                                        },
+                                                                        {
+                                                                            "LogName": "Shiny Lunaloo",
+                                                                            "Action": "EditImage",
+                                                                            "Target": "{{spacechase0.JsonAssets/ObjectSpriteTilesheet:Shiny Lunaloo}}",
+                                                                            "FromFile": "assets/Stardew Valley Expanded/Stardew Valley Expanded Fish 9.png",
+                                                                            "FromArea": {
+                                                                                   "X": 0,
+                                                                                   "Y": 0,
+                                                                                   "Width": 16,
+                                                                                   "Height": 16
+                                                                               },
+                                                                               "ToArea": {
+                                                                                   "X": "{{spacechase0.JsonAssets/ObjectSpriteX:Shiny Lunaloo}}",
+                                                                                   "Y": "{{spacechase0.JsonAssets/ObjectSpriteY:Shiny Lunaloo}}",
+                                                                                   "Width": 16,
+                                                                                   "Height": 16
+                                                                           },
+                                                                           "When": { 
+                                                                           "Shiny Lunaloo": "true",
+                                                                           "HasMod": "FlashShifter.JA.SVE"
+                                                                                    }
+                                                                                },
+                                                                                {
+                                                                                    "LogName": "Razor Trout",
+                                                                                    "Action": "EditImage",
+                                                                                    "Target": "{{spacechase0.JsonAssets/ObjectSpriteTilesheet:Razor Trout}}",
+                                                                                    "FromFile": "assets/Stardew Valley Expanded/Stardew Valley Expanded Fish 10.png",
+                                                                                    "FromArea": {
+                                                                                           "X": 0,
+                                                                                           "Y": 0,
+                                                                                           "Width": 16,
+                                                                                           "Height": 16
+                                                                                       },
+                                                                                       "ToArea": {
+                                                                                           "X": "{{spacechase0.JsonAssets/ObjectSpriteX:Razor Trout}}",
+                                                                                           "Y": "{{spacechase0.JsonAssets/ObjectSpriteY:Razor Trout}}",
+                                                                                           "Width": 16,
+                                                                                           "Height": 16
+                                                                                   },
+                                                                                   "When": { 
+                                                                                   "Razor Trout": "true",
+                                                                                   "HasMod": "FlashShifter.JA.SVE"
+                                                                                            }
+                                                                                        },
+                                                                                        {
+                                                                                            "LogName": "Seahorse",
+                                                                                            "Action": "EditImage",
+                                                                                            "Target": "{{spacechase0.JsonAssets/ObjectSpriteTilesheet:Seahorse}}",
+                                                                                            "FromFile": "assets/Stardew Valley Expanded/Stardew Valley Expanded Fish 11.png",
+                                                                                            "FromArea": {
+                                                                                                   "X": 0,
+                                                                                                   "Y": 0,
+                                                                                                   "Width": 16,
+                                                                                                   "Height": 16
+                                                                                               },
+                                                                                               "ToArea": {
+                                                                                                   "X": "{{spacechase0.JsonAssets/ObjectSpriteX:Seahorse}}",
+                                                                                                   "Y": "{{spacechase0.JsonAssets/ObjectSpriteY:Seahorse}}",
+                                                                                                   "Width": 16,
+                                                                                                   "Height": 16
+                                                                                           },
+                                                                                           "When": { 
+                                                                                           "Seahorse": "true",
+                                                                                           "HasMod": "FlashShifter.JA.SVE"
+                                                                                                    }
+                                                                                                },
+                                                                                                {
+                                                                                                    "LogName": "Puppyfish",
+                                                                                                    "Action": "EditImage",
+                                                                                                    "Target": "{{spacechase0.JsonAssets/ObjectSpriteTilesheet:Puppyfish}}",
+                                                                                                    "FromFile": "assets/Stardew Valley Expanded/Stardew Valley Expanded Fish 12.png",
+                                                                                                    "FromArea": {
+                                                                                                           "X": 0,
+                                                                                                           "Y": 0,
+                                                                                                           "Width": 16,
+                                                                                                           "Height": 16
+                                                                                                       },
+                                                                                                       "ToArea": {
+                                                                                                           "X": "{{spacechase0.JsonAssets/ObjectSpriteX:Puppyfish}}",
+                                                                                                           "Y": "{{spacechase0.JsonAssets/ObjectSpriteY:Puppyfish}}",
+                                                                                                           "Width": 16,
+                                                                                                           "Height": 16
+                                                                                                   },
+                                                                                                   "When": { 
+                                                                                                   "Puppyfish": "true",
+                                                                                                   "HasMod": "FlashShifter.JA.SVE"
+                                                                                                            }
+                                                                                                        },
+                                                                                                        {
+                                                                                                            "LogName": "Kittyfish",
+                                                                                                            "Action": "EditImage",
+                                                                                                            "Target": "{{spacechase0.JsonAssets/ObjectSpriteTilesheet:Kittyfish}}",
+                                                                                                            "FromFile": "assets/Stardew Valley Expanded/Stardew Valley Expanded Fish 13.png",
+                                                                                                            "FromArea": {
+                                                                                                                   "X": 0,
+                                                                                                                   "Y": 0,
+                                                                                                                   "Width": 16,
+                                                                                                                   "Height": 16
+                                                                                                               },
+                                                                                                               "ToArea": {
+                                                                                                                   "X": "{{spacechase0.JsonAssets/ObjectSpriteX:Kittyfish}}",
+                                                                                                                   "Y": "{{spacechase0.JsonAssets/ObjectSpriteY:Kittyfish}}",
+                                                                                                                   "Width": 16,
+                                                                                                                   "Height": 16
+                                                                                                           },
+                                                                                                           "When": { 
+                                                                                                           "Kittyfish": "true",
+                                                                                                           "HasMod": "FlashShifter.JA.SVE"
+                                                                                                                    }
+                                                                                                                },
+                                                                                                                {
+                                                                                                                    "LogName": "Butterfish",
+                                                                                                                    "Action": "EditImage",
+                                                                                                                    "Target": "{{spacechase0.JsonAssets/ObjectSpriteTilesheet:Butterfish}}",
+                                                                                                                    "FromFile": "assets/Stardew Valley Expanded/Stardew Valley Expanded Fish 14.png",
+                                                                                                                    "FromArea": {
+                                                                                                                           "X": 0,
+                                                                                                                           "Y": 0,
+                                                                                                                           "Width": 16,
+                                                                                                                           "Height": 16
+                                                                                                                       },
+                                                                                                                       "ToArea": {
+                                                                                                                           "X": "{{spacechase0.JsonAssets/ObjectSpriteX:Butterfish}}",
+                                                                                                                           "Y": "{{spacechase0.JsonAssets/ObjectSpriteY:Butterfish}}",
+                                                                                                                           "Width": 16,
+                                                                                                                           "Height": 16
+                                                                                                                   },
+                                                                                                                   "When": { 
+                                                                                                                   "Butterfish": "true",
+                                                                                                                   "HasMod": "FlashShifter.JA.SVE"
+                                                                                                                            }
+                                                                                                                        },
+                                                                                                                        {
+                                                                                                                            "LogName": "King Salmon",
+                                                                                                                            "Action": "EditImage",
+                                                                                                                            "Target": "{{spacechase0.JsonAssets/ObjectSpriteTilesheet:King Salmon}}",
+                                                                                                                            "FromFile": "assets/Stardew Valley Expanded/Stardew Valley Expanded Fish 15.png",
+                                                                                                                            "FromArea": {
+                                                                                                                                   "X": 0,
+                                                                                                                                   "Y": 0,
+                                                                                                                                   "Width": 16,
+                                                                                                                                   "Height": 16
+                                                                                                                               },
+                                                                                                                               "ToArea": {
+                                                                                                                                   "X": "{{spacechase0.JsonAssets/ObjectSpriteX:King Salmon}}",
+                                                                                                                                   "Y": "{{spacechase0.JsonAssets/ObjectSpriteY:King Salmon}}",
+                                                                                                                                   "Width": 16,
+                                                                                                                                   "Height": 16
+                                                                                                                           },
+                                                                                                                           "When": { 
+                                                                                                                           "King Salmon": "true",
+                                                                                                                           "HasMod": "FlashShifter.JA.SVE"
+                                                                                                                                                            }
+                                                                                                                                                        },
+
+        // SVE Aquarium Animations
+
+        {
+            "LogName": "Pelican Town Fish",
+            "Action": "EditImage",
+            "Target": "LooseSprites/AquariumFish",
+            "FromFile": "assets/Aquarium Animations/SVE Aquarium Sprites.png",
+            "ToArea": {
+                "X": 288,
+                "Y": 192,
+                "Width": 192,
+                "Height": 48
+           },
+           "When": { 
+           "SVE Aquarium Animations": "true",
+           "HasMod": "FlashShifter.StardewValleyExpandedCP"
+               }
+       },
+       {
+        "LogName": "Ginger Island Fish",
+        "Action": "EditImage",
+        "Target": "LooseSprites/AquariumFish",
+        "FromFile": "assets/Aquarium Animations/SVE Aquarium Sprites_2.png",
+        "ToArea": {
+            "X": 264,
+            "Y": 240,
+            "Width": 120,
+            "Height": 48
+       },
+       "When": { 
+       "SVE Aquarium Animations": "true",
+       "HasMod": "FlashShifter.StardewValleyExpandedCP"
+           }
+   },
+   {
+    "LogName": "KittyFish",
+    "Action": "EditImage",
+    "Target": "LooseSprites/AquariumFish",
+    "FromFile": "assets/Aquarium Animations/SVE Aquarium Sprites_3.png",
+    "ToArea": {
+        "X": 456,
+        "Y": 96,
+        "Width": 24,
+        "Height": 48
+   },
+   "When": { 
+   "SVE Aquarium Animations": "true",
+   "HasMod": "FlashShifter.StardewValleyExpandedCP"
+       }
+    },
+
+    // Lunna Astray Fish
+
+    {
+        "LogName": "Dewdrop Fish",
+        "Action": "EditImage",
+        "Target": "{{spacechase0.JsonAssets/ObjectSpriteTilesheet:Dewdrop Fish}}",
+        "FromFile": "assets/Lunna Fish/Lunna Fish 1.png",
+        "FromArea": {
+               "X": 0,
+               "Y": 0,
+               "Width": 16,
+               "Height": 16
+           },
+           "ToArea": {
+               "X": "{{spacechase0.JsonAssets/ObjectSpriteX:Dewdrop Fish}}",
+               "Y": "{{spacechase0.JsonAssets/ObjectSpriteY:Dewdrop Fish}}",
+               "Width": 16,
+               "Height": 16
+       },
+       "When": { 
+       "Dewdrop Fish": "true",
+       "HasMod": "Rafseazz.LunnaItems"
+           }
+    },
+    {
+        "LogName": "Purple Spotted Trout",
+        "Action": "EditImage",
+        "Target": "{{spacechase0.JsonAssets/ObjectSpriteTilesheet:Purple Spotted Trout}}",
+        "FromFile": "assets/Lunna Fish/Lunna Fish 2.png",
+        "FromArea": {
+               "X": 0,
+               "Y": 0,
+               "Width": 16,
+               "Height": 16
+           },
+           "ToArea": {
+               "X": "{{spacechase0.JsonAssets/ObjectSpriteX:Purple Spotted Trout}}",
+               "Y": "{{spacechase0.JsonAssets/ObjectSpriteY:Purple Spotted Trout}}",
+               "Width": 16,
+               "Height": 16
+       },
+       "When": { 
+       "Purple Spotted Trout": "true",
+       "HasMod": "Rafseazz.LunnaItems"
+           }
+    },
+    {
+        "LogName": "Relicantlette",
+        "Action": "EditImage",
+        "Target": "{{spacechase0.JsonAssets/ObjectSpriteTilesheet:Relicantlette}}",
+        "FromFile": "assets/Lunna Fish/Lunna Fish 3.png",
+        "FromArea": {
+               "X": 0,
+               "Y": 0,
+               "Width": 16,
+               "Height": 16
+           },
+           "ToArea": {
+               "X": "{{spacechase0.JsonAssets/ObjectSpriteX:Relicantlette}}",
+               "Y": "{{spacechase0.JsonAssets/ObjectSpriteY:Relicantlette}}",
+               "Width": 16,
+               "Height": 16
+       },
+       "When": { 
+       "Relicantlette": "true",
+       "HasMod": "Rafseazz.LunnaItems"
+           }
+    },
+    {
+        "LogName": "Serafin",
+        "Action": "EditImage",
+        "Target": "{{spacechase0.JsonAssets/ObjectSpriteTilesheet:Serafin}}",
+        "FromFile": "assets/Lunna Fish/Lunna Fish 4.png",
+        "FromArea": {
+               "X": 0,
+               "Y": 0,
+               "Width": 16,
+               "Height": 16
+           },
+           "ToArea": {
+               "X": "{{spacechase0.JsonAssets/ObjectSpriteX:Serafin}}",
+               "Y": "{{spacechase0.JsonAssets/ObjectSpriteY:Serafin}}",
+               "Width": 16,
+               "Height": 16
+       },
+       "When": { 
+       "Serafin": "true",
+       "HasMod": "Rafseazz.LunnaItems"
+           }
+    },
+    {
+        "LogName": "Umuwi Carp",
+        "Action": "EditImage",
+        "Target": "{{spacechase0.JsonAssets/ObjectSpriteTilesheet:Umuwi Carp}}",
+        "FromFile": "assets/Lunna Fish/Lunna Fish 5.png",
+        "FromArea": {
+               "X": 0,
+               "Y": 0,
+               "Width": 16,
+               "Height": 16
+           },
+           "ToArea": {
+               "X": "{{spacechase0.JsonAssets/ObjectSpriteX:Umuwi Carp}}",
+               "Y": "{{spacechase0.JsonAssets/ObjectSpriteY:Umuwi Carp}}",
+               "Width": 16,
+               "Height": 16
+       },
+       "When": { 
+       "Umuwi Carp": "true",
+       "HasMod": "Rafseazz.LunnaItems"
+           }
+    },
+    {
+        "LogName": "Lunna Astray Fish Aquarium Animations",
+        "Action": "EditImage",
+        "Target": "LooseSprites/AquariumFish",
+        "FromFile": "assets/Aquarium Animations/LA Aquarium Sprites.png",
+        "ToArea": {
+            "X": 96,
+            "Y": 288,
+            "Width": 120,
+            "Height": 48
+       },
+       "When": { 
+       "Lunna Astray Aquarium Animations": "true",
+       "HasMod": "Rafseazz.LunnaCP"
+           }
+   },
+
+   // Pearl Fish Data
+
+   {
+    "LogName": "Pearl Fish",
+    "Action": "EditImage",
+    "Target": "{{spacechase0.JsonAssets/ObjectSpriteTilesheet:Pearl Fish}}",
+    "FromFile": "assets/Pearl Fish/Pearl Fish.png",
+    "FromArea": {
+           "X": 0,
+           "Y": 0,
+           "Width": 16,
+           "Height": 16
+       },
+       "ToArea": {
+           "X": "{{spacechase0.JsonAssets/ObjectSpriteX:Pearl Fish}}",
+           "Y": "{{spacechase0.JsonAssets/ObjectSpriteY:Pearl Fish}}",
+           "Width": 16,
+           "Height": 16
+   },
+   "When": { 
+   "Pearl Fish": "true",
+   "HasMod": "Boogie.PearlFish.JA"
+       }
+    },
+    {
+        "LogName": "Animated Pearl Fish",
+        "Action": "EditImage",
+        "Target": "Maps/springobjects",
+        "FromFile": "assets/Pearl Fish/Pearl Fish_Animated.png",
+    "FromArea": {
+           "X": 0,
+           "Y": 0,
+           "Width": 16,
+           "Height": 16
+        },
+        "ToArea": {
+             "X": "{{spacechase0.JsonAssets/ObjectSpriteX:Pearl Fish}}",
+             "Y": "{{spacechase0.JsonAssets/ObjectSpriteY:Pearl Fish}}",
+             "Width": 16,
+             "Height": 16
+    },
+    "AnimationFrameTime": 20,
+    "AnimationFrameCount": 4,
+    "When": {
+    "HasMod |contains=spacechase0.ContentPatcherAnimations": "true",
+    "HasMod |contains=Boogie.PearlFish.CP": "true",
+    "Pearl Fish Animated": "true"
+        }
+    },
+    {
+        "LogName": "Pearl Fish Aquarium Animations",
+        "Action": "EditImage",
+        "Target": "LooseSprites/AquariumFish",
+        "FromFile": "assets/Aquarium Animations/Pearl Fish Aquarium.png",
+        "ToArea": {
+            "X": 384,
+            "Y": 96,
+            "Width": 24,
+            "Height": 48
+       },
+       "When": { 
+       "Pearl Fish Aquarium Animations": "true",
+       "HasMod": "Boogie.PearlFish.CP"
+        }
+   },
+
+   // Not You Again Fish
+
+   {
+    "LogName": "Sea Bass",
+    "Action": "EditImage",
+    "Target": "{{spacechase0.JsonAssets/ObjectSpriteTilesheet:Sea Bass}}",
+    "FromFile": "assets/Sea Bass/Sea Bass.png",
+    "FromArea": {
+           "X": 0,
+           "Y": 0,
+           "Width": 16,
+           "Height": 16
+       },
+       "ToArea": {
+           "X": "{{spacechase0.JsonAssets/ObjectSpriteX:Sea Bass}}",
+           "Y": "{{spacechase0.JsonAssets/ObjectSpriteY:Sea Bass}}",
+           "Width": 16,
+           "Height": 16
+   },
+   "When": { 
+   "Sea Bass": "true",
+   "HasMod": "tiakall.seabass"
+       }
+    },
+    {
+        "LogName": "Animated Sea Bass",
+        "Action": "EditImage",
+        "Target": "{{spacechase0.JsonAssets/ObjectSpriteTilesheet:Sea Bass}}",
+        "FromFile": "assets/Sea Bass/Sea Bass_Animated.png",
+    "FromArea": {
+           "X": 0,
+           "Y": 0,
+           "Width": 16,
+           "Height": 16
+        },
+        "ToArea": {
+             "X": "{{spacechase0.JsonAssets/ObjectSpriteX:Sea Bass}}",
+             "Y": "{{spacechase0.JsonAssets/ObjectSpriteY:Sea Bass}}",
+             "Width": 16,
+             "Height": 16
+    },
+    "AnimationFrameTime": 20,
+    "AnimationFrameCount": 4,
+    "When": {
+    "HasMod |contains=spacechase0.ContentPatcherAnimations": "true",
+    "HasMod |contains=tiakall.seabassCP": "true",
+    "Sea Bass Animated": "true"
+        }
+    },
+    {
+        "LogName": "Sea Bass Aquarium Animations",
+        "Action": "EditImage",
+        "Target": "LooseSprites/AquariumFish",
+        "FromFile": "assets/Aquarium Animations/Sea Bass Aquarium.png",
+        "ToArea": {
+            "X": 408,
+            "Y": 48,
+            "Width": 24,
+            "Height": 48
+       },
+       "When": { 
+       "Sea Bass Aquarium Animations": "true",
+       "HasMod": "tiakall.seabassCP"
+        }
+   }
+    ]
+}

@@ -1,0 +1,37 @@
+{
+    "Name": "Iron Will",
+    "Description": "Strength and mind as one, focus yourself to overcome any obstacle.",
+    "Category": "Fruit",
+    "Edibility": 50,
+    "EdibleBuffs":
+    {
+        "Farming": 0,
+        "Fishing": 0,
+        "Mining": 0,
+        "Luck": 0,
+        "Foraging": 0,
+        "MaxStamina": 0,
+        "MagnetRadius": 0,
+        "Speed": 0,
+        "Defense": 0,
+        "Attack": 10,
+        "Duration": 400
+    },
+    "Price": 500,
+    "IsColored": false,
+	"Recipe": null,
+    "GiftTastes":
+    {
+        "Love": ["Sebastian", "Pierre", "Robin", "Wizard", "Sam", "Alex", "Kent"],
+		"Like": ["Demetrius", "Gus", "Haley", "Maru", "Willy", "George"],
+		"Neutral": ["Dwarf", "Emily", "Elliot", "Jodi", "Krobus", "Leah", "Pam", "Penny", "Evelyn", "Abigail", "Sandy", "Caroline"],
+		"Dislike": ["Clint", "Lewis", "Linus", "Marnie", "Harvey"],
+		"Hate": ["Shane"]
+    },
+	"ContextTags": [
+        "season_spring",
+        "color_white",
+        "fruit_tree_item",
+        "fruit_item",
+    ]
+}

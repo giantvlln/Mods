@@ -1,0 +1,7 @@
+{
+	"Name": "Horse Mask",
+	"Description": "Smells really musty inside.",
+	"PurchasePrice": "1000",
+	"ShowHair": false,
+	"IgnoreHairstyleOffset": true
+}

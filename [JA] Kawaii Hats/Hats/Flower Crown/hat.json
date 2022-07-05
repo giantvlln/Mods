@@ -1,0 +1,7 @@
+{
+	"Name": "Flower Crown",
+	"Description": "They're fresh and aromatic.",
+	"PurchasePrice": "1000",
+	"ShowHair": true,
+	"IgnoreHairstyleOffset": true
+}

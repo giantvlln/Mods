@@ -1,0 +1,14 @@
+﻿{
+  "Name": "[DGA] Vanilla Spouse Room Furniture",
+  "Author": "Asterisk",
+  "Version": "1.0",
+  "Description": "Furniture",
+  "UniqueID": "Asterisk.DGA.CEFurniture",
+  "UpdateKeys": [ "Nexus:12187@@furniture" ],
+  "ContentPackFor": {
+    "UniqueID": "spacechase0.DynamicGameAssets",
+    "MinimumVersion": "1.1.0"
+  },
+  "DGA.FormatVersion": 2,
+  "DGA.ConditionsFormatVersion": "1.23.0"
+}

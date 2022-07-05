@@ -1,0 +1,7 @@
+{
+	"Name": "Daisy Hat",
+	"Description": "A fresh spring daisy to put in your hair.",
+	"PurchasePrice": "1000",
+	"ShowHair": true,
+	"IgnoreHairstyleOffset": false
+}

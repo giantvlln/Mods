@@ -1,0 +1,11 @@
+{
+
+	"Name": "Moon Cruise",
+	"Product": "Moon Passenger",
+	"SaplingName": "Magic Root- Moon Cruise Sapling",
+	"SaplingDescription": "Look at this cute little guy. Let's find a home for him.",
+	"Season": "winter",
+	"SaplingPurchaseFrom": "Willy",
+	"SaplingPurchasePrice": 7500,
+	"SaplingPurchaseRequirements": null
+}

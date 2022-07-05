@@ -1,0 +1,18 @@
+{
+  "Name": "BBR.Rings.GrandpasRing",
+  "Companions": {
+    "GrandpaCompanion": {
+      "NumberToSummon": 1
+    }
+  },
+  "Description": "A spiritual token ring of affection of Grandpa. Wear a ring and Grandpa will never leave you again.",
+  "Category": "Ring",
+  "Recipe": null,
+  "Price": 1500,
+  "CanPurchase": true,
+  "PurchaseFrom": "HatMouse",
+  "PurchasePrice": 5000,
+  "NameLocalization": {
+    "en": "Grandpa's Ring"
+  }
+}

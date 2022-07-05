@@ -1,0 +1,28 @@
+{
+  "EnableOnFestivalDays": true,
+  "LocationNotify": false,
+  "SecondsPerMinute": {
+    "Indoors": 1.5,
+    "Outdoors": 0.8,
+    "Mines": 0.8,
+    "SkullCavern": 1.0,
+    "VolcanoDungeon": 1.0,
+    "ByLocationName": {}
+  },
+  "FreezeTime": {
+    "AnywhereAtTime": null,
+    "Indoors": false,
+    "Outdoors": false,
+    "Mines": false,
+    "SkullCavern": false,
+    "VolcanoDungeon": false,
+    "ByLocationName": [],
+    "ExceptLocationNames": []
+  },
+  "Keys": {
+    "FreezeTime": "NumPad1",
+    "IncreaseTickInterval": "NumPad2",
+    "DecreaseTickInterval": "NumPad3",
+    "ReloadConfig": "B"
+  }
+}

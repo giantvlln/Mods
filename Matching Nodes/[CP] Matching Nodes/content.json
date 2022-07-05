@@ -1,0 +1,403 @@
+{
+  "Format": "1.25.0",
+  "Changes": [
+     {
+        "LogName": "Mines (Floors: 1-29)",
+        "Action": "EditImage",
+        "PatchMode": "Overlay",
+        "Target": "Maps/springobjects",
+        "FromFile": "assets/earth.png",
+        "Update": "OnLocationChange",
+        "When": {
+           "Query: {{Vertigon.MinesTokens/IsHardMode}}": false,
+           "Query: {{TheMightyAmondee.CustomTokens/MineLevel}} >= 1 AND {{TheMightyAmondee.CustomTokens/MineLevel}} <= 29": true
+        }
+     },
+     {
+        "LogName": "Mines (Floors: 30-39)",
+        "Action": "EditImage",
+        "PatchMode": "Overlay",
+        "Target": "Maps/springobjects",
+        "FromFile": "assets/shadow.png",
+        "Update": "OnLocationChange",
+        "When": {
+           "Query: {{Vertigon.MinesTokens/IsHardMode}}": false,
+           "Query: {{TheMightyAmondee.CustomTokens/MineLevel}} >= 30 AND {{TheMightyAmondee.CustomTokens/MineLevel}} <= 39": true
+        }
+     },
+     {
+        "LogName": "Mines (Floors: 40-79)",
+        "Action": "EditImage",
+        "PatchMode": "Overlay",
+        "Target": "Maps/springobjects",
+        "FromFile": "assets/ice.png",
+        "Update": "OnLocationChange",
+        "When": {
+           "Query: {{Vertigon.MinesTokens/IsQuarry}}": false,
+           "Query: {{Vertigon.MinesTokens/IsHardMode}}": false,
+           "Query: {{TheMightyAmondee.CustomTokens/MineLevel}} >= 40 AND {{TheMightyAmondee.CustomTokens/MineLevel}} <= 79": true
+        }
+     },
+     {
+        "LogName": "Mines (Floors: 80-120)",
+        "Action": "EditImage",
+        "PatchMode": "Overlay",
+        "Target": "Maps/springobjects",
+        "FromFile": "assets/lava.png",
+        "Update": "OnLocationChange",
+        "When": {
+           "Query: {{Vertigon.MinesTokens/IsHardMode}}": false,
+           "Query: {{TheMightyAmondee.CustomTokens/MineLevel}} >= 80 AND {{TheMightyAmondee.CustomTokens/MineLevel}} <= 120": true
+        }
+     },
+     {
+        "LogName": "Skull Cavern",
+        "Action": "EditImage",
+        "PatchMode": "Overlay",
+        "Target": "Maps/springobjects",
+        "FromFile": "assets/earth.png",
+        "Update": "OnLocationChange",
+        "When": {
+           "Query: {{TheMightyAmondee.CustomTokens/MineLevel}} >= 121 AND {{TheMightyAmondee.CustomTokens/MineLevel}} < 77377": true
+        }
+     },
+     {
+        "LogName": "Volcano Dungeon",
+        "Action": "EditImage",
+        "PatchMode": "Overlay",
+        "Target": "Maps/springobjects",
+        "FromFile": "assets/volcano.png",
+        "Update": "OnLocationChange",
+        "When": {
+           "Query: {{TheMightyAmondee.CustomTokens/VolcanoFloor}} >= 1 AND {{TheMightyAmondee.CustomTokens/VolcanoFloor}} <= 9": true
+        }
+     },
+     {
+        "LogName": "Dangerous Mines (Floors: 1-29)",
+        "Action": "EditImage",
+        "PatchMode": "Overlay",
+        "Target": "Maps/springobjects",
+        "FromFile": "assets/volcano_blue.png",
+        "Update": "OnLocationChange",
+        "When": {
+           "Query: {{Vertigon.MinesTokens/IsHardMode}}": true,
+           "Query: {{TheMightyAmondee.CustomTokens/MineLevel}} >= 1 AND {{TheMightyAmondee.CustomTokens/MineLevel}} <= 29": true
+        }
+     },
+     {
+        "LogName": "Dangerous Mines (Floors: 30-39)",
+        "Action": "EditImage",
+        "PatchMode": "Overlay",
+        "Target": "Maps/springobjects",
+        "FromFile": "assets/shadow.png",
+        "Update": "OnLocationChange",
+        "When": {
+           "Query: {{Vertigon.MinesTokens/IsHardMode}}": true,
+           "Query: {{TheMightyAmondee.CustomTokens/MineLevel}} >= 30 AND {{TheMightyAmondee.CustomTokens/MineLevel}} <= 39": true
+        }
+     },
+     {
+        "LogName": "Dangerous Mines (Floors: 40-69)",
+        "Action": "EditImage",
+        "PatchMode": "Overlay",
+        "Target": "Maps/springobjects",
+        "FromFile": "assets/dangerous1.png",
+        "Update": "OnLocationChange",
+        "When": {
+           "Query: {{Vertigon.MinesTokens/IsHardMode}}": true,
+           "Query: {{TheMightyAmondee.CustomTokens/MineLevel}} >= 40 AND {{TheMightyAmondee.CustomTokens/MineLevel}} <= 79": true
+        }
+     },
+     {
+        "LogName": "Dangerous Mines (Floors: 70-79)",
+        "Action": "EditImage",
+        "PatchMode": "Overlay",
+        "Target": "Maps/springobjects",
+        "FromFile": "assets/ice.png",
+        "Update": "OnLocationChange",
+        "When": {
+           "Query: {{Vertigon.MinesTokens/IsHardMode}}": true,
+           "Query: {{TheMightyAmondee.CustomTokens/MineLevel}} >= 70 AND {{TheMightyAmondee.CustomTokens/MineLevel}} <= 79": true
+        }
+     },
+     {
+        "LogName": "Dangerous Mines (Floors: 80-120)",
+        "Action": "EditImage",
+        "PatchMode": "Overlay",
+        "Target": "Maps/springobjects",
+        "FromFile": "assets/dangerous2.png",
+        "Update": "OnLocationChange",
+        "When": {
+           "Query: {{Vertigon.MinesTokens/IsHardMode}}": true,
+           "Query: {{TheMightyAmondee.CustomTokens/MineLevel}} >= 80 AND {{TheMightyAmondee.CustomTokens/MineLevel}} <= 120": true
+        }
+     },
+     {
+        "LogName": "Dangerous Lava Crab (Floors: 80-120)",
+        "Action": "EditImage",
+        "Target": "Characters/Monsters/Lava Crab_dangerous",
+        "FromFile": "assets/dangerous_lava_crab.png",
+        "Update": "OnLocationChange",
+        "When": {
+           "Query: {{Vertigon.MinesTokens/IsHardMode}}": true,
+           "Query: {{TheMightyAmondee.CustomTokens/MineLevel}} >= 80 AND {{TheMightyAmondee.CustomTokens/MineLevel}} <= 120": true
+        }
+     },
+     {
+        "LogName": "Mines (Dungeon Floors) and Quarry Mine",
+        "Action": "EditImage",
+        "PatchMode": "Overlay",
+        "Target": "Maps/springobjects",
+        "FromFile": "assets/dungeon.png",
+        "Update": "OnLocationChange",
+        "When": {
+           "Query: {{Vertigon.MinesTokens/IsQuarry}}": true
+        }
+     },
+     {
+        "LogName": "Outdoors (Spring, Summer, Fall)",
+        "Action": "EditImage",
+        "PatchMode": "Overlay",
+        "Target": "Maps/springobjects",
+        "FromFile": "assets/earth.png",
+        "Update": "OnLocationChange",
+        "When": {
+           "Season": "spring, summer, fall",
+           "LocationName": "Farm, Mountain"
+        }
+     },
+     {
+        "LogName": "Outdoors (Winter)",
+        "Action": "EditImage",
+        "PatchMode": "Overlay",
+        "Target": "Maps/springobjects",
+        "FromFile": "assets/ice.png",
+        "Update": "OnLocationChange",
+        "When": {
+           "HasMod |contains=FlashShifter.StardewValleyExpandedCP": false,
+           "Season": "winter",
+           "LocationName": "Farm, Mountain, Forest, Town"
+        }
+     },
+     {
+        "LogName": "Remove Frogs from Mines (Floors: 40-79)",
+        "Action": "EditImage",
+        "Target": "TileSheets/critters",
+        "FromFile": "assets/frog.png",
+        "ToArea": {"X": 4, "Y": 230, "Width": 106, "Height": 26},
+        "Update": "OnLocationChange",
+        "When": {
+           "Query: {{Vertigon.MinesTokens/IsHardMode}}": false,
+           "Query: {{TheMightyAmondee.CustomTokens/MineLevel}} >= 40 AND {{TheMightyAmondee.CustomTokens/MineLevel}} <= 79": true
+        }
+     },
+     {
+        "LogName": "SVE Outdoors (Winter)",
+        "Action": "EditImage",
+        "PatchMode": "Overlay",
+        "Target": "Maps/springobjects",
+        "FromFile": "assets/sve_ice.png",
+        "Update": "OnLocationChange",
+        "When": {
+           "HasMod |contains=FlashShifter.StardewValleyExpandedCP": true,
+           "Season": "winter",
+           "LocationName": "Farm, Mountain, Forest, Custom_TownEast, Custom_Garden, Custom_GrandpasShedOutside"
+        }
+     },
+     {
+        "LogName": "SVE Grandpa's Farm Cliff Cave",
+        "Action": "EditImage",
+        "PatchMode": "Overlay",
+        "Target": "Maps/springobjects",
+        "FromFile": "assets/earth.png",
+        "Update": "OnLocationChange",
+        "When": {
+           "HasMod |contains=flashshifter.GrandpasFarm": true,
+           "FarmType": "Standard",
+           "LocationName": "Custom_FarmCliff"
+        }
+     },
+     {
+        "LogName": "East Scarp Deep Dark",
+        "Action": "EditImage",
+        "PatchMode": "Overlay",
+        "Target": "Maps/springobjects",
+        "FromFile": "assets/earth.png",
+        "Update": "OnLocationChange",
+        "When": {
+           "HasMod |contains=LemurKat.EastScarpe.SMAPI": true,
+           "LocationName": "Custom_ESDeepDark"
+        }
+     },
+     {
+        "LogName": "East Scarp Meadow Farm (Winter)",
+        "Action": "EditImage",
+        "PatchMode": "Overlay",
+        "Target": "Maps/springobjects",
+        "FromFile": "assets/ice.png",
+        "Update": "OnLocationChange",
+        "When": {
+           "HasMod |contains=LemurKat.EastScarpe.SMAPI": true,
+           "HasMod |contains=FlashShifter.StardewValleyExpandedCP": false,
+           "Season": "winter",
+           "LocationName": "Custom_ESMeadowFarm"
+        }
+     },
+     {
+        "LogName": "East Scarp + SVE Meadow Farm (Winter)",
+        "Action": "EditImage",
+        "PatchMode": "Overlay",
+        "Target": "Maps/springobjects",
+        "FromFile": "assets/sve_ice.png",
+        "Update": "OnLocationChange",
+        "When": {
+           "HasMod |contains=LemurKat.EastScarpe.SMAPI": true,
+           "HasMod |contains=FlashShifter.StardewValleyExpandedCP": true,
+           "Season": "winter",
+           "LocationName": "Custom_ESMeadowFarm"
+        }
+     },
+     {
+        "LogName": "Walk to the Desert - Redux",
+        "Action": "EditImage",
+        "PatchMode": "Overlay",
+        "Target": "Maps/springobjects",
+        "FromFile": "assets/earth.png",
+        "Update": "OnLocationChange",
+        "When": {
+           "HasMod |contains=Tarniyar.CP.WalkToDesert": true,
+           "Season": "spring, summer, fall",
+           "LocationName": "Custom_WTDR_WindingRoad, Custom_WTDR_Interchange"
+        }
+     },
+     {
+        "LogName": "Walk to the Desert - Redux (Winter)",
+        "Action": "EditImage",
+        "PatchMode": "Overlay",
+        "Target": "Maps/springobjects",
+        "FromFile": "assets/ice.png",
+        "Update": "OnLocationChange",
+        "When": {
+           "HasMod |contains=Tarniyar.CP.WalkToDesert": true,
+           "HasMod |contains=FlashShifter.StardewValleyExpandedCP": false,
+           "Season": "winter",
+           "LocationName": "Custom_WTDR_WindingRoad, Custom_WTDR_Interchange, Backwoods, Custom_WTDR_ForestRoad, Custom_WTDR_Meadow"
+        }
+     },
+     {
+        "LogName": "Walk to the Desert - Redux + SVE (Winter)",
+        "Action": "EditImage",
+        "PatchMode": "Overlay",
+        "Target": "Maps/springobjects",
+        "FromFile": "assets/sve_ice.png",
+        "Update": "OnLocationChange",
+        "When": {
+           "HasMod |contains=Tarniyar.CP.WalkToDesert": true,
+           "HasMod |contains=FlashShifter.StardewValleyExpandedCP": true,
+           "Season": "winter",
+           "LocationName": "Custom_WTDR_WindingRoad, Custom_WTDR_Interchange, Backwoods, Custom_WTDR_ForestRoad, Custom_WTDR_Meadow"
+        }
+     },
+     {
+        "LogName": "Ridgeside Village",
+        "Action": "EditImage",
+        "PatchMode": "Overlay",
+        "Target": "Maps/springobjects",
+        "FromFile": "assets/earth.png",
+        "Update": "OnLocationChange",
+        "When": {
+           "HasMod |contains=Rafseazz.RidgesideVillage": true,
+           "Season": "spring, summer, fall",
+           "LocationName": "Custom_Ridgeside_RidgeForest"
+        }
+     },
+     {
+        "LogName": "Ridgeside Village (Winter)",
+        "Action": "EditImage",
+        "PatchMode": "Overlay",
+        "Target": "Maps/springobjects",
+        "FromFile": "assets/ice.png",
+        "Update": "OnLocationChange",
+        "When": {
+           "HasMod |contains=Rafseazz.RidgesideVillage": true,
+           "HasMod |contains=FlashShifter.StardewValleyExpandedCP": false,
+           "Season": "winter",
+           "LocationName": "Custom_Ridgeside_RidgeForest, Custom_Ridgeside_SummitFarm"
+        }
+     },
+     {
+        "LogName": "Ridgeside Village + SVE (Winter)",
+        "Action": "EditImage",
+        "PatchMode": "Overlay",
+        "Target": "Maps/springobjects",
+        "FromFile": "assets/sve_ice.png",
+        "Update": "OnLocationChange",
+        "When": {
+           "HasMod |contains=Rafseazz.RidgesideVillage": true,
+           "HasMod |contains=FlashShifter.StardewValleyExpandedCP": true,
+           "Season": "winter",
+           "LocationName": "Custom_Ridgeside_RidgeForest, Custom_Ridgeside_SummitFarm"
+        }
+     },
+     {
+        "LogName": "Boarding House Abandoned Mine (1A, 1B)",
+        "Action": "EditImage",
+        "PatchMode": "Overlay",
+        "Target": "Maps/springobjects",
+        "FromFile": "assets/earth.png",
+        "Update": "OnLocationChange",
+        "When": {
+           "HasMod |contains=BusStopExpansion": true,
+           "LocationName": "AbandonedMine1A, AbandonedMine1B"
+        }
+     },
+     {
+        "LogName": "Boarding House Abandoned Mine (2A, 2B, 3, 4, 5)",
+        "Action": "EditImage",
+        "PatchMode": "Overlay",
+        "Target": "Maps/springobjects",
+        "FromFile": "assets/lava.png",
+        "Update": "OnLocationChange",
+        "When": {
+           "HasMod |contains=BusStopExpansion": true,
+           "LocationName": "AbandonedMine2A, AbandonedMine2B, AbandonedMine3, AbandonedMine4, AbandonedMine5"
+        }
+     },
+     {
+        "LogName": "Downtown Zuzu Oasis Cave",
+        "Action": "EditImage",
+        "PatchMode": "Overlay",
+        "Target": "Maps/springobjects",
+        "FromFile": "assets/volcano_purple.png",
+        "Update": "OnLocationChange",
+        "When": {
+           "HasMod |contains=DTZ.DowntownZuzuDLL": true,
+           "LocationName": "Custom_DTZ_OasisCave"
+        }
+     },
+     {
+        "LogName": "Downtown Zuzu Oasis Cave (Lower Level and Lava Cave)",
+        "Action": "EditImage",
+        "PatchMode": "Overlay",
+        "Target": "Maps/springobjects",
+        "FromFile": "assets/volcano.png",
+        "Update": "OnLocationChange",
+        "When": {
+           "HasMod |contains=DTZ.DowntownZuzuDLL": true,
+           "LocationName": "Custom_DTZ_OasisCaveUnder, Custom_DTZ_OasisCaveLava"
+        }
+     },
+     {
+        "LogName": "Downtown Zuzu Oasis Cave (Crystal Cave)",
+        "Action": "EditImage",
+        "PatchMode": "Overlay",
+        "Target": "Maps/springobjects",
+        "FromFile": "assets/volcano_blue.png",
+        "Update": "OnLocationChange",
+        "When": {
+           "HasMod |contains=DTZ.DowntownZuzuDLL": true,
+           "LocationName": "Custom_DTZ_OasisCaveDark"
+        }
+     }
+  ]
+}

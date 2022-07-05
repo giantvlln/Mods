@@ -1,0 +1,26 @@
+{
+	"Name": "Eternal Bond",
+	"Description": "Luminous your paths. Hearts and souls at one, for eternity and beyond. Even death can not separate them.",
+	"Price": 2000,
+	"ProvidesLight": true,
+	"Recipe": 
+	{
+		"ResultCount": 1,
+		"Ingredients": 
+		[
+			{
+			"Object": "Grateful Tear",
+			"Count": 4,
+			},
+			{
+			"Object": "Graceful Soul",
+			"Count": 2,
+			},
+			
+		],
+	"IsDefault": false,
+	"CanPurchase": true,
+	"PurchaseFrom": "Robin", 
+	"PurchasePrice": 1000,
+	},
+}

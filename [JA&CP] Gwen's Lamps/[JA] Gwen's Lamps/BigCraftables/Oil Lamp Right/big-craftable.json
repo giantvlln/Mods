@@ -1,0 +1,25 @@
+{
+	"Name": "Oil Lamp Right",
+	"Description": "A fancy oil lamp post. Provides a good amount of light.",
+	"Price": 1000,
+	"ProvidesLight": true,
+	"Recipe": 
+	{
+		"ResultCount": 1,
+		"Ingredients": 
+		[
+			{
+			"Object": 388,
+			"Count": 50,
+			},
+			{
+			"Object": 247,
+			"Count": 5,
+			},
+		],
+	"IsDefault": false,
+	"CanPurchase": true,
+	"PurchaseFrom": "Robin", 
+	"PurchasePrice": 1000,
+	},
+}

@@ -1,0 +1,195 @@
+{
+	"Format": "1.24.0",
+
+	"Changes": [
+	{
+		"Action": "Load",
+		"Target": "Maps/DinoHutching",
+		"FromFile": "assets/Maps/DinoHutching.tmx"
+    },
+    {
+		"Action": "Load",
+		"Target": "Characters/BigEgg",
+		"FromFile": "assets/sprites/BigEgg.png"
+    },
+    {
+		"Action": "Load",
+		"Target": "Characters/PepperRex",
+		"FromFile": "assets/sprites/Pepper Rex.png"
+    },
+	{
+		"Action": "Load",
+		"Target": "Characters/TheDino",
+		"FromFile": "assets/sprites/Dinosaur.png"
+    },
+	
+	/**************************
+		Custom Companions
+	**************************/
+	
+	{
+		"LogName": "Adds dinosaur in the museum",
+		"Action": "EditMap",
+		"Target": "Maps/ArchaeologyHouse",
+		"MapTiles": [
+            {
+               "Position": { "X": 21, "Y": 15 },
+               "Layer": "Back",
+               "SetProperties": {
+                  "CustomCompanions": "Spawn 1 Zilch.DinoMuseumCC.SpikeTheDino"
+               },
+            },
+         ],
+		"When": {
+			"HasSeenEvent": "11456003"
+			},
+		"Update": "OnLocationChange"
+	},
+	
+	/**************************
+		Letters
+	**************************/
+	
+	{
+		"Action": "EditData",
+		"Target": "data/mail",
+		
+		"Entries": {
+			"ACallfromtheMuseum": "{{i18n:mail.01}}[#]{{i18n:mail.02}}",
+		}
+	},
+	
+	/**************************
+		Events
+	**************************/
+	
+	{
+        "LogName": "Dinosaur Egg Donated",
+        "Action": "EditData",
+        "Target": "Data/Events/ArchaeologyHouse",
+        "Entries": {
+            "11456001/i 107": "libraryTheme/6 9/farmer 3 14 0 Gunther 3 8 2/skippable/addConversationTopic DinoEggDonated0 7/addConversationTopic DinoEggDonated1 1/pause 300/speak Gunther \"{{i18n:DinoEggDonated.01}}\"/move farmer 0 -4 0/speak Gunther \"{{i18n:DinoEggDonated.02}}\"/emote farmer 32/faceDirection farmer 3/pause 500/playSound woodyStep/addObject 2 10 107/pause 500/faceDirection farmer 0/emote Gunther 16/jump Gunther/pause 800/speak Gunther \"{{i18n:DinoEggDonated.03}}\"/pause 300/removeObject 2 10/playSound coin/faceDirection farmer 3/pause 500/faceDirection farmer 0/playSound coin/animate Gunther false true 500 2 3/pause 3000/speak Gunther \"{{i18n:DinoEggDonated.04}}\"/stopAnimation Gunther/showFrame Gunther 0/speak Gunther \"{{i18n:DinoEggDonated.05}}\"/pause 500/speak Gunther \"{{i18n:DinoEggDonated.06}}\"/pause 500/end"
+            }
+    },
+	{
+        "LogName": "Dinosaur Egg Donated SVE",
+        "Action": "EditData",
+        "Target": "Data/Events/ArchaeologyHouse",
+        "Entries": {
+            "11456001/i 107": "libraryTheme/6 9/farmer 3 14 0 Gunther 5 8 2/skippable/addConversationTopic DinoEggDonated0 7/addConversationTopic DinoEggDonated1 1/pause 300/speak Gunther \"{{i18n:DinoEggDonated.01}}\"/move farmer 0 -3 0/move farmer 2 0 1/move farmer 0 -1 0/speak Gunther \"{{i18n:DinoEggDonated.02}}\"/emote farmer 32/faceDirection farmer 3/pause 500/playSound woodyStep/addObject 4 10 107/pause 500/faceDirection farmer 0/emote Gunther 16/jump Gunther/pause 800/speak Gunther \"{{i18n:DinoEggDonated.03}}\"/pause 300/removeObject 4 10/playSound coin/faceDirection farmer 3/pause 500/faceDirection farmer 0/playSound coin/animate Gunther false true 500 17 18/pause 3000/speak Gunther \"{{i18n:DinoEggDonated.04}}\"/stopAnimation Gunther/showFrame Gunther 0/speak Gunther \"{{i18n:DinoEggDonated.05}}\"/pause 500/speak Gunther \"{{i18n:DinoEggDonated.06}}\"/pause 500/end warpOut"
+            },
+		"When": {
+			"HasMod |contains=FlashShifter.StardewValleyExpandedCP": true,
+		}
+    },
+	
+	{
+		"LogName": "Gunther sent a letter",
+		"Action": "EditData",
+		"Target": "Data/Events/Farm",
+		"Entries": {
+			"11456002/e 11456001/A DinoEggDonated1/x ACallfromtheMuseum": "null",
+		}
+	},
+
+	{
+        "LogName": "Dinosaur Egg Hatching",
+        "Action": "EditData",
+        "Target": "Data/Events/ArchaeologyHouse",
+        "Entries": {
+            "11456003/n ACallfromtheMuseum": "libraryTheme/23 12/farmer 0 0 1 Gunther 31 12 2 Vincent 16 10 2 Jas 19 10 3 Penny 18 9 2/addObject 31 13 107/skippable/addConversationTopic DinoInTheLibrary 4/animate Vincent false true 500 22 23/showFrame Jas 22/showFrame Penny 18/animate Gunther false true 500 2 3/pause 1500/speak Penny \"{{i18n:DinoInTheLibrary.01}}\"/emote Vincent 40/speak Vincent \"{{i18n:DinoInTheLibrary.02}}\"/pause 500/speak Vincent \"{{i18n:DinoInTheLibrary.03}}\"/textAboveHead Jas \"{{i18n:DinoInTheLibrary.04}}\"/pause 500/speak Jas \"{{i18n:DinoInTheLibrary.05}}\"/emote Penny 32/textAboveHead Vincent \"{{i18n:DinoInTheLibrary.06}}\"/pause 3000/emote Vincent 40/pause 500/speak Vincent \"{{i18n:DinoInTheLibrary.07}}\"/pause 1500/playSound doorClose/pause 1500/emote Vincent 16 true/emote Jas 16 true/warp farmer 10 13/speed farmer 5/move farmer 13 0 1/move farmer 0 1 2 true/viewport move 2 0 1000/move farmer 5 0 1/stopAnimation Gunther/showFrame Gunther 0/jump Gunther/textAboveHead Gunther \"{{i18n:DinoInTheLibrary.08}}\"/pause 500/showFrame Gunther 12/speak Gunther \"{{i18n:DinoInTheLibrary.09}}\"/emote farmer 8/speak Gunther \"{{i18n:DinoInTheLibrary.10}}\"/speed farmer 3/move farmer 1 0 1/move farmer 0 -2 0/move farmer 1 0 1/faceDirection farmer 2/showFrame Gunther 0/emote farmer 40/pause 500/jump farmer/emote farmer 16/emote Vincent 8/speak Vincent \"{{i18n:DinoInTheLibrary.11}}\"/pause 500/stopAnimation Vincent/speak Vincent \"{{i18n:DinoInTheLibrary.12}}\"/speed Vincent 4/move Vincent 0 3 2/speed Vincent 4/move Vincent 13 0 1 true/stopAnimation Jas/faceDirection Jas 2/pause 200/faceDirection Jas 0/pause 200/faceDirection Jas 2/emote Jas 40/pause 500/faceDirection Jas 0/speak Jas \"{{i18n:DinoInTheLibrary.13}}\"/pause 300/jump Jas/textAboveHead Jas \"{{i18n:DinoInTheLibrary.14}}\"/speed Jas 4/move Jas 0 4 2/speed Jas 5/move Jas 10 0 1 true/pause 500/emote Penny 40/speak Penny \"{{i18n:DinoInTheLibrary.15}}\"/viewport move 2 1 3000/pause 1500/speak Jas \"{{i18n:DinoInTheLibrary.16}}\"/pause 500/jump Vincent/speak Vincent \"{{i18n:DinoInTheLibrary.17}}\"/speak Jas \"{{i18n:DinoInTheLibrary.18}}\"/speak Vincent \"{{i18n:DinoInTheLibrary.19}}\"/pause 800/emote farmer 28 true/emote Jas 28 true/emote Gunther 28 true/pause 500/speak Gunther \"{{i18n:DinoInTheLibrary.20}}\"/speak Vincent \"{{i18n:DinoInTheLibrary.21}}\"/pause 500/speak Gunther \"{{i18n:DinoInTheLibrary.22}}\"/speak Jas \"{{i18n:DinoInTheLibrary.23}}\"/emote Vincent 16/speak Vincent \"{{i18n:DinoInTheLibrary.24}}\"/stopMusic/globalFade/stopAnimation Penny/warp farmer -100 -100 true/warp Gunther -100 -100 true/warp Vincent -100 -100 true/warp Jas -100 -100 true/warp Penny -100 -100 true/changeToTemporaryMap DinoHutching/viewport 24 15/bgColor 0 0 0/ambientLight 0 0 0/switchEvent DinoHutching",
+        }
+	},
+	{
+        "LogName": "Dinosaur Egg Hatching SVE",
+        "Action": "EditData",
+        "Target": "Data/Events/ArchaeologyHouse",
+        "Entries": {
+            "11456003/n ACallfromtheMuseum": "libraryTheme/23 12/farmer 0 0 1 Gunther 31 12 2 Vincent 16 10 2 Jas 19 10 3 Penny 18 9 2/addObject 31 13 107/skippable/addConversationTopic DinoInTheLibrary 4/animate Vincent false true 500 22 23/showFrame Jas 22/showFrame Penny 18/animate Gunther false true 500 17 18/pause 1500/speak Penny \"{{i18n:DinoInTheLibrary.01}}\"/emote Vincent 40/speak Vincent \"{{i18n:DinoInTheLibrary.02}}\"/pause 500/speak Vincent \"{{i18n:DinoInTheLibrary.03}}\"/textAboveHead Jas \"{{i18n:DinoInTheLibrary.04}}\"/pause 500/speak Jas \"{{i18n:DinoInTheLibrary.05}}\"/emote Penny 32/textAboveHead Vincent \"{{i18n:DinoInTheLibrary.06}}\"/pause 3000/emote Vincent 40/pause 500/speak Vincent \"{{i18n:DinoInTheLibrary.07}}\"/pause 1500/playSound doorClose/pause 1500/emote Vincent 16 true/emote Jas 16 true/warp farmer 10 13/speed farmer 5/move farmer 13 0 1/move farmer 0 1 2 true/viewport move 2 0 1000/move farmer 5 0 1/stopAnimation Gunther/showFrame Gunther 0/jump Gunther/textAboveHead Gunther \"{{i18n:DinoInTheLibrary.08}}\"/pause 500/showFrame Gunther 20/speak Gunther \"{{i18n:DinoInTheLibrary.09}}\"/emote farmer 8/speak Gunther \"{{i18n:DinoInTheLibrary.10}}\"/speed farmer 3/move farmer 1 0 1/move farmer 0 -2 0/move farmer 1 0 1/faceDirection farmer 2/showFrame Gunther 0/emote farmer 40/pause 500/jump farmer/emote farmer 16/emote Vincent 8/speak Vincent \"{{i18n:DinoInTheLibrary.11}}\"/pause 500/stopAnimation Vincent/speak Vincent \"{{i18n:DinoInTheLibrary.12}}\"/speed Vincent 4/move Vincent 0 3 2/speed Vincent 4/move Vincent 13 0 1 true/stopAnimation Jas/faceDirection Jas 2/pause 200/faceDirection Jas 0/pause 200/faceDirection Jas 2/emote Jas 40/pause 500/faceDirection Jas 0/speak Jas \"{{i18n:DinoInTheLibrary.13}}\"/pause 300/jump Jas/textAboveHead Jas \"{{i18n:DinoInTheLibrary.14}}\"/speed Jas 4/move Jas 0 4 2/speed Jas 5/move Jas 10 0 1 true/pause 500/emote Penny 40/speak Penny \"{{i18n:DinoInTheLibrary.15}}\"/viewport move 2 1 3000/pause 1500/speak Jas \"{{i18n:DinoInTheLibrary.16}}\"/pause 500/jump Vincent/speak Vincent \"{{i18n:DinoInTheLibrary.17}}\"/speak Jas \"{{i18n:DinoInTheLibrary.18}}\"/speak Vincent \"{{i18n:DinoInTheLibrary.19}}\"/pause 800/emote farmer 28 true/emote Jas 28 true/emote Gunther 28 true/pause 500/speak Gunther \"{{i18n:DinoInTheLibrary.20}}\"/speak Vincent \"{{i18n:DinoInTheLibrary.21}}\"/pause 500/speak Gunther \"{{i18n:DinoInTheLibrary.22}}\"/speak Jas \"{{i18n:DinoInTheLibrary.23}}\"/emote Vincent 16/speak Vincent \"{{i18n:DinoInTheLibrary.24}}\"/stopMusic/globalFade/stopAnimation Penny/warp farmer -100 -100 true/warp Gunther -100 -100 true/warp Vincent -100 -100 true/warp Jas -100 -100 true/warp Penny -100 -100 true/changeToTemporaryMap DinoHutching/viewport 24 15/bgColor 0 0 0/ambientLight 0 0 0/switchEvent DinoHutching",
+        },
+		"When": {
+			"HasMod |contains=FlashShifter.StardewValleyExpandedCP": true,
+		}
+	},
+
+		{
+			"Action": "EditData",
+			"Target": "Data/Events/Temp",
+			"Entries": {
+				"DinoHutching": "resetVariable/playMusic cowboy_boss/addTemporaryActor BigEgg 32 32 24 15 2/jump BigEgg/pause 500/jump BigEgg/shake BigEgg 1500/message \"{{i18n:DinoInTheLibrary.25}}\"/shake BigEgg 3000/speak Vincent \"{{i18n:DinoInTheLibrary.26}}\"/shake BigEgg 1500/showFrame BigEgg 4/shake BigEgg 1500/showFrame BigEgg 5/speak Vincent \"{{i18n:DinoInTheLibrary.27}}\"/shake BigEgg 3000/speak Penny \"{{i18n:DinoInTheLibrary.28}}\"/pause 500/speak Penny \"{{i18n:DinoInTheLibrary.29}}\"/showFrame BigEgg 6/shake BigEgg 3000/speak Vincent \"{{i18n:DinoInTheLibrary.30}}\"/showFrame BigEgg 7/jump BigEgg/shake BigEgg 3000/speak Penny \"{{i18n:DinoInTheLibrary.31}}\"/shake BigEgg 3000/animate BigEgg false false 200 8 9/stopAnimation BigEgg 9/speak Jas \"{{i18n:DinoInTheLibrary.32}}\"/jump BigEgg/speak Gunther \"{{i18n:DinoInTheLibrary.33}}\"/animate BigEgg false false 200 10 11 12 13 14 15/pause 1000/jump BigEgg/stopAnimation BigEgg 16/showFrame BigEgg 17/removeTemporarySprites/playSound thunder/screenFlash 1/pause 800/addTemporaryActor PepperRex 32 32 24 15 2/showFrame PepperRex 16/playSound croak/pause 300/showFrame PepperRex 0/pause 300/showFrame PepperRex 16/playSound croak/pause 300/showFrame PepperRex 0/playSound reward/message \"{{i18n:DinoInTheLibrary.34}}\"/speak Vincent \"{{i18n:DinoInTheLibrary.35}}\"/speak Penny \"{{i18n:DinoInTheLibrary.36}}\"/showFrame PepperRex 16/playSound croak/pause 300/showFrame PepperRex 0/speak Jas \"{{i18n:DinoInTheLibrary.37}}\"/speak Vincent \"{{i18n:DinoInTheLibrary.38}}\"/showFrame PepperRex 16/playSound croak/pause 300/showFrame PepperRex 0/speak Gunther \"{{i18n:DinoInTheLibrary.39}}\"/globalFade/showFrame PepperRex 23/stopMusic/changeToTemporaryMap ArchaeologyHouse/viewport 29 15/warp farmer 30 12 true/warp Gunther 31 12 true/warp Vincent 28 12 true/warp Jas 27 12 true/warp Penny 26 14 true/faceDirection farmer 2 true/faceDirection Gunther 2 true/faceDirection Vincent 2 true/faceDirection Jas 2 true/faceDirection Penny 1 true/addTemporaryActor TheDino 16 16 28 14 1 true/pause 500/switchEvent FirstMeeting",
+				
+				"FirstMeeting": "resetVariable/playMusic libraryTheme/pause 500/speed TheDino 1/advancedMove TheDino true -1 0 0 -1 1 0 0 1/showFrame Gunther 12/speak Penny \"{{i18n:DinoInTheLibrary.40}}\"/speak Gunther \"{{i18n:DinoInTheLibrary.41}}\"/playSound croak/jump Vincent/textAboveHead Vincent \"{{i18n:DinoInTheLibrary.42}}\"/speak Vincent \"{{i18n:DinoInTheLibrary.43}}\"/emote Gunther 40/speak Gunther \"{{i18n:DinoInTheLibrary.44}}\"/faceDirection Vincent 3 true/faceDirection Jas 1 true/playSound croak/pause 500/faceDirection Vincent 2 true/faceDirection Jas 2 true/pause 300/jump Vincent/jump Jas/textAboveHead Vincent \"{{i18n:DinoInTheLibrary.45}}\"/pause 1000/speak Vincent \"{{i18n:DinoInTheLibrary.46}}\"/playSound croak/pause 500/emote Gunther 12/emote Vincent 56 true/emote Jas 56/emote Penny 60 true/animate farmer false true 200 102 103/playSound croak/pause 1000/viewport move 1 -1 6000000/globalFade/viewport -1000 -1000/playSound reward/message \"{{i18n:DinoInTheLibrary.47}}\"/message \"{{i18n:DinoInTheLibrary.48}}\"pause 500/playSound reward/message \"{{i18n:DinoInTheLibrary.49}}\"/playSound croak/stopAnimation farmer/end warpOut"
+			}
+		},
+	
+	/**************************
+		Conversation Topics
+	**************************/
+
+	{
+        "LogName": "DinoInTheLibrary - Gunther",
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Gunther",
+		"Entries": {
+			"DinoInTheLibrary": "{{i18n:DinoInTheLibraryCT.001}}",
+		}
+    },
+    {
+        "LogName": "DinoInTheLibrary - Vincent",
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Vincent",
+		"Entries": {
+			"DinoInTheLibrary": "{{i18n:DinoInTheLibraryCT.002}}",
+		}
+    },
+    {
+		"LogName": "DinoInTheLibrary - Jas",
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Jas",
+		"Entries": {
+			"DinoInTheLibrary": "{{i18n:DinoInTheLibraryCT.003}}",
+      }
+    },
+	{
+		"LogName": "DinoInTheLibrary - Penny",
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Penny",
+		"Entries": {
+			"DinoInTheLibrary": "{{i18n:DinoInTheLibraryCT.004}}",
+      }
+    },
+	{
+		"LogName": "DinoInTheLibrary - Sam",
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Sam",
+		"Entries": {
+			"DinoInTheLibrary": "{{i18n:DinoInTheLibraryCT.005}}",
+      }
+    },
+	{
+		"LogName": "DinoInTheLibrary - Marnie",
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Marnie",
+		"Entries": {
+			"DinoInTheLibrary": "{{i18n:DinoInTheLibraryCT.006}}",
+      }
+    },
+	{
+		"LogName": "DinoInTheLibrary - Jodi",
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Jodi",
+		"Entries": {
+			"DinoInTheLibrary": "{{i18n:DinoInTheLibraryCT.007}}",
+      }
+    },
+	
+	{
+		"LogName": "DinoInTheLibrary - Kent",
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Kent",
+		"Entries": {
+			"DinoInTheLibrary": "{{i18n:DinoInTheLibraryCT.008}}",
+      }
+    },
+	]
+}

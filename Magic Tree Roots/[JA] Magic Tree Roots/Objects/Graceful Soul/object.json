@@ -1,0 +1,39 @@
+{
+    "Name": "Graceful Soul",
+    "Description": "This flower resembles the elegant and graceful soul of a woman on her wedding day. It draws essence from Grateful Tear to form an Eternal Bond",
+    "Category": "Fruit",
+    "CategoryTextOverride": "Flower",
+    "CategoryColorOverride": "93, 153, 80, 255",
+    "Edibility": 10,
+    "EdibleBuffs":
+    {
+        "Farming": 0,
+        "Fishing": 0,
+        "Mining": 0,
+        "Luck": 7,
+        "Foraging": 0,
+        "MaxStamina": 0,
+        "MagnetRadius": 0,
+        "Speed": 0,
+        "Defense": 10,
+        "Attack": 0,
+        "Duration": 400
+    },
+    "Price": 500,
+    "IsColored": false,
+	"Recipe": null,
+    "GiftTastes":
+    {
+        "Love": ["Evelyn"],
+		"Like": ["Elliot", "Penny", "Maru", "Sam", "Shane", "Abigail", "Alex", "Haley", "Harvey", "Leah", "Emily", "Sebastian"],
+		"Neutral": ["Dwarf", "Gus", "Krobus", "Wizard", "Clint", "Willy", "Pam", "Sandy"],
+		"Dislike": ["Caroline", "Jodi", "Lewis", "Linus", "Marnie", "Kent", "Demetrius", "Pierre", "Robin"],
+		"Hate": ["George"]
+    },
+	"ContextTags": [
+        "season_winter",
+        "color_red",
+        "fruit_tree_item",
+        "fruit_item",
+    ]
+}

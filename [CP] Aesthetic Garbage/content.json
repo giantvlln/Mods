@@ -1,0 +1,77 @@
+{
+
+	"Format": "1.11.0",
+
+	"ConfigSchema": {
+		"Trash": {
+			"AllowValues": "true, false",
+			"Default": "true",
+		},
+		"Soggy Newspaper": {
+			"AllowValues": "true, false",
+			"Default": "true",
+		},
+		"Drift Wood": {
+			"AllowValues": "true, false",
+			"Default": "true",
+		},
+		"Broken Glasses": {
+			"AllowValues": "true, false",
+			"Default": "true",
+		},
+		"Broken CD": {
+			"AllowValues": "true, false",
+			"Default": "true",
+		}
+		        },
+	
+	"Changes": [
+		
+		{
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "assets/trash.png",
+			"ToArea": { "X": 0, "Y": 112, "Width": 16, "Height": 16 },
+			"When": {
+				"Trash": "True",
+			}
+		},
+		{
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "assets/driftwood.png",
+			"ToArea": { "X": 16, "Y": 112, "Width": 16, "Height": 16 },
+			"When": {
+				"Drift Wood": "True",
+			}
+		},
+		{
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "assets/brokenglasses.png",
+			"ToArea": { "X": 32, "Y": 112, "Width": 16, "Height": 16 },
+			"When": {
+				"Broken Glasses": "True",
+			}
+		},
+		{
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "assets/brokencd.png",
+			"ToArea": { "X": 48, "Y": 112, "Width": 16, "Height": 16 },
+			"When": {
+				"Broken CD": "True",
+			}
+		},
+		{
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "assets/soggynewspaper.png",
+			"ToArea": { "X": 64, "Y": 112, "Width": 16, "Height": 16 },
+			"When": {
+				"Soggy Newspaper": "True",
+			}
+		}
+ 		    ]
+
+}

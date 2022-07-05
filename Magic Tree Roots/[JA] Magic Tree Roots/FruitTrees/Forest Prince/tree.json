@@ -1,0 +1,10 @@
+{
+	"Name": "Forest Prince",
+	"Product": "Forest Dew",
+	"SaplingName": "Magic root-Forest Prince Sapling",
+	"SaplingDescription": "After 28 days grows to mature stage. Collects dew in the Summer. Image of the Prince of the Forest .",
+	"Season": "summer",
+	"SaplingPurchaseFrom": "Krobus",
+	"SaplingPurchasePrice": 5000,
+	"SaplingPurchaseRequirements": null
+}

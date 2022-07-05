@@ -1,0 +1,11 @@
+{
+  "Name": "[CP] One tile high Budget TV",
+  "Author": "Aimon111",
+  "Version": "1.0.0",
+  "Description": "Just makes Budged TV one tile high (like other TV's).",
+  "UniqueID": "Aimon111.OneTileHighBudgedTV",
+  "UpdateKeys": [ "Nexus:11781" ],
+  "ContentPackFor": {
+    "UniqueID": "Pathoschild.ContentPatcher",
+  }
+}

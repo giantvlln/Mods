@@ -1,0 +1,11 @@
+{
+  "Name": "Bonsai Trees for DGA",
+  "Author": "violetlizabet",
+  "Version": "1.0.5",
+  "Description": "Six bonsai tree decorations for Dynamic Game Assets",
+  "UniqueID": "violetlizabet.DynamicGameAssets.BonsaiTrees",
+  "ContentPackFor": { "UniqueID": "spacechase0.DynamicGameAssets" },
+  "UpdateKeys": ["Nexus:9677"],
+  "DGA.FormatVersion": 2,
+  "DGA.ConditionsFormatVersion": "1.23.0"
+}

@@ -1,0 +1,39 @@
+{
+    "Name": "Grateful Tear",
+    "Description": "The grateful tear of happiness of a man on his wedding day. It nurtures Graceful Soul to form an Eternal Bond.",
+    "Category": "Fruit",
+    "CategoryTextOverride": "Fluid",
+    "CategoryColorOverride": "93, 153, 80, 255",
+    "Edibility": 47,
+    "EdibleBuffs":
+    {
+        "Farming": 0,
+        "Fishing": 0,
+        "Mining": 0,
+        "Luck": 7,
+        "Foraging": 0,
+        "MaxStamina": 0,
+        "MagnetRadius": 0,
+        "Speed": 0,
+        "Defense": 0,
+        "Attack": 10,
+        "Duration": 400
+    },
+    "Price": 250,
+    "IsColored": false,
+	"Recipe": null,
+    "GiftTastes":
+    {
+        "Love": ["Krobus", "George"],
+		"Like": ["Elliot", "Penny", "Maru", "Sam", "Shane", "Abigail", "Alex", "Haley", "Harvey", "Leah", "Emily", "Sebastian"],
+		"Neutral": ["Dwarf", "Gus", "Wizard", "Clint", "Willy", "Pam", "Sandy"],
+		"Dislike": ["Caroline", "Jodi", "Lewis", "Linus", "Marnie", "Kent", "Demetrius", "Pierre", "Robin"],
+		"Hate": ["Evelyn"]
+    },
+	"ContextTags": [
+        "season_winter",
+        "color_white",
+        "fruit_tree_item",
+        "fruit_item",
+    ]
+}

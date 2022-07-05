@@ -1,0 +1,222 @@
+{
+    "Format": "1.23.0",
+    "ConfigSchema": {
+        "fireplace1": {
+            "AllowValues": "creamcheese, hotmilk, icedcoffee, licorice, ricepudding, sugar, false", 
+            "Default": "creamcheese"
+        },
+        "fireplace2": {
+            "AllowValues": "creamcheese, hotmilk, icedcoffee, licorice, ricepudding, sugar, false", 
+            "Default": "hotmilk"
+        },
+        "fireplace3": {
+            "AllowValues": "creamcheese, hotmilk, icedcoffee, licorice, ricepudding, sugar, false", 
+            "Default": "icedcoffee"
+        },
+        "fireplace4": {
+            "AllowValues": "creamcheese, hotmilk, icedcoffee, licorice, ricepudding, sugar, false", 
+            "Default": "licorice"
+        },
+        "fireplace5": {
+            "AllowValues": "creamcheese, hotmilk, icedcoffee, licorice, ricepudding, sugar, false", 
+            "Default": "ricepudding"
+        },
+        "fireplace6": {
+            "AllowValues": "creamcheese, hotmilk, icedcoffee, licorice, ricepudding, sugar, false", 
+            "Default": "sugar"
+        },
+    //Edits fireplaces added by SVE
+        "SVE fireplaces": {
+            "AllowValues": "true, false", 
+            "Default": "false"
+        },
+        "townInterior fireplace1": {
+            "AllowValues": "creamcheese, hotmilk, icedcoffee, licorice, ricepudding, sugar, false", 
+            "Default": "false"
+        },
+        "townInterior fireplace2": {
+            "AllowValues": "creamcheese, hotmilk, icedcoffee, licorice, ricepudding, sugar, false", 
+            "Default": "false"
+        }
+    },
+    "Changes": [
+    //All Languages
+        {
+            "LogName": "Warm Cozy townInterior fireplace1",
+            "Action": "EditImage",
+            "Target": "townInterior",
+            "FromFile": "assets/{{townInterior fireplace1}}.png",
+            "FromArea": { "X": 0, "Y": 0, "Width": 32, "Height": 80 },
+            "ToArea": { "X": 416, "Y": 320, "Width": 32, "Height": 80 },
+            "When": { 
+                "townInterior fireplace1": "creamcheese, hotmilk, icedcoffee, licorice, ricepudding, sugar"
+            }
+        },
+        {
+            "LogName": "Warm Cozy townInterior fireplace1",
+            "Action": "EditImage",
+            "Target": "Maps/townInterior",
+            "FromFile": "assets/{{townInterior fireplace1}}.png",
+            "FromArea": { "X": 0, "Y": 0, "Width": 32, "Height": 80 },
+            "ToArea": { "X": 416, "Y": 320, "Width": 32, "Height": 80 },
+            "When": { 
+                "townInterior fireplace1": "creamcheese, hotmilk, icedcoffee, licorice, ricepudding, sugar"
+            }
+        },
+        {
+            "LogName": "Warm Cozy townInterior fireplace2",
+            "Action": "EditImage",
+            "Target": "townInterior",
+            "FromFile": "assets/{{townInterior fireplace2}}.png",
+            "FromArea": { "X": 0, "Y": 0, "Width": 32, "Height": 80 },
+            "ToArea": { "X": 416, "Y": 448, "Width": 32, "Height": 80 },
+            "When": { 
+                "townInterior fireplace2": "creamcheese, hotmilk, icedcoffee, licorice, ricepudding, sugar"
+            }
+        },
+        {
+            "LogName": "Warm Cozy townInterior fireplace2",
+            "Action": "EditImage",
+            "Target": "Maps/townInterior",
+            "FromFile": "assets/{{townInterior fireplace2}}.png",
+            "FromArea": { "X": 0, "Y": 0, "Width": 32, "Height": 80 },
+            "ToArea": { "X": 416, "Y": 448, "Width": 32, "Height": 80 },
+            "When": { 
+                "townInterior fireplace2": "creamcheese, hotmilk, icedcoffee, licorice, ricepudding, sugar"
+            }
+        },
+        {
+            "LogName": "Warm Cozy Fireplace1",
+            "Action": "EditImage",
+            "Target": "TileSheets/furniture",
+            "FromFile": "assets/{{fireplace1}}.png",
+            "FromArea": { "X": 0, "Y": 0, "Width": 32, "Height": 80 },
+            "ToArea": { "X": 0, "Y": 896, "Width": 32, "Height": 80 },
+            "When": { 
+                "fireplace1": "creamcheese, hotmilk, icedcoffee, licorice, ricepudding, sugar"
+            }
+        },
+        {
+            "LogName": "Warm Cozy Fireplace2",
+            "Action": "EditImage",
+            "Target": "TileSheets/furniture",
+            "FromFile": "assets/{{fireplace2}}.png",
+            "FromArea": { "X": 0, "Y": 0, "Width": 32, "Height": 80 },
+            "ToArea": { "X": 32, "Y": 896, "Width": 32, "Height": 80 },
+            "When": { 
+                "fireplace2": "creamcheese, hotmilk, icedcoffee, licorice, ricepudding, sugar"
+            }
+        },
+        {
+            "LogName": "Warm Cozy Fireplace3",
+            "Action": "EditImage",
+            "Target": "TileSheets/furniture",
+            "FromFile": "assets/{{fireplace3}}.png",
+            "FromArea": { "X": 0, "Y": 0, "Width": 32, "Height": 80 },
+            "ToArea": { "X": 64, "Y": 896, "Width": 32, "Height": 80 },
+            "When": { 
+                "fireplace3": "creamcheese, hotmilk, icedcoffee, licorice, ricepudding, sugar"
+            }
+        },
+        {
+            "LogName": "Warm Cozy Fireplace4",
+            "Action": "EditImage",
+            "Target": "TileSheets/furniture",
+            "FromFile": "assets/{{fireplace4}}.png",
+            "FromArea": { "X": 0, "Y": 0, "Width": 32, "Height": 80 },
+            "ToArea": { "X": 96, "Y": 896, "Width": 32, "Height": 80 },
+            "When": { 
+                "fireplace4": "creamcheese, hotmilk, icedcoffee, licorice, ricepudding, sugar"
+            }
+        },
+        {
+            "LogName": "Warm Cozy Fireplace5",
+            "Action": "EditImage",
+            "Target": "TileSheets/furniture",
+            "FromFile": "assets/{{fireplace5}}.png",
+            "FromArea": { "X": 0, "Y": 0, "Width": 32, "Height": 80 },
+            "ToArea": { "X": 128, "Y": 896, "Width": 32, "Height": 80 },
+            "When": { 
+                "fireplace5": "creamcheese, hotmilk, icedcoffee, licorice, ricepudding, sugar"
+            }
+        },
+        {
+            "LogName": "Warm Cozy Fireplace6",
+            "Action": "EditImage",
+            "Target": "TileSheets/furniture",
+            "FromFile": "assets/{{fireplace6}}.png",
+            "FromArea": { "X": 0, "Y": 0, "Width": 32, "Height": 80 },
+            "ToArea": { "X": 160, "Y": 928, "Width": 32, "Height": 80 },
+            "When": { 
+                "fireplace6": "creamcheese, hotmilk, icedcoffee, licorice, ricepudding, sugar"
+            }
+        },
+    //English SVE
+        {
+            "LogName": "Warm Cozy Fireplace1 SVE",
+            "Action": "EditImage",
+            "Target": "Maps/VanillaFurniture",
+            "FromFile": "assets/{{fireplace1}}.png",
+            "FromArea": { "X": 0, "Y": 0, "Width": 32, "Height": 80 },
+            "ToArea": { "X": 0, "Y": 896, "Width": 32, "Height": 80 },
+            "When": { 
+                "SVE fireplaces": "true"
+            }
+        },
+        {
+            "LogName": "Warm Cozy Fireplace2 SVE",
+            "Action": "EditImage",
+            "Target": "Maps/VanillaFurniture",
+            "FromFile": "assets/{{fireplace2}}.png",
+            "FromArea": { "X": 0, "Y": 0, "Width": 32, "Height": 80 },
+            "ToArea": { "X": 32, "Y": 896, "Width": 32, "Height": 80 },
+            "When": { 
+                "SVE fireplaces": "true"
+            }
+        },
+        {
+            "LogName": "Warm Cozy Fireplace3 SVE",
+            "Action": "EditImage",
+            "Target": "Maps/VanillaFurniture",
+            "FromFile": "assets/{{fireplace3}}.png",
+            "FromArea": { "X": 0, "Y": 0, "Width": 32, "Height": 80 },
+            "ToArea": { "X": 64, "Y": 896, "Width": 32, "Height": 80 },
+            "When": { 
+                "SVE fireplaces": "true"
+            }
+        },
+        {
+            "LogName": "Warm Cozy Fireplace4 SVE",
+            "Action": "EditImage",
+            "Target": "Maps/VanillaFurniture",
+            "FromFile": "assets/{{fireplace4}}.png",
+            "FromArea": { "X": 0, "Y": 0, "Width": 32, "Height": 80 },
+            "ToArea": { "X": 96, "Y": 896, "Width": 32, "Height": 80 },
+            "When": { 
+                "SVE fireplaces": "true"
+            }
+        },
+        {
+            "LogName": "Warm Cozy Fireplace5 SVE",
+            "Action": "EditImage",
+            "Target": "Maps/VanillaFurniture",
+            "FromFile": "assets/{{fireplace5}}.png",
+            "FromArea": { "X": 0, "Y": 0, "Width": 32, "Height": 80 },
+            "ToArea": { "X": 128, "Y": 896, "Width": 32, "Height": 80 },
+            "When": { 
+                "SVE fireplaces": "true"
+            }
+        },
+        {
+            "LogName": "Warm Cozy Fireplace6 SVE",
+            "Action": "EditImage",
+            "Target": "Maps/VanillaFurniture",
+            "FromFile": "assets/{{fireplace6}}.png",
+            "FromArea": { "X": 0, "Y": 0, "Width": 32, "Height": 80 },
+            "ToArea": { "X": 160, "Y": 928, "Width": 32, "Height": 80 },
+            "When": { 
+                "SVE fireplaces": "true"
+            }
+        }
+    ]
+}

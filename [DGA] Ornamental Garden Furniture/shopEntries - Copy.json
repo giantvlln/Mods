@@ -1,0 +1,90 @@
+[
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "Wabi.DGA.ogf/Smallfountain0"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 1000
+    },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "Wabi.DGA.ogf/Largestonefairystatue1"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 1000
+    },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "Wabi.DGA.ogf/Largeanimatedstoneladystatue2"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 1000
+    },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "Wabi.DGA.ogf/Largestoneangelstatue3"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 1000
+    },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "Wabi.DGA.ogf/Stonebrickpond4"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 600
+    },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "Wabi.DGA.ogf/Whiteplanterbox5"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 300
+    },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "Wabi.DGA.ogf/Urnplanterbush6"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 150
+    },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "Wabi.DGA.ogf/Urnplanterflowerybush7"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 150
+    },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "Wabi.DGA.ogf/Swingseatleft8"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 300
+    },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "Wabi.DGA.ogf/Swingseatmiddle9"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 300
+    },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "Wabi.DGA.ogf/Swingseatright10"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 300
+    }
+]

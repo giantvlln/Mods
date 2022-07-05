@@ -1,0 +1,141 @@
+{
+   "Format": "1.11.0",
+   "ConfigSchema": {
+		"color": {
+		  "AllowValues": "pink, purple, blue, green, yellow, orange, white",
+		  "Default": "white"
+		},
+		"shape": {
+		  "AllowValues": "box, bars, gradient, heartthin, heartthick, flower, lotus",
+		  "Default": "box"
+		},
+		"stripes": {
+		  "AllowValues": "true, false",
+		  "Default": "false"
+		},
+		"randomise": {
+		  "AllowValues": "true, false",
+		  "Default": "false"
+		},
+		"turnModOff":{
+		  "AllowValues": "true, false",
+		  "Default": "false"
+		}
+	},
+	
+	"DynamicTokens": [
+		{
+		 "Name": "colorFinal",
+		 "Value": "{{color}}"
+		},
+		{
+		 "Name": "colorFinal",
+		 "Value": "{{Random:pink, purple, blue, green, yellow, orange, white}}",
+		 "When": {
+			"randomise": "true"
+		 }
+		},
+		{
+		 "Name": "shapeFinal",
+		 "Value": "{{shape}}"
+		},
+		{
+		 "Name": "shapeFinal",
+		 "Value": "{{Random:box, bars, gradient, heartthin, heartthick, flower, lotus}}",
+		 "When": {
+			"randomise": "true"
+		 }
+		},
+		{
+		 "Name": "stripesFinal",
+		 "Value": "{{stripes}}"
+		},
+		{
+		 "Name": "stripesFinal",
+		 "Value": "{{Random:true, false}}",
+		 "When": {
+			"randomise": "true"
+		 }
+		},
+		
+	],
+	
+   "Changes": [
+	  // Replaces Tool Location Hit Marker (covers all shapes that can have stripes and do)
+      {
+         "Action": "EditImage",
+         "Target": "LooseSprites/Cursors",
+         "FromFile": "assets/hitmarker_{{colorFinal}}{{shapeFinal}}stripes.png",
+         "ToArea":
+		 {
+			 "X": 448,
+			 "Y": 128,
+			 "Width": 64,
+			 "Height": 64
+		 },
+		 "FromArea":
+		 {
+			 "X": 0,
+			 "Y": 0,
+			 "Width": 64,
+			 "Height": 64
+		 },
+		 "When":{
+			"shapeFinal": "box, bars, gradient",
+			"stripesFinal": "true",
+			"turnModOff": "false"
+		 }
+      },
+	  // Replaces Tool Location Hit Marker (covers all shapes that can have stripes and don't)
+      {
+         "Action": "EditImage",
+         "Target": "LooseSprites/Cursors",
+         "FromFile": "assets/hitmarker_{{colorFinal}}{{shapeFinal}}.png",
+         "ToArea":
+		 {
+			 "X": 448,
+			 "Y": 128,
+			 "Width": 64,
+			 "Height": 64
+		 },
+		 "FromArea":
+		 {
+			 "X": 0,
+			 "Y": 0,
+			 "Width": 64,
+			 "Height": 64
+		 },
+		 "When":{
+			"shapeFinal": "box, bars, gradient",
+			"stripesFinal": "false",
+			"turnModOff": "false"
+		 }
+      },
+	  // Replaces Tool Location Hit Marker (covers all shapes that can't have stripes)
+      {
+         "Action": "EditImage",
+         "Target": "LooseSprites/Cursors",
+         "FromFile": "assets/hitmarker_{{colorFinal}}{{shapeFinal}}.png",
+         "ToArea":
+		 {
+			 "X": 448,
+			 "Y": 128,
+			 "Width": 64,
+			 "Height": 64
+		 },
+		 "FromArea":
+		 {
+			 "X": 0,
+			 "Y": 0,
+			 "Width": 64,
+			 "Height": 64
+		 },
+		 "When":{
+			"shapeFinal": "heartthin, heartthick, flower, lotus",
+			"turnModOff": "false"
+		 }
+      }
+	  
+	  
+   ]
+}

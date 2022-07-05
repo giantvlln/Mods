@@ -1,0 +1,11 @@
+{
+    "Name": "Playing Ping Pong On Grandpa's Bed",
+    "Author": "EvilInu",
+    "Version": "1.0.0",
+    "Description": "Let's play some ping pong on grandpa's bed",
+    "UniqueID": "EvilInu.PlayingPingPongOnGrandpasBed",
+    "UpdateKeys": ["Nexus:11818"],
+    "ContentPackFor": {
+        "UniqueID": "Pathoschild.ContentPatcher"
+    }
+}

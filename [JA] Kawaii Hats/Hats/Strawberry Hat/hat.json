@@ -1,0 +1,7 @@
+{
+	"Name": "Strawberry Hat",
+	"Description": "Looks so real, you almost want to eat it.",
+	"PurchasePrice": "1000",
+	"ShowHair": false,
+	"IgnoreHairstyleOffset": true
+}

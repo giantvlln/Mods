@@ -1,0 +1,7 @@
+{
+	"Name": "Tribal Hairpiece",
+	"Description": "A festively decorated hairpiece.",
+	"PurchasePrice": "1000",
+	"ShowHair": false,
+	"IgnoreHairstyleOffset": true
+}

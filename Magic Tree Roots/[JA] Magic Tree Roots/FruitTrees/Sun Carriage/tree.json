@@ -1,0 +1,11 @@
+{
+
+	"Name": "Sun Carriage",
+	"Product": "Sun Passenger",
+	"SaplingName": "Magic Root- Sun Carriage Sapling",
+	"SaplingDescription": "Look at this cute little guy. Let's find a home for him.",
+	"Season": "summer",
+	"SaplingPurchaseFrom": "Willy",
+	"SaplingPurchasePrice": 7500,
+	"SaplingPurchaseRequirements": null
+}

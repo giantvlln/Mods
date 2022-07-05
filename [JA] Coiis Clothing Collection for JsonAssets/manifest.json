@@ -1,0 +1,10 @@
+{
+   "Name": "A collection of Coii's Basic Shirts & Coii's Girls Set for JsonAssets",
+   "Author": "Coii (original) PPJA (conversion)",
+   "Version": "1.0.0",
+   "Description": "Adds to farmer's shirts & pants.",
+   "UniqueID": "coii.shirtsandgirlssetcollectionja",
+   "ContentPackFor": {
+    	"UniqueID": "spacechase0.JsonAssets"
+    },
+}

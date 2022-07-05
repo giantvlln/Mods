@@ -1,0 +1,18 @@
+{
+   "Name": "Eemie's Just A New Map Recolour - CP Conversion",
+   "Author": "minervamaga and eemiestardew",
+   "Version": "1.7.2",
+   "Description": "A conversion of Eemie's map palette mod",
+   "UniqueID": "minervamaga.CP.eemieMapRecolour",
+   "UpdateKeys": ["Moddrop:580620", "Nexus:2050"],
+   "ContentPackFor": {
+      "UniqueID": "Pathoschild.ContentPatcher",
+      "MinimumVersion": "1.10.0"
+	},
+   "Dependencies": [
+   {
+      "UniqueID": "DaisyNiko.EarthyRecolour",
+      "IsRequired": false
+   }
+]
+}

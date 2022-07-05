@@ -1,0 +1,17 @@
+{
+	"Name": "Clarabelle the Blue Chicken - CP Component",
+	"Author": "Pebble",
+	"Version": "1.0.1",
+	"Description": "Adds a custom companion named Clarabelle to the game, a blue chicken that chills in the animal shop after triggering Shane's 8 heart event.",
+	"UniqueID": "Pebble.ClarabelleCP",
+	"UpdateKeys": [ "Nexus:9819" ],
+	"ContentPackFor": {
+		"UniqueID": "Pathoschild.ContentPatcher",
+	},
+	"Dependencies": [
+		{
+			"UniqueID": "PeacefulEnd.CustomCompanions",
+			"IsRequired": true,
+		},
+	],
+}

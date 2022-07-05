@@ -1,0 +1,14 @@
+{
+    "Name": "Ornamental Garden Furniture",
+    "Author": "Wabi",
+    "Version": "1.0.0",
+    "Description": "Ornamental garden feautures",
+    "UniqueID": "Wabi.DGA.ogf",
+    "UpdateKeys": [],
+    "ContentPackFor": {
+        "UniqueID": "spacechase0.DynamicGameAssets",
+        "MinimumVersion": "1.4.2"
+    },
+    "DGA.FormatVersion": 2,
+    "DGA.ConditionsFormatVersion": "1.25.0"
+}

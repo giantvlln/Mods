@@ -1,0 +1,14 @@
+{
+  "name": "Life Cycle - Haley & Leah",
+  "version": "3.3.0", 
+  "author": "nraittanna",
+  "loadLate": true,
+  "replaceMaps":
+   [
+    {
+      "name": "LeahHouse",
+      "file": "assets/LeahHouse.tmx",
+      "conditions": "e 59020049"
+    }
+  ], 
+}

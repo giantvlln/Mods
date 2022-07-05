@@ -1,0 +1,11 @@
+{
+
+	"Name": "Book Of Spring",
+	"Product": "Air Essence",
+	"SaplingName": "Magic Root- Book Of Spring Sapling",
+	"SaplingDescription": "The first Book of Ancient Seasons, it collects the fresh breeze from 4 seasons to crystalize the Air Essence.",
+	"Season": "spring",
+	"SaplingPurchaseFrom": null,
+	"SaplingPurchasePrice": 500,
+	"SaplingPurchaseRequirements": null
+}

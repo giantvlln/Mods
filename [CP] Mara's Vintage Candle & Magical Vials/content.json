@@ -1,0 +1,79 @@
+{
+  "Format": "1.14.0",
+
+   "ConfigSchema": {
+
+    "Energy Tonic": {
+         "AllowValues": "true, false",
+         "Default": "true"
+      },
+    "Muscle Remedy": {
+         "AllowValues": "true, false",
+         "Default": "true"
+      },
+	"Oil of Garlic": {
+         "AllowValues": "true, false",
+         "Default": "true"
+      },
+	"Life Elixir": {
+         "AllowValues": "true, false",
+         "Default": "true"
+      },
+	"Torch": {
+		"AllowValues": "true, false",
+		"Default": "true"
+	  }
+  },
+ 
+  "Changes": [
+
+		{
+		"Action": "EditImage",
+		"Target": "Maps/springobjects",
+		"FromFile": "assets/misc.png",
+		"FromArea": { "X": 208, "Y": 224, "Width": 16, "Height": 16 },
+		"ToArea": { "X": 208, "Y": 224, "Width": 16, "Height": 16 },
+			"When": { "Energy Tonic": "true" }
+		},
+		{
+		"Action": "EditImage",
+		"Target": "Maps/springobjects",
+		"FromFile": "assets/misc.png",
+		"FromArea": { "X": 240, "Y": 224, "Width": 16, "Height": 16 },
+		"ToArea": { "X": 240, "Y": 224, "Width": 16, "Height": 16 },
+			"When": { "Muscle Remedy": "true" },
+		},
+		{
+		"Action": "EditImage",
+		"Target": "Maps/springobjects",
+		"FromFile": "assets/misc.png",
+		"FromArea": { "X": 64, "Y": 512, "Width": 16, "Height": 16 },
+		"ToArea": { "X": 64, "Y": 512, "Width": 16, "Height": 16 },
+			"When": { "Oil of Garlic": "true" }
+		},
+		{
+		"Action": "EditImage",
+		"Target": "Maps/springobjects",
+		"FromFile": "assets/misc.png",
+		"FromArea": { "X": 80, "Y": 512, "Width": 16, "Height": 16 },
+		"ToArea": { "X": 80, "Y": 512, "Width": 16, "Height": 16 },
+			"When": { "Life Elixir": "true" }
+		},
+		{
+		"Action":"EditImage", 
+		"Target":"LooseSprites/Cursors", 
+		"FromFile":"assets/flame.png",
+		"ToArea": { "X": 276, "Y": 1965, "Width": 56,"Height": 8 },
+			"When" : { "Torch" : "true" }
+		},
+		{
+		"Action":"EditImage", 
+		"Target":"Maps/springobjects", 
+		"FromFile":"assets/torch.png",
+		"ToArea": { "X": 336, "Y": 48, "Width": 16,"Height": 16 },
+			"When" : { "Torch" : "true" }
+		}
+
+	]
+
+}

@@ -1,0 +1,127 @@
+{
+	"Format": "1.9",
+
+	"ConfigSchema": {
+
+		"Breed": {
+			"AllowValues": "Appaloosa, Blackforest, Blueroan, Camarillo, Clydesdale, Fjord, Frenchsaddle, Fresian, Mustang, Nightmare, Paint, Palomino, Shadowmere",
+			"Default": "Appaloosa"
+			},
+		"Saddle": {
+			"AllowValues": "True, False",
+			"Default": "True"
+			},
+		"Blink": {
+			"AllowValues": "True, False",
+			"Default": "True"
+			},
+		"MenuIcon": {
+			"AllowValues": "True, False",
+			"Default": "True"
+			},
+		},
+
+	"Changes": [
+
+		//Menu Icon
+		{
+	          "Action": "EditImage",
+	          "Target": "LooseSprites/Cursors",
+	          "FromFile": "assets/{{Breed}}bb.png",
+	          "FromArea": { "X": 156, "Y": 95, "Width": 16, "Height": 16 }, 
+	          "ToArea": { "X": 192, "Y": 190, "Width": 16, "Height": 16 },
+	          "Patchmode": "Replace",
+			  "When": {
+			  "MenuIcon": "True",
+			  }
+	       },
+		{
+	          "Action": "EditImage",
+	          "Target": "LooseSprites/Cursors",
+	          "FromFile": "assets/{{Breed}}sd.png",
+	          "FromArea": { "X": 156, "Y": 95, "Width": 16, "Height": 16 }, 
+	          "ToArea": { "X": 192, "Y": 191, "Width": 16, "Height": 16 },
+	          "Patchmode": "Replace",
+			  "When": {
+			  "MenuIcon": "True",
+			  "Saddle": "True",
+			  "Blink": "True",
+			  }
+	       },
+
+		{
+	          "Action": "EditImage",
+	          "Target": "LooseSprites/Cursors",
+	          "FromFile": "assets/{{Breed}}bbnb.png",
+	          "FromArea": { "X": 156, "Y": 95, "Width": 16, "Height": 16 }, 
+	          "ToArea": { "X": 192, "Y": 191, "Width": 16, "Height": 16 },
+	          "Patchmode": "Replace",
+			  "When": {
+			  "MenuIcon": "True",
+			  "Saddle": "False",
+			  "Blink": "False",
+			  }
+	       },
+
+		{
+	          "Action": "EditImage",
+	          "Target": "LooseSprites/Cursors",
+	          "FromFile": "assets/{{Breed}}sdnb.png",
+	          "FromArea": { "X": 156, "Y": 95, "Width": 16, "Height": 16 }, 
+	          "ToArea": { "X": 192, "Y": 191, "Width": 16, "Height": 16 },
+	          "Patchmode": "Replace",
+			  "When": {
+			  "MenuIcon": "True",
+			  "Saddle": "True",
+			  "Blink": "False",
+			  }
+	       },
+
+
+		//Replace
+		{
+	        "Action": "Load",
+		"PatchMode": "Replace",
+	        "Target": "Animals/horse",
+	       	"FromFile": "assets/{{Breed}}bb.png",
+			"When": {
+			"Saddle": "False",
+			"Blink": "True",
+			}
+		},
+
+		{
+	        "Action": "Load",
+		"PatchMode": "Replace",
+	        "Target": "Animals/horse",
+	       	"FromFile": "assets/{{Breed}}sd.png",
+			"When": {
+			"Saddle": "True",
+			"Blink": "True",
+			}
+		},
+
+		{
+	        "Action": "Load",
+		"PatchMode": "Replace",
+	        "Target": "Animals/horse",
+	       	"FromFile": "assets/{{Breed}}bbnb.png",
+			"When": {
+			"Saddle": "False",
+			"Blink": "False",
+			}
+		},
+
+		{
+	        "Action": "Load",
+		"PatchMode": "Replace",
+	        "Target": "Animals/horse",
+	       	"FromFile": "assets/{{Breed}}sdnb.png",
+			"When": {
+			"Saddle": "True",
+			"Blink": "False",
+			}
+		},
+
+	]
+}

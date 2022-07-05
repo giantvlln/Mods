@@ -1,0 +1,25 @@
+{
+	"Name": "Bendy Lamp Right",
+	"Description": "Provides a good amount of light.",
+	"Price": 500,
+	"ProvidesLight": true,
+	"Recipe": 
+	{
+		"ResultCount": 1,
+		"Ingredients": 
+		[
+			{
+			"Object": 335,
+			"Count": 1,
+			},
+			{
+			"Object": 388,
+			"Count": 50,
+			},
+		],
+	"IsDefault": false,
+	"CanPurchase": true,
+	"PurchaseFrom": "Robin", 
+	"PurchasePrice": 500,
+	},
+}

@@ -1,0 +1,756 @@
+ {
+   "Format": "1.23.0",
+   "ConfigSchema": {
+     "TextChanges": {
+        "AllowValues": "on, off",
+        "Default": "on",
+        "Description": "Updates the names and/or descriptions of a few items to match their new sprites. Sprites that have been disabled via their individual config options (below) will not be affected. Set to \"off\" only if you would prefer to keep the new sprites with the vanilla descriptions and names."
+     },
+     "GoldenMask": {
+        "AllowValues": "on, off",
+        "Default": "on",
+     },
+     "GoldenRelic": {
+        "AllowValues": "on, off",
+        "Default": "on",
+     },
+     "ElvishJewelry": {
+        "AllowValues": "on, off",
+        "Default": "on",
+     },
+     "ChippedAmphora": {
+        "AllowValues": "on, off",
+        "Default": "on",
+     },
+     "AncientDrum": {
+        "AllowValues": "on, off",
+        "Default": "on",
+     },
+     "GlassShards": {
+        "AllowValues": "on, off, blue",
+        "Default": "on",
+        "Description": "Set to \"blue\" if you would prefer a plain glass texture rather than the colorful stained glass style shards which the mod defaults to",
+     },
+     "AncientSeed": {
+        "AllowValues": "on, off",
+        "Default": "on",
+     },
+     "RustySpoon": {
+        "AllowValues": "on, off",
+        "Default": "on",
+     },
+     "ChewingStick": {
+        "AllowValues": "on, off",
+        "Default": "on",
+     },
+     "PrehistoricTools": {
+        "AllowValues": "on, off",
+        "Default": "on",
+     },
+     "Arrowhead": {
+        "AllowValues": "on, off",
+        "Default": "on",
+     },
+     "PrehistoricHandaxe": {
+        "AllowValues": "on, off",
+        "Default": "on",
+     },
+     "Anchor": {
+        "AllowValues": "on, off",
+        "Default": "on",
+     },
+     "DriedStarfish": {
+        "AllowValues": "on, off",
+        "Default": "on",
+     },
+     "DwarfScrollI": {
+        "AllowValues": "on, off",
+        "Default": "on",
+     },
+     "DwarfScrollII": {
+        "AllowValues": "on, off",
+        "Default": "on",
+     },
+     "DwarfScrollIII": {
+        "AllowValues": "on, off",
+        "Default": "on",
+     },
+     "DwarfScrollIV": {
+        "AllowValues": "on, off",
+        "Default": "on",
+     },
+     "RustySpur": {
+        "AllowValues": "on, off",
+        "Default": "on",
+     },
+     "RustyCog": {
+        "AllowValues": "on, off",
+        "Default": "on",
+     },
+     "OrnamentalFan": {
+        "AllowValues": "on, off",
+        "Default": "on",
+     },
+     "BoneFlute": {
+        "AllowValues": "on, off",
+        "Default": "on",
+     },
+     "AncientSword": {
+        "AllowValues": "on, off",
+        "Default": "on",
+     },
+     "RareDisc": {
+        "AllowValues": "on, off",
+        "Default": "on",
+     },
+     "PrehistoricScapulae": {
+        "AllowValues": "on, off",
+        "Default": "on",
+     },
+     "PrehistoricTibiae": {
+        "AllowValues": "on, off",
+        "Default": "on",
+     },
+     "PrehistoricSkull": {
+        "AllowValues": "on, off",
+        "Default": "on",
+     },
+     "SkeletalHands": {
+        "AllowValues": "on, off",
+        "Default": "on",
+     },
+     "PrehistoricRibcage": {
+        "AllowValues": "on, off",
+        "Default": "on",
+     },
+     "PrehistoricVertebrae": {
+        "AllowValues": "on, off",
+        "Default": "on",
+     },
+     "SkeletalTail": {
+        "AllowValues": "on, off",
+        "Default": "on",
+     },
+     "DwarfGadget": {
+        "AllowValues": "on, off, alien",
+        "Default": "on",
+        "Description": "Set to \"alien\" to replace the mod's default typewriter-style dwarf gadget texture with a sci-fi alien style terminal",
+     },
+     "DwarvenHelm": {
+        "AllowValues": "on, off, green",
+        "Default": "on",
+        "Description": "Set to \"green\" to make the dwarven helm's eyes glow green to compliment the alien style dwarf gadget option",
+     },
+     "StrangeDoll1": {
+        "AllowValues": "on, off",
+        "Default": "on",
+     },
+     "StrangeDoll2": {
+        "AllowValues": "on, off",
+        "Default": "on",
+     },
+     "AncientDoll": {
+        "AllowValues": "on, off",
+        "Default": "on",
+     },
+     "NautilusFossil": {
+        "AllowValues": "on, off",
+        "Default": "on",
+     },
+     "ChickenStatue": {
+        "AllowValues": "on, off",
+        "Default": "on",
+     },
+     "AmphibianFossil": {
+        "AllowValues": "on, off",
+        "Default": "on",
+     },
+     "PalmFossil": {
+        "AllowValues": "on, off",
+        "Default": "on",
+     },
+     "Trilobyte": {
+        "AllowValues": "on, off",
+        "Default": "on",
+     }
+   },
+   "Changes": [
+      {
+         "LogName": "Dwarf Scroll I text changes",
+         "Action": "EditData",
+         "Target": "Data/ObjectInformation",
+         "Fields": {
+             "96": {
+                 4: "{{i18n:herbivoor.Name.DwarfScrollI}}",
+                 5: "{{i18n:herbivoor.Description.DwarfScrollI}}"
+             }
+         },
+         "When": { "TextChanges": "on", "DwarfScrollI": "on" }
+      },
+      {
+         "LogName": "Dwarf Scroll II text changes",
+         "Action": "EditData",
+         "Target": "Data/ObjectInformation",
+         "Fields": {
+             "97": {
+                 4: "{{i18n:herbivoor.Name.DwarfScrollII}}",
+                 5: "{{i18n:herbivoor.Description.DwarfScrollII}}"
+             }
+         },
+         "When": { "TextChanges": "on", "DwarfScrollII": "on" }
+      },
+      {
+         "LogName": "Dwarf Scroll III text changes",
+         "Action": "EditData",
+         "Target": "Data/ObjectInformation",
+         "Fields": {
+             "98": {
+                 4: "{{i18n:herbivoor.Name.DwarfScrollIII}}",
+                 5: "{{i18n:herbivoor.Description.DwarfScrollIII}}"
+             }
+         },
+         "When": { "TextChanges": "on", "DwarfScrollIII": "on" }
+      },
+      {
+         "LogName": "Dwarf Scroll IV text changes",
+         "Action": "EditData",
+         "Target": "Data/ObjectInformation",
+         "Fields": {
+             "99": {
+                 4: "{{i18n:herbivoor.Name.DwarfScrollIV}}",
+                 5: "{{i18n:herbivoor.Description.DwarfScrollIV}}"
+             }
+         },
+         "When": { "TextChanges": "on", "DwarfScrollIV": "on" }
+      },
+      {
+         "LogName": "Prehistoric Scapulae text changes",
+         "Action": "EditData",
+         "Target": "Data/ObjectInformation",
+         "Fields": {
+             "579": {
+                 4: "{{i18n:herbivoor.Name.PrehistoricScapulae}}",
+                 5: "{{i18n:herbivoor.Description.PrehistoricScapulae}}"
+             }
+         },
+         "When": { "TextChanges": "on", "PrehistoricScapulae": "on" }
+      },
+      {
+         "LogName": "Prehistoric Tibiae text changes",
+         "Action": "EditData",
+         "Target": "Data/ObjectInformation",
+         "Fields": {
+             "580": {
+                 4: "{{i18n:herbivoor.Name.PrehistoricTibiae}}",
+                 5: "{{i18n:herbivoor.Description.PrehistoricTibiae}}"
+             }
+         },
+         "When": { "TextChanges": "on", "PrehistoricTibiae": "on" }
+      },
+      {
+         "LogName": "Skeletal Hands text changes",
+         "Action": "EditData",
+         "Target": "Data/ObjectInformation",
+         "Fields": {
+             "582": {
+                 4: "{{i18n:herbivoor.Name.SkeletalHands}}",
+                 5: "{{i18n:herbivoor.Description.SkeletalHands}}"
+             }
+         },
+         "When": { "TextChanges": "on", "SkeletalHands": "on" }
+      },
+      {
+         "LogName": "Prehistoric Ribcage text changes",
+         "Action": "EditData",
+         "Target": "Data/ObjectInformation",
+         "Fields": {
+             "583": {
+                 4: "{{i18n:herbivoor.Name.PrehistoricRibcage}}",
+                 5: "{{i18n:herbivoor.Description.PrehistoricRibcage}}"
+             }
+         },
+         "When": { "TextChanges": "on", "PrehistoricRibcage": "on" }
+      },
+      {
+         "LogName": "Prehistoric Vertebrae text changes",
+         "Action": "EditData",
+         "Target": "Data/ObjectInformation",
+         "Fields": {
+             "584": {
+                 4: "{{i18n:herbivoor.Name.PrehistoricVertebrae}}",
+                 5: "{{i18n:herbivoor.Description.PrehistoricVertebrae}}"
+             }
+         },
+         "When": { "TextChanges": "on", "PrehistoricVertebrae": "on" }
+      },
+      {
+         "LogName": "Skeletal Tail text changes",
+         "Action": "EditData",
+         "Target": "Data/ObjectInformation",
+         "Fields": {
+             "585": {
+                 4: "{{i18n:herbivoor.Name.SkeletalTail}}",
+                 5: "{{i18n:herbivoor.Description.SkeletalTail}}"
+             }
+         },
+         "When": { "TextChanges": "on", "SkeletalTail": "on" }
+      },
+      {
+         "LogName": "Elvish Jewelry text changes",
+         "Action": "EditData",
+         "Target": "Data/ObjectInformation",
+         "Fields": {
+             "104": {
+                 4: "{{i18n:herbivoor.Name.ElvishJewelry}}",
+                 5: "{{i18n:herbivoor.Description.ElvishJewelry}}"
+             }
+         },
+         "When": { "TextChanges": "on", "ElvishJewelry": "on" }
+      },
+      {
+         "LogName": "Ancient Doll text changes",
+         "Action": "EditData",
+         "Target": "Data/ObjectInformation",
+         "Fields": {
+             "103": {
+                 4: "{{i18n:herbivoor.Name.AncientDoll}}",
+                 5: "{{i18n:herbivoor.Description.AncientDoll}}"
+             }
+         },
+         "When": { "TextChanges": "on", "AncientDoll": "on" }
+      },
+      {
+         "LogName": "Strange Doll 1 text changes",
+         "Action": "EditData",
+         "Target": "Data/ObjectInformation",
+         "Fields": {
+             "126": {
+                 4: "{{i18n:herbivoor.Name.StrangeDoll1}}",
+                 5: "{{i18n:herbivoor.Description.StrangeDoll1}}"
+             }
+         },
+         "When": { "TextChanges": "on", "StrangeDoll1": "on" }
+      },
+      {
+         "LogName": "Strange Doll 2 text changes",
+         "Action": "EditData",
+         "Target": "Data/ObjectInformation",
+         "Fields": {
+             "127": {
+                 4: "{{i18n:herbivoor.Name.StrangeDoll2}}",
+                 5: "{{i18n:herbivoor.Description.StrangeDoll2}}"
+             }
+         },
+         "When": { "TextChanges": "on", "StrangeDoll2": "on" }
+      },
+      {
+         "LogName": "Prehistoric Tools text changes",
+         "Action": "EditData",
+         "Target": "Data/ObjectInformation",
+         "Fields": {
+             "115": {
+                 4: "{{i18n:herbivoor.Name.PrehistoricTools}}",
+                 5: "{{i18n:herbivoor.Description.PrehistoricTools}}"
+             }
+         },
+         "When": { "TextChanges": "on", "PrehistoricTools": "on" }
+      },
+      {
+         "LogName": "Golden Mask",
+         "Action": "EditImage",
+         "Target": "Maps/springobjects",
+         "FromFile": "assets/springobjects.png",
+         "FromArea": {"X": "64", "Y": "80", "Width": "16", "Height": "16"},
+         "ToArea": {"X": "64", "Y": "80", "Width": "16", "Height": "16"},
+         "When": { "GoldenMask": "on" }
+      },
+      {
+         "LogName": "Golden Relic",
+         "Action": "EditImage",
+         "Target": "Maps/springobjects",
+         "FromFile": "assets/springobjects.png",
+         "FromArea": {"X": "80", "Y": "80", "Width": "16", "Height": "16"},
+         "ToArea": {"X": "80", "Y": "80", "Width": "16", "Height": "16"},
+         "When": { "GoldenRelic": "on" }
+      },
+      {
+         "LogName": "Elvish Jewelry",
+         "Action": "EditImage",
+         "Target": "Maps/springobjects",
+         "FromFile": "assets/springobjects.png",
+         "FromArea": {"X": "128", "Y": "64", "Width": "16", "Height": "16"},
+         "ToArea": {"X": "128", "Y": "64", "Width": "16", "Height": "16"},
+         "When": { "ElvishJewelry": "on" }
+      },
+      {
+         "LogName": "Chipped Amphora",
+         "Action": "EditImage",
+         "Target": "Maps/springobjects",
+         "FromFile": "assets/springobjects.png",
+         "FromArea": {"X": "64", "Y": "64", "Width": "16", "Height": "16"},
+         "ToArea": {"X": "64", "Y": "64", "Width": "16", "Height": "16"},
+         "When": { "ChippedAmphora": "on" }
+      },
+      {
+         "LogName": "Ancient Drum",
+         "Action": "EditImage",
+         "Target": "Maps/springobjects",
+         "FromFile": "assets/springobjects.png",
+         "FromArea": {"X": "48", "Y": "80", "Width": "16", "Height": "16"},
+         "ToArea": {"X": "48", "Y": "80", "Width": "16", "Height": "16"},
+         "When": { "AncientDrum": "on" }
+      },
+      {
+         "LogName": "Glass Shards",
+         "Action": "EditImage",
+         "Target": "Maps/springobjects",
+         "FromFile": "assets/springobjects.png",
+         "FromArea": {"X": "352", "Y": "64", "Width": "16", "Height": "16"},
+         "ToArea": {"X": "352", "Y": "64", "Width": "16", "Height": "16"},
+         "When": { "GlassShards": "on" }
+      },
+      {
+         "LogName": "Glass Shards Blue",
+         "Action": "EditImage",
+         "Target": "Maps/springobjects",
+         "FromFile": "assets/glassShardsBlue.png",
+         "FromArea": {"X": "0", "Y": "0", "Width": "16", "Height": "16"},
+         "ToArea": {"X": "352", "Y": "64", "Width": "16", "Height": "16"},
+         "When": { "GlassShards": "blue" }
+      },
+      {
+         "LogName": "Ancient Seed",
+         "Action": "EditImage",
+         "Target": "Maps/springobjects",
+         "FromFile": "assets/springobjects.png",
+         "FromArea": {"X": "288", "Y": "64", "Width": "16", "Height": "16"},
+         "ToArea": {"X": "288", "Y": "64", "Width": "16", "Height": "16"},
+         "When": { "AncientSeed": "on" }
+      },
+      {
+         "LogName": "Rusty Spoon",
+         "Action": "EditImage",
+         "Target": "Maps/springobjects",
+         "FromFile": "assets/springobjects.png",
+         "FromArea": {"X": "224", "Y": "64", "Width": "16", "Height": "16"},
+         "ToArea": {"X": "224", "Y": "64", "Width": "16", "Height": "16"},
+         "When": { "RustySpoon": "on" }
+      },
+      {
+         "LogName": "Chewing Stick",
+         "Action": "EditImage",
+         "Target": "Maps/springobjects",
+         "FromFile": "assets/springobjects.png",
+         "FromArea": {"X": "144", "Y": "64", "Width": "16", "Height": "16"},
+         "ToArea": {"X": "144", "Y": "64", "Width": "16", "Height": "16"},
+         "When": { "ChewingStick": "on" }
+      },
+      {
+         "LogName": "Prehistoric Tools",
+         "Action": "EditImage",
+         "Target": "Maps/springobjects",
+         "FromFile": "assets/springobjects.png",
+         "FromArea": {"X": "304", "Y": "64", "Width": "16", "Height": "16"},
+         "ToArea": {"X": "304", "Y": "64", "Width": "16", "Height": "16"},
+         "When": { "PrehistoricTools": "on" }
+      },
+      {
+         "LogName": "Arrowhead",
+         "Action": "EditImage",
+         "Target": "Maps/springobjects",
+         "FromFile": "assets/springobjects.png",
+         "FromArea": {"X": "80", "Y": "64", "Width": "16", "Height": "16"},
+         "ToArea": {"X": "80", "Y": "64", "Width": "16", "Height": "16"},
+         "When": { "Arrowhead": "on" }
+      },
+      {
+         "LogName": "Prehistoric Handaxe",
+         "Action": "EditImage",
+         "Target": "Maps/springobjects",
+         "FromFile": "assets/springobjects.png",
+         "FromArea": {"X": "0", "Y": "80", "Width": "16", "Height": "16"},
+         "ToArea": {"X": "0", "Y": "80", "Width": "16", "Height": "16"},
+         "When": { "PrehistoricHandaxe": "on" }
+      },
+      {
+         "LogName": "Anchor",
+         "Action": "EditImage",
+         "Target": "Maps/springobjects",
+         "FromFile": "assets/springobjects.png",
+         "FromArea": {"X": "336", "Y": "64", "Width": "16", "Height": "16"},
+         "ToArea": {"X": "336", "Y": "64", "Width": "16", "Height": "16"},
+         "When": { "Anchor": "on" }
+      },
+      {
+         "LogName": "Dried Starfish",
+         "Action": "EditImage",
+         "Target": "Maps/springobjects",
+         "FromFile": "assets/springobjects.png",
+         "FromArea": {"X": "320", "Y": "64", "Width": "16", "Height": "16"},
+         "ToArea": {"X": "320", "Y": "64", "Width": "16", "Height": "16"},
+         "When": { "DriedStarfish": "on" }
+      },
+      {
+         "LogName": "Dwarf Scroll I",
+         "Action": "EditImage",
+         "Target": "Maps/springobjects",
+         "FromFile": "assets/springobjects.png",
+         "FromArea": {"X": "0", "Y": "64", "Width": "16", "Height": "16"},
+         "ToArea": {"X": "0", "Y": "64", "Width": "16", "Height": "16"},
+         "When": { "DwarfScrollI": "on" }
+      },
+      {
+         "LogName": "Dwarf Scroll II",
+         "Action": "EditImage",
+         "Target": "Maps/springobjects",
+         "FromFile": "assets/springobjects.png",
+         "FromArea": {"X": "16", "Y": "64", "Width": "16", "Height": "16"},
+         "ToArea": {"X": "16", "Y": "64", "Width": "16", "Height": "16"},
+         "When": { "DwarfScrollII": "on" }
+      },
+      {
+         "LogName": "Dwarf Scroll III",
+         "Action": "EditImage",
+         "Target": "Maps/springobjects",
+         "FromFile": "assets/springobjects.png",
+         "FromArea": {"X": "32", "Y": "64", "Width": "16", "Height": "16"},
+         "ToArea": {"X": "32", "Y": "64", "Width": "16", "Height": "16"},
+         "When": { "DwarfScrollIII": "on" }
+      },
+      {
+         "LogName": "Dwarf Scroll IV",
+         "Action": "EditImage",
+         "Target": "Maps/springobjects",
+         "FromFile": "assets/springobjects.png",
+         "FromArea": {"X": "48", "Y": "64", "Width": "16", "Height": "16"},
+         "ToArea": {"X": "48", "Y": "64", "Width": "16", "Height": "16"},
+         "When": { "DwarfScrollIV": "on" }
+      },
+      {
+         "LogName": "Rusty Spur",
+         "Action": "EditImage",
+         "Target": "Maps/springobjects",
+         "FromFile": "assets/springobjects.png",
+         "FromArea": {"X": "240", "Y": "64", "Width": "16", "Height": "16"},
+         "ToArea": {"X": "240", "Y": "64", "Width": "16", "Height": "16"},
+         "When": { "RustySpur": "on" }
+      },
+      {
+         "LogName": "Rusty Cog",
+         "Action": "EditImage",
+         "Target": "Maps/springobjects",
+         "FromFile": "assets/springobjects.png",
+         "FromArea": {"X": "256", "Y": "64", "Width": "16", "Height": "16"},
+         "ToArea": {"X": "256", "Y": "64", "Width": "16", "Height": "16"},
+         "When": { "RustyCog": "on" }
+      },
+      {
+         "LogName": "Ornamental Fan",
+         "Action": "EditImage",
+         "Target": "Maps/springobjects",
+         "FromFile": "assets/springobjects.png",
+         "FromArea": {"X": "160", "Y": "64", "Width": "16", "Height": "16"},
+         "ToArea": {"X": "160", "Y": "64", "Width": "16", "Height": "16"},
+         "When": { "OrnamentalFan": "on" }
+      },
+      {
+         "LogName": "Bone Flute",
+         "Action": "EditImage",
+         "Target": "Maps/springobjects",
+         "FromFile": "assets/springobjects.png",
+         "FromArea": {"X": "368", "Y": "64", "Width": "16", "Height": "16"},
+         "ToArea": {"X": "368", "Y": "64", "Width": "16", "Height": "16"},
+         "When": { "BoneFlute": "on" }
+      },
+      {
+         "LogName": "Ancient Sword",
+         "Action": "EditImage",
+         "Target": "Maps/springobjects",
+         "FromFile": "assets/springobjects.png",
+         "FromArea": {"X": "208", "Y": "64", "Width": "16", "Height": "16"},
+         "ToArea": {"X": "208", "Y": "64", "Width": "16", "Height": "16"},
+         "When": { "AncientSword": "on" }
+      },
+      {
+         "LogName": "Rare Disc",
+         "Action": "EditImage",
+         "Target": "Maps/springobjects",
+         "FromFile": "assets/springobjects.png",
+         "FromArea": {"X": "192", "Y": "64", "Width": "16", "Height": "16"},
+         "ToArea": {"X": "192", "Y": "64", "Width": "16", "Height": "16"},
+         "When": { "RareDisc": "on" }
+      },
+      {
+         "LogName": "Prehistoric Scapulae",
+         "Action": "EditImage",
+         "Target": "Maps/springobjects",
+         "FromFile": "assets/springobjects.png",
+         "FromArea": {"X": "48", "Y": "384", "Width": "16", "Height": "16"},
+         "ToArea": {"X": "48", "Y": "384", "Width": "16", "Height": "16"},
+         "When": { "PrehistoricScapulae": "on" }
+      },
+      {
+         "LogName": "Prehistoric Tibiae",
+         "Action": "EditImage",
+         "Target": "Maps/springobjects",
+         "FromFile": "assets/springobjects.png",
+         "FromArea": {"X": "64", "Y": "384", "Width": "16", "Height": "16"},
+         "ToArea": {"X": "64", "Y": "384", "Width": "16", "Height": "16"},
+         "When": { "PrehistoricTibiae": "on" }
+      },
+      {
+         "LogName": "Prehistoric Skull",
+         "Action": "EditImage",
+         "Target": "Maps/springobjects",
+         "FromFile": "assets/springobjects.png",
+         "FromArea": {"X": "80", "Y": "384", "Width": "16", "Height": "16"},
+         "ToArea": {"X": "80", "Y": "384", "Width": "16", "Height": "16"},
+         "When": { "PrehistoricSkull": "on" }
+      },
+      {
+         "LogName": "Skeletal Hands",
+         "Action": "EditImage",
+         "Target": "Maps/springobjects",
+         "FromFile": "assets/springobjects.png",
+         "FromArea": {"X": "96", "Y": "384", "Width": "16", "Height": "16"},
+         "ToArea": {"X": "96", "Y": "384", "Width": "16", "Height": "16"},
+         "When": { "SkeletalHands": "on" }
+      },
+      {
+         "LogName": "Prehistoric Ribcage",
+         "Action": "EditImage",
+         "Target": "Maps/springobjects",
+         "FromFile": "assets/springobjects.png",
+         "FromArea": {"X": "112", "Y": "384", "Width": "16", "Height": "16"},
+         "ToArea": {"X": "112", "Y": "384", "Width": "16", "Height": "16"},
+         "When": { "PrehistoricRibcage": "on" }
+      },
+      {
+         "LogName": "Prehistoric Vertebrae",
+         "Action": "EditImage",
+         "Target": "Maps/springobjects",
+         "FromFile": "assets/springobjects.png",
+         "FromArea": {"X": "128", "Y": "384", "Width": "16", "Height": "16"},
+         "ToArea": {"X": "128", "Y": "384", "Width": "16", "Height": "16"},
+         "When": { "PrehistoricVertebrae": "on" }
+      },
+      {
+         "LogName": "Skeletal Tail",
+         "Action": "EditImage",
+         "Target": "Maps/springobjects",
+         "FromFile": "assets/springobjects.png",
+         "FromArea": {"X": "144", "Y": "384", "Width": "16", "Height": "16"},
+         "ToArea": {"X": "144", "Y": "384", "Width": "16", "Height": "16"},
+         "When": { "SkeletalTail": "on" }
+      },
+      {
+         "LogName": "Dwarf Gadget",
+         "Action": "EditImage",
+         "Target": "Maps/springobjects",
+         "FromFile": "assets/springobjects.png",
+         "FromArea": {"X": "32", "Y": "80", "Width": "16", "Height": "16"},
+         "ToArea": {"X": "32", "Y": "80", "Width": "16", "Height": "16"},
+         "When": { "DwarfGadget": "on" }
+      },
+      {
+         "LogName": "Dwarf Gadget",
+         "Action": "EditImage",
+         "Target": "Maps/springobjects",
+         "FromFile": "assets/dwarfGadgetAlien.png",
+         "FromArea": {"X": "0", "Y": "0", "Width": "16", "Height": "16"},
+         "ToArea": {"X": "32", "Y": "80", "Width": "16", "Height": "16"},
+         "When": { "DwarfGadget": "alien" }
+      },
+      {
+         "LogName": "Dwarven Helm",
+         "Action": "EditImage",
+         "Target": "Maps/springobjects",
+         "FromFile": "assets/springobjects.png",
+         "FromArea": {"X": "16", "Y": "80", "Width": "16", "Height": "16"},
+         "ToArea": {"X": "16", "Y": "80", "Width": "16", "Height": "16"},
+         "When": { "DwarvenHelm": "on" }
+      },
+      {
+         "LogName": "Dwarven Helm",
+         "Action": "EditImage",
+         "Target": "Maps/springobjects",
+         "FromFile": "assets/dwarvenHelmGreen.png",
+         "FromArea": {"X": "0", "Y": "0", "Width": "16", "Height": "16"},
+         "ToArea": {"X": "16", "Y": "80", "Width": "16", "Height": "16"},
+         "When": { "DwarvenHelm": "green" }
+      },
+      {
+         "LogName": "Strange Doll 1",
+         "Action": "EditImage",
+         "Target": "Maps/springobjects",
+         "FromFile": "assets/springobjects.png",
+         "FromArea": {"X": "112", "Y": "80", "Width": "16", "Height": "16"},
+         "ToArea": {"X": "112", "Y": "80", "Width": "16", "Height": "16"},
+         "When": { "StrangeDoll1": "on" }
+      },
+      {
+         "LogName": "Strange Doll 2",
+         "Action": "EditImage",
+         "Target": "Maps/springobjects",
+         "FromFile": "assets/springobjects.png",
+         "FromArea": {"X": "96", "Y": "80", "Width": "16", "Height": "16"},
+         "ToArea": {"X": "96", "Y": "80", "Width": "16", "Height": "16"},
+         "When": { "StrangeDoll2": "on" }
+      },
+      {
+         "LogName": "Ancient Doll",
+         "Action": "EditImage",
+         "Target": "Maps/springobjects",
+         "FromFile": "assets/springobjects.png",
+         "FromArea": {"X": "112", "Y": "64", "Width": "16", "Height": "16"},
+         "ToArea": {"X": "112", "Y": "64", "Width": "16", "Height": "16"},
+         "When": { "AncientDoll": "on" }
+      },
+      {
+         "LogName": "Nautilus Fossil",
+         "Action": "EditImage",
+         "Target": "Maps/springobjects",
+         "FromFile": "assets/springobjects.png",
+         "FromArea": {"X": "160", "Y": "384", "Width": "16", "Height": "16"},
+         "ToArea": {"X": "160", "Y": "384", "Width": "16", "Height": "16"},
+         "When": { "NautilusFossil": "on" }
+      },
+      {
+         "LogName": "Chicken Statue",
+         "Action": "EditImage",
+         "Target": "Maps/springobjects",
+         "FromFile": "assets/springobjects.png",
+         "FromArea": {"X": "272", "Y": "64", "Width": "16", "Height": "16"},
+         "ToArea": {"X": "272", "Y": "64", "Width": "16", "Height": "16"},
+         "When": { "ChickenStatue": "on" }
+      },
+      {
+         "LogName": "Amphibian Fossil",
+         "Action": "EditImage",
+         "Target": "Maps/springobjects",
+         "FromFile": "assets/springobjects.png",
+         "FromArea": {"X": "176", "Y": "384", "Width": "16", "Height": "16"},
+         "ToArea": {"X": "176", "Y": "384", "Width": "16", "Height": "16"},
+         "When": { "AmphibianFossil": "on" }
+      },
+      {
+         "LogName": "Palm Fossil",
+         "Action": "EditImage",
+         "Target": "Maps/springobjects",
+         "FromFile": "assets/springobjects.png",
+         "FromArea": {"X": "192", "Y": "384", "Width": "16", "Height": "16"},
+         "ToArea": {"X": "192", "Y": "384", "Width": "16", "Height": "16"},
+         "When": { "PalmFossil": "on" }
+      },
+      {
+         "LogName": "Trilobyte",
+         "Action": "EditImage",
+         "Target": "Maps/springobjects",
+         "FromFile": "assets/springobjects.png",
+         "FromArea": {"X": "208", "Y": "384", "Width": "16", "Height": "16"},
+         "ToArea": {"X": "208", "Y": "384", "Width": "16", "Height": "16"},
+         "When": { "Trilobyte": "on" }
+      }
+
+   ]
+}

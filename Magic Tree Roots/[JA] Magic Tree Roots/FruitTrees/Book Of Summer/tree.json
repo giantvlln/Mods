@@ -1,0 +1,11 @@
+{
+
+	"Name": "Book Of Summer",
+	"Product": "Fire Essence",
+	"SaplingName": "Magic Root- Book Of Summer Sapling",
+	"SaplingDescription": "The second Book of Ancient Seasons, it collects the temper heat from 4 seasons to crystalize the Fire Essence",
+	"Season": "summer",
+	"SaplingPurchaseFrom": "null",
+	"SaplingPurchasePrice": 500,
+	"SaplingPurchaseRequirements": null
+}

@@ -1,0 +1,14 @@
+{
+   "Name": "Museum Artifacts Reimagined",
+   "Author": "herbivoor",
+   "Version": "1.2.0",
+   "Description": "Replaces museum artifact sprites with more accurate and detailed versions",
+   "UniqueID": "herbivoor.MuseumArtifactsReimagined",
+   "LogName": "Artifacts Reimagined",
+   "MinimumApiVersion": "3.9.5",
+   "UpdateKeys": ["Nexus:9803"],
+   "ContentPackFor": {
+		"UniqueID": "Pathoschild.ContentPatcher", 
+		"MinimumVersion": "1.10.1"
+	},    
+}

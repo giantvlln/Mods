@@ -1,0 +1,22 @@
+{
+	"Name": "Lantern Bulb",
+	"Description": "The Bulb will light your path.",
+	"Price": 1000,
+	"ProvidesLight": true,
+	"Recipe": 
+	{
+		"ResultCount": 1,
+		"Ingredients": 
+		[
+			{
+			"Object": 768,
+			"Count": 1,
+			},
+			
+		],
+	"IsDefault": false,
+	"CanPurchase": true,
+	"PurchaseFrom": "Robin", 
+	"PurchasePrice": 1000,
+	},
+}

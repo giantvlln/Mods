@@ -1,0 +1,10 @@
+{
+	"Name": "Love Bird",
+	"Product": "Blooming Heart",
+	"SaplingName": "Magic root-Love Bird Sapling",
+	"SaplingDescription": "Takes 28 days to matute. Blooms in Spring, flowers in Summer, bears fruit in Fall, rests in Winter.",
+	"Season": "spring",
+	"SaplingPurchaseFrom": "Krobus",
+	"SaplingPurchasePrice": 4000,
+	"SaplingPurchaseRequirements": null
+}

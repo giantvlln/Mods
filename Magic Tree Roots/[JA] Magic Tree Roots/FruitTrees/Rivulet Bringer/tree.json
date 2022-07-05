@@ -1,0 +1,11 @@
+{
+
+	"Name": "Rivulet Bringer",
+	"Product": "Splashing Stream",
+	"SaplingName": "Magic Root-Rivulet Bringer Sapling",
+	"SaplingDescription": "Just leave the bottle some where near a water source. After 28 days, The endless stream of spring water will come from the bottomless jar, soothing in the heat of summer .",
+	"Season": "summer",
+	"SaplingPurchaseFrom": "Sandy",
+	"SaplingPurchasePrice": 5000,
+	"SaplingPurchaseRequirements": null
+}

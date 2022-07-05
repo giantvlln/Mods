@@ -1,0 +1,16 @@
+{
+	"Format": "1.23.0",
+	"Changes": [
+		{
+			"Action": "Load",
+			"Target": "TileSheets/emotes",
+			"FromFile": "assets/emotes.png"
+		},
+
+		{
+			"Action": "Load",
+			"Target": "LooseSprites/EmoteMenu",
+			"FromFile": "assets/EmoteMenu.png"
+		}
+	]
+}

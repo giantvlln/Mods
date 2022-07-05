@@ -1,0 +1,7 @@
+{
+	"Name": "Hair Accessory",
+	"Description": "I feel pretty, oh so pretty.",
+	"PurchasePrice": "1000",
+	"ShowHair": true,
+	"IgnoreHairstyleOffset": false
+}

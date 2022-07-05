@@ -1,0 +1,11 @@
+{
+   "Name": "Kawaii Hats for JsonAssets",
+   "Author": "yuikami (hats) & Atomos (data)",
+   "Description": "Cute hat replacements!",
+   "Version": "1.0.0",
+   "MinimumApiVersion": "2.10.1",
+   "UniqueID": "yuikami.kawaiihats",
+   "ContentPackFor": {
+       "UniqueID": "spacechase0.JsonAssets"
+    },
+}

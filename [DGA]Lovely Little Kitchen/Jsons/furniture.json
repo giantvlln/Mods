@@ -1,0 +1,164 @@
+[
+    //橱柜
+	{
+        "$ItemType": "Furniture",
+        "ID": "Decoration1",
+        "Type": "Decoration",
+		"Configurations": [
+            {
+            "Texture": "Assets/CuteDecoration1.png:0",
+            "DisplaySize": { "X": 1, "Y": 3 }, 
+            "CollisionHeight": 1, 
+            }
+	]
+    },
+    //洗手槽
+	{
+        "$ItemType": "Furniture",
+        "ID": "Decoration2",
+        "Type": "Decoration",
+		"Configurations": [
+            {
+            "Texture": "Assets/CuteDecoration1.png:1",
+            "DisplaySize": { "X": 1, "Y": 3 }, 
+            "CollisionHeight": 1, 
+            }
+	]
+    },
+	 //灶台
+	{
+        "$ItemType": "Furniture",
+        "ID": "Decoration3",
+        "Type": "Decoration",
+		"Configurations": [
+            {
+            "Texture": "Assets/CuteDecoration1.png:2",
+            "DisplaySize": { "X": 1, "Y": 3 }, 
+            "CollisionHeight": 1, 
+            }
+	]
+    },
+	 //冰箱
+	{
+        "$ItemType": "Furniture",
+        "ID": "Decoration4",
+        "Type": "Decoration",
+		"Configurations": [
+            {
+            "Texture": "Assets/CuteDecoration2.png:0",
+            "DisplaySize": { "X": 2, "Y": 3 }, 
+            "CollisionHeight": 1, 
+            }
+	]
+    },
+	//碗柜
+	{
+        "$ItemType": "Furniture",
+        "ID": "Decoration5",
+        "Type": "Decoration",
+		"Configurations": [
+            {
+            "Texture": "Assets/CuteDecoration2.png:1",
+            "DisplaySize": { "X": 2, "Y": 3 }, 
+            "CollisionHeight": 1, 
+            }
+	]
+    },
+	//组合橱柜
+	{
+        "$ItemType": "Furniture",
+        "ID": "Decoration6",
+        "Type": "Decoration",
+		"Configurations": [
+            {
+            "Texture": "Assets/CuteDecoration2.png:2",
+            "DisplaySize": { "X": 2, "Y": 3 }, 
+            "CollisionHeight": 1, 
+            }
+	]
+    },
+	//椅子
+	{
+        "$ItemType": "Furniture",
+        "ID": "Decoration7",
+        "Type": "Decoration",
+        "Configurations": [
+            {
+                "Texture": "Assets/CuteDecoration3.png:0",
+                "FrontTexture": "Assets/CuteDecoration3.png:3",
+                "DisplaySize": { "X": 1, "Y": 2 },
+                "CollisionHeight": 1,
+                "Flipped": false,
+                "Seats": [ { "X": 0, "Y": 0 } ],
+                "SittingDirection": "Down"
+            },
+            {
+                "Texture": "Assets/CuteDecoration3.png:1",
+                "FrontTexture": "Assets/CuteDecoration3.png:3",
+                "DisplaySize": { "X": 1, "Y": 2 },
+                "CollisionHeight": 1,
+                "Flipped": false,
+                "Seats": [ { "X": 0, "Y": 0 } ],
+                "SittingDirection": "Right"
+            },
+            {
+                 "Texture": "Assets/CuteDecoration3.png:2",
+                "FrontTexture": "Assets/CuteDecoration3.png:2",
+                "DisplaySize": { "X": 1, "Y": 2 },
+                "CollisionHeight": 1,
+                "Flipped": false,
+                "Seats": [ { "X": 0, "Y": 0 } ],
+                "SittingDirection": "Up"
+            },
+            {
+               "Texture": "Assets/CuteDecoration3.png:1",
+                "FrontTexture": "Assets/CuteDecoration3.png:3",
+                "DisplaySize": { "X": 1, "Y": 2 },
+                "CollisionHeight": 1,
+                "Flipped": true,
+                "Seats": [ { "X": 0, "Y": 0 } ],
+                "SittingDirection": "Left"
+            }
+        ]
+    },
+	//桌子
+	{
+        "$ItemType": "Furniture",
+        "ID": "Decoration8",
+        "Type": "Decoration",
+		"Configurations": [
+            {
+            "Texture": "Assets/CuteDecoration4.png:0",
+            "DisplaySize": { "X": 2, "Y": 4 }, 
+            "CollisionHeight": 2, 
+            }
+	]
+    },
+	//扫帚
+	{
+        "$ItemType": "Furniture",
+        "ID": "Painting1",
+        "Type": "Painting",
+		"Configurations": [
+            {
+            "Texture": "Assets/CutePainting1.png:0",
+            "DisplaySize": { "X": 1, "Y": 3 }, 
+            "CollisionHeight": 3, 
+            }
+	]
+    },
+	//毛毛地毯
+	{
+         "$ItemType": "Furniture",
+        "ID": "Rug1",
+        "Type": "Rug",
+        "Configurations": [
+            {
+                "Texture": "Assets/CuteRug1.png:0",
+                "DisplaySize": { "X": 6, "Y": 4 },
+                "CollisionHeight": 4
+            }
+	]
+    }
+	]
+	

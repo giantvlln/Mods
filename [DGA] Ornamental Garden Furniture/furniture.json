@@ -1,0 +1,175 @@
+[
+    {
+        "$ItemType": "Furniture",
+        "ID": "Smallfountain0",
+        "Type": "Decoration",
+        "Configurations": [
+            {
+                "Texture": "dga_furniture_tilesheet.png:5",
+                "DisplaySize": {
+                    "X": 2,
+                    "Y": 2
+                },
+                "CollisionHeight": 1
+            }
+        ]
+    },
+    {
+        "$ItemType": "Furniture",
+        "ID": "Largestonefairystatue1",
+        "Type": "Decoration",
+        "Configurations": [
+            {
+                "Texture": "dga_furniture_tilesheet.png:0",
+                "DisplaySize": {
+                    "X": 2,
+                    "Y": 3
+                },
+                "CollisionHeight": 1
+            }
+        ]
+    },
+    {
+        "$ItemType": "Furniture",
+        "ID": "Largeanimatedstoneladystatue2",
+        "Type": "Decoration",
+        "Configurations": [
+            {
+                "Texture": "dga_furniture_tilesheet.png:1",
+                "DisplaySize": {
+                    "X": 2,
+                    "Y": 3
+                },
+                "CollisionHeight": 1
+            }
+        ]
+    },
+    {
+        "$ItemType": "Furniture",
+        "ID": "Largestoneangelstatue3",
+        "Type": "Decoration",
+        "Configurations": [
+            {
+                "Texture": "dga_furniture_tilesheet.png:2",
+                "DisplaySize": {
+                    "X": 2,
+                    "Y": 3
+                },
+                "CollisionHeight": 1
+            }
+        ]
+    },
+    {
+        "$ItemType": "Furniture",
+        "ID": "Stonebrickpond4",
+        "Type": "Decoration",
+        "Configurations": [
+            {
+                "Texture": "dga_furniture_tilesheet.png:11",
+                "DisplaySize": {
+                    "X": 2,
+                    "Y": 2
+                },
+                "CollisionHeight": 2
+            }
+        ]
+    },
+    {
+        "$ItemType": "Furniture",
+        "ID": "Whiteplanterbox5",
+        "Type": "Decoration",
+        "Configurations": [
+            {
+                "Texture": "dga_furniture_tilesheet.png:12",
+                "DisplaySize": {
+                    "X": 2,
+                    "Y": 2
+                },
+                "CollisionHeight": 1
+            }
+        ]
+    },
+    {
+        "$ItemType": "Furniture",
+        "ID": "Urnplanterbush6",
+        "Type": "Decoration",
+        "Configurations": [
+            {
+                "Texture": "dga_furniture_tilesheet.png:9",
+                "DisplaySize": {
+                    "X": 1,
+                    "Y": 2
+                },
+                "CollisionHeight": 1
+            }
+        ]
+    },
+    {
+        "$ItemType": "Furniture",
+        "ID": "Urnplanterflowerybush7",
+        "Type": "Decoration",
+        "Configurations": [
+            {
+                "Texture": "dga_furniture_tilesheet.png:21",
+                "DisplaySize": {
+                    "X": 1,
+                    "Y": 2
+                },
+                "CollisionHeight": 1
+            }
+        ]
+    },
+    {
+        "$ItemType": "Furniture",
+        "ID": "Swingseatleft8",
+        "Type": "Decoration",
+        "Configurations": [
+            {
+                "Texture": "dga_furniture_tilesheet.png:6",
+                "DisplaySize": {
+                    "X": 1,
+                    "Y": 3
+                },
+                "CollisionHeight": 1
+            }
+        ]
+    },
+    {
+        "$ItemType": "Furniture",
+        "ID": "Swingseatmiddle9",
+        "Type": "Decoration",
+        "Configurations": [
+            {
+                "Texture": "dga_furniture_tilesheet.png:7",
+                "DisplaySize": {
+                    "X": 1,
+                    "Y": 3
+                },
+                "CollisionHeight": 1,
+                "Seats": [
+                    {
+                        "X": 0,
+                        "Y": 0
+                    }
+                ],
+                "SittingDirection": "Down",
+                "FrontTexture": "dga_front_tilesheet.png:7"
+            }
+        ]
+    },
+    {
+        "$ItemType": "Furniture",
+        "ID": "Swingseatright10",
+        "Type": "Decoration",
+        "Configurations": [
+            {
+                "Texture": "dga_furniture_tilesheet.png:8",
+                "DisplaySize": {
+                    "X": 1,
+                    "Y": 3
+                },
+                "CollisionHeight": 1
+            }
+        ]
+    }
+]

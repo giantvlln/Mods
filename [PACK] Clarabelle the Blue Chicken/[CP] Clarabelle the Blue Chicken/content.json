@@ -1,0 +1,20 @@
+{
+	"Format": "1.22.0",
+	"Changes": [
+	{
+		"Action": "EditMap",
+		"Target": "Maps/AnimalShop",
+		"MapTiles": [
+		{
+			"Position": { "X": 5, "Y": 14 },
+			"Layer": "Back",
+			"SetProperties": {
+				"CustomCompanions": "Spawn 1 Pebble.ClarabelleCC.Clarabelle",
+			},
+			"When": {
+				"HasSeenEvent": "3900074",
+			},
+		}],
+	},
+	]
+}

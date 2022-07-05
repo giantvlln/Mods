@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Flower Power Furniture",
+  "Author": "Wabi",
+  "Version": "1.0.0",
+  "Description": "Adds vibrant flower decorations.",
+  "UniqueID": "Wabi.DynamicGameAssets.DGAflowerpower",
+  "UpdateKeys": ["Nexus:10216"],
+  "ContentPackFor": {
+    "UniqueID": "spacechase0.DynamicGameAssets",
+    "MinimumVersion": "1.1.0"
+  },
+  "DGA.FormatVersion": 2,
+  "DGA.ConditionsFormatVersion": "1.23.0"
+}

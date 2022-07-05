@@ -1,0 +1,11 @@
+{
+
+	"Name": "Book Of Winter",
+	"Product": "Water Essence",
+	"SaplingName": "Magic Root- Book Of Winter Sapling",
+	"SaplingDescription": "The fourth Book of Ancient Seasons, it collects the rain drops from 4 seasons to crystalize the Water Essence",
+	"Season": "winter",
+	"SaplingPurchaseFrom": null,
+	"SaplingPurchasePrice": 500,
+	"SaplingPurchaseRequirements": null
+}

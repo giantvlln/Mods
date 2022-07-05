@@ -1,0 +1,10 @@
+{
+  "Name": "Grandpa's Ring",
+  "Author": "BBR",
+  "Version": "1.0.1",
+  "Description": "Adds a spiritual token ring of affection of Grandpa.",
+  "UniqueID": "BBR.GrandpasRing",
+  "UpdateKeys": [
+    "Nexus:9360"
+  ]
+}

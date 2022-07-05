@@ -1,0 +1,12 @@
+{
+   "Name": "1.4 misc recolour",
+   "Author": "DustBeauty",
+   "Version": "1.2.1",
+   "Description": "1.4 misc recolour pack. Fish ponds and craftables uncoloured by other mods.",
+   "UniqueID": "DustBeauty.1.4miscrecolour",
+   "UpdateKeys": ["Nexus:5211"],
+   "MinimumApiVersion": "",
+   "ContentPackFor": {
+      "UniqueID": "Pathoschild.ContentPatcher"
+   },
+}

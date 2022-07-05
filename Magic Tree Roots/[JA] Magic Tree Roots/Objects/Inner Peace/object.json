@@ -1,0 +1,37 @@
+{
+    "Name": "Inner Peace",
+    "Description": "Soul and body as one, empty your mind and find yourself.",
+    "Category": "Fruit",
+    "Edibility": 50,
+    "EdibleBuffs":
+    {
+        "Farming": 0,
+        "Fishing": 0,
+        "Mining": 0,
+        "Luck": 0,
+        "Foraging": 0,
+        "MaxStamina": 0,
+        "MagnetRadius": 0,
+        "Speed": 0,
+        "Defense": 10,
+        "Attack": 0,
+        "Duration": 400
+    },
+    "Price": 500,
+    "IsColored": false,
+	"Recipe": null,
+    "GiftTastes":
+    {
+        "Love": ["Abigail", "Caroline", "Haley", "Harvey", "Maru", "Emily", "Evelyn"],
+		"Like": ["Pam", "Jodi", "Kent", "Marnie", "Sandy", "Willy", "Linus", "Lewis", "Elliot"],
+		"Neutral": ["Dwarf", "Krobus", "Leah", "Penny", "Sebastian","Clint", "Demetrius", "George", "Gus", "Pierre"],
+		"Dislike": ["Robin", "Wizard", "Alex"],
+		"Hate": ["Sam", "Shane"]
+    },
+	"ContextTags": [
+        "season_spring",
+        "color_black",
+        "fruit_tree_item",
+        "fruit_item",
+    ]
+}

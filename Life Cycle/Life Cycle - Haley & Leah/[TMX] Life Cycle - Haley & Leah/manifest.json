@@ -1,0 +1,16 @@
+﻿{
+  "Name": "[TMX] Life Cycle - Haley & Leah",
+  "Author": "nraittanna",
+  "Version": "3.3.2",
+  "Description": "A mod that makes Stardew Valley NPCs more lively | Modify maps for Haley and Leah.",
+  "UniqueID": "nraittanna.LifeCycleHaleyLeahMap",
+  "ContentPackFor": {
+    "UniqueID": "Platonymous.TMXLoader"
+  },
+  "Dependencies": [
+  {
+    "UniqueID": "FlashShifter.StardewValleyExpandedALL",
+    "IsRequired": false
+  },
+ ]
+}

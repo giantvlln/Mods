@@ -1,0 +1,14 @@
+{
+    "Name": "Industrial Furniture Set for CF",
+    "Author": "DustBeauty",
+    "Version": "1.0.0",
+    "Description": "Industrial Style furniture set for Custom Furniture",
+    "UniqueID": "DustBeauty.DGA.industrialfurn",
+    "UpdateKeys": [],
+    "ContentPackFor": {
+        "UniqueID": "spacechase0.DynamicGameAssets",
+        "MinimumVersion": "1.4.2"
+    },
+    "DGA.FormatVersion": 2,
+    "DGA.ConditionsFormatVersion": "1.25.0"
+}

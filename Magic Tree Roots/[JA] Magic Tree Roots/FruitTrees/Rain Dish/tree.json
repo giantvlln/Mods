@@ -1,0 +1,11 @@
+{
+
+	"Name": "Rain Dish",
+	"Product": "Summer Drops",
+	"SaplingName": "Magic Root-Rain Dish Sapling",
+	"SaplingDescription": "Takes 28 days to grow to full size. Catches the soothing rain of Summer.",
+	"Season": "summer",
+	"SaplingPurchaseFrom": "Krobus",
+	"SaplingPurchasePrice": 3500,
+	"SaplingPurchaseRequirements": null
+}

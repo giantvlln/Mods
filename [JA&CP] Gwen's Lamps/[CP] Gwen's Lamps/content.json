@@ -1,0 +1,210 @@
+{
+    "Format": "1.24.0",
+	
+	"ConfigSchema": 
+	
+	{
+		"OldIronFoliage":{"AllowValues": "true, false",
+					"Default": "true"},
+		"OvalFoliage":{"AllowValues": "true, false",
+					"Default": "true"},
+		"StoneFoliage":{"AllowValues": "true, false",
+					"Default": "true"},
+		"FramedFoliage":{"AllowValues": "true, false",
+					"Default": "true"},
+		"LanternFoliage":{"AllowValues": "true, false",
+					"Default": "true"},	
+		"BendyLeftFoliage":{"AllowValues": "true, false",
+					"Default": "true"},
+		"BendyRightFoliage":{"AllowValues": "true, false",
+					"Default": "true"},
+		"OilRightFoliage":{"AllowValues": "true, false",
+					"Default": "true"},
+		"OilLeftFoliage":{"AllowValues": "true, false",
+					"Default": "true"},
+
+		
+					
+		"RecolorOverwrite":{"AllowValues": "Vanilla, DNEarthyRecolour, Eemie's, FoliageRedone, Starblue, VibrantPastoral, WittilyNamed",
+					"AllowBlank": true,
+					"Default": "",
+					"Description": " Change ONLY when you want to change automaticaly matched recolor palette" },
+	},
+	
+	"DynamicTokens": [
+	
+	//checking what recolor is used
+		{
+		"Name": "recolor",
+		"Value": "Vanilla",
+		},
+		{
+		"Name": "recolor",
+		"Value": "DNEarthyRecolour",
+			"When": { "HasMod": "DaisyNiko.EarthyRecolour" },
+		},
+		{
+		"Name": "recolor",
+		"Value": "Eemie's",
+			"When": { "HasMod": "minervamaga.CP.eemieMapRecolour" },
+		},
+		{
+		"Name": "recolor",
+		"Value": "FoliageRedone",
+			"When": { "HasMod": "stardewfoliageredone" },
+		},
+		{
+		"Name": "recolor",
+		"Value": "Starblue",
+			"When": { "HasMod": "Lita.StarblueValley" },
+		},
+		{
+		"Name": "recolor",
+		"Value": "VibrantPastoral",
+			"When": { "HasMod": "grapeponta.VibrantPastoralRecolor" },
+		},
+		{
+		"Name": "recolor",
+		"Value": "WittilyNamed",
+			"When": { "HasMod": "Acerbicon.Recolor" },
+		},
+
+	//recolor overwrite
+		{
+		"Name": "recolor",
+		"Value": "{{RecolorOverwrite}}",
+			"When": { "RecolorOverwrite |contains=Vanilla, DNEarthyRecolour, Eemie's, FoliageRedone, Starblue, VibrantPastoral, WittilyNamed": true },
+		},
+	],
+	
+    "Changes": [
+	
+        {
+        "Action": "EditImage",
+        "Target": "{{spacechase0.JsonAssets/BigCraftableSpriteTilesheet:Old Iron Lamp}}",
+        "FromFile": "assets/{{recolor}}/{{OldIronFoliage}}/1_{{season}}.png",
+			"ToArea": { "X": "{{spacechase0.JsonAssets/BigCraftableSpriteX:Old Iron Lamp}}", "Y": "{{spacechase0.JsonAssets/BigCraftableSpriteY:Old Iron Lamp}}", "Width": 16, "Height": 32 },
+		},
+		{
+        "Action": "EditImage",
+        "Target": "{{spacechase0.JsonAssets/BigCraftableSpriteTilesheet:Oval Lamp}}",
+        "FromFile": "assets/{{recolor}}/{{OvalFoliage}}/2_{{season}}.png",
+			"ToArea": { "X": "{{spacechase0.JsonAssets/BigCraftableSpriteX:Oval Lamp}}", "Y": "{{spacechase0.JsonAssets/BigCraftableSpriteY:Oval Lamp}}", "Width": 16, "Height": 32 },
+		},
+		{
+        "Action": "EditImage",
+        "Target": "{{spacechase0.JsonAssets/BigCraftableSpriteTilesheet:Stone Lamp}}",
+        "FromFile": "assets/{{recolor}}/{{StoneFoliage}}/3_{{season}}.png",
+			"ToArea": { "X": "{{spacechase0.JsonAssets/BigCraftableSpriteX:Stone Lamp}}", "Y": "{{spacechase0.JsonAssets/BigCraftableSpriteY:Stone Lamp}}", "Width": 16, "Height": 32 },
+		},
+		{
+        "Action": "EditImage",
+        "Target": "{{spacechase0.JsonAssets/BigCraftableSpriteTilesheet:Framed Lamp}}",
+        "FromFile": "assets/{{recolor}}/{{FramedFoliage}}/4_{{season}}.png",
+			"ToArea": { "X": "{{spacechase0.JsonAssets/BigCraftableSpriteX:Framed Lamp}}", "Y": "{{spacechase0.JsonAssets/BigCraftableSpriteY:Framed Lamp}}", "Width": 16, "Height": 32 },
+		},
+		{
+        "Action": "EditImage",
+        "Target": "{{spacechase0.JsonAssets/BigCraftableSpriteTilesheet:Lantern Lamp}}",
+        "FromFile": "assets/{{recolor}}/{{LanternFoliage}}/5_{{season}}.png",
+			"ToArea": { "X": "{{spacechase0.JsonAssets/BigCraftableSpriteX:Lantern Lamp}}", "Y": "{{spacechase0.JsonAssets/BigCraftableSpriteY:Lantern Lamp}}", "Width": 16, "Height": 32 },
+		},
+		{
+        "Action": "EditImage",
+        "Target": "{{spacechase0.JsonAssets/BigCraftableSpriteTilesheet:Bendy Lamp Left}}",
+        "FromFile": "assets/{{recolor}}/{{BendyLeftFoliage}}/6_{{season}}.png",
+			"ToArea": { "X": "{{spacechase0.JsonAssets/BigCraftableSpriteX:Bendy Lamp Left}}", "Y": "{{spacechase0.JsonAssets/BigCraftableSpriteY:Bendy Lamp Left}}", "Width": 16, "Height": 32 },
+		},
+		{
+        "Action": "EditImage",
+        "Target": "{{spacechase0.JsonAssets/BigCraftableSpriteTilesheet:Bendy Lamp Right}}",
+        "FromFile": "assets/{{recolor}}/{{BendyRightFoliage}}/7_{{season}}.png",
+			"ToArea": { "X": "{{spacechase0.JsonAssets/BigCraftableSpriteX:Bendy Lamp Right}}", "Y": "{{spacechase0.JsonAssets/BigCraftableSpriteY:Bendy Lamp Right}}", "Width": 16, "Height": 32 },
+		},
+		{
+        "Action": "EditImage",
+        "Target": "{{spacechase0.JsonAssets/BigCraftableSpriteTilesheet:Oil Lamp Right}}",
+        "FromFile": "assets/{{recolor}}/{{OilRightFoliage}}/8_{{season}}.png",
+			"ToArea": { "X": "{{spacechase0.JsonAssets/BigCraftableSpriteX:Oil Lamp Right}}", "Y": "{{spacechase0.JsonAssets/BigCraftableSpriteY:Oil Lamp Right}}", "Width": 16, "Height": 32 },
+		},
+		{
+        "Action": "EditImage",
+        "Target": "{{spacechase0.JsonAssets/BigCraftableSpriteTilesheet:Oil Lamp Left}}",
+        "FromFile": "assets/{{recolor}}/{{OilLeftFoliage}}/9_{{season}}.png",
+			"ToArea": { "X": "{{spacechase0.JsonAssets/BigCraftableSpriteX:Oil Lamp Left}}", "Y": "{{spacechase0.JsonAssets/BigCraftableSpriteY:Oil Lamp Left}}", "Width": 16, "Height": 32 },
+		},
+	//Island summer overwrite
+		{
+        "Action": "EditImage",
+        "Target": "{{spacechase0.JsonAssets/BigCraftableSpriteTilesheet:Old Iron Lamp}}",
+        "FromFile": "assets/{{recolor}}/{{OldIronFoliage}}/1_summer.png",
+			"ToArea": { "X": "{{spacechase0.JsonAssets/BigCraftableSpriteX:Old Iron Lamp}}", "Y": "{{spacechase0.JsonAssets/BigCraftableSpriteY:Old Iron Lamp}}", "Width": 16, "Height": 32 },
+			"When": { "LocationContext": "Island" },
+		"Update": "OnLocationChange",
+		},
+		{
+        "Action": "EditImage",
+        "Target": "{{spacechase0.JsonAssets/BigCraftableSpriteTilesheet:Oval Lamp}}",
+        "FromFile": "assets/{{recolor}}/{{OvalFoliage}}/2_summer.png",
+			"ToArea": { "X": "{{spacechase0.JsonAssets/BigCraftableSpriteX:Oval Lamp}}", "Y": "{{spacechase0.JsonAssets/BigCraftableSpriteY:Oval Lamp}}", "Width": 16, "Height": 32 },
+			"When": { "LocationContext": "Island" },
+		"Update": "OnLocationChange",
+		},
+		{
+        "Action": "EditImage",
+        "Target": "{{spacechase0.JsonAssets/BigCraftableSpriteTilesheet:Stone Lamp}}",
+        "FromFile": "assets/{{recolor}}/{{StoneFoliage}}/3_summer.png",
+			"ToArea": { "X": "{{spacechase0.JsonAssets/BigCraftableSpriteX:Stone Lamp}}", "Y": "{{spacechase0.JsonAssets/BigCraftableSpriteY:Stone Lamp}}", "Width": 16, "Height": 32 },
+			"When": { "LocationContext": "Island" },
+		"Update": "OnLocationChange",
+		},
+		{
+        "Action": "EditImage",
+        "Target": "{{spacechase0.JsonAssets/BigCraftableSpriteTilesheet:Framed Lamp}}",
+        "FromFile": "assets/{{recolor}}/{{FramedFoliage}}/4_summer.png",
+			"ToArea": { "X": "{{spacechase0.JsonAssets/BigCraftableSpriteX:Framed Lamp}}", "Y": "{{spacechase0.JsonAssets/BigCraftableSpriteY:Framed Lamp}}", "Width": 16, "Height": 32 },
+			"When": { "LocationContext": "Island" },
+		"Update": "OnLocationChange",
+		},
+		{
+        "Action": "EditImage",
+        "Target": "{{spacechase0.JsonAssets/BigCraftableSpriteTilesheet:Lantern Lamp}}",
+        "FromFile": "assets/{{recolor}}/{{LanternFoliage}}/5_summer.png",
+			"ToArea": { "X": "{{spacechase0.JsonAssets/BigCraftableSpriteX:Lantern Lamp}}", "Y": "{{spacechase0.JsonAssets/BigCraftableSpriteY:Lantern Lamp}}", "Width": 16, "Height": 32 },
+			"When": { "LocationContext": "Island" },
+		"Update": "OnLocationChange",
+		},
+		{
+        "Action": "EditImage",
+        "Target": "{{spacechase0.JsonAssets/BigCraftableSpriteTilesheet:Bendy Lamp Left}}",
+        "FromFile": "assets/{{recolor}}/{{BendyLeftFoliage}}/6_summer.png",
+			"ToArea": { "X": "{{spacechase0.JsonAssets/BigCraftableSpriteX:Bendy Lamp Left}}", "Y": "{{spacechase0.JsonAssets/BigCraftableSpriteY:Bendy Lamp Left}}", "Width": 16, "Height": 32 },
+			"When": { "LocationContext": "Island" },
+		"Update": "OnLocationChange",
+		},
+		{
+        "Action": "EditImage",
+        "Target": "{{spacechase0.JsonAssets/BigCraftableSpriteTilesheet:Bendy Lamp Right}}",
+        "FromFile": "assets/{{recolor}}/{{BendyRightFoliage}}/7_summer.png",
+			"ToArea": { "X": "{{spacechase0.JsonAssets/BigCraftableSpriteX:Bendy Lamp Right}}", "Y": "{{spacechase0.JsonAssets/BigCraftableSpriteY:Bendy Lamp Right}}", "Width": 16, "Height": 32 },
+			"When": { "LocationContext": "Island" },
+		"Update": "OnLocationChange",
+		},
+		{
+        "Action": "EditImage",
+        "Target": "{{spacechase0.JsonAssets/BigCraftableSpriteTilesheet:Oil Lamp Right}}",
+        "FromFile": "assets/{{recolor}}/{{OilRightFoliage}}/8_summer.png",
+			"ToArea": { "X": "{{spacechase0.JsonAssets/BigCraftableSpriteX:Oil Lamp Right}}", "Y": "{{spacechase0.JsonAssets/BigCraftableSpriteY:Oil Lamp Right}}", "Width": 16, "Height": 32 },
+			"When": { "LocationContext": "Island" },
+		"Update": "OnLocationChange",
+		},
+		{
+        "Action": "EditImage",
+        "Target": "{{spacechase0.JsonAssets/BigCraftableSpriteTilesheet:Oil Lamp Left}}",
+        "FromFile": "assets/{{recolor}}/{{OilLeftFoliage}}/9_summer.png",
+			"ToArea": { "X": "{{spacechase0.JsonAssets/BigCraftableSpriteX:Oil Lamp Left}}", "Y": "{{spacechase0.JsonAssets/BigCraftableSpriteY:Oil Lamp Left}}", "Width": 16, "Height": 32 },
+			"When": { "LocationContext": "Island" },
+		"Update": "OnLocationChange",
+		},
+    ],
+}

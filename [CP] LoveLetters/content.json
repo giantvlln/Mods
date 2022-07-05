@@ -1,0 +1,51 @@
+{
+	"Format": "1.23.0",
+	"Changes": [
+		{
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "assets/Letters.png",
+			"FromArea": {"X": 0, "Y": 0, "Width": 16, "Height": 16},
+			"ToArea": {"X": 32, "Y": 304, "Width": 16, "Height": 16},
+			
+		},
+
+		{
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "assets/Letters.png",
+			"FromArea": {"X": 16, "Y": 0, "Width": 16, "Height": 16},
+			"ToArea": {"X": 208, "Y": 176, "Width": 16, "Height": 16},
+			
+		},
+
+		{
+			"Action": "EditData",
+			"Target": "Data/mail",
+			"Entries": {
+				 "Bouquet": "@,^It seems like you're starting to get close with some of the townspeople. If you want to show someone that you're romantically interested, you've got to give them a love letter with one of my beautiful envelopes. I'm selling them now, for a very fair price! If you want to start a family someday, this is the first step! ^   -Pierre[#]About Bouquets",
+			}
+		},
+
+		{
+			"Action": "EditData",
+			"Target": "Data/ObjectInformation",
+			"Fields": {
+				"458": {
+					4: "Love Letter"
+					}
+				}
+		},
+
+		{
+			"Action": "EditData",
+			"Target": "Data/ObjectInformation",
+			"Fields": {
+				"277": {
+					4: "Rejection Letter"
+				}
+
+			}
+		}
+	]
+}

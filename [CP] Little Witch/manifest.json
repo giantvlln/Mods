@@ -1,0 +1,11 @@
+{
+   "Name": "Little Witch",
+   "Author": "catmao",
+   "Version": "1.0.0",
+   "Description": "Little.Witch.in.the.Woods",
+   "UniqueID": "catmao.LittleWitch",
+   "UpdateKeys": [],
+   "ContentPackFor": {
+      "UniqueID": "Pathoschild.ContentPatcher",
+   }
+}

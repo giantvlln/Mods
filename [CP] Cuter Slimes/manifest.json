@@ -1,0 +1,11 @@
+{
+   "Name": "Cuter Slimes",
+   "Author": "Amaryn",
+   "Version": "2.0",
+   "Description": "A reskin of the slimes. Includes dangerous slimes.",
+   "UniqueID": "Amaryn.CuterSlimes",
+   "UpdateKeys": ["Nexus:6073"],
+   "ContentPackFor": {
+   	"UniqueID": "Pathoschild.ContentPatcher",
+  		},
+}

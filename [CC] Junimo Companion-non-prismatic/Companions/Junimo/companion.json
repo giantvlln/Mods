@@ -1,0 +1,40 @@
+{
+  "Name": "JunimoCompanion",
+  "Type": "Jumping",
+  "TravelSpeed": 5,
+  "SpawnOffsetX": 0,
+  "SpawnOffsetY": 0,
+  "IdleBehavior": "Nothing",
+  "Colors": [
+  [ 84, 209, 43 ]
+  ],
+  "EnableFarmerCollision": true,
+  "Sounds": [
+    {
+      "SoundName": "junimoMeep1",
+      "WhenToPlay": "Idle",
+      "TimeBetweenSound": 1000,
+      "ChanceOfPlaying": 0.3
+    }
+  ],
+  "EnableShadow": true,
+  "Shadow": {
+    "OffsetX": 0,
+    "OffsetY": -16,
+    "Scale": 1,
+    "Alpha": 255
+  },
+  "FrameSizeWidth": 16,
+  "FrameSizeHeight": 16,
+  "TileSheetPath": "Characters\\Junimo",
+  "UniformAnimation": {
+    "StartingFrame": 0,
+    "NumberOfFrames": 4,
+    "Duration": 200,
+    "IdleAnimation": {
+      "StartingFrame": 0,
+      "NumberOfFrames": 4,
+      "Duration": 200
+    }
+  }
+}

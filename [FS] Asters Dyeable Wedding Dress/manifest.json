@@ -1,0 +1,13 @@
+﻿{
+  "Name": "[FS] Asters Dyeable Wedding dresses",
+  "Author": "Asterisk555",
+  "Version": "1.1.0",
+  "Description": "Adds DyeableWedding dresses",
+  "UniqueID": "Asterisk555.DyeableWeddingdresses",
+  "UpdateKeys": [ "Nexus:12492" ],
+  "Dependencies": [],
+  "ContentPackFor": {
+    "UniqueID": "PeacefulEnd.FashionSense",
+    "MinimumVersion": "3.0.1"
+  }
+}

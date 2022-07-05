@@ -1,0 +1,31 @@
+{
+	"Format": "1.11.0",
+
+	"Changes": [
+
+		{
+		"Action": "Load",
+		"Target": "Characters/Monsters/Green Slime",
+		"FromFile": "assets/greenslime.png",
+		},
+
+		{
+		"Action": "Load",
+		"Target": "Characters/Monsters/Big Slime",
+		"FromFile": "assets/bigslime.png",
+		},
+
+		{
+		"Action": "Load",
+		"Target": "Characters/Monsters/Tiger Slime",
+		"FromFile": "assets/tigerslime.png",
+		},
+
+		{
+		"Action": "Load",
+		"Target": "Characters/Monsters/Green Slime_dangerous",
+		"FromFile": "assets/dangerslime.png",
+		},
+
+     ]
+}

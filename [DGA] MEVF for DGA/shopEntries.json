@@ -1,0 +1,1766 @@
+[
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "MioudewandFroststar11.DGA.MEVFforDGA/WoodDiningChair0"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 100,
+		"DynamicFields": [
+		  {
+			"Conditions": { "DayOfWeek |contains=Wednesday": false},
+			"Enabled": false,
+		  }
+		]
+  },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "MioudewandFroststar11.DGA.MEVFforDGA/WoodDiningChair1"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 100,
+		"DynamicFields": [
+		  {
+			"Conditions": { "DayOfWeek |contains=Wednesday": false},
+			"Enabled": false,
+		  }
+		]
+  },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "MioudewandFroststar11.DGA.MEVFforDGA/WoodDiningChair2"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 100,
+		"DynamicFields": [
+		  {
+			"Conditions": { "DayOfWeek |contains=Wednesday": false},
+			"Enabled": false,
+		  }
+		]
+  },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "MioudewandFroststar11.DGA.MEVFforDGA/WoodStool3"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 50,
+		"DynamicFields": [
+		  {
+			"Conditions": { "DayOfWeek |contains=Wednesday": false},
+			"Enabled": false,
+		  }
+		]
+  },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "MioudewandFroststar11.DGA.MEVFforDGA/WoodDiningChair4"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 100,
+		"DynamicFields": [
+		  {
+			"Conditions": { "DayOfWeek |contains=Wednesday": false},
+			"Enabled": false,
+		  }
+		]
+  },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "MioudewandFroststar11.DGA.MEVFforDGA/Violin5"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 1000,
+		"DynamicFields": [
+		  {
+			"Conditions": { "DayOfWeek |contains=Wednesday": false},
+			"Enabled": false,
+		  }
+		]
+  },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "MioudewandFroststar11.DGA.MEVFforDGA/Viola6"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 1000,
+		"DynamicFields": [
+		  {
+			"Conditions": { "DayOfWeek |contains=Wednesday": false},
+			"Enabled": false,
+		  }
+		]
+  },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "MioudewandFroststar11.DGA.MEVFforDGA/Woodenstool7"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 50,
+		"DynamicFields": [
+		  {
+			"Conditions": { "DayOfWeek |contains=Wednesday": false},
+			"Enabled": false,
+		  }
+		]
+  },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "MioudewandFroststar11.DGA.MEVFforDGA/Guitar8"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 1000,
+		"DynamicFields": [
+		  {
+			"Conditions": { "DayOfWeek |contains=Wednesday": false},
+			"Enabled": false,
+		  }
+		]
+  },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "MioudewandFroststar11.DGA.MEVFforDGA/AccousticGuitar9"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 1000,
+		"DynamicFields": [
+		  {
+			"Conditions": { "DayOfWeek |contains=Wednesday": false},
+			"Enabled": false,
+		  }
+		]
+  },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "MioudewandFroststar11.DGA.MEVFforDGA/Banjo10"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 1000,
+		"DynamicFields": [
+		  {
+			"Conditions": { "DayOfWeek |contains=Wednesday": false},
+			"Enabled": false,
+		  }
+		]
+  },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "MioudewandFroststar11.DGA.MEVFforDGA/PianoBench11"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 100,
+		"DynamicFields": [
+		  {
+			"Conditions": { "DayOfWeek |contains=Wednesday": false},
+			"Enabled": false,
+		  }
+		]
+  },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "MioudewandFroststar11.DGA.MEVFforDGA/ElectricGuitar12"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 100,
+		"DynamicFields": [
+		  {
+			"Conditions": { "DayOfWeek |contains=Wednesday": false},
+			"Enabled": false,
+		  }
+		]
+  },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "MioudewandFroststar11.DGA.MEVFforDGA/ElectricGuitar13"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 100,
+		"DynamicFields": [
+		  {
+			"Conditions": { "DayOfWeek |contains=Wednesday": false},
+			"Enabled": false,
+		  }
+		]
+  },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "MioudewandFroststar11.DGA.MEVFforDGA/ElectricGuitar14"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 100,
+		"DynamicFields": [
+		  {
+			"Conditions": { "DayOfWeek |contains=Wednesday": false},
+			"Enabled": false,
+		  }
+		]
+  },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "MioudewandFroststar11.DGA.MEVFforDGA/MediumElectricAmp15"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 1000,
+		"DynamicFields": [
+		  {
+			"Conditions": { "DayOfWeek |contains=Wednesday": false},
+			"Enabled": false,
+		  }
+		]
+  },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "MioudewandFroststar11.DGA.MEVFforDGA/SmallElectricAmp16"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 900,
+		"DynamicFields": [
+		  {
+			"Conditions": { "DayOfWeek |contains=Wednesday": false},
+			"Enabled": false,
+		  }
+		]
+  },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "MioudewandFroststar11.DGA.MEVFforDGA/Suitcases17"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 300,
+		"DynamicFields": [
+		  {
+			"Conditions": { "DayOfWeek |contains=Wednesday": false},
+			"Enabled": false,
+		  }
+		]
+  },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "MioudewandFroststar11.DGA.MEVFforDGA/Suitcases18"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 300,
+		"DynamicFields": [
+		  {
+			"Conditions": { "DayOfWeek |contains=Wednesday": false},
+			"Enabled": false,
+		  }
+		]
+  },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "MioudewandFroststar11.DGA.MEVFforDGA/LargeAmp19"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 300,
+		"DynamicFields": [
+		  {
+			"Conditions": { "DayOfWeek |contains=Wednesday": false},
+			"Enabled": false,
+		  }
+		]
+  },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "MioudewandFroststar11.DGA.MEVFforDGA/Suitcase20"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 50,
+		"DynamicFields": [
+		  {
+			"Conditions": { "DayOfWeek |contains=Wednesday": false},
+			"Enabled": false,
+		  }
+		]
+  },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "MioudewandFroststar11.DGA.MEVFforDGA/MusicStand21"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 50,
+		"DynamicFields": [
+		  {
+			"Conditions": { "DayOfWeek |contains=Thursday": false},
+			"Enabled": false,
+		  }
+		]
+  },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "MioudewandFroststar11.DGA.MEVFforDGA/BanjoonanInstrumentStand22"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 1500,
+		"DynamicFields": [
+		  {
+			"Conditions": { "DayOfWeek |contains=Thursday": false},
+			"Enabled": false,
+		  }
+		]
+  },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "MioudewandFroststar11.DGA.MEVFforDGA/WoodenBench23"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 800,
+		"DynamicFields": [
+		  {
+			"Conditions": { "DayOfWeek |contains=Thursday": false},
+			"Enabled": false,
+		  }
+		]
+  },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "MioudewandFroststar11.DGA.MEVFforDGA/WoodenBench24"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 800,
+		"DynamicFields": [
+		  {
+			"Conditions": { "DayOfWeek |contains=Thursday": false},
+			"Enabled": false,
+		  }
+		]
+  },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "MioudewandFroststar11.DGA.MEVFforDGA/WoodenBench25"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 800,
+		"DynamicFields": [
+		  {
+			"Conditions": { "DayOfWeek |contains=Thursday": false},
+			"Enabled": false,
+		  }
+		]
+  },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "MioudewandFroststar11.DGA.MEVFforDGA/WoodenBench26"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 800,
+		"DynamicFields": [
+		  {
+			"Conditions": { "DayOfWeek |contains=Thursday": false},
+			"Enabled": false,
+		  }
+		]
+  },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "MioudewandFroststar11.DGA.MEVFforDGA/GraySofa27"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 2000,
+		"DynamicFields": [
+		  {
+			"Conditions": { "DayOfWeek |contains=Thursday": false},
+			"Enabled": false,
+		  }
+		]
+  },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "MioudewandFroststar11.DGA.MEVFforDGA/WhiteCusionedBench28"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 2000,
+		"DynamicFields": [
+		  {
+			"Conditions": { "DayOfWeek |contains=Thursday": false},
+			"Enabled": false,
+		  }
+		]
+  },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "MioudewandFroststar11.DGA.MEVFforDGA/WhiteArmchair29"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 800,
+		"DynamicFields": [
+		  {
+			"Conditions": { "DayOfWeek |contains=Thursday": false},
+			"Enabled": false,
+		  }
+		]
+  },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "MioudewandFroststar11.DGA.MEVFforDGA/Keyboard30"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 800,
+		"DynamicFields": [
+		  {
+			"Conditions": { "DayOfWeek |contains=Thursday": false},
+			"Enabled": false,
+		  }
+		]
+  },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "MioudewandFroststar11.DGA.MEVFforDGA/RedArmchair31"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 800,
+		"DynamicFields": [
+		  {
+			"Conditions": { "DayOfWeek |contains=Thursday": false},
+			"Enabled": false,
+		  }
+		]
+  },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "MioudewandFroststar11.DGA.MEVFforDGA/Cello32"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 800,
+		"DynamicFields": [
+		  {
+			"Conditions": { "DayOfWeek |contains=Thursday": false},
+			"Enabled": false,
+		  }
+		]
+  },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "MioudewandFroststar11.DGA.MEVFforDGA/Bass33"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 800,
+		"DynamicFields": [
+		  {
+			"Conditions": { "DayOfWeek |contains=Thursday": false},
+			"Enabled": false,
+		  }
+		]
+  },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "MioudewandFroststar11.DGA.MEVFforDGA/Drums34"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 1800,
+		"DynamicFields": [
+		  {
+			"Conditions": { "DayOfWeek |contains=Thursday": false},
+			"Enabled": false,
+		  }
+		]
+  },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "MioudewandFroststar11.DGA.MEVFforDGA/BrownArmchair35"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 800,
+		"DynamicFields": [
+		  {
+			"Conditions": { "DayOfWeek |contains=Thursday": false},
+			"Enabled": false,
+		  }
+		]
+  },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "MioudewandFroststar11.DGA.MEVFforDGA/GlassEndTable36"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 800,
+		"DynamicFields": [
+		  {
+			"Conditions": { "DayOfWeek |contains=Thursday": false},
+			"Enabled": false,
+		  }
+		]
+  },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "MioudewandFroststar11.DGA.MEVFforDGA/CherryBuffetTable37"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 800,
+		"DynamicFields": [
+		  {
+			"Conditions": { "DayOfWeek |contains=Thursday": false},
+			"Enabled": false,
+		  }
+		]
+  },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "MioudewandFroststar11.DGA.MEVFforDGA/WalnutBuffetTable38"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 800,
+		"DynamicFields": [
+		  {
+			"Conditions": { "DayOfWeek |contains=Thursday": false},
+			"Enabled": false,
+		  }
+		]
+  },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "MioudewandFroststar11.DGA.MEVFforDGA/CherryWoodDresserSet39"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 1800,
+		"DynamicFields": [
+		  {
+			"Conditions": { "DayOfWeek |contains=Thursday": false},
+			"Enabled": false,
+		  }
+		]
+  },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "MioudewandFroststar11.DGA.MEVFforDGA/ElegantWhiteandWalnutSofa40"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 2000,
+		"DynamicFields": [
+		  {
+			"Conditions": { "DayOfWeek |contains=Thursday": false},
+			"Enabled": false,
+		  }
+		]
+  },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "MioudewandFroststar11.DGA.MEVFforDGA/ElegantRedandCherrySofa41"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 2000,
+		"DynamicFields": [
+		  {
+			"Conditions": { "DayOfWeek |contains=Thursday": false},
+			"Enabled": false,
+		  }
+		]
+  },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "MioudewandFroststar11.DGA.MEVFforDGA/WhiteWalnutChaise42"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 2000,
+		"DynamicFields": [
+		  {
+			"Conditions": { "DayOfWeek |contains=Friday": false},
+			"Enabled": false,
+		  }
+		]
+  },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "MioudewandFroststar11.DGA.MEVFforDGA/MahoganyBench43"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 2000,
+		"DynamicFields": [
+		  {
+			"Conditions": { "DayOfWeek |contains=Friday": false},
+			"Enabled": false,
+		  }
+		]
+  },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "MioudewandFroststar11.DGA.MEVFforDGA/WalnutDrawers44"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 1500,
+		"DynamicFields": [
+		  {
+			"Conditions": { "DayOfWeek |contains=Friday": false},
+			"Enabled": false,
+		  }
+		]
+  },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "MioudewandFroststar11.DGA.MEVFforDGA/WalnutDrawers45"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 1500,
+		"DynamicFields": [
+		  {
+			"Conditions": { "DayOfWeek |contains=Friday": false},
+			"Enabled": false,
+		  }
+		]
+  },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "MioudewandFroststar11.DGA.MEVFforDGA/WalnutEndTable46"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 1500,
+		"DynamicFields": [
+		  {
+			"Conditions": { "DayOfWeek |contains=Friday": false},
+			"Enabled": false,
+		  }
+		]
+  },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "MioudewandFroststar11.DGA.MEVFforDGA/MahoganyBuffetTable47"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 1500,
+		"DynamicFields": [
+		  {
+			"Conditions": { "DayOfWeek |contains=Friday": false},
+			"Enabled": false,
+		  }
+		]
+  },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "MioudewandFroststar11.DGA.MEVFforDGA/WalnutDinnerTable48"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 2500,
+		"DynamicFields": [
+		  {
+			"Conditions": { "DayOfWeek |contains=Friday": false},
+			"Enabled": false,
+		  }
+		]
+  },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "MioudewandFroststar11.DGA.MEVFforDGA/WalnutLamp49"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 300,
+		"DynamicFields": [
+		  {
+			"Conditions": { "DayOfWeek |contains=Friday": false},
+			"Enabled": false,
+		  }
+		]
+  },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "MioudewandFroststar11.DGA.MEVFforDGA/CherryDinnerTable50"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 2500,
+		"DynamicFields": [
+		  {
+			"Conditions": { "DayOfWeek |contains=Friday": false},
+			"Enabled": false,
+		  }
+		]
+  },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "MioudewandFroststar11.DGA.MEVFforDGA/HangingFlowerBasket51"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 100,
+		"DynamicFields": [
+		  {
+			"Conditions": { "DayOfWeek |contains=Friday": false},
+			"Enabled": false,
+		  }
+		]
+  },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "MioudewandFroststar11.DGA.MEVFforDGA/HangingIvyBasket52"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 100,
+		"DynamicFields": [
+		  {
+			"Conditions": { "DayOfWeek |contains=Friday": false},
+			"Enabled": false,
+		  }
+		]
+  },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "MioudewandFroststar11.DGA.MEVFforDGA/ElegantStuffedBear53"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 100,
+		"DynamicFields": [
+		  {
+			"Conditions": { "DayOfWeek |contains=Friday": false},
+			"Enabled": false,
+		  }
+		]
+  },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "MioudewandFroststar11.DGA.MEVFforDGA/WalnutDinnerTable54"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 2500,
+		"DynamicFields": [
+		  {
+			"Conditions": { "DayOfWeek |contains=Friday": false},
+			"Enabled": false,
+		  }
+		]
+  },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "MioudewandFroststar11.DGA.MEVFforDGA/ElegantStuffedRabbit55"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 100,
+		"DynamicFields": [
+		  {
+			"Conditions": { "DayOfWeek |contains=Friday": false},
+			"Enabled": false,
+		  }
+		]
+  },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "MioudewandFroststar11.DGA.MEVFforDGA/WhiteMap56"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 100,
+		"DynamicFields": [
+		  {
+			"Conditions": { "DayOfWeek |contains=Friday": false},
+			"Enabled": false,
+		  }
+		]
+  },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "MioudewandFroststar11.DGA.MEVFforDGA/WalnutMirror57"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 100,
+		"DynamicFields": [
+		  {
+			"Conditions": { "DayOfWeek |contains=Friday": false},
+			"Enabled": false,
+		  }
+		]
+  },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "MioudewandFroststar11.DGA.MEVFforDGA/CherryDinnerTable58"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 2500,
+		"DynamicFields": [
+		  {
+			"Conditions": { "DayOfWeek |contains=Friday": false},
+			"Enabled": false,
+		  }
+		]
+  },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "MioudewandFroststar11.DGA.MEVFforDGA/MountedFish59"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 100,
+		"DynamicFields": [
+		  {
+			"Conditions": { "DayOfWeek |contains=Friday": false},
+			"Enabled": false,
+		  }
+		]
+  },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "MioudewandFroststar11.DGA.MEVFforDGA/Ladder60"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 100,
+		"DynamicFields": [
+		  {
+			"Conditions": { "DayOfWeek |contains=Friday": false},
+			"Enabled": false,
+		  }
+		]
+  },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "MioudewandFroststar11.DGA.MEVFforDGA/EngravedWalnutDinnerTable61"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 2500,
+		"DynamicFields": [
+		  {
+			"Conditions": { "DayOfWeek |contains=Friday": false},
+			"Enabled": false,
+		  }
+		]
+  },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "MioudewandFroststar11.DGA.MEVFforDGA/CoveredWalnutDinnerTable62"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 2500,
+		"DynamicFields": [
+		  {
+			"Conditions": { "DayOfWeek |contains=Friday": false},
+			"Enabled": false,
+		  }
+		]
+  },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "MioudewandFroststar11.DGA.MEVFforDGA/WhiteWoodLamp63"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 250,
+		"DynamicFields": [
+		  {
+			"Conditions": { "DayOfWeek |contains=Saturday": false},
+			"Enabled": false,
+		  }
+		]
+  },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "MioudewandFroststar11.DGA.MEVFforDGA/GlassCoffeeTable64"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 250,
+		"DynamicFields": [
+		  {
+			"Conditions": { "DayOfWeek |contains=Saturday": false},
+			"Enabled": false,
+		  }
+		]
+  },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "MioudewandFroststar11.DGA.MEVFforDGA/CherryCoffeeTable65"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 250,
+		"DynamicFields": [
+		  {
+			"Conditions": { "DayOfWeek |contains=Saturday": false},
+			"Enabled": false,
+		  }
+		]
+  },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "MioudewandFroststar11.DGA.MEVFforDGA/WalnutCoffeeTable66"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 250,
+		"DynamicFields": [
+		  {
+			"Conditions": { "DayOfWeek |contains=Saturday": false},
+			"Enabled": false,
+		  }
+		]
+  },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "MioudewandFroststar11.DGA.MEVFforDGA/CherryTeaTable67"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 250,
+		"DynamicFields": [
+		  {
+			"Conditions": { "DayOfWeek |contains=Saturday": false},
+			"Enabled": false,
+		  }
+		]
+  },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "MioudewandFroststar11.DGA.MEVFforDGA/WalnutTeaTable68"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 250,
+		"DynamicFields": [
+		  {
+			"Conditions": { "DayOfWeek |contains=Saturday": false},
+			"Enabled": false,
+		  }
+		]
+  },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "MioudewandFroststar11.DGA.MEVFforDGA/RoundWalnutTeaTable69"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 250,
+		"DynamicFields": [
+		  {
+			"Conditions": { "DayOfWeek |contains=Saturday": false},
+			"Enabled": false,
+		  }
+		]
+  },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "MioudewandFroststar11.DGA.MEVFforDGA/RoundCoveredTeaTable70"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 250,
+		"DynamicFields": [
+		  {
+			"Conditions": { "DayOfWeek |contains=Saturday": false},
+			"Enabled": false,
+		  }
+		]
+  },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "MioudewandFroststar11.DGA.MEVFforDGA/RoundWalnutTeaTable71"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 250,
+		"DynamicFields": [
+		  {
+			"Conditions": { "DayOfWeek |contains=Saturday": false},
+			"Enabled": false,
+		  }
+		]
+  },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "MioudewandFroststar11.DGA.MEVFforDGA/RoundWalnutTable72"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 250,
+		"DynamicFields": [
+		  {
+			"Conditions": { "DayOfWeek |contains=Saturday": false},
+			"Enabled": false,
+		  }
+		]
+  },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "MioudewandFroststar11.DGA.MEVFforDGA/MahoganyEngravedTable73"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 250,
+		"DynamicFields": [
+		  {
+			"Conditions": { "DayOfWeek |contains=Saturday": false},
+			"Enabled": false,
+		  }
+		]
+  },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "MioudewandFroststar11.DGA.MEVFforDGA/WalnutArmoire74"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 1250,
+		"DynamicFields": [
+		  {
+			"Conditions": { "DayOfWeek |contains=Saturday": false},
+			"Enabled": false,
+		  }
+		]
+  },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "MioudewandFroststar11.DGA.MEVFforDGA/WalnutDresser75"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 1250,
+		"DynamicFields": [
+		  {
+			"Conditions": { "DayOfWeek |contains=Saturday": false},
+			"Enabled": false,
+		  }
+		]
+  },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "MioudewandFroststar11.DGA.MEVFforDGA/WalnutChinaCabinet76"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 1250,
+		"DynamicFields": [
+		  {
+			"Conditions": { "DayOfWeek |contains=Saturday": false},
+			"Enabled": false,
+		  }
+		]
+  },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "MioudewandFroststar11.DGA.MEVFforDGA/WalnutBookcase77"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 1250,
+		"DynamicFields": [
+		  {
+			"Conditions": { "DayOfWeek |contains=Saturday": false},
+			"Enabled": false,
+		  }
+		]
+  },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "MioudewandFroststar11.DGA.MEVFforDGA/WalnutGrandfatherClock78"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 1600,
+		"DynamicFields": [
+		  {
+			"Conditions": { "DayOfWeek |contains=Saturday": false},
+			"Enabled": false,
+		  }
+		]
+  },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "MioudewandFroststar11.DGA.MEVFforDGA/WalnutDesk79"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 1400,
+		"DynamicFields": [
+		  {
+			"Conditions": { "DayOfWeek |contains=Saturday": false},
+			"Enabled": false,
+		  }
+		]
+  },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "MioudewandFroststar11.DGA.MEVFforDGA/WalnutCoatRack80"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 400,
+		"DynamicFields": [
+		  {
+			"Conditions": { "DayOfWeek |contains=Saturday": false},
+			"Enabled": false,
+		  }
+		]
+  },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "MioudewandFroststar11.DGA.MEVFforDGA/WalnutHalfBookcase81"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 700,
+		"DynamicFields": [
+		  {
+			"Conditions": { "DayOfWeek |contains=Saturday": false},
+			"Enabled": false,
+		  }
+		]
+  },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "MioudewandFroststar11.DGA.MEVFforDGA/WalnutHalfBookcase82"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 700,
+		"DynamicFields": [
+		  {
+			"Conditions": { "DayOfWeek |contains=Saturday": false},
+			"Enabled": false,
+		  }
+		]
+  },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "MioudewandFroststar11.DGA.MEVFforDGA/Topiary83"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 400,
+		"DynamicFields": [
+		  {
+			"Conditions": { "DayOfWeek |contains=Saturday": false},
+			"Enabled": false,
+		  }
+		]
+  },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "MioudewandFroststar11.DGA.MEVFforDGA/Statue125"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 4000,
+		"DynamicFields": [
+		  {
+			"Conditions": { "DayOfWeek |contains=Sunday": false},
+			"Enabled": false,
+		  }
+		]
+  },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "MioudewandFroststar11.DGA.MEVFforDGA/Gramophone84"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 500,
+		"DynamicFields": [
+		  {
+			"Conditions": { "DayOfWeek |contains=Sunday": false},
+			"Enabled": false,
+		  }
+		]
+  },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "MioudewandFroststar11.DGA.MEVFforDGA/TeddyBear85"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 20,
+		"DynamicFields": [
+		  {
+			"Conditions": { "DayOfWeek |contains=Sunday": false},
+			"Enabled": false,
+		  }
+		]
+  },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "MioudewandFroststar11.DGA.MEVFforDGA/RotaryPhone86"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 200,
+		"DynamicFields": [
+		  {
+			"Conditions": { "DayOfWeek |contains=Sunday": false},
+			"Enabled": false,
+		  }
+		]
+  },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "MioudewandFroststar11.DGA.MEVFforDGA/CupofTea124"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 100,
+		"DynamicFields": [
+		  {
+			"Conditions": { "DayOfWeek |contains=Sunday": false},
+			"Enabled": false,
+		  }
+		]
+  },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "MioudewandFroststar11.DGA.MEVFforDGA/OldPhone87"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 100,
+		"DynamicFields": [
+		  {
+			"Conditions": { "DayOfWeek |contains=Sunday": false},
+			"Enabled": false,
+		  }
+		]
+  },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "MioudewandFroststar11.DGA.MEVFforDGA/Skull88"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 100,
+		"DynamicFields": [
+		  {
+			"Conditions": { "DayOfWeek |contains=Sunday": false},
+			"Enabled": false,
+		  }
+		]
+  },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "MioudewandFroststar11.DGA.MEVFforDGA/Candlestick89"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 100,
+		"DynamicFields": [
+		  {
+			"Conditions": { "DayOfWeek |contains=Sunday": false},
+			"Enabled": false,
+		  }
+		]
+  },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "MioudewandFroststar11.DGA.MEVFforDGA/WhiteTeddyBear90"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 100,
+		"DynamicFields": [
+		  {
+			"Conditions": { "DayOfWeek |contains=Sunday": false},
+			"Enabled": false,
+		  }
+		]
+  },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "MioudewandFroststar11.DGA.MEVFforDGA/Globe91"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 100,
+		"DynamicFields": [
+		  {
+			"Conditions": { "DayOfWeek |contains=Sunday": false},
+			"Enabled": false,
+		  }
+		]
+  },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "MioudewandFroststar11.DGA.MEVFforDGA/Smallpotofflowers92"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 100,
+		"DynamicFields": [
+		  {
+			"Conditions": { "DayOfWeek |contains=Sunday": false},
+			"Enabled": false,
+		  }
+		]
+  },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "MioudewandFroststar11.DGA.MEVFforDGA/TabletopLantern93"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 100,
+		"DynamicFields": [
+		  {
+			"Conditions": { "DayOfWeek |contains=Sunday": false},
+			"Enabled": false,
+		  }
+		]
+  },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "MioudewandFroststar11.DGA.MEVFforDGA/PottedPlant94"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 100,
+		"DynamicFields": [
+		  {
+			"Conditions": { "DayOfWeek |contains=Sunday": false},
+			"Enabled": false,
+		  }
+		]
+  },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "MioudewandFroststar11.DGA.MEVFforDGA/PottedPlant95"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 100,
+		"DynamicFields": [
+		  {
+			"Conditions": { "DayOfWeek |contains=Sunday": false},
+			"Enabled": false,
+		  }
+		]
+  },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "MioudewandFroststar11.DGA.MEVFforDGA/Vaseofflowers96"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 100,
+		"DynamicFields": [
+		  {
+			"Conditions": { "DayOfWeek |contains=Sunday": false},
+			"Enabled": false,
+		  }
+		]
+  },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "MioudewandFroststar11.DGA.MEVFforDGA/Vaseofflowers123"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 100,
+		"DynamicFields": [
+		  {
+			"Conditions": { "DayOfWeek |contains=Sunday": false},
+			"Enabled": false,
+		  }
+		]
+  },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "MioudewandFroststar11.DGA.MEVFforDGA/Vaseofflowers97"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 100,
+		"DynamicFields": [
+		  {
+			"Conditions": { "DayOfWeek |contains=Sunday": false},
+			"Enabled": false,
+		  }
+		]
+  },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "MioudewandFroststar11.DGA.MEVFforDGA/Candlabra98"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 100,
+		"DynamicFields": [
+		  {
+			"Conditions": { "DayOfWeek |contains=Sunday": false},
+			"Enabled": false,
+		  }
+		]
+  },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "MioudewandFroststar11.DGA.MEVFforDGA/Vaseofflowers99"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 100,
+		"DynamicFields": [
+		  {
+			"Conditions": { "DayOfWeek |contains=Sunday": false},
+			"Enabled": false,
+		  }
+		]
+  },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "MioudewandFroststar11.DGA.MEVFforDGA/PottedRedRoses100"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 100,
+		"DynamicFields": [
+		  {
+			"Conditions": { "DayOfWeek |contains=Sunday": false},
+			"Enabled": false,
+		  }
+		]
+  },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "MioudewandFroststar11.DGA.MEVFforDGA/PottedWhiteRoses101"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 100,
+		"DynamicFields": [
+		  {
+			"Conditions": { "DayOfWeek |contains=Sunday": false},
+			"Enabled": false,
+		  }
+		]
+  },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "MioudewandFroststar11.DGA.MEVFforDGA/PottedYellowFlower102"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 100,
+		"DynamicFields": [
+		  {
+			"Conditions": { "DayOfWeek |contains=Monday": false},
+			"Enabled": false,
+		  }
+		]
+  },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "MioudewandFroststar11.DGA.MEVFforDGA/WalnutEndTable103"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 100,
+		"DynamicFields": [
+		  {
+			"Conditions": { "DayOfWeek |contains=Monday": false},
+			"Enabled": false,
+		  }
+		]
+  },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "MioudewandFroststar11.DGA.MEVFforDGA/CherryDesk104"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 100,
+		"DynamicFields": [
+		  {
+			"Conditions": { "DayOfWeek |contains=Monday": false},
+			"Enabled": false,
+		  }
+		]
+  },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "MioudewandFroststar11.DGA.MEVFforDGA/CherryEndTable105"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 100,
+		"DynamicFields": [
+		  {
+			"Conditions": { "DayOfWeek |contains=Monday": false},
+			"Enabled": false,
+		  }
+		]
+  },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "MioudewandFroststar11.DGA.MEVFforDGA/CoveredCherryEndTable106"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 100,
+		"DynamicFields": [
+		  {
+			"Conditions": { "DayOfWeek |contains=Monday": false},
+			"Enabled": false,
+		  }
+		]
+  },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "MioudewandFroststar11.DGA.MEVFforDGA/WalnutEndTable107"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 100,
+		"DynamicFields": [
+		  {
+			"Conditions": { "DayOfWeek |contains=Monday": false},
+			"Enabled": false,
+		  }
+		]
+  },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "MioudewandFroststar11.DGA.MEVFforDGA/CoveredWalnutEndTable108"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 100,
+		"DynamicFields": [
+		  {
+			"Conditions": { "DayOfWeek |contains=Monday": false},
+			"Enabled": false,
+		  }
+		]
+  },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "MioudewandFroststar11.DGA.MEVFforDGA/TableLamp109"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 100,
+		"DynamicFields": [
+		  {
+			"Conditions": { "DayOfWeek |contains=Monday": false},
+			"Enabled": false,
+		  }
+		]
+  },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "MioudewandFroststar11.DGA.MEVFforDGA/TableLamp110"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 100,
+		"DynamicFields": [
+		  {
+			"Conditions": { "DayOfWeek |contains=Monday": false},
+			"Enabled": false,
+		  }
+		]
+  },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "MioudewandFroststar11.DGA.MEVFforDGA/HangingIvy111"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 100,
+		"DynamicFields": [
+		  {
+			"Conditions": { "DayOfWeek |contains=Monday": false},
+			"Enabled": false,
+		  }
+		]
+  },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "MioudewandFroststar11.DGA.MEVFforDGA/PileofBooks112"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 100,
+		"DynamicFields": [
+		  {
+			"Conditions": { "DayOfWeek |contains=Monday": false},
+			"Enabled": false,
+		  }
+		]
+  },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "MioudewandFroststar11.DGA.MEVFforDGA/PileofBooks113"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 100,
+		"DynamicFields": [
+		  {
+			"Conditions": { "DayOfWeek |contains=Monday": false},
+			"Enabled": false,
+		  }
+		]
+  },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "MioudewandFroststar11.DGA.MEVFforDGA/WallSconces114"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 100,
+		"DynamicFields": [
+		  {
+			"Conditions": { "DayOfWeek |contains=Monday": false},
+			"Enabled": false,
+		  }
+		]
+  },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "MioudewandFroststar11.DGA.MEVFforDGA/WallShelves115"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 100,
+		"DynamicFields": [
+		  {
+			"Conditions": { "DayOfWeek |contains=Monday": false},
+			"Enabled": false,
+		  }
+		]
+  },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "MioudewandFroststar11.DGA.MEVFforDGA/WallShelves116"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 100,
+		"DynamicFields": [
+		  {
+			"Conditions": { "DayOfWeek |contains=Monday": false},
+			"Enabled": false,
+		  }
+		]
+  },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "MioudewandFroststar11.DGA.MEVFforDGA/DarkBlueRug117"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 100,
+		"DynamicFields": [
+		  {
+			"Conditions": { "DayOfWeek |contains=Monday": false},
+			"Enabled": false,
+		  }
+		]
+  },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "MioudewandFroststar11.DGA.MEVFforDGA/GrayStripedRug118"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 100,
+		"DynamicFields": [
+		  {
+			"Conditions": { "DayOfWeek |contains=Monday": false},
+			"Enabled": false,
+		  }
+		]
+  },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "MioudewandFroststar11.DGA.MEVFforDGA/ElegantChristmasTree119"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 100,
+		"DynamicFields": [
+		  {
+			"Conditions": { "DayOfWeek |contains=Monday": false},
+			"Enabled": false,
+		  }
+		]
+  },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "MioudewandFroststar11.DGA.MEVFforDGA/DarkGrayRug120"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 100,
+		"DynamicFields": [
+		  {
+			"Conditions": { "DayOfWeek |contains=Monday": false},
+			"Enabled": false,
+		  }
+		]
+  },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "MioudewandFroststar11.DGA.MEVFforDGA/CherryWoodBench121"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 1500,
+		"DynamicFields": [
+		  {
+			"Conditions": { "DayOfWeek |contains=Monday": false},
+			"Enabled": false,
+		  }
+		]
+  },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "MioudewandFroststar11.DGA.MEVFforDGA/WalnutWoodBench122"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 1500,
+		"DynamicFields": [
+		  {
+			"Conditions": { "DayOfWeek |contains=Monday": false},
+			"Enabled": false,
+		  }
+		]
+    }
+]

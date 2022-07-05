@@ -1,0 +1,10 @@
+{
+	"Name": "JA_Lamps",
+	"Author": "Gweniaczek",
+	"Version": "2.0",
+	"Description": "7 lamps designas + 2 mirrored for Json Assets",
+	"UniqueID": "Gweniaczek.JA_Lamps",
+	"UpdateKeys": ["Nexus:4613"],
+	"ContentPackFor": { "UniqueID": "spacechase0.JsonAssets",
+					"MinimumVersion": "1.10.0" },
+}

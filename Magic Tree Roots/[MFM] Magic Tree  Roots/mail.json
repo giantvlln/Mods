@@ -1,0 +1,131 @@
+[
+	{
+		"Id": "nottomentionMTR.BOSspring",
+		"Title": "BOSspring.title",
+		"Text": "BOSspring.text",
+		"Attachments": [
+			{
+				"Type": "Object",
+				"Name": "Magic Root- Book Of Spring Sapling",
+				"Stack": 1
+			}],
+		"WhichBG": 2,
+	 	"TextColor": 7,
+		"Repeatable": true,
+		"Seasons": ["spring"],
+		"FriendshipConditions":
+		[
+			{ "NpcName": "Krobus", "FriendshipLevel": 3 }
+		],
+		"RandomChance": 0.05
+	},
+
+	{
+		"Id": "nottomentionMTR.BOSsummer",
+		"Title": "BOSsummer.title",
+		"Text": "BOSsummer.text",
+		"Attachments": [
+			{
+				"Type": "Object",
+				"Name": "Magic Root- Book Of Summer Sapling",
+				"Stack": 1
+			}],
+		"WhichBG": 2,
+	 	"TextColor": 7,
+		"Repeatable": true,
+		"Seasons": ["summer"],
+		"FriendshipConditions":
+		[
+			{ "NpcName": "Krobus", "FriendshipLevel": 3 }
+		],
+		"RandomChance": 0.05
+	}, 
+
+	{
+		"Id": "nottomentionMTR.BOSfall",
+		"Title": "BOSfall.title",
+		"Text": "BOSfall.text",
+		"Attachments": [
+			{
+				"Type": "Object",
+				"Name": "Magic Root- Book Of Fall Sapling",
+				"Stack": 1
+			}],
+		"WhichBG": 2,
+	 	"TextColor": 7,
+		"Repeatable": true,
+		"Seasons": ["fall"],
+		"FriendshipConditions":
+		[
+			{ "NpcName": "Krobus", "FriendshipLevel": 3 }
+		],
+		"RandomChance": 0.05
+	}, 
+
+	{
+		"Id": "nottomentionMTR.BOSwinter",
+		"Title": "BOSwinter.title",
+		"Text": "BOSwinter.text",
+		"Attachments": [
+			{
+				"Type": "Object",
+				"Name": "Magic Root- Book Of Winter Sapling",
+				"Stack": 1
+			}],
+		"WhichBG": 2,
+	 	"TextColor": 7,
+		"Repeatable": true,
+		"Seasons": ["winter"],
+		"FriendshipConditions":
+		[
+			{ "NpcName": "Krobus", "FriendshipLevel": 3 }
+		],
+		"RandomChance": 0.05
+	}, 
+
+	{
+		"Id": "nottomentionMTR.BOSseasons",
+		"Title": "BOSseasons.title",
+		"Text": "BOSseasons.text",
+		"Attachments": [
+			{
+				"Type": "Object",
+				"Name": "Magic Root- Chronicle Of Seasons Sapling",
+				"Stack": 1
+			}],
+		"WhichBG": 2,
+	 	"TextColor": 7,
+		"Repeatable": true,
+		"FriendshipConditions":
+		[
+			{ "NpcName": "Krobus", "FriendshipLevel": 6 }
+		],
+		"CollectionConditions":
+		[
+			{ 
+			"Collection": "Shipped", 
+			"Name": "Air Essence",
+			"Amount": 99
+			},
+			{ 
+			"Collection": "Shipped", 
+			"Name": "Fire Essence",
+			"Amount": 99
+			},
+			{ 
+			"Collection": "Shipped", 
+			"Name": "Earth Essence",
+			"Amount": 99
+			},
+			{ 
+			"Collection": "Shipped", 
+			"Name": "Water Essence",
+			"Amount": 99
+			},
+
+		],
+		"RandomChance": 0.01
+	}
+
+
+]

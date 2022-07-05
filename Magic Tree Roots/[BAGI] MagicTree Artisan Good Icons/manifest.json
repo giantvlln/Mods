@@ -1,0 +1,11 @@
+{
+  "Name": "MagicTree Artisan Good Icons",
+  "Author": "eleseaHonu inspired by cometkins and nottomention",
+  "Version": "1.0.0",
+  "Description": "Better Artisan Good Icons for Magic Tree Roots by nottomention; Sprites inspired by cometkins",
+  "UniqueID": "eleseaHonu.MagicTreeArtisanGoodIcons",
+  "ContentPackFor": {
+	"UniqueID": "cat.betterartisangoodicons"
+	},
+  "MinimumApiVersion": "3.2.0",
+}

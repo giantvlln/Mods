@@ -1,0 +1,82 @@
+{
+  "PregnancyData": [],
+  "AnimalData": [],
+  "AnimalContestData": [
+    {
+      "EventId": 657201026,
+      "_date": "26 spring Y1",
+      "Contenders": [
+        "Marnie",
+        "Maru",
+        "Jodi"
+      ],
+      "VincentAnimal": "Frog",
+      "MarnieAnimal": "Sheep",
+      "PlayerAnimal": null,
+      "Winner": "Marnie",
+      "ParticipantId": null,
+      "FarmAnimalScore": null
+    },
+    {
+      "EventId": 657201226,
+      "_date": "26 fall Y1",
+      "Contenders": [
+        "Marnie",
+        "Jas",
+        "Emily"
+      ],
+      "VincentAnimal": "Squirrel",
+      "MarnieAnimal": "Duck",
+      "PlayerAnimal": "White Chicken",
+      "Winner": "Marnie",
+      "ParticipantId": -129671301391348010,
+      "FarmAnimalScore": {
+        "FriendshipPoints": 0,
+        "MonthsOld": 1,
+        "AgePoints": 1,
+        "TreatVariatyPoints": 0,
+        "TreatAveragePoints": 0,
+        "ParentWinnerPoints": 0,
+        "TotalPoints": 1
+      }
+    },
+    {
+      "EventId": 657202026,
+      "_date": "26 spring Y2",
+      "Contenders": [
+        "Marnie",
+        "Alex",
+        "Jodi"
+      ],
+      "VincentAnimal": "Bird",
+      "MarnieAnimal": "White_Cow",
+      "PlayerAnimal": "White Chicken",
+      "Winner": "Jodi",
+      "ParticipantId": -129671572460826923,
+      "FarmAnimalScore": {
+        "FriendshipPoints": 2,
+        "MonthsOld": 2,
+        "AgePoints": 2,
+        "TreatVariatyPoints": 0,
+        "TreatAveragePoints": 0,
+        "ParentWinnerPoints": 0,
+        "TotalPoints": 4
+      }
+    },
+    {
+      "EventId": 657202226,
+      "_date": "26 fall Y2",
+      "Contenders": [
+        "Marnie",
+        "Abigail",
+        "Emily"
+      ],
+      "VincentAnimal": "Rabbit",
+      "MarnieAnimal": "Pig",
+      "PlayerAnimal": null,
+      "Winner": "Emily",
+      "ParticipantId": null,
+      "FarmAnimalScore": null
+    }
+  ]
+}

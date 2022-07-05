@@ -1,0 +1,2404 @@
+[
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "DustBeauty.DGA.industrialfurn/IndustrialLowTable0"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 350,
+		"DynamicFields": [
+		  {
+			"Conditions": { "DayOfWeek |contains=Thursday": false},
+			"Enabled": false,
+		  }
+		]
+	},
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "DustBeauty.DGA.industrialfurn/GreenChair1"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 200,
+		"DynamicFields": [
+		  {
+			"Conditions": { "DayOfWeek |contains=Thursday": false},
+			"Enabled": false,
+		  }
+		]
+  },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "DustBeauty.DGA.industrialfurn/BeigeChair2"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 350,
+		"DynamicFields": [
+		  {
+			"Conditions": { "DayOfWeek |contains=Wednesday": false},
+			"Enabled": false,
+		  }
+		]
+  },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "DustBeauty.DGA.industrialfurn/ThinPlantStandM3"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 250,
+		"DynamicFields": [
+		  {
+			"Conditions": { "DayOfWeek |contains=Friday": false},
+			"Enabled": false,
+		  }
+		]
+  },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "DustBeauty.DGA.industrialfurn/FlowerBasket4"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 350,
+		"DynamicFields": [
+		  {
+			"Conditions": { "DayOfWeek |contains=Friday": false},
+			"Enabled": false,
+		  }
+		]
+  },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "DustBeauty.DGA.industrialfurn/IndustrialBarChair5"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 350,
+		"DynamicFields": [
+		  {
+			"Conditions": { "DayOfWeek |contains=Monday": false},
+			"Enabled": false,
+		  }
+		]
+  },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "DustBeauty.DGA.industrialfurn/IndustrialLowBackedChair6"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 350,
+		"DynamicFields": [
+		  {
+			"Conditions": { "DayOfWeek |contains=Monday": false},
+			"Enabled": false,
+		  }
+		]
+  },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "DustBeauty.DGA.industrialfurn/WhiteStool7"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 200,
+		"DynamicFields": [
+		  {
+			"Conditions": { "DayOfWeek |contains=Thursday": false},
+			"Enabled": false,
+		  }
+		]
+  },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "DustBeauty.DGA.industrialfurn/ThinPlantStandS8"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 250,
+		"DynamicFields": [
+		  {
+			"Conditions": { "DayOfWeek |contains=Wednesday": false},
+			"Enabled": false,
+		  }
+		]
+  },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "DustBeauty.DGA.industrialfurn/WhiteCrossBackChair9"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 400,
+		"DynamicFields": [
+		  {
+			"Conditions": { "DayOfWeek |contains=Sunday": false},
+			"Enabled": false,
+		  }
+		]
+  },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "DustBeauty.DGA.industrialfurn/CrossBackChair10"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 400,
+		"DynamicFields": [
+		  {
+			"Conditions": { "DayOfWeek |contains=Monday": false},
+			"Enabled": false,
+		  }
+		]
+  },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "DustBeauty.DGA.industrialfurn/BrownMetalBackChair11"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 350,
+		"DynamicFields": [
+		  {
+			"Conditions": { "DayOfWeek |contains=Thursday": false},
+			"Enabled": false,
+		  }
+		]
+  },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "DustBeauty.DGA.industrialfurn/GreenMetalBackChair12"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 350,
+		"DynamicFields": [
+		  {
+			"Conditions": { "DayOfWeek |contains=Monday": false},
+			"Enabled": false,
+		  }
+		]
+  },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "DustBeauty.DGA.industrialfurn/BlueKitchenChair13"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 350,
+		"DynamicFields": [
+		  {
+			"Conditions": { "DayOfWeek |contains=Friday": false},
+			"Enabled": false,
+		  }
+		]
+  },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "DustBeauty.DGA.industrialfurn/YellowKitchenChair14"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 350,
+		"DynamicFields": [
+		  {
+			"Conditions": { "DayOfWeek |contains=Thursday": false},
+			"Enabled": false,
+		  }
+		]
+  },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "DustBeauty.DGA.industrialfurn/SmallFlowerStand15"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 450,
+		"DynamicFields": [
+		  {
+			"Conditions": { "DayOfWeek |contains=Wednesday": false},
+			"Enabled": false,
+		  }
+		]
+  },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "DustBeauty.DGA.industrialfurn/LogChair16"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 500,
+		"DynamicFields": [
+		  {
+			"Conditions": { "DayOfWeek |contains=Monday": false},
+			"Enabled": false,
+		  }
+		]
+  },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "DustBeauty.DGA.industrialfurn/Amplifier17"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 400,
+		"DynamicFields": [
+		  {
+			"Conditions": { "DayOfWeek |contains=Saturday": false},
+			"Enabled": false,
+		  }
+		]
+  },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "DustBeauty.DGA.industrialfurn/WhiteHighStool18"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 300,
+		"DynamicFields": [
+		  {
+			"Conditions": { "DayOfWeek |contains=Thursday": false},
+			"Enabled": false,
+		  }
+		]
+  },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "DustBeauty.DGA.industrialfurn/BrownStool19"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 250,
+		"DynamicFields": [
+		  {
+			"Conditions": { "DayOfWeek |contains=Sunday": false},
+			"Enabled": false,
+		  }
+		]
+  },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "DustBeauty.DGA.industrialfurn/WhitePlasticChair20"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 400,
+		"DynamicFields": [
+		  {
+			"Conditions": { "DayOfWeek |contains=Monday": false},
+			"Enabled": false,
+		  }
+		]
+  },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "DustBeauty.DGA.industrialfurn/GreenPlasticChair21"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 400,
+		"DynamicFields": [
+		  {
+			"Conditions": { "DayOfWeek |contains=Thursday": false},
+			"Enabled": false,
+		  }
+		]
+  },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "DustBeauty.DGA.industrialfurn/WhiteBoxBench22"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 500,
+		"DynamicFields": [
+		  {
+			"Conditions": { "DayOfWeek |contains=Friday": false},
+			"Enabled": false,
+		  }
+		]
+  },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "DustBeauty.DGA.industrialfurn/BoxBench23"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 500,
+		"DynamicFields": [
+		  {
+			"Conditions": { "DayOfWeek |contains=Wednesday": false},
+			"Enabled": false,
+		  }
+		]
+  },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "DustBeauty.DGA.industrialfurn/BrownArmchair24"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 450,
+		"DynamicFields": [
+		  {
+			"Conditions": { "DayOfWeek |contains=Thursday": false},
+			"Enabled": false,
+		  }
+		]
+  },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "DustBeauty.DGA.industrialfurn/OverstuffedArmchair25"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 550,
+		"DynamicFields": [
+		  {
+			"Conditions": { "DayOfWeek |contains=Monday": false},
+			"Enabled": false,
+		  }
+		]
+  },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "DustBeauty.DGA.industrialfurn/WhiteCouch26"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 700,
+		"DynamicFields": [
+		  {
+			"Conditions": { "DayOfWeek |contains=Thursday": false},
+			"Enabled": false,
+		  }
+		]
+  },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "DustBeauty.DGA.industrialfurn/BrownCouch27"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 650,
+		"DynamicFields": [
+		  {
+			"Conditions": { "DayOfWeek |contains=Monday": false},
+			"Enabled": false,
+		  }
+		]
+  },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "DustBeauty.DGA.industrialfurn/OverstuffedSofa28"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 750,
+		"DynamicFields": [
+		  {
+			"Conditions": { "DayOfWeek |contains=Saturday": false},
+			"Enabled": false,
+		  }
+		]
+  },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "DustBeauty.DGA.industrialfurn/IndustrialSideTable29"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 450,
+		"DynamicFields": [
+		  {
+			"Conditions": { "DayOfWeek |contains=Thursday": false},
+			"Enabled": false,
+		  }
+		]
+  },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "DustBeauty.DGA.industrialfurn/IndustrialDresser30"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 400,
+		"DynamicFields": [
+		  {
+			"Conditions": { "DayOfWeek |contains=Monday": false},
+			"Enabled": false,
+		  }
+		]
+  },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "DustBeauty.DGA.industrialfurn/WhiteOttoman31"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 550,
+		"DynamicFields": [
+		  {
+			"Conditions": { "DayOfWeek |contains=Wednesday": false},
+			"Enabled": false,
+		  }
+		]
+  },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "DustBeauty.DGA.industrialfurn/GreenChest32"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 650,
+		"DynamicFields": [
+		  {
+			"Conditions": { "DayOfWeek |contains=Friday": false},
+			"Enabled": false,
+		  }
+		]
+  },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "DustBeauty.DGA.industrialfurn/IndustrialDiningTable33"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 1500,
+		"DynamicFields": [
+		  {
+			"Conditions": { "DayOfWeek |contains=Sunday": false},
+			"Enabled": false,
+		  }
+		]
+  },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "DustBeauty.DGA.industrialfurn/WhiteDiningTable34"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 2000,
+		"DynamicFields": [
+		  {
+			"Conditions": { "DayOfWeek |contains=Monday": false},
+			"Enabled": false,
+		  }
+		]
+  },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "DustBeauty.DGA.industrialfurn/DiningTablewithSheerTablecloth35"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 2500,
+		"DynamicFields": [
+		  {
+			"Conditions": { "DayOfWeek |contains=Thursday": false},
+			"Enabled": false,
+		  }
+		]
+  },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "DustBeauty.DGA.industrialfurn/PlantCouch36"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 2500,
+		"DynamicFields": [
+		  {
+			"Conditions": { "DayOfWeek |contains=Wednesday": false},
+			"Enabled": false,
+		  }
+		]
+  },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "DustBeauty.DGA.industrialfurn/BarSideL37"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 2000,
+		"DynamicFields": [
+		  {
+			"Conditions": { "DayOfWeek |contains=Monday": false},
+			"Enabled": false,
+		  }
+		]
+  },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "DustBeauty.DGA.industrialfurn/FullIndustrialBar38"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 8000,
+		"DynamicFields": [
+		  {
+			"Conditions": { "DayOfWeek |contains=Thursday": false},
+			"Enabled": false,
+		  }
+		]
+  },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "DustBeauty.DGA.industrialfurn/BarCenter39"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 4000,
+		"DynamicFields": [
+		  {
+			"Conditions": { "DayOfWeek |contains=Saturday": false},
+			"Enabled": false,
+		  }
+		]
+  },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "DustBeauty.DGA.industrialfurn/BarSideR40"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 2000,
+		"DynamicFields": [
+		  {
+			"Conditions": { "DayOfWeek |contains=Thursday": false},
+			"Enabled": false,
+		  }
+		]
+  },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "DustBeauty.DGA.industrialfurn/Kitchentable41"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 2000,
+		"DynamicFields": [
+		  {
+			"Conditions": { "DayOfWeek |contains=Monday": false},
+			"Enabled": false,
+		  }
+		]
+  },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "DustBeauty.DGA.industrialfurn/WhiteStand42"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 750,
+		"DynamicFields": [
+		  {
+			"Conditions": { "DayOfWeek |contains=Friday": false},
+			"Enabled": false,
+		  }
+		]
+  },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "DustBeauty.DGA.industrialfurn/LargePillar43"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 850,
+		"DynamicFields": [
+		  {
+			"Conditions": { "DayOfWeek |contains=Thursday": false},
+			"Enabled": false,
+		  }
+		]
+  },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "DustBeauty.DGA.industrialfurn/IndustrialExoticTree44"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 950,
+		"DynamicFields": [
+		  {
+			"Conditions": { "DayOfWeek |contains=Wednesday": false},
+			"Enabled": false,
+		  }
+		]
+  },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "DustBeauty.DGA.industrialfurn/IndustrialDeluxeTree45"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 950,
+		"DynamicFields": [
+		  {
+			"Conditions": { "DayOfWeek |contains=Thursday": false},
+			"Enabled": false,
+		  }
+		]
+  },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "DustBeauty.DGA.industrialfurn/IndustrialTable46"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 800,
+		"DynamicFields": [
+		  {
+			"Conditions": { "DayOfWeek |contains=Sunday": false},
+			"Enabled": false,
+		  }
+		]
+  },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "DustBeauty.DGA.industrialfurn/IndustrialTable47"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 800,
+		"DynamicFields": [
+		  {
+			"Conditions": { "DayOfWeek |contains=Monday": false},
+			"Enabled": false,
+		  }
+		]
+  },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "DustBeauty.DGA.industrialfurn/SandedIndustrialTable48"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 1000,
+		"DynamicFields": [
+		  {
+			"Conditions": { "DayOfWeek |contains=Thursday": false},
+			"Enabled": false,
+		  }
+		]
+  },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "DustBeauty.DGA.industrialfurn/WhiteIndustrialTable49"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 800,
+		"DynamicFields": [
+		  {
+			"Conditions": { "DayOfWeek |contains=Thursday": false},
+			"Enabled": false,
+		  }
+		]
+  },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "DustBeauty.DGA.industrialfurn/IndustrialSunTable50"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 900,
+		"DynamicFields": [
+		  {
+			"Conditions": { "DayOfWeek |contains=Thursday": false},
+			"Enabled": false,
+		  }
+		]
+  },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "DustBeauty.DGA.industrialfurn/IndustrialMoonTable51"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 900,
+		"DynamicFields": [
+		  {
+			"Conditions": { "DayOfWeek |contains=Saturday": false},
+			"Enabled": false,
+		  }
+		]
+  },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "DustBeauty.DGA.industrialfurn/GlassTable52"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 700,
+		"DynamicFields": [
+		  {
+			"Conditions": { "DayOfWeek |contains=Wednesday": false},
+			"Enabled": false,
+		  }
+		]
+  },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "DustBeauty.DGA.industrialfurn/WhiteRoundTable53"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 750,
+		"DynamicFields": [
+		  {
+			"Conditions": { "DayOfWeek |contains=Monday": false},
+			"Enabled": false,
+		  }
+		]
+  },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "DustBeauty.DGA.industrialfurn/OrnateGlassTable54"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 900,
+		"DynamicFields": [
+		  {
+			"Conditions": { "DayOfWeek |contains=Thursday": false},
+			"Enabled": false,
+		  }
+		]
+  },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "DustBeauty.DGA.industrialfurn/RoundCoveredtable55"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 850,
+		"DynamicFields": [
+		  {
+			"Conditions": { "DayOfWeek |contains=Friday": false},
+			"Enabled": false,
+		  }
+		]
+  },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "DustBeauty.DGA.industrialfurn/IndoorTree56"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 950,
+		"DynamicFields": [
+		  {
+			"Conditions": { "DayOfWeek |contains=Thursday": false},
+			"Enabled": false,
+		  }
+		]
+  },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "DustBeauty.DGA.industrialfurn/WhiteStandingDresser57"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 800,
+		"DynamicFields": [
+		  {
+			"Conditions": { "DayOfWeek |contains=Sunday": false},
+			"Enabled": false,
+		  }
+		]
+  },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "DustBeauty.DGA.industrialfurn/ChestofDrawers58"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 800,
+		"DynamicFields": [
+		  {
+			"Conditions": { "DayOfWeek |contains=Thursday": false},
+			"Enabled": false,
+		  }
+		]
+  },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "DustBeauty.DGA.industrialfurn/IndustrialSquareTable59"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 700,
+		"DynamicFields": [
+		  {
+			"Conditions": { "DayOfWeek |contains=Monday": false},
+			"Enabled": false,
+		  }
+		]
+  },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "DustBeauty.DGA.industrialfurn/CheckersSet60"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 600,
+		"DynamicFields": [
+		  {
+			"Conditions": { "DayOfWeek |contains=Saturday": false},
+			"Enabled": false,
+		  }
+		]
+  },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "DustBeauty.DGA.industrialfurn/FrameSet61"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 1000,
+		"DynamicFields": [
+		  {
+			"Conditions": { "DayOfWeek |contains=Monday": false},
+			"Enabled": false,
+		  }
+		]
+  },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "DustBeauty.DGA.industrialfurn/GlassCart62"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 800,
+		"DynamicFields": [
+		  {
+			"Conditions": { "DayOfWeek |contains=Wednesday": false},
+			"Enabled": false,
+		  }
+		]
+  },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "DustBeauty.DGA.industrialfurn/IndustrialTeaTable63"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 750,
+		"DynamicFields": [
+		  {
+			"Conditions": { "DayOfWeek |contains=Thursday": false},
+			"Enabled": false,
+		  }
+		]
+  },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "DustBeauty.DGA.industrialfurn/DraftingTable64"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 750,
+		"DynamicFields": [
+		  {
+			"Conditions": { "DayOfWeek |contains=Monday": false},
+			"Enabled": false,
+		  }
+		]
+  },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "DustBeauty.DGA.industrialfurn/ClothesRack65"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 850,
+		"DynamicFields": [
+		  {
+			"Conditions": { "DayOfWeek |contains=Thursday": false},
+			"Enabled": false,
+		  }
+		]
+  },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "DustBeauty.DGA.industrialfurn/IndustrialShelf66"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 1000,
+		"DynamicFields": [
+		  {
+			"Conditions": { "DayOfWeek |contains=Friday": false},
+			"Enabled": false,
+		  }
+		]
+  },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "DustBeauty.DGA.industrialfurn/Broom67"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 250,
+		"DynamicFields": [
+		  {
+			"Conditions": { "DayOfWeek |contains=Thursday": false},
+			"Enabled": false,
+		  }
+		]
+  },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "DustBeauty.DGA.industrialfurn/WhiteShelves68"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 1000,
+		"DynamicFields": [
+		  {
+			"Conditions": { "DayOfWeek |contains=Sunday": false},
+			"Enabled": false,
+		  }
+		]
+  },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "DustBeauty.DGA.industrialfurn/PottedTree69"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 750,
+		"DynamicFields": [
+		  {
+			"Conditions": { "DayOfWeek |contains=Monday": false},
+			"Enabled": false,
+		  }
+		]
+  },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "DustBeauty.DGA.industrialfurn/LargeGeode70"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 850,
+		"DynamicFields": [
+		  {
+			"Conditions": { "DayOfWeek |contains=Wednesday": false},
+			"Enabled": false,
+		  }
+		]
+  },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "DustBeauty.DGA.industrialfurn/Easel71"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 800,
+		"DynamicFields": [
+		  {
+			"Conditions": { "DayOfWeek |contains=Saturday": false},
+			"Enabled": false,
+		  }
+		]
+  },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "DustBeauty.DGA.industrialfurn/LargeCrystal72"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 850,
+		"DynamicFields": [
+		  {
+			"Conditions": { "DayOfWeek |contains=Sunday": false},
+			"Enabled": false,
+		  }
+		]
+  },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "DustBeauty.DGA.industrialfurn/FakeSlothSkeletonHead73"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 1200,
+		"DynamicFields": [
+		  {
+			"Conditions": { "DayOfWeek |contains=Thursday": false},
+			"Enabled": false,
+		  }
+		]
+  },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "DustBeauty.DGA.industrialfurn/FakeSlothSkeletonTorso74"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 1200,
+		"DynamicFields": [
+		  {
+			"Conditions": { "DayOfWeek |contains=Wednesday": false},
+			"Enabled": false,
+		  }
+		]
+  },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "DustBeauty.DGA.industrialfurn/FakeSlothSkeletonTail75"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 1200,
+		"DynamicFields": [
+		  {
+			"Conditions": { "DayOfWeek |contains=Monday": false},
+			"Enabled": false,
+		  }
+		]
+  },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "DustBeauty.DGA.industrialfurn/PottedPlantStand76"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 1000,
+		"DynamicFields": [
+		  {
+			"Conditions": { "DayOfWeek |contains=Wednesday": false},
+			"Enabled": false,
+		  }
+		]
+  },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "DustBeauty.DGA.industrialfurn/PerchingBird77"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 1000,
+		"DynamicFields": [
+		  {
+			"Conditions": { "DayOfWeek |contains=Thursday": false},
+			"Enabled": false,
+		  }
+		]
+  },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "DustBeauty.DGA.industrialfurn/IncenseStand78"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 1000,
+		"DynamicFields": [
+		  {
+			"Conditions": { "DayOfWeek |contains=Wednesday": false},
+			"Enabled": false,
+		  }
+		]
+  },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "DustBeauty.DGA.industrialfurn/IndustrialCatalog79"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 1000,
+		"DynamicFields": [
+		  {
+			"Conditions": { "DayOfWeek |contains=Thursday": false},
+			"Enabled": false,
+		  }
+		]
+  },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "DustBeauty.DGA.industrialfurn/AppleBasket80"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 450,
+		"DynamicFields": [
+		  {
+			"Conditions": { "DayOfWeek |contains=Monday": false},
+			"Enabled": false,
+		  }
+		]
+  },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "DustBeauty.DGA.industrialfurn/CandleTrio81"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 450,
+		"DynamicFields": [
+		  {
+			"Conditions": { "DayOfWeek |contains=Thursday": false},
+			"Enabled": false,
+		  }
+		]
+  },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "DustBeauty.DGA.industrialfurn/TablePlant82"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 450,
+		"DynamicFields": [
+		  {
+			"Conditions": { "DayOfWeek |contains=Friday": false},
+			"Enabled": false,
+		  }
+		]
+  },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "DustBeauty.DGA.industrialfurn/ToyCars83"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 450,
+		"DynamicFields": [
+		  {
+			"Conditions": { "DayOfWeek |contains=Wednesday": false},
+			"Enabled": false,
+		  }
+		]
+  },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "DustBeauty.DGA.industrialfurn/ModelShip84"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 450,
+		"DynamicFields": [
+		  {
+			"Conditions": { "DayOfWeek |contains=Saturday": false},
+			"Enabled": false,
+		  }
+		]
+  },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "DustBeauty.DGA.industrialfurn/TableLantern85"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 450,
+		"DynamicFields": [
+		  {
+			"Conditions": { "DayOfWeek |contains=Wednesday": false},
+			"Enabled": false,
+		  }
+		]
+  },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "DustBeauty.DGA.industrialfurn/Kettle86"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 450,
+		"DynamicFields": [
+		  {
+			"Conditions": { "DayOfWeek |contains=Wednesday": false},
+			"Enabled": false,
+		  }
+		]
+  },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "DustBeauty.DGA.industrialfurn/GrandPiano87"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 450,
+		"DynamicFields": [
+		  {
+			"Conditions": { "DayOfWeek |contains=Wednesday": false},
+			"Enabled": false,
+		  }
+		]
+  },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "DustBeauty.DGA.industrialfurn/Spotlight88"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 450,
+		"DynamicFields": [
+		  {
+			"Conditions": { "DayOfWeek |contains=Wednesday": false},
+			"Enabled": false,
+		  }
+		]
+  },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "DustBeauty.DGA.industrialfurn/FlowerVase89"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 1000,
+		"DynamicFields": [
+		  {
+			"Conditions": { "DayOfWeek |contains=Wednesday": false},
+			"Enabled": false,
+		  }
+		]
+  },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "DustBeauty.DGA.industrialfurn/SmallPottedTree90"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 1000,
+		"DynamicFields": [
+		  {
+			"Conditions": { "DayOfWeek |contains=Wednesday": false},
+			"Enabled": false,
+		  }
+		]
+  },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "DustBeauty.DGA.industrialfurn/FlowerPot91"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 1000,
+		"DynamicFields": [
+		  {
+			"Conditions": { "DayOfWeek |contains=Monday": false},
+			"Enabled": false,
+		  }
+		]
+  },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "DustBeauty.DGA.industrialfurn/RedFlowerStand92"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 1000,
+		"DynamicFields": [
+		  {
+			"Conditions": { "DayOfWeek |contains=Sunday": false},
+			"Enabled": false,
+		  }
+		]
+  },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "DustBeauty.DGA.industrialfurn/GlassNighttable93"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 700,
+		"DynamicFields": [
+		  {
+			"Conditions": { "DayOfWeek |contains=Thursday": false},
+			"Enabled": false,
+		  }
+		]
+  },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "DustBeauty.DGA.industrialfurn/Nightstand94"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 650,
+		"DynamicFields": [
+		  {
+			"Conditions": { "DayOfWeek |contains=Monday": false},
+			"Enabled": false,
+		  }
+		]
+  },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "DustBeauty.DGA.industrialfurn/IndustrialNightTable95"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 750,
+		"DynamicFields": [
+		  {
+			"Conditions": { "DayOfWeek |contains=Monday": false},
+			"Enabled": false,
+		  }
+		]
+  },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "DustBeauty.DGA.industrialfurn/WhiteNightstand96"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 750,
+		"DynamicFields": [
+		  {
+			"Conditions": { "DayOfWeek |contains=Thursday": false},
+			"Enabled": false,
+		  }
+		]
+  },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "DustBeauty.DGA.industrialfurn/FlipCalendar97"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 200,
+		"DynamicFields": [
+		  {
+			"Conditions": { "DayOfWeek |contains=Wednesday": false},
+			"Enabled": false,
+		  }
+		]
+  },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "DustBeauty.DGA.industrialfurn/AntiqueTelevision98"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 500,
+		"DynamicFields": [
+		  {
+			"Conditions": { "DayOfWeek |contains=Monday": false},
+			"Enabled": false,
+		  }
+		]
+  },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "DustBeauty.DGA.industrialfurn/BrokenPlasmaTV99"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 500,
+		"DynamicFields": [
+		  {
+			"Conditions": { "DayOfWeek |contains=Thursday": false},
+			"Enabled": false,
+		  }
+		]
+  },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "DustBeauty.DGA.industrialfurn/Spotlight100"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 450,
+		"DynamicFields": [
+		  {
+			"Conditions": { "DayOfWeek |contains=Friday": false},
+			"Enabled": false,
+		  }
+		]
+  },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "DustBeauty.DGA.industrialfurn/ReindeerHead101"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 900,
+		"DynamicFields": [
+		  {
+			"Conditions": { "DayOfWeek |contains=Saturday": false},
+			"Enabled": false,
+		  }
+		]
+  },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "DustBeauty.DGA.industrialfurn/IndustrialShelf102"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 500,
+		"DynamicFields": [
+		  {
+			"Conditions": { "DayOfWeek |contains=Sunday": false},
+			"Enabled": false,
+		  }
+		]
+  },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "DustBeauty.DGA.industrialfurn/IndustrialShelf103"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 500,
+		"DynamicFields": [
+		  {
+			"Conditions": { "DayOfWeek |contains=Wednesday": false},
+			"Enabled": false,
+		  }
+		]
+  },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "DustBeauty.DGA.industrialfurn/IndustrialShelf104"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 900,
+		"DynamicFields": [
+		  {
+			"Conditions": { "DayOfWeek |contains=Wednesday": false},
+			"Enabled": false,
+		  }
+		]
+  },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "DustBeauty.DGA.industrialfurn/Flowerprint105"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 800,
+		"DynamicFields": [
+		  {
+			"Conditions": { "DayOfWeek |contains=Monday": false},
+			"Enabled": false,
+		  }
+		]
+  },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "DustBeauty.DGA.industrialfurn/CuckooClock106"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 800,
+		"DynamicFields": [
+		  {
+			"Conditions": { "DayOfWeek |contains=Sunday": false},
+			"Enabled": false,
+		  }
+		]
+  },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "DustBeauty.DGA.industrialfurn/IndustrialShelf107"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 800,
+		"DynamicFields": [
+		  {
+			"Conditions": { "DayOfWeek |contains=Thursday": false},
+			"Enabled": false,
+		  }
+		]
+  },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "DustBeauty.DGA.industrialfurn/IndustrialShelf108"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 800,
+		"DynamicFields": [
+		  {
+			"Conditions": { "DayOfWeek |contains=Wednesday": false},
+			"Enabled": false,
+		  }
+		]
+  },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "DustBeauty.DGA.industrialfurn/IndustrialShelf109"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 800,
+		"DynamicFields": [
+		  {
+			"Conditions": { "DayOfWeek |contains=Friday": false},
+			"Enabled": false,
+		  }
+		]
+  },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "DustBeauty.DGA.industrialfurn/ReversePaintedFlower110"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 800,
+		"DynamicFields": [
+		  {
+			"Conditions": { "DayOfWeek |contains=Saturday": false},
+			"Enabled": false,
+		  }
+		]
+  },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "DustBeauty.DGA.industrialfurn/PhotoMemories111"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 800,
+		"DynamicFields": [
+		  {
+			"Conditions": { "DayOfWeek |contains=Friday": false},
+			"Enabled": false,
+		  }
+		]
+  },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "DustBeauty.DGA.industrialfurn/StrawHat112"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 800,
+		"DynamicFields": [
+		  {
+			"Conditions": { "DayOfWeek |contains=Sunday": false},
+			"Enabled": false,
+		  }
+		]
+  },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "DustBeauty.DGA.industrialfurn/PaintingPair113"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 900,
+		"DynamicFields": [
+		  {
+			"Conditions": { "DayOfWeek |contains=Thursday": false},
+			"Enabled": false,
+		  }
+		]
+  },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "DustBeauty.DGA.industrialfurn/CageandPlants114"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 900,
+		"DynamicFields": [
+		  {
+			"Conditions": { "DayOfWeek |contains=Wednesday": false},
+			"Enabled": false,
+		  }
+		]
+  },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "DustBeauty.DGA.industrialfurn/BrownandWhiteRug115"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 850,
+		"DynamicFields": [
+		  {
+			"Conditions": { "DayOfWeek |contains=Monday": false},
+			"Enabled": false,
+		  }
+		]
+  },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "DustBeauty.DGA.industrialfurn/IndoorMat116"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 850,
+		"DynamicFields": [
+		  {
+			"Conditions": { "DayOfWeek |contains=Saturday": false},
+			"Enabled": false,
+		  }
+		]
+  },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "DustBeauty.DGA.industrialfurn/SmallRoundRug117"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 850,
+		"DynamicFields": [
+		  {
+			"Conditions": { "DayOfWeek |contains=Sunday": false},
+			"Enabled": false,
+		  }
+		]
+  },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "DustBeauty.DGA.industrialfurn/TinyIndustrialLights118"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 300,
+		"DynamicFields": [
+		  {
+			"Conditions": { "DayOfWeek |contains=Thursday": false},
+			"Enabled": false,
+		  }
+		]
+  },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "DustBeauty.DGA.industrialfurn/BeigeWovenRug119"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 850,
+		"DynamicFields": [
+		  {
+			"Conditions": { "DayOfWeek |contains=Wednesday": false},
+			"Enabled": false,
+		  }
+		]
+  },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "DustBeauty.DGA.industrialfurn/PlushBear120"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 700,
+		"DynamicFields": [
+		  {
+			"Conditions": { "DayOfWeek |contains=Saturday": false},
+			"Enabled": false,
+		  }
+		]
+  },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "DustBeauty.DGA.industrialfurn/PlantsandFrames121"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 1400,
+		"DynamicFields": [
+		  {
+			"Conditions": { "DayOfWeek |contains=Friday": false},
+			"Enabled": false,
+		  }
+		]
+  },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "DustBeauty.DGA.industrialfurn/HangingFlowers122"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 700,
+		"DynamicFields": [
+		  {
+			"Conditions": { "DayOfWeek |contains=Friday": false},
+			"Enabled": false,
+		  }
+		]
+  },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "DustBeauty.DGA.industrialfurn/WallPlanter123"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 700,
+		"DynamicFields": [
+		  {
+			"Conditions": { "DayOfWeek |contains=Wednesday": false},
+			"Enabled": false,
+		  }
+		]
+  },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "DustBeauty.DGA.industrialfurn/OldFloorTelevision124"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 700,
+		"DynamicFields": [
+		  {
+			"Conditions": { "DayOfWeek |contains=Saturday": false},
+			"Enabled": false,
+		  }
+		]
+  },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "DustBeauty.DGA.industrialfurn/DollHouse125"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 800,
+		"DynamicFields": [
+		  {
+			"Conditions": { "DayOfWeek |contains=Saturday": false},
+			"Enabled": false,
+		  }
+		]
+  },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "DustBeauty.DGA.industrialfurn/SkinRug126"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 850,
+		"DynamicFields": [
+		  {
+			"Conditions": { "DayOfWeek |contains=Thursday": false},
+			"Enabled": false,
+		  }
+		]
+  },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "DustBeauty.DGA.industrialfurn/BeigePillow127"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 850,
+		"DynamicFields": [
+		  {
+			"Conditions": { "DayOfWeek |contains=Friday": false},
+			"Enabled": false,
+		  }
+		]
+  },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "DustBeauty.DGA.industrialfurn/TallWindow128"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 600,
+		"DynamicFields": [
+		  {
+			"Conditions": { "DayOfWeek |contains=Monday": false},
+			"Enabled": false,
+		  }
+		]
+  },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "DustBeauty.DGA.industrialfurn/IndustrialFloorLamp129"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 700,
+		"DynamicFields": [
+		  {
+			"Conditions": { "DayOfWeek |contains=Friday": false},
+			"Enabled": false,
+		  }
+		]
+  },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "DustBeauty.DGA.industrialfurn/IndustrialWallLights130"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 750,
+		"DynamicFields": [
+		  {
+			"Conditions": { "DayOfWeek |contains=Wednesday": false},
+			"Enabled": false,
+		  }
+		]
+  },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "DustBeauty.DGA.industrialfurn/WhiteFloorPillow131"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 550,
+		"DynamicFields": [
+		  {
+			"Conditions": { "DayOfWeek |contains=Sunday": false},
+			"Enabled": false,
+		  }
+		]
+  },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "DustBeauty.DGA.industrialfurn/GlassFloorLamp132"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 700,
+		"DynamicFields": [
+		  {
+			"Conditions": { "DayOfWeek |contains=Thursday": false},
+			"Enabled": false,
+		  }
+		]
+  },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "DustBeauty.DGA.industrialfurn/PlantArrangement133"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 450,
+		"DynamicFields": [
+		  {
+			"Conditions": { "DayOfWeek |contains=Friday": false},
+			"Enabled": false,
+		  }
+		]
+  },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "DustBeauty.DGA.industrialfurn/Candlesticks134"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 450,
+		"DynamicFields": [
+		  {
+			"Conditions": { "DayOfWeek |contains=Saturday": false},
+			"Enabled": false,
+		  }
+		]
+  },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "DustBeauty.DGA.industrialfurn/BoxSet135"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 450,
+		"DynamicFields": [
+		  {
+			"Conditions": { "DayOfWeek |contains=Sunday": false},
+			"Enabled": false,
+		  }
+		]
+  },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "DustBeauty.DGA.industrialfurn/Books136"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 450,
+		"DynamicFields": [
+		  {
+			"Conditions": { "DayOfWeek |contains=Wednesday": false},
+			"Enabled": false,
+		  }
+		]
+  },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "DustBeauty.DGA.industrialfurn/MyFirstPainting137"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 1150,
+		"DynamicFields": [
+		  {
+			"Conditions": { "DayOfWeek |contains=Monday": false},
+			"Enabled": false,
+		  }
+		]
+  },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "DustBeauty.DGA.industrialfurn/BrownFloorPillow138"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 550,
+		"DynamicFields": [
+		  {
+			"Conditions": { "DayOfWeek |contains=Wednesday": false},
+			"Enabled": false,
+		  }
+		]
+  },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "DustBeauty.DGA.industrialfurn/TinyLandscape139"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 800,
+		"DynamicFields": [
+		  {
+			"Conditions": { "DayOfWeek |contains=Thursday": false},
+			"Enabled": false,
+		  }
+		]
+  },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "DustBeauty.DGA.industrialfurn/LargeLightString140"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 800,
+		"DynamicFields": [
+		  {
+			"Conditions": { "DayOfWeek |contains=Wednesday": false},
+			"Enabled": false,
+		  }
+		]
+  },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "DustBeauty.DGA.industrialfurn/SmallLightString141"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 800,
+		"DynamicFields": [
+		  {
+			"Conditions": { "DayOfWeek |contains=Friday": false},
+			"Enabled": false,
+		  }
+		]
+  },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "DustBeauty.DGA.industrialfurn/FramedPortraitPrint142"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 800,
+		"DynamicFields": [
+		  {
+			"Conditions": { "DayOfWeek |contains=Friday": false},
+			"Enabled": false,
+		  }
+		]
+  },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "DustBeauty.DGA.industrialfurn/FramedLandscapePrint143"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 800,
+		"DynamicFields": [
+		  {
+			"Conditions": { "DayOfWeek |contains=Saturday": false},
+			"Enabled": false,
+		  }
+		]
+  },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "DustBeauty.DGA.industrialfurn/FramedLandscapePrint144"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 800,
+		"DynamicFields": [
+		  {
+			"Conditions": { "DayOfWeek |contains=Friday": false},
+			"Enabled": false,
+		  }
+		]
+  },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "DustBeauty.DGA.industrialfurn/StarryNight145"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 800,
+		"DynamicFields": [
+		  {
+			"Conditions": { "DayOfWeek |contains=Sunday": false},
+			"Enabled": false,
+		  }
+		]
+  },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "DustBeauty.DGA.industrialfurn/FramedCityScene146"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 800,
+		"DynamicFields": [
+		  {
+			"Conditions": { "DayOfWeek |contains=Wednesday": false},
+			"Enabled": false,
+		  }
+		]
+  },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "DustBeauty.DGA.industrialfurn/FramedLandscapePrint147"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 800,
+		"DynamicFields": [
+		  {
+			"Conditions": { "DayOfWeek |contains=Thursday": false},
+			"Enabled": false,
+		  }
+		]
+  },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "DustBeauty.DGA.industrialfurn/FramedPrint148"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 800,
+		"DynamicFields": [
+		  {
+			"Conditions": { "DayOfWeek |contains=Saturday": false},
+			"Enabled": false,
+		  }
+		]
+  },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "DustBeauty.DGA.industrialfurn/FramedPrint149"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 800,
+		"DynamicFields": [
+		  {
+			"Conditions": { "DayOfWeek |contains=Friday": false},
+			"Enabled": false,
+		  }
+		]
+  },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "DustBeauty.DGA.industrialfurn/OrnateFramedLandscape150"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 800,
+		"DynamicFields": [
+		  {
+			"Conditions": { "DayOfWeek |contains=Monday": false},
+			"Enabled": false,
+		  }
+		]
+  },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "DustBeauty.DGA.industrialfurn/LargeElegantFireplace151"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 2200,
+		"DynamicFields": [
+		  {
+			"Conditions": { "DayOfWeek |contains=Wednesday": false},
+			"Enabled": false,
+		  }
+		]
+  },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "DustBeauty.DGA.industrialfurn/LargeRug152"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 2500,
+		"DynamicFields": [
+		  {
+			"Conditions": { "DayOfWeek |contains=Sunday": false},
+			"Enabled": false,
+		  }
+		]
+  },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "DustBeauty.DGA.industrialfurn/StrawberryWallHanging153"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 800,
+		"DynamicFields": [
+		  {
+			"Conditions": { "DayOfWeek |contains=Thursday": false},
+			"Enabled": false,
+		  }
+		]
+  },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "DustBeauty.DGA.industrialfurn/StrawberryRug154"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 1200,
+		"DynamicFields": [
+		  {
+			"Conditions": { "DayOfWeek |contains=Saturday": false},
+			"Enabled": false,
+		  }
+		]
+  },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "DustBeauty.DGA.industrialfurn/WorldMap155"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 800,
+		"DynamicFields": [
+		  {
+			"Conditions": { "DayOfWeek |contains=Friday": false},
+			"Enabled": false,
+		  }
+		]
+  },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "DustBeauty.DGA.industrialfurn/NightLandscape156"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 800,
+		"DynamicFields": [
+		  {
+			"Conditions": { "DayOfWeek |contains=Friday": false},
+			"Enabled": false,
+		  }
+		]
+  },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "DustBeauty.DGA.industrialfurn/EmborideryHoop157"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 800,
+		"DynamicFields": [
+		  {
+			"Conditions": { "DayOfWeek |contains=Wednesday": false},
+			"Enabled": false,
+		  }
+		]
+  },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "DustBeauty.DGA.industrialfurn/Documents158"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 800,
+		"DynamicFields": [
+		  {
+			"Conditions": { "DayOfWeek |contains=Monday": false},
+			"Enabled": false,
+		  }
+		]
+  },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "DustBeauty.DGA.industrialfurn/WallMirror159"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 800,
+		"DynamicFields": [
+		  {
+			"Conditions": { "DayOfWeek |contains=Thursday": false},
+			"Enabled": false,
+		  }
+		]
+  },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "DustBeauty.DGA.industrialfurn/VintageBraveLittleSaplingPoster160"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 750,
+		"DynamicFields": [
+		  {
+			"Conditions": { "DayOfWeek |contains=Saturday": false},
+			"Enabled": false,
+		  }
+		]
+  },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "DustBeauty.DGA.industrialfurn/VintageMysteriumPoster161"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 750,
+		"DynamicFields": [
+		  {
+			"Conditions": { "DayOfWeek |contains=Friday": false},
+			"Enabled": false,
+		  }
+		]
+  },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "DustBeauty.DGA.industrialfurn/VintageJourneyofthePrarieKingPoster162"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 750,
+		"DynamicFields": [
+		  {
+			"Conditions": { "DayOfWeek |contains=Sunday": false},
+			"Enabled": false,
+		  }
+		]
+  },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "DustBeauty.DGA.industrialfurn/VintageWumbusPoster163"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 750,
+		"DynamicFields": [
+		  {
+			"Conditions": { "DayOfWeek |contains=Thursday": false},
+			"Enabled": false,
+		  }
+		]
+  },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "DustBeauty.DGA.industrialfurn/VintageZuzuCityExpressPoster164"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 750,
+		"DynamicFields": [
+		  {
+			"Conditions": { "DayOfWeek |contains=Friday": false},
+			"Enabled": false,
+		  }
+		]
+  },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "DustBeauty.DGA.industrialfurn/VintageMiracleatColdstarRanchPoster165"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 750,
+		"DynamicFields": [
+		  {
+			"Conditions": { "DayOfWeek |contains=Wednesday": false},
+			"Enabled": false,
+		  }
+		]
+  },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "DustBeauty.DGA.industrialfurn/VintageNaturalWondersPoster166"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 750,
+		"DynamicFields": [
+		  {
+			"Conditions": { "DayOfWeek |contains=Friday": false},
+			"Enabled": false,
+		  }
+		]
+  },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "DustBeauty.DGA.industrialfurn/VintageItHowlsintheRainPoster167"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 750,
+		"DynamicFields": [
+		  {
+			"Conditions": { "DayOfWeek |contains=Saturday": false},
+			"Enabled": false,
+		  }
+		]
+  },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "DustBeauty.DGA.industrialfurn/HangingBasket168"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 750,
+		"DynamicFields": [
+		  {
+			"Conditions": { "DayOfWeek |contains=Thursday": false},
+			"Enabled": false,
+		  }
+		]
+  },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "DustBeauty.DGA.industrialfurn/RusticWinterTreeDecal169"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 750,
+		"DynamicFields": [
+		  {
+			"Conditions": { "DayOfWeek |contains=Wednesday": false},
+			"Enabled": false,
+		  }
+		]
+  },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "DustBeauty.DGA.industrialfurn/Terrarium170"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 1650,
+		"DynamicFields": [
+		  {
+			"Conditions": { "DayOfWeek |contains=Sunday": false},
+			"Enabled": false,
+		  }
+		]
+  },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "DustBeauty.DGA.industrialfurn/FlowerPetalRug171"
+        },
+        "ShopId": "Carpenter",
+        "Cost": 950
+    }
+]

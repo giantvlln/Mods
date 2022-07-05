@@ -1,0 +1,12 @@
+{
+   "Name": "Aesthetic Garbage",
+   "Author": "Amaryn",
+   "Version": "1.1.0",
+   "Description": "A retexture of the five recyclable trash items.",
+   "UniqueID": "Amaryn.AestheticGarbage",
+   "MinimumApiVersion": "3.0.1",
+   "UpdateKeys": ["Nexus:11052"],
+   "ContentPackFor": {
+      "UniqueID": "Pathoschild.ContentPatcher"
+   },
+}
