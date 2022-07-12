@@ -1,0 +1,6 @@
+{
+    "CraftedItems": [ "Dinosaur Shirt (Alternate)" ],
+    "FirstItemTags": [ "item_wool" ],
+    "SecondItemTags": [ "item_dinosaur_mayonnaise" ],
+    "ConsumeSecondItem": true,
+}

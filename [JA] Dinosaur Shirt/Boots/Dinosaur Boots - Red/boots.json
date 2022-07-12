@@ -1,0 +1,10 @@
+{
+  "Name": "Dinosaur Boots - Red",
+  "Description": "A dinosaur suit can't be complete without paws.",
+  "Price": 1000,
+  "PurchasePrice": 1000,
+  "CanPurchase": true,
+  "PurchaseFrom": "Marlon",
+  "Defense": 1,
+  "Immunity": 1,
+}
