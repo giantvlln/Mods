@@ -1,0 +1,371 @@
+{
+  "AreWaterReflectionsEnabled": true,
+  "AreMirrorReflectionsEnabled": true,
+  "ArePuddleReflectionsEnabled": true,
+  "WaterReflectionSettings": {
+    "AreReflectionsEnabled": true,
+    "ReflectionDirection": "South",
+    "ReflectionOverlay": {
+      "B": 56,
+      "G": 56,
+      "R": 55,
+      "A": 4
+    },
+    "ReflectionOffset": "0, 1.5",
+    "IsReflectionWavy": true,
+    "WaveSpeed": 1.25,
+    "WaveAmplitude": 0.001,
+    "WaveFrequency": 50.0,
+    "OverrideDefaultSettings": false
+  },
+  "PuddleReflectionSettings": {
+    "AreReflectionsEnabled": true,
+    "ShouldGeneratePuddles": true,
+    "ShouldPlaySplashSound": true,
+    "ShouldRainSplashPuddles": true,
+    "ReflectionOffset": "0, 0",
+    "PuddlePercentageWhileRaining": 20,
+    "PuddlePercentageAfterRaining": 10,
+    "BigPuddleChance": 25,
+    "MillisecondsBetweenRaindropSplashes": 500,
+    "PuddleColor": {
+      "B": 65,
+      "G": 65,
+      "R": 65,
+      "A": 46
+    },
+    "RippleColor": {
+      "B": 255,
+      "G": 255,
+      "R": 255,
+      "A": 100
+    },
+    "OverrideDefaultSettings": false
+  },
+  "LocalWaterReflectionSettings": {
+    "Default": {
+      "AreReflectionsEnabled": true,
+      "ReflectionDirection": "South",
+      "ReflectionOverlay": {
+        "B": 56,
+        "G": 56,
+        "R": 55,
+        "A": 4
+      },
+      "ReflectionOffset": "0, 1.5",
+      "IsReflectionWavy": true,
+      "WaveSpeed": 1.25,
+      "WaveAmplitude": 0.001,
+      "WaveFrequency": 50.0,
+      "OverrideDefaultSettings": false
+    },
+    "FarmHouse": {
+      "AreReflectionsEnabled": true,
+      "ReflectionDirection": "South",
+      "ReflectionOverlay": {
+        "B": 255,
+        "G": 255,
+        "R": 255,
+        "A": 255
+      },
+      "ReflectionOffset": "0, 1.5",
+      "IsReflectionWavy": false,
+      "WaveSpeed": 1.0,
+      "WaveAmplitude": 0.01,
+      "WaveFrequency": 50.0,
+      "OverrideDefaultSettings": false
+    },
+    "Farm": {
+      "AreReflectionsEnabled": true,
+      "ReflectionDirection": "South",
+      "ReflectionOverlay": {
+        "B": 255,
+        "G": 255,
+        "R": 255,
+        "A": 255
+      },
+      "ReflectionOffset": "0, 1.5",
+      "IsReflectionWavy": false,
+      "WaveSpeed": 1.0,
+      "WaveAmplitude": 0.01,
+      "WaveFrequency": 50.0,
+      "OverrideDefaultSettings": false
+    },
+    "Forest": {
+      "AreReflectionsEnabled": true,
+      "ReflectionDirection": "South",
+      "ReflectionOverlay": {
+        "B": 255,
+        "G": 255,
+        "R": 255,
+        "A": 255
+      },
+      "ReflectionOffset": "0, 1.5",
+      "IsReflectionWavy": false,
+      "WaveSpeed": 1.0,
+      "WaveAmplitude": 0.01,
+      "WaveFrequency": 50.0,
+      "OverrideDefaultSettings": false
+    },
+    "Custom_BlueMoonVineyard": {
+      "AreReflectionsEnabled": true,
+      "ReflectionDirection": "South",
+      "ReflectionOverlay": {
+        "B": 255,
+        "G": 255,
+        "R": 255,
+        "A": 255
+      },
+      "ReflectionOffset": "0, 1.5",
+      "IsReflectionWavy": false,
+      "WaveSpeed": 1.0,
+      "WaveAmplitude": 0.01,
+      "WaveFrequency": 50.0,
+      "OverrideDefaultSettings": false
+    },
+    "Town": {
+      "AreReflectionsEnabled": true,
+      "ReflectionDirection": "South",
+      "ReflectionOverlay": {
+        "B": 255,
+        "G": 255,
+        "R": 255,
+        "A": 255
+      },
+      "ReflectionOffset": "0, 1.5",
+      "IsReflectionWavy": false,
+      "WaveSpeed": 1.0,
+      "WaveAmplitude": 0.01,
+      "WaveFrequency": 50.0,
+      "OverrideDefaultSettings": false
+    },
+    "Beach": {
+      "AreReflectionsEnabled": true,
+      "ReflectionDirection": "South",
+      "ReflectionOverlay": {
+        "B": 89,
+        "G": 74,
+        "R": 58,
+        "A": 78
+      },
+      "ReflectionOffset": "0, 1",
+      "IsReflectionWavy": true,
+      "WaveSpeed": 1.25,
+      "WaveAmplitude": 0.001,
+      "WaveFrequency": 50.0,
+      "OverrideDefaultSettings": true
+    },
+    "Mountain": {
+      "AreReflectionsEnabled": true,
+      "ReflectionDirection": "South",
+      "ReflectionOverlay": {
+        "B": 255,
+        "G": 255,
+        "R": 255,
+        "A": 255
+      },
+      "ReflectionOffset": "0, 1.5",
+      "IsReflectionWavy": false,
+      "WaveSpeed": 1.0,
+      "WaveAmplitude": 0.01,
+      "WaveFrequency": 50.0,
+      "OverrideDefaultSettings": false
+    }
+  },
+  "LocalPuddleReflectionSettings": {
+    "Default": {
+      "AreReflectionsEnabled": true,
+      "ShouldGeneratePuddles": true,
+      "ShouldPlaySplashSound": true,
+      "ShouldRainSplashPuddles": true,
+      "ReflectionOffset": "0, 0",
+      "PuddlePercentageWhileRaining": 20,
+      "PuddlePercentageAfterRaining": 10,
+      "BigPuddleChance": 25,
+      "MillisecondsBetweenRaindropSplashes": 500,
+      "PuddleColor": {
+        "B": 65,
+        "G": 65,
+        "R": 65,
+        "A": 46
+      },
+      "RippleColor": {
+        "B": 255,
+        "G": 255,
+        "R": 255,
+        "A": 100
+      },
+      "OverrideDefaultSettings": false
+    },
+    "FarmHouse": {
+      "AreReflectionsEnabled": true,
+      "ShouldGeneratePuddles": true,
+      "ShouldPlaySplashSound": true,
+      "ShouldRainSplashPuddles": true,
+      "ReflectionOffset": "0, 0",
+      "PuddlePercentageWhileRaining": 20,
+      "PuddlePercentageAfterRaining": 10,
+      "BigPuddleChance": 25,
+      "MillisecondsBetweenRaindropSplashes": 500,
+      "PuddleColor": {
+        "B": 91,
+        "G": 91,
+        "R": 91,
+        "A": 91
+      },
+      "RippleColor": {
+        "B": 255,
+        "G": 255,
+        "R": 255,
+        "A": 155
+      },
+      "OverrideDefaultSettings": false
+    },
+    "Farm": {
+      "AreReflectionsEnabled": true,
+      "ShouldGeneratePuddles": true,
+      "ShouldPlaySplashSound": true,
+      "ShouldRainSplashPuddles": true,
+      "ReflectionOffset": "0, 0",
+      "PuddlePercentageWhileRaining": 20,
+      "PuddlePercentageAfterRaining": 10,
+      "BigPuddleChance": 25,
+      "MillisecondsBetweenRaindropSplashes": 500,
+      "PuddleColor": {
+        "B": 91,
+        "G": 91,
+        "R": 91,
+        "A": 91
+      },
+      "RippleColor": {
+        "B": 255,
+        "G": 255,
+        "R": 255,
+        "A": 155
+      },
+      "OverrideDefaultSettings": false
+    },
+    "Forest": {
+      "AreReflectionsEnabled": true,
+      "ShouldGeneratePuddles": true,
+      "ShouldPlaySplashSound": true,
+      "ShouldRainSplashPuddles": true,
+      "ReflectionOffset": "0, 0",
+      "PuddlePercentageWhileRaining": 20,
+      "PuddlePercentageAfterRaining": 10,
+      "BigPuddleChance": 25,
+      "MillisecondsBetweenRaindropSplashes": 500,
+      "PuddleColor": {
+        "B": 91,
+        "G": 91,
+        "R": 91,
+        "A": 91
+      },
+      "RippleColor": {
+        "B": 255,
+        "G": 255,
+        "R": 255,
+        "A": 155
+      },
+      "OverrideDefaultSettings": false
+    },
+    "Custom_BlueMoonVineyard": {
+      "AreReflectionsEnabled": true,
+      "ShouldGeneratePuddles": true,
+      "ShouldPlaySplashSound": true,
+      "ShouldRainSplashPuddles": true,
+      "ReflectionOffset": "0, 0",
+      "PuddlePercentageWhileRaining": 20,
+      "PuddlePercentageAfterRaining": 10,
+      "BigPuddleChance": 25,
+      "MillisecondsBetweenRaindropSplashes": 500,
+      "PuddleColor": {
+        "B": 91,
+        "G": 91,
+        "R": 91,
+        "A": 91
+      },
+      "RippleColor": {
+        "B": 255,
+        "G": 255,
+        "R": 255,
+        "A": 155
+      },
+      "OverrideDefaultSettings": false
+    },
+    "Town": {
+      "AreReflectionsEnabled": true,
+      "ShouldGeneratePuddles": true,
+      "ShouldPlaySplashSound": true,
+      "ShouldRainSplashPuddles": true,
+      "ReflectionOffset": "0, 0",
+      "PuddlePercentageWhileRaining": 20,
+      "PuddlePercentageAfterRaining": 10,
+      "BigPuddleChance": 25,
+      "MillisecondsBetweenRaindropSplashes": 500,
+      "PuddleColor": {
+        "B": 91,
+        "G": 91,
+        "R": 91,
+        "A": 91
+      },
+      "RippleColor": {
+        "B": 255,
+        "G": 255,
+        "R": 255,
+        "A": 155
+      },
+      "OverrideDefaultSettings": false
+    },
+    "Beach": {
+      "AreReflectionsEnabled": true,
+      "ShouldGeneratePuddles": true,
+      "ShouldPlaySplashSound": true,
+      "ShouldRainSplashPuddles": true,
+      "ReflectionOffset": "0, 0",
+      "PuddlePercentageWhileRaining": 20,
+      "PuddlePercentageAfterRaining": 10,
+      "BigPuddleChance": 25,
+      "MillisecondsBetweenRaindropSplashes": 500,
+      "PuddleColor": {
+        "B": 65,
+        "G": 65,
+        "R": 65,
+        "A": 46
+      },
+      "RippleColor": {
+        "B": 255,
+        "G": 255,
+        "R": 255,
+        "A": 100
+      },
+      "OverrideDefaultSettings": false
+    },
+    "Mountain": {
+      "AreReflectionsEnabled": true,
+      "ShouldGeneratePuddles": true,
+      "ShouldPlaySplashSound": true,
+      "ShouldRainSplashPuddles": true,
+      "ReflectionOffset": "0, 0",
+      "PuddlePercentageWhileRaining": 20,
+      "PuddlePercentageAfterRaining": 10,
+      "BigPuddleChance": 25,
+      "MillisecondsBetweenRaindropSplashes": 500,
+      "PuddleColor": {
+        "B": 91,
+        "G": 91,
+        "R": 91,
+        "A": 91
+      },
+      "RippleColor": {
+        "B": 255,
+        "G": 255,
+        "R": 255,
+        "A": 155
+      },
+      "OverrideDefaultSettings": false
+    }
+  },
+  "LastSelectedLocation": "Beach",
+  "QuickMenuKey": "R"
+}
