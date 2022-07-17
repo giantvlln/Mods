@@ -2,6 +2,7 @@
   "AreWaterReflectionsEnabled": true,
   "AreMirrorReflectionsEnabled": true,
   "ArePuddleReflectionsEnabled": true,
+  "AreNPCReflectionsEnabled": true,
   "WaterReflectionSettings": {
     "AreReflectionsEnabled": true,
     "ReflectionDirection": "South",
@@ -11,7 +12,8 @@
       "R": 55,
       "A": 4
     },
-    "ReflectionOffset": "0, 1.5",
+    "PlayerReflectionOffset": "0, 1.5",
+    "NPCReflectionOffset": "0, 1.1",
     "IsReflectionWavy": true,
     "WaveSpeed": 1.25,
     "WaveAmplitude": 0.001,
@@ -24,10 +26,17 @@
     "ShouldPlaySplashSound": true,
     "ShouldRainSplashPuddles": true,
     "ReflectionOffset": "0, 0",
+    "NPCReflectionOffset": "0, 0.3",
     "PuddlePercentageWhileRaining": 20,
     "PuddlePercentageAfterRaining": 10,
     "BigPuddleChance": 25,
     "MillisecondsBetweenRaindropSplashes": 500,
+    "ReflectionOverlay": {
+      "B": 255,
+      "G": 255,
+      "R": 255,
+      "A": 155
+    },
     "PuddleColor": {
       "B": 65,
       "G": 65,
@@ -52,7 +61,8 @@
         "R": 55,
         "A": 4
       },
-      "ReflectionOffset": "0, 1.5",
+      "PlayerReflectionOffset": "0, 1.5",
+      "NPCReflectionOffset": "0, 1.1",
       "IsReflectionWavy": true,
       "WaveSpeed": 1.25,
       "WaveAmplitude": 0.001,
@@ -68,7 +78,8 @@
         "R": 255,
         "A": 255
       },
-      "ReflectionOffset": "0, 1.5",
+      "PlayerReflectionOffset": "0, 1.5",
+      "NPCReflectionOffset": "0, 1.1",
       "IsReflectionWavy": false,
       "WaveSpeed": 1.0,
       "WaveAmplitude": 0.01,
@@ -84,7 +95,8 @@
         "R": 255,
         "A": 255
       },
-      "ReflectionOffset": "0, 1.5",
+      "PlayerReflectionOffset": "0, 1.5",
+      "NPCReflectionOffset": "0, 1.1",
       "IsReflectionWavy": false,
       "WaveSpeed": 1.0,
       "WaveAmplitude": 0.01,
@@ -100,7 +112,8 @@
         "R": 255,
         "A": 255
       },
-      "ReflectionOffset": "0, 1.5",
+      "PlayerReflectionOffset": "0, 1.5",
+      "NPCReflectionOffset": "0, 1.1",
       "IsReflectionWavy": false,
       "WaveSpeed": 1.0,
       "WaveAmplitude": 0.01,
@@ -116,7 +129,8 @@
         "R": 255,
         "A": 255
       },
-      "ReflectionOffset": "0, 1.5",
+      "PlayerReflectionOffset": "0, 1.5",
+      "NPCReflectionOffset": "0, 1.1",
       "IsReflectionWavy": false,
       "WaveSpeed": 1.0,
       "WaveAmplitude": 0.01,
@@ -132,7 +146,8 @@
         "R": 255,
         "A": 255
       },
-      "ReflectionOffset": "0, 1.5",
+      "PlayerReflectionOffset": "0, 1.5",
+      "NPCReflectionOffset": "0, 1.1",
       "IsReflectionWavy": false,
       "WaveSpeed": 1.0,
       "WaveAmplitude": 0.01,
@@ -148,7 +163,8 @@
         "R": 58,
         "A": 78
       },
-      "ReflectionOffset": "0, 1",
+      "PlayerReflectionOffset": "0, 1.5",
+      "NPCReflectionOffset": "0, 1.1",
       "IsReflectionWavy": true,
       "WaveSpeed": 1.25,
       "WaveAmplitude": 0.001,
@@ -164,7 +180,8 @@
         "R": 255,
         "A": 255
       },
-      "ReflectionOffset": "0, 1.5",
+      "PlayerReflectionOffset": "0, 1.5",
+      "NPCReflectionOffset": "0, 1.1",
       "IsReflectionWavy": false,
       "WaveSpeed": 1.0,
       "WaveAmplitude": 0.01,
@@ -179,10 +196,17 @@
       "ShouldPlaySplashSound": true,
       "ShouldRainSplashPuddles": true,
       "ReflectionOffset": "0, 0",
+      "NPCReflectionOffset": "0, 0.3",
       "PuddlePercentageWhileRaining": 20,
       "PuddlePercentageAfterRaining": 10,
       "BigPuddleChance": 25,
       "MillisecondsBetweenRaindropSplashes": 500,
+      "ReflectionOverlay": {
+        "B": 255,
+        "G": 255,
+        "R": 255,
+        "A": 155
+      },
       "PuddleColor": {
         "B": 65,
         "G": 65,
@@ -203,10 +227,17 @@
       "ShouldPlaySplashSound": true,
       "ShouldRainSplashPuddles": true,
       "ReflectionOffset": "0, 0",
+      "NPCReflectionOffset": "0, 0.3",
       "PuddlePercentageWhileRaining": 20,
       "PuddlePercentageAfterRaining": 10,
       "BigPuddleChance": 25,
       "MillisecondsBetweenRaindropSplashes": 500,
+      "ReflectionOverlay": {
+        "B": 255,
+        "G": 255,
+        "R": 255,
+        "A": 155
+      },
       "PuddleColor": {
         "B": 91,
         "G": 91,
@@ -227,10 +258,17 @@
       "ShouldPlaySplashSound": true,
       "ShouldRainSplashPuddles": true,
       "ReflectionOffset": "0, 0",
+      "NPCReflectionOffset": "0, 0.3",
       "PuddlePercentageWhileRaining": 20,
       "PuddlePercentageAfterRaining": 10,
       "BigPuddleChance": 25,
       "MillisecondsBetweenRaindropSplashes": 500,
+      "ReflectionOverlay": {
+        "B": 255,
+        "G": 255,
+        "R": 255,
+        "A": 155
+      },
       "PuddleColor": {
         "B": 91,
         "G": 91,
@@ -251,10 +289,17 @@
       "ShouldPlaySplashSound": true,
       "ShouldRainSplashPuddles": true,
       "ReflectionOffset": "0, 0",
+      "NPCReflectionOffset": "0, 0.3",
       "PuddlePercentageWhileRaining": 20,
       "PuddlePercentageAfterRaining": 10,
       "BigPuddleChance": 25,
       "MillisecondsBetweenRaindropSplashes": 500,
+      "ReflectionOverlay": {
+        "B": 255,
+        "G": 255,
+        "R": 255,
+        "A": 155
+      },
       "PuddleColor": {
         "B": 91,
         "G": 91,
@@ -275,10 +320,17 @@
       "ShouldPlaySplashSound": true,
       "ShouldRainSplashPuddles": true,
       "ReflectionOffset": "0, 0",
+      "NPCReflectionOffset": "0, 0.3",
       "PuddlePercentageWhileRaining": 20,
       "PuddlePercentageAfterRaining": 10,
       "BigPuddleChance": 25,
       "MillisecondsBetweenRaindropSplashes": 500,
+      "ReflectionOverlay": {
+        "B": 255,
+        "G": 255,
+        "R": 255,
+        "A": 155
+      },
       "PuddleColor": {
         "B": 91,
         "G": 91,
@@ -299,10 +351,17 @@
       "ShouldPlaySplashSound": true,
       "ShouldRainSplashPuddles": true,
       "ReflectionOffset": "0, 0",
+      "NPCReflectionOffset": "0, 0.3",
       "PuddlePercentageWhileRaining": 20,
       "PuddlePercentageAfterRaining": 10,
       "BigPuddleChance": 25,
       "MillisecondsBetweenRaindropSplashes": 500,
+      "ReflectionOverlay": {
+        "B": 255,
+        "G": 255,
+        "R": 255,
+        "A": 155
+      },
       "PuddleColor": {
         "B": 91,
         "G": 91,
@@ -323,10 +382,17 @@
       "ShouldPlaySplashSound": true,
       "ShouldRainSplashPuddles": true,
       "ReflectionOffset": "0, 0",
+      "NPCReflectionOffset": "0, 0.3",
       "PuddlePercentageWhileRaining": 20,
       "PuddlePercentageAfterRaining": 10,
       "BigPuddleChance": 25,
       "MillisecondsBetweenRaindropSplashes": 500,
+      "ReflectionOverlay": {
+        "B": 255,
+        "G": 255,
+        "R": 255,
+        "A": 155
+      },
       "PuddleColor": {
         "B": 65,
         "G": 65,
@@ -347,10 +413,17 @@
       "ShouldPlaySplashSound": true,
       "ShouldRainSplashPuddles": true,
       "ReflectionOffset": "0, 0",
+      "NPCReflectionOffset": "0, 0.3",
       "PuddlePercentageWhileRaining": 20,
       "PuddlePercentageAfterRaining": 10,
       "BigPuddleChance": 25,
       "MillisecondsBetweenRaindropSplashes": 500,
+      "ReflectionOverlay": {
+        "B": 255,
+        "G": 255,
+        "R": 255,
+        "A": 155
+      },
       "PuddleColor": {
         "B": 91,
         "G": 91,
@@ -366,6 +439,5 @@
       "OverrideDefaultSettings": false
     }
   },
-  "LastSelectedLocation": "Beach",
   "QuickMenuKey": "R"
 }
