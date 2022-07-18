@@ -3,6 +3,7 @@
   "AreMirrorReflectionsEnabled": true,
   "ArePuddleReflectionsEnabled": true,
   "AreNPCReflectionsEnabled": true,
+  "AreSkyReflectionsEnabled": true,
   "WaterReflectionSettings": {
     "AreReflectionsEnabled": true,
     "ReflectionDirection": "South",
@@ -51,6 +52,17 @@
     },
     "OverrideDefaultSettings": false
   },
+  "SkyReflectionSettings": {
+    "AreReflectionsEnabled": true,
+    "StarDensityPercentage": 55,
+    "AreShootingStarsEnabled": true,
+    "MillisecondsBetweenShootingStarAttempt": 5000,
+    "MaxShootingStarAttemptsPerInterval": 5,
+    "CometChance": 10,
+    "MillisecondsBetweenShootingStarAttemptDuringMeteorShower": 250,
+    "OverrideDefaultSettings": false
+  },
+  "MeteorShowerNightChance": 10,
   "LocalWaterReflectionSettings": {
     "Default": {
       "AreReflectionsEnabled": true,
@@ -439,5 +451,6 @@
       "OverrideDefaultSettings": false
     }
   },
+  "LocalSkyReflectionSettings": {},
   "QuickMenuKey": "R"
 }
