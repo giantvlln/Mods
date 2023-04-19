@@ -1,5 +1,6 @@
 {
   "enableGrass": "true",
   "enableDigSpot": "false",
-  "enableMiniMapRecolour": "true"
+  "enableMiniMap": "true",
+  "winterTilledSoil": "brown"
 }

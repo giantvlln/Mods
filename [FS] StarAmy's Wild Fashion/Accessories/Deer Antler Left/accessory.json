@@ -1,0 +1,79 @@
+{
+  "Name": "Deer Antler Left",
+  "FrontAccessory": {
+    "DrawBeforeHair": false,
+    "DrawAfterPlayer": true,
+    "HideWhileSwimming": false,
+   "HideWhileWearingBathingSuit": false,
+   "DisableGrayscale": true,
+  "StartingPosition": {
+      "X": 0,
+      "Y": 0
+    },
+    "HeadPosition": {
+      "X": 1,
+      "Y": 2
+    },
+    "AccessorySize": {
+      "Width": 20,
+      "Length": 10
+    }
+  },
+  "RightAccessory": {
+    "DrawBeforeHair": true,
+    "DrawAfterPlayer": false,
+  "HideWhileSwimming": false,
+  "HideWhileWearingBathingSuit": false,
+  "DisableGrayscale": true,
+  "StartingPosition": {
+      "X": 0,
+      "Y": 10
+    },
+    "HeadPosition": {
+      "X": 2,
+      "Y": 3
+    },
+    "AccessorySize": {
+      "Width": 20,
+      "Length": 10
+    }
+  },
+  "LeftAccessory": {
+        "DrawBeforeHair": false,
+    "DrawAfterPlayer": true,
+  "HideWhileSwimming": false,
+  "HideWhileWearingBathingSuit": false,
+  "DisableGrayscale": true,
+  "StartingPosition": {
+      "X": 0,
+      "Y": 20
+    },
+    "HeadPosition": {
+      "X": 2,
+      "Y": 3
+    },
+    "AccessorySize": {
+      "Width": 20,
+      "Length": 10
+    }
+  },
+  "BackAccessory": {
+    "DrawBeforeHair": false,
+    "DrawAfterPlayer": false,
+    "HideWhileSwimming": false,
+  "HideWhileWearingBathingSuit": false,
+  "DisableGrayscale": true,
+  "StartingPosition": {
+      "X": 0,
+      "Y": 30
+    },
+    "HeadPosition": {
+      "X": 1,
+      "Y": 1
+    },
+    "AccessorySize": {
+      "Width": 20,
+      "Length": 10
+    }
+  }
+}

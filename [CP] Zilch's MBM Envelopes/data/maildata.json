@@ -1,0 +1,204 @@
+{
+		"Changes": [
+			
+		{
+			"LogName": "Vanilla NPCs",
+			"Action": "EditData",
+			"Target": "aedenthorn.MailboxMenu/npcs",
+			"Entries": {
+				
+				"Abigail": {
+					"texturePath": "aedenthorn.CPMBMEnvelopes/Abigail"
+				},
+				"Emily": {
+					"texturePath": "aedenthorn.CPMBMEnvelopes/Emily"
+				},
+				"Leah": {
+					"texturePath": "aedenthorn.CPMBMEnvelopes/Leah"
+				},
+				"Pierre": {
+					"texturePath": "aedenthorn.CPMBMEnvelopes/Pierre"
+				},
+				"Willy": {
+					"texturePath": "aedenthorn.CPMBMEnvelopes/Willy"
+				},
+				"Haley": {
+					"texturePath": "aedenthorn.CPMBMEnvelopes/Haley"
+				},
+				"Wizard": {
+					"texturePath": "aedenthorn.CPMBMEnvelopes/Wizard"
+				},
+				"Morris": {
+					"texturePath": "aedenthorn.CPMBMEnvelopes/Morris"
+				},
+				"Lewis": {
+					"texturePath": "aedenthorn.CPMBMEnvelopes/Lewis"
+				},
+				"Alex": {
+					"texturePath": "aedenthorn.CPMBMEnvelopes/Alex"
+				},
+				"Caroline": {
+					"texturePath": "aedenthorn.CPMBMEnvelopes/Caroline"
+				},
+				"Gus": {
+					"texturePath": "aedenthorn.CPMBMEnvelopes/Gus"
+				},
+				"Sandy": {
+					"texturePath": "aedenthorn.CPMBMEnvelopes/Sandy"
+				},
+				"Qi": {
+					"texturePath": "aedenthorn.CPMBMEnvelopes/Qi"
+				},
+				"Penny": {
+					"texturePath": "aedenthorn.CPMBMEnvelopes/Penny"
+				},
+				"Marlon": {
+					"texturePath": "aedenthorn.CPMBMEnvelopes/Marlon"
+				},
+				"Shane": {
+					"texturePath": "aedenthorn.CPMBMEnvelopes/Shane"
+				},
+				"Linus": {
+					"texturePath": "aedenthorn.CPMBMEnvelopes/Linus"
+				},
+				"Sam": {
+					"texturePath": "aedenthorn.CPMBMEnvelopes/Sam"
+				},
+				"Sebastian": {
+					"texturePath": "aedenthorn.CPMBMEnvelopes/Sebastian"
+				},
+				"Clint": {
+					"texturePath": "aedenthorn.CPMBMEnvelopes/Clint"
+				},
+				"Robin": {
+					"texturePath": "aedenthorn.CPMBMEnvelopes/Robin"
+				},
+				"Elliott": {
+					"texturePath": "aedenthorn.CPMBMEnvelopes/Elliott"
+				},
+				"Gunther": {
+					"texturePath": "aedenthorn.CPMBMEnvelopes/Gunther"
+				},
+				"Krobus": {
+					"texturePath": "aedenthorn.CPMBMEnvelopes/Krobus"
+				},
+				"Pam": {
+					"texturePath": "aedenthorn.CPMBMEnvelopes/Pam"
+				},
+				"Harvey": {
+					"texturePath": "aedenthorn.CPMBMEnvelopes/Harvey"
+				},
+				"Maru": {
+					"texturePath": "aedenthorn.CPMBMEnvelopes/Maru"
+				},
+				"Marnie": {
+					"texturePath": "aedenthorn.CPMBMEnvelopes/Marnie"
+				},
+				"Evelyn": {
+					"texturePath": "aedenthorn.CPMBMEnvelopes/Evelyn"
+				},
+				"Jas": {
+					"texturePath": "aedenthorn.CPMBMEnvelopes/Jas"
+				},
+				"Jodi": {
+					"texturePath": "aedenthorn.CPMBMEnvelopes/Jodi"
+				},
+				"George": {
+					"texturePath": "aedenthorn.CPMBMEnvelopes/George"
+				},
+				"Kent": {
+					"texturePath": "aedenthorn.CPMBMEnvelopes/Kent"
+				},
+				"Vincent": {
+					"texturePath": "aedenthorn.CPMBMEnvelopes/Vincent"
+				},
+				"Demetrius": {
+					"texturePath": "aedenthorn.CPMBMEnvelopes/Demetrius"
+				},
+				"Leo": {
+					"texturePath": "aedenthorn.CPMBMEnvelopes/Leo"
+				},
+			}
+		},
+		{
+			"LogName": "Temp NPCs",
+			"Action": "EditData",
+			"Target": "aedenthorn.MailboxMenu/npcs",
+			"Entries": {
+				
+				"Mom": {
+					"texturePath": "aedenthorn.CPMBMEnvelopes/Mom"
+				},
+				"Dad": {
+					"texturePath": "aedenthorn.CPMBMEnvelopes/Dad"
+				},
+			},
+		},
+		{
+			"LogName": "Lewis Data",
+			"Action": "EditData",
+			"Target": "aedenthorn.MailboxMenu/letters",
+			"Entries": {
+				"summer_3_1": {
+					"sender": "Lewis",
+					"texturePath": "aedenthorn.CPMBMEnvelopes/LewisPurpleshorts",
+				},
+				"winter_18": {
+					"sender": "Lewis",
+					"texturePath": "aedenthorn.CPMBMEnvelopes/SecretGift",
+				},
+				"winter_24": {
+					"sender": "Lewis",
+					"texturePath": "aedenthorn.CPMBMEnvelopes/WinterStarReminder",
+				},
+				"spring_12": {
+					"sender": "Lewis",
+					"texturePath": "aedenthorn.CPMBMEnvelopes/Eggfest",
+				},
+				"summer_10": {
+					"sender": "Lewis",
+					"texturePath": "aedenthorn.CPMBMEnvelopes/Luau",
+				},
+				"fall_26": {
+					"sender": "Lewis",
+					"texturePath": "aedenthorn.CPMBMEnvelopes/spiriteve",
+				},
+			}
+		},
+		{
+			"LogName": "Temp mail",
+			"Action": "EditData",
+			"Target": "aedenthorn.MailboxMenu/letters",
+			"Entries": {
+				"hatter": {
+					"sender": "#",
+					"texturePath": "aedenthorn.CPMBMEnvelopes/hatter",
+				},
+				"Beat_PK": {
+					"sender": "#",
+					"texturePath": "aedenthorn.CPMBMEnvelopes/Beat_PK",
+				},
+				"JunimoKart": {
+					"sender": "#",
+					"texturePath": "aedenthorn.CPMBMEnvelopes/JunimoKart"
+				},
+				"RarecrowSociety": {
+					"sender": "#",
+					"texturePath": "aedenthorn.CPMBMEnvelopes/RarecrowSociety"
+				},
+				"newsstory": {
+					"sender": "#",
+					"texturePath": "aedenthorn.CPMBMEnvelopes/SVT"
+				},
+				"winter_14": {
+					"sender": "#",
+					"texturePath": "aedenthorn.CPMBMEnvelopes/nightmarket"
+				},
+				"adoptionLetter": {
+					"sender": "#",
+					"texturePath": "aedenthorn.CPMBMEnvelopes/adoptionLetter"
+				}
+			}
+		}
+		]
+}

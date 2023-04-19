@@ -6,6 +6,6 @@
   "GeneralTrees": "false",
   "StaticTreesandBushes": "true",
   "BloomingSpring": "true",
-  "Island": "true",
+  "Island": "false",
   "Debris": "true"
 }

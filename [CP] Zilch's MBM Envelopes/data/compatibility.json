@@ -1,0 +1,28 @@
+{
+		"Changes": [
+			{
+			"LogName": "Dino in the museum MBM",
+			"Action": "EditData",
+			"Target": "aedenthorn.MailboxMenu/letters",
+			"Entries": {
+				"ACallfromtheMuseum": {
+					"sender": "Gunther"
+					}
+				}
+			},
+			{
+			"LogName": "Pay The Rent Gus MBM",
+			"Action": "EditData",
+			"Target": "aedenthorn.MailboxMenu/letters",
+			"Entries": {
+				"Gus.PaymentRentMail": {
+					"sender": "Gus"
+					}
+				,
+				"Gus.TropicalRecipeMail": {
+					"sender": "Gus"
+					}
+				}
+			}
+		]
+}

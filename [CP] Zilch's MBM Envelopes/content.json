@@ -1,0 +1,18 @@
+{
+	"Format": "1.23.0",
+	"Changes": [
+		{
+			"Action": "Include",
+			"FromFile": "data/compatibility.json",
+		},
+		{
+			"Action": "Include",
+			"FromFile": "data/maildata.json",
+		},
+		{
+			"Action": "Include",
+			"FromFile": "data/envelopes.json",
+		},
+	
+	]
+}

@@ -1,13 +1,13 @@
 {
   "Name": "NPC The Farmer's Children Art",
   "Author": "xiddav",
-  "Description": "A Child To NPC mod. The Art Part! Was NPC Child for SVE.",
-  "Version": "1.0.0",
+  "Description": "A LittleNPCs mod. The Art Part!",
+  "Version": "2.0.2",
   "UniqueID": "xiddav.NPCChildrenART",
   "UpdateKeys": [ "Nexus:5436@ChildrensArt" ],
   "ContentPackFor": {    "UniqueID": "Pathoschild.ContentPatcher" },
   "Dependencies": [
-{"UniqueID": "Loe2run.ChildToNPC",
+{"UniqueID": "Candidus42.LittleNPCs",
 	  "IsRequired": true, },
 {"UniqueID": "xiddav.NPCChildren",
    "IsRequired": false,},

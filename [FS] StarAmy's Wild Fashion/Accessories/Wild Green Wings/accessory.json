@@ -1,0 +1,81 @@
+{
+  "Name": "Wild Green Wings",
+  "FrontAccessory": {
+    "DrawBeforeHair": true,
+    "DrawAfterPlayer": false,
+	"DisableGrayscale": true,
+	"HideWhileSwimming": false,
+	"HideWhileWearingBathingSuit": false,
+	"StartingPosition": {
+      "X": 0,
+      "Y": 0
+    },
+    "HeadPosition": {
+      "X": 2,
+      "Y": -1
+    },
+    "AccessorySize": {
+      "Width": 20,
+      "Length": 20
+    }
+  },
+  "RightAccessory": {
+	"DrawBeforeHair": true,
+    "DrawAfterPlayer": true,
+    "DisableGrayscale": true,
+    "HideWhileSwimming": false,
+    "HideWhileWearingBathingSuit": false,
+	"StartingPosition": {
+      "X": 0,
+      "Y": 20
+    },
+    "HeadPosition": {
+      "X": 10,
+      "Y": -4
+    },
+    "AccessorySize": {
+      "Width": 20,
+      "Length": 20
+    }
+  },
+  "LeftAccessory": {
+    "DrawBeforeHair": true,
+    "DrawAfterPlayer": true,
+    "DisableGrayscale": true,
+    "DrawAfterSleeves": true,
+	"HideWhileSwimming": false,
+	"HideWhileWearingBathingSuit": false,
+    "StartingPosition": {
+      "X": 0,
+      "Y": 40
+    },
+    "HeadPosition": {
+      "X": -6,
+      "Y": -4
+    },
+    "AccessorySize": {
+      "Width": 20,
+      "Length": 20
+    }
+  },
+ "BackAccessory": {
+	"DisableGrayscale": true,
+    "DrawBeforeHair": false,
+    "DrawAfterPlayer": false,
+	"HideWhileSwimming": false,
+	"HideWhileWearingBathingSuit": false,
+	"DrawAfterSleeves": true,
+    "StartingPosition": {
+      "X": 0,
+      "Y": 60
+    },
+    "HeadPosition": {
+      "X": 2,
+      "Y": -5
+    },
+    "AccessorySize": {
+      "Width": 20,
+      "Length": 20
+    }
+  }
+}

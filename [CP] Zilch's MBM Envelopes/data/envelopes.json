@@ -1,0 +1,50 @@
+{
+		"Changes": [
+			
+		{
+			"LogName": "Vanilla NPCs",
+			"Action": "Load",
+			"Target": "aedenthorn.CPMBMEnvelopes/Abigail, aedenthorn.CPMBMEnvelopes/Alex, aedenthorn.CPMBMEnvelopes/Caroline, aedenthorn.CPMBMEnvelopes/Clint, aedenthorn.CPMBMEnvelopes/Demetrius, aedenthorn.CPMBMEnvelopes/Elliott, aedenthorn.CPMBMEnvelopes/Evelyn, aedenthorn.CPMBMEnvelopes/Emily, aedenthorn.CPMBMEnvelopes/George, aedenthorn.CPMBMEnvelopes/Gus, aedenthorn.CPMBMEnvelopes/Gunther, aedenthorn.CPMBMEnvelopes/Haley,  aedenthorn.CPMBMEnvelopes/Harvey, aedenthorn.CPMBMEnvelopes/Jas,  aedenthorn.CPMBMEnvelopes/Jodi, aedenthorn.CPMBMEnvelopes/Kent, aedenthorn.CPMBMEnvelopes/Krobus, aedenthorn.CPMBMEnvelopes/Leah, aedenthorn.CPMBMEnvelopes/Leo, aedenthorn.CPMBMEnvelopes/Lewis, aedenthorn.CPMBMEnvelopes/Linus, aedenthorn.CPMBMEnvelopes/Marlon, aedenthorn.CPMBMEnvelopes/Maru, aedenthorn.CPMBMEnvelopes/Marnie, aedenthorn.CPMBMEnvelopes/Qi, aedenthorn.CPMBMEnvelopes/Morris, aedenthorn.CPMBMEnvelopes/Pam, aedenthorn.CPMBMEnvelopes/Penny, aedenthorn.CPMBMEnvelopes/Pierre, aedenthorn.CPMBMEnvelopes/Sam, aedenthorn.CPMBMEnvelopes/Sandy, aedenthorn.CPMBMEnvelopes/Sebastian, aedenthorn.CPMBMEnvelopes/Shane, aedenthorn.CPMBMEnvelopes/Robin, aedenthorn.CPMBMEnvelopes/Vincent, aedenthorn.CPMBMEnvelopes/Willy, aedenthorn.CPMBMEnvelopes/Wizard",
+			"FromFile": "assets/{{TargetWithoutPath}}.png",
+			"When": {
+				"HasFile:{{FromFile}}": true,
+				}
+		},
+		
+	// LEWIS //
+		
+		{
+			"LogName": "Lewis Custom Mail",
+			"Action": "Load",
+			"Target": "aedenthorn.CPMBMEnvelopes/LewisPurpleshorts, aedenthorn.CPMBMEnvelopes/Eggfest, aedenthorn.CPMBMEnvelopes/Luau, aedenthorn.CPMBMEnvelopes/spiriteve",
+			"FromFile": "assets/{{TargetWithoutPath}}.png",
+			"When": {
+				"HasFile:{{FromFile}}": true,
+				}
+		},
+		{
+			"LogName": "Lewis Custom Mail: WinterStar",
+			"Action": "Load",
+			"Target": "aedenthorn.CPMBMEnvelopes/SecretGift, aedenthorn.CPMBMEnvelopes/WinterStarReminder",
+			"FromFile": "assets/WinterStar.png",
+		},
+		
+	// OTHERS //
+		
+		{
+			"LogName": "Temp NPCs",
+			"Action": "Load",
+			"Target": "aedenthorn.CPMBMEnvelopes/Mom, aedenthorn.CPMBMEnvelopes/Dad",
+			"FromFile": "assets/envelope.png",
+		},
+		{
+			"LogName": "Temp mails",
+			"Action": "Load",
+			"Target": "aedenthorn.CPMBMEnvelopes/hatter, aedenthorn.CPMBMEnvelopes/Beat_PK, aedenthorn.CPMBMEnvelopes/JunimoKart, aedenthorn.CPMBMEnvelopes/RarecrowSociety, aedenthorn.CPMBMEnvelopes/SVT, aedenthorn.CPMBMEnvelopes/nightmarket, aedenthorn.CPMBMEnvelopes/adoptionLetter",
+			"FromFile": "assets/{{TargetWithoutPath}}.png",
+			"When": {
+				"HasFile:{{FromFile}}": true,
+				}
+		},
+		]
+}

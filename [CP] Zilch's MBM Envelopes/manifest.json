@@ -1,0 +1,12 @@
+{
+    "Name": "[CP] Zilch's MBM Envelopes",
+    "Author": "Zilch",
+    "Version": "1.1",
+    "Description": "Adds custom envelopes for Mailbox Menu mod",
+    "UniqueID": "Zilch.MBMenvelopes",
+    "MinimumApiVersion": "3.12.0",
+    "UpdateKeys": [ "Nexus:15118" ],
+    "ContentPackFor": {
+       "UniqueID": "Pathoschild.ContentPatcher"
+    }
+ }

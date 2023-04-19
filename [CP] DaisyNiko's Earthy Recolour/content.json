@@ -9,10 +9,14 @@
             "AllowValues": "true, false",
             "Default": "true"
         },
-        "enableMiniMapRecolour":{
+        "enableMiniMap":{
             "AllowValues":"true, false",
             "Default":"true"
         },
+        "winterTilledSoil":{
+            "AllowValues":"brown,blue",
+            "Default":"brown"
+        }
     },
     "Changes": [
         //1.5 island tilsheets
@@ -41,22 +45,33 @@
         //cursors overlay
         {
             "Action": "EditImage",
-            "Target": "LooseSprites/Cursors, LooseSprites/Cursors2",
+            "Target": "LooseSprites/Cursors",
             "FromFile": "assets/{{Target}}.png",
-            "PatchMode": "Overlay"
+            "ToArea":{"X":0,"Y":0,"Width":704,"Height":2256},
+            "PatchMode":"Overlay"
+        },
+        {
+            "Action":"EditImage",
+            "Target":"LooseSprites/Cursors2",
+            "FromFile":"assets/{{Target}}.png",
+            "ToArea":{"X":0,"Y":0,"Width":256,"Height":320},
+            "PatchMode":"Overlay"
         },
         //cursors water
         {
             "Action": "EditImage",
             "Target": "LooseSprites/Cursors",
             "FromFile": "assets/{{Target}}_water.png",
-            "PatchMode": "Replace",
-            "ToArea": {
-                "X": 0,
-                "Y": 2000,
-                "Width": 640,
-                "Height": 256
-            }
+            "ToArea": {"X": 0,"Y": 2000,"Width": 640,"Height": 256},
+            "PatchMode": "Replace"
+        },
+        // debris overlay
+        {
+            "Action":"EditImage",
+            "Target":"Maps/springobjects",
+            "FromFile":"assets/{{Target}}.png",
+            "ToArea": {"X": 0,"Y": 0,"Width": 384,"Height": 624},
+            "PatchMode":"Overlay"
         },
         //desert tiles
         {
@@ -142,23 +157,11 @@
                 "Season": "winter"
             }
         },
-        // fence (buildable)
+        //fence (buildable)
         {
             "Action":"EditImage",
             "Target":"LooseSprites/Fence1",
             "FromFile":"assets/LooseSprites/{{season}}_Fence1.png"
-        },
-        // fertiliser
-        {
-            "Action":"EditImage",
-            "Target":"LooseSprites/Cursors",
-            "FromFile":"assets/LooseSprites/fertiliser.png",
-            "ToArea":{
-                "X": 168,
-                "Y": 464,
-                "Width": 56,
-                "Height": 40,
-            }
         },
         //festivals overlay
         {
@@ -187,24 +190,58 @@
             "Target": "TerrainFeatures/hoeDirt, TerrainFeatures/hoeDirtSnow",
             "FromFile": "assets/TerrainFeatures/hoeDirtLight.png",
             "When": {
-                "Season": "summer"
+                "Season": "summer, winter"
             }
         },
-        //maps
+        {
+            "Action":"EditImage",
+            "Target":"TerrainFeatures/hoeDirtSnow",
+            "FromFile":"assets/{{Target}}.png",
+            "When":{
+                "winterTilledSoil":"blue"
+            }
+        },
+        //minimap
         {
             "Action": "EditImage",
             "Target": "LooseSprites/map",
             "FromFile": "assets/LooseSprites/{{season}}_map.png",
             "When": {
-                "enableMiniMapRecolour":"true"
+                "enableMiniMap":"true"
             }
         },
         {
             "Action": "EditImage",
             "Target": "LooseSprites/map",
             "FromFile": "assets/LooseSprites/{{season}}_map_sve.png",
-            "When": {
-                "enableMiniMapRecolour":"true"
+            "When":{                
+                "enableMiniMap":"true",
+                "HasMod": "FlashShifter.StardewValleyExpandedCP"
+            }
+        },
+        //minimap grandpa's farm edit
+        {
+            "Action":"EditImage",
+            "Target":"LooseSprites/map",
+            "FromFile":"assets/LooseSprites/{{season}}_map_grandpasfarm.png",
+            "PatchMode":"Overlay",
+            "ToArea":{"X": 58, "Y": 51, "Width": 91, "Height": 59},
+            "When":{
+                "enableMiniMap":"true",
+                "FarmType":"Standard",
+                "HasMod":"flashshifter.GrandpasFarm"
+            }
+        },
+        //minimap boarding house edit
+        {
+            "Action":"EditImage",
+            "Target":"LooseSprites/map",
+            "PathMode":"Overlay",
+            "FromFile":"assets/LooseSprites/{{season}}_map_boardinghouse.png",
+            "ToArea": { "X": 99, "Y": 16, "Width": 53, "Height": 37 },
+            "When":{
+                "enableMiniMap":"true",
+                "HasMod":"CPBoardingHouse"
             }
         },
         //marnie luau edit
@@ -250,6 +287,12 @@
             "Target": "Maps/spring_town, Maps/summer_town, Maps/fall_town, Maps/winter_town",
             "FromFile": "assets/{{Target}}.png",
             "PatchMode": "Overlay"
+        },
+        {
+            "Action":"EditImage",
+            "Target":"Tilesheets/ChairTiles",
+            "FromFile":"assets/{{Target}}.png",
+            "PatchMode":"Overlay"
         },
         //trees
         {

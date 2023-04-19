@@ -1,0 +1,71 @@
+{
+  "Name": "White Orchid Headband",
+  "FrontHat": {
+    "HideWhileSwimming": true,
+  "HideWhileWearingBathingSuit": true,
+  "DisableGrayscale": true,
+  "StartingPosition": {
+      "X": 0,
+      "Y": 0
+    },
+    "HeadPosition": {
+      "X": 0,
+      "Y": -4
+    },
+    "HatSize": {
+      "Width": 20,
+      "Length": 10
+    }
+  },
+  "RightHat": {
+    "HideWhileSwimming": true,
+  "HideWhileWearingBathingSuit": true,
+  "DisableGrayscale": true,
+  "StartingPosition": {
+      "X": 0,
+      "Y": 10
+    },
+    "HeadPosition": {
+      "X": 0,
+      "Y": -4
+    },
+    "HatSize": {
+      "Width": 20,
+      "Length": 10
+    }
+  },
+   "LeftHat": {
+    "HideWhileSwimming": true,
+  "HideWhileWearingBathingSuit": true,
+  "DisableGrayscale": true,
+  "StartingPosition": {
+      "X": 0,
+      "Y": 20
+    },
+    "HeadPosition": {
+      "X": 0,
+      "Y": -4
+    },
+    "HatSize": {
+      "Width": 20,
+      "Length": 10
+    }
+  },
+  "BackHat": {
+    "HideWhileSwimming": true,
+  "HideWhileWearingBathingSuit": true,
+  "DisableGrayscale": true,
+  "StartingPosition": {
+      "X": 0,
+      "Y": 30
+    },
+    "HeadPosition": {
+      "X": 0,
+      "Y": -4
+    },
+    "HatSize": {
+      "Width": 20,
+      "Length": 10
+    }
+  }
+}

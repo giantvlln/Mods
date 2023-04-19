@@ -1,0 +1,11 @@
+﻿{
+  "Name": "[FS] StarAmy's Wild Fashion",
+  "Author": "StarAmy",
+  "Version": "1.0.0",
+  "Description": "A collection of clothes and accessories for fashion sense.",
+  "UniqueID": "StarAmy.WildFashion",
+  "ContentPackFor": {
+    "UniqueID": "PeacefulEnd.FashionSense",
+    "MinimumVersion": "4.3.0"
+  }
+}

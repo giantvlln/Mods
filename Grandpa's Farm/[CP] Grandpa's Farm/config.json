@@ -4,6 +4,7 @@
   "RemoveFences": "false",
   "RemoveGrassStretch": "false",
   "RemovePetHouse": "false",
+  "RemoveLandExpansionPond": "false",
   "GrassCropField": "false",
   "HeavyDebris": "false",
   "LargerBridgeToGrandpasShed": "false",

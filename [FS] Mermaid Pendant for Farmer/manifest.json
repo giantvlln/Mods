@@ -1,0 +1,13 @@
+{
+  "Name": "[FS] Mermaid Pendant for Farmer",
+  "Author": "beyondrecovery",
+  "Version": "1.0.0",
+  "Description": "a mermaid pendant for the farmer to wear.",
+  "UniqueID": "beyondrecovery.farmerpendant",
+  "UpdateKeys": [],
+  "Dependencies": [],
+  "ContentPackFor": {
+    "UniqueID": "PeacefulEnd.FashionSense",
+    "MinimumVersion": "3.1.0"
+  }
+}
