@@ -1,0 +1,14 @@
+{
+  "ToggleKey": "None",
+  "ConfigKey": "None",
+  "ResetKey": "None",
+  "ShowButtons": false,
+  "ShowExperienceInfo": false,
+  "ShowBoxBackground": false,
+  "ShowLevelUp": true,
+  "ShowUI": false,
+  "LevelUpMessageDuration": 4.0,
+  "mainPosX": 34,
+  "mainPosY": 126,
+  "mainScale": 3
+}

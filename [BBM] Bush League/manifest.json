@@ -1,0 +1,12 @@
+{
+	"Name": "[BBM] Bush League",
+	"Author": "Pyewacket",
+    "Version": "1.0.0",
+	"Description": "Stardew Valley - now with more nuts and berries!",
+	"UniqueID": "Pyewacket.BushLeague",
+	"MinimumApiVersion": "3.14.0",
+	"UpdateKeys": [ ],
+	"ContentPackFor": {
+		"UniqueID": "NCarigon.BushBloomMod"
+	}
+}

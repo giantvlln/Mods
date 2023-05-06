@@ -1,0 +1,11 @@
+{
+	"Format":"1.8",
+	"Changes":[
+		{
+			"Action":"EditImage",
+			"Target":"LooseSprites/map",
+			"FromFile":"assets/LooseSprites/{{season}}_map.png",
+			"PatchMode":"Overlay"
+		}
+	]
+}

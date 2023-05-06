@@ -1,0 +1,18 @@
+{
+  "Name": "[BAGI] Vanilla Trees Mead Icons (Cometkin)",
+  "Author": "Zyrnathos",
+  "Version": "1.1.2",
+  "Description": "Provides BAGI icons for meads made from vanilla trees.",
+  "UniqueID": "Zyrnathos.VanillaTreesMBAGI",
+  "UpdateKeys": ["Nexus:15141"],
+  "ContentPackFor": {
+    "UniqueID": "cat.betterartisangoodicons",
+    "MinimumVersion": "1.5.0"
+  },
+  "Dependencies": [
+    {
+	  "UniqueID": "DaLion.Meads",
+	  "MinimumVersion": "1.0.0"
+	},
+  ]
+}

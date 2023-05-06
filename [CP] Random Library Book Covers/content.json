@@ -1,0 +1,65 @@
+{
+	"Format": "1.23.0",
+	"ConfigSchema": 
+	{
+      "BookCover": 
+	  	{
+			"AllowValues": "01, 02, 03, 04, 05, 06, 07, 08, 09, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, Random, CoverMatch",
+			"Default": "CoverMatch",
+			"Description": "Gives each lost library book a new cover, chooses one in particular, randomly selects from all the options, or matches the book cover to the text of the book."
+      	}
+   	},
+
+   "DynamicTokens": 
+   	[
+		{
+			"Name": "CoverNumber",
+			"Value": "03",
+		},
+		{
+			"Name": "CoverNumber",
+			"Value": "{{BookCover}}",
+			"When": 
+			{
+				"BookCover |contains= Random, CoverMatch": false
+			}
+		},
+		{
+			"Name": "CoverNumber",
+			"Value": "{{Random:01, 02, 03, 04, 05, 06, 07, 08, 09, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20}}",
+			"When": 
+			{
+				"BookCover |contains= Random": true
+			}
+		},
+		{
+			"Name": "CoverNumber",
+			"Value": "{{Random:01, 02, 03, 04, 05, 06, 07, 08, 09, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20}}",
+			"When": 
+			{
+				"BookCover |contains= CoverMatch": true,
+				"HasMod |contains= Vertigon.StatsAsTokens": false
+			}
+		},
+   	],
+   
+	"Changes": 
+	[
+		{
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "assets/book_{{CoverNumber}}.png",
+			"ToArea" : { "X": 96, "Y": 64, "Width": 16, "Height": 16},
+			"Update": "OnLocationChange"
+		},
+		{
+			"Action": "Include",
+			"FromFile": "CoverMatch.json",
+			"When":
+			{
+				"BookCover |contains= CoverMatch": true,
+				"HasMod |contains= Vertigon.StatsAsTokens": true
+			}
+		},
+	]
+}

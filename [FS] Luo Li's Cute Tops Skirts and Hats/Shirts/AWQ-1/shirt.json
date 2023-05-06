@@ -2,21 +2,9 @@
 	"Name": "AWQ-1",
 	"FrontShirt": {
 		"SleeveColors": [
-			[
-				225,
-				218,
-				218
-			],
-			[
-				241,
-				234,
-				234
-			],
-			[
-				250,
-				243,
-				243
-			]
+			[ 109, 135, 96 ],
+			[ 146, 174, 133 ],
+			[ 139, 168, 124 ]
 		],
 		"DisableGrayscale": true,
 		"StartingPosition": {
@@ -34,21 +22,9 @@
 	},
 	"RightShirt": {
 		"SleeveColors": [
-			[
-				225,
-				218,
-				218
-			],
-			[
-				241,
-				234,
-				234
-			],
-			[
-				250,
-				243,
-				243
-			]
+			[ 109, 135, 96 ],
+			[ 146, 174, 133 ],
+			[ 139, 168, 124 ]
 		],
 		"DisableGrayscale": true,
 		"StartingPosition": {
@@ -66,21 +42,9 @@
 	},
 	"LeftShirt": {
 		"SleeveColors": [
-			[
-				225,
-				218,
-				218
-			],
-			[
-				241,
-				234,
-				234
-			],
-			[
-				250,
-				243,
-				243
-			]
+			[ 109, 135, 96 ],
+			[ 146, 174, 133 ],
+			[ 139, 168, 124 ]
 		],
 		"DisableGrayscale": true,
 		"StartingPosition": {
@@ -98,21 +62,9 @@
 	},
 	"BackShirt": {
 		"SleeveColors": [
-			[
-				225,
-				218,
-				218
-			],
-			[
-				241,
-				234,
-				234
-			],
-			[
-				250,
-				243,
-				243
-			]
+			[ 109, 135, 96 ],
+			[ 146, 174, 133 ],
+			[ 139, 168, 124 ]
 		],
 		"DisableGrayscale": true,
 		"StartingPosition": {

@@ -20,9 +20,9 @@
     "ExceptLocationNames": []
   },
   "Keys": {
-    "FreezeTime": "NumPad1",
-    "IncreaseTickInterval": "NumPad2",
-    "DecreaseTickInterval": "NumPad3",
-    "ReloadConfig": "B"
+    "FreezeTime": "None",
+    "IncreaseTickInterval": "None",
+    "DecreaseTickInterval": "None",
+    "ReloadConfig": "None"
   }
 }

@@ -1,0 +1,11 @@
+{
+  "Name": "Craftable Auto-Petter",
+  "Author": "cosplaywrite",
+  "Version": "1.0.0",
+  "Description": "Adds a crafing recipe for the auto-petter to your crafting menu.",
+  "UniqueID": "cosplaywrite.CraftableAutoPetter",
+  "UpdateKeys": [ "Nexus: 13170"],
+  "ContentPackFor": {
+    "UniqueID": "Pathoschild.ContentPatcher"
+  }
+}

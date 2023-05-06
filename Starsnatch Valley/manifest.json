@@ -1,0 +1,13 @@
+{
+  "Name": "Starsnatch Valley",
+  "Author": "Scherzo",
+  "Version": "0.1",
+  "Description": "Hairstyles from Genshin Impact, for Fashion Sense",
+  "UniqueID": "starsnatch.HairstylesFashionSensePack",
+  "UpdateKeys": [],
+  "Dependencies": [],
+  "ContentPackFor": {
+    "UniqueID": "PeacefulEnd.FashionSense",
+    "MinimumVersion": "3.0.3"
+  }
+}

@@ -103,8 +103,10 @@
     "ProgressionStyle": "StackedStars"
   },
   "Combat": {
+    "EnableStatusConditions": true,
     "KnockbackDamage": true,
     "OverhauledDefense": true,
+    "CriticalBackAttacks": true,
     "MonsterHealthMultiplier": 1.0,
     "MonsterDamageMultiplier": 1.0,
     "MonsterDefenseMultiplier": 1.0,
@@ -122,37 +124,31 @@
       "Club": 2
     },
     "EnableStabbySwords": true,
-    "GalaxySwordType": "StabbingSword",
-    "InfinityBladeType": "StabbingSword",
-    "CustomStabbingSwords": [
+    "StabbingSwords": [
+      "Bone Sword",
+      "Steel Smallsword",
+      "Cutlass",
+      "Rapier",
+      "Steel Falchion",
+      "Pirate's Sword",
+      "Lava Katana",
+      "Dragontooth Cutlass",
+      "Blade of Ruin",
+      "Galaxy Sword",
+      "Infinity Blade",
       "Strawblaster"
     ],
     "EnableRetexture": true,
-    "DwarvishLegacy": true,
+    "DwarvenLegacy": true,
     "InfinityPlusOne": true,
     "IridiumBarsPerGalaxyWeapon": 10,
+    "RuinBladeDotMultiplier": 1.0,
+    "CanStoreRuinBlade": false,
+    "VirtueTrialTrialDifficulty": "Medium",
     "DefenseImprovesParry": true,
     "GroundedClubSmash": true,
     "WoodyReplacesRusty": true,
-    "EnableAutoSelection": true,
-    "SelectionKey": "LeftShift, LeftShoulder",
-    "SelectionBorderColor": {
-      "B": 255,
-      "G": 0,
-      "R": 255,
-      "A": 255
-    },
-    "AutoSelectionRange": 2,
     "FaceMouseCursor": true,
-    "SlickMoves": true
-  },
-  "Slingshots": {
-    "EnableRebalance": true,
-    "EnableCriticalHits": true,
-    "EnableEnchantments": true,
-    "EnableSpecialMove": true,
-    "DisableGracePeriod": true,
-    "BullseyeReplacesCursor": true,
     "SlickMoves": true,
     "EnableAutoSelection": true,
     "SelectionKey": "LeftShift, LeftShoulder",
@@ -162,8 +158,27 @@
       "R": 255,
       "A": 255
     },
-    "AutoSelectionRange": 4,
-    "EnableInfinitySlingshot": true
+    "AutoSelectionRange": 2
+  },
+  "Slingshots": {
+    "EnableRebalance": true,
+    "EnableCriticalHits": true,
+    "EnableEnchantments": true,
+    "EnableSpecialMove": true,
+    "EnableInfinitySlingshot": true,
+    "DisableGracePeriod": true,
+    "BullseyeReplacesCursor": true,
+    "FaceMouseCursor": true,
+    "SlickMoves": true,
+    "EnableAutoSelection": true,
+    "SelectionKey": "LeftShift, LeftShoulder",
+    "SelectionBorderColor": {
+      "B": 255,
+      "G": 0,
+      "R": 255,
+      "A": 255
+    },
+    "AutoSelectionRange": 4
   },
   "Tools": {
     "Axe": {
@@ -381,5 +396,6 @@
       "Custom_ESMeadowFarm"
     ]
   },
+  "OpenMenuKey": "LeftShift + F12",
   "DebugKey": "RightShift, RightShoulder"
 }

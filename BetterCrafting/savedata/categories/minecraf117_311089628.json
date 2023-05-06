@@ -238,7 +238,8 @@
           "Vinegar Cask",
           "Wax Barrel",
           "Yogurt Jar",
-          "Prismatic Sprinkler"
+          "Prismatic Sprinkler",
+		  "Auto-Petter"
         ],
         "UnwantedRecipes": null
       },

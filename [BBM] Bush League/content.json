@@ -1,0 +1,140 @@
+[
+// Stardew Valley - now with more nuts and berries!
+// Forage bushes will now have multiple "seasons"
+//   Some will fruit sporadically before and/or after the main season
+// Bushes on the main farm will not be affected
+//     so this won't conflict with Grampa's Orchard (optional but recommended)
+//
+// 296 Salmonberry
+// 396 Spice Berry
+// 398 Grape
+// 406 Wild Plum
+// 408 Hazelnut
+//
+// Spring 3-7 Salmonberry
+// Spring 15-18 Salmonberry *this is the default season, not defined here
+// Spring 21-22 Salmonberry
+// Spring 27-28 Spice Berry
+//
+// Summer 1-2 Spice Berry
+// Summer 7-8 Grape
+// Summer 9-13 Spice Berry
+// Summer 16-17, 22-23, 27-28 Grape
+//
+// Fall 1-5 Wild Plum
+// Fall 8-11 Blackberry *this is the default season, not defined here
+// Fall 12-17 Wild Plum
+// Fall 20-21, 26-27 Hazelnut - because everybody knows, Hazelnuts don't grow on MAPLE trees!
+//
+// Winter 3-12 Hazelnut
+//
+// Spring Fruit
+	{
+	"ShakeOff": "Salmonberry",
+	"StartSeason": "spring",
+	"StartDay": 3,
+	"EndDay": 7,
+	"Locations": [  "Forest", "Mountain", "BusStop", "Backwoods", "Railroad", "Town", "Woods" ]
+ 	},
+	{
+	"ShakeOff": "Salmonberry",
+	"StartSeason": "spring",
+	"StartDay": 21,
+	"EndDay": 22,
+	"Locations": [ "Forest", "Mountain", "BusStop", "Backwoods", "Railroad", "Town", "Woods" ]
+
+ 	},
+	{
+	"ShakeOff": "Spice Berry",
+	"StartSeason": "spring",
+	"StartDay": 25,
+	"EndDay":26,
+	"Locations": [ "Forest", "Mountain", "BusStop", "Backwoods", "Railroad", "Town", "Woods" ]
+ 	},
+//
+// Summer Fruit
+//
+	{
+	"ShakeOff": "Spice Berry",
+	"StartSeason": "summer",
+	"StartDay": 1,
+	"EndDay":2,
+	"Locations": [ "Forest", "Mountain", "BusStop", "Backwoods", "Railroad", "Town", "Woods" ]
+ 	},
+	{
+	"ShakeOff": "Grape",
+	"StartSeason": "summer",
+	"StartDay": 7,
+	"EndDay":8,
+	"Locations": [ "Forest", "Mountain", "BusStop", "Backwoods", "Railroad", "Town", "Woods" ]
+ 	},
+	{
+	"ShakeOff": "Spice Berry",
+	"StartSeason": "summer",
+	"StartDay": 9,
+	"EndDay": 13,
+	"Locations": [ "Forest", "Mountain", "BusStop", "Backwoods", "Railroad", "Town", "Woods" ]
+ 	},
+	{
+	"ShakeOff": "Grape",
+	"StartSeason": "summer",
+	"StartDay": 16,
+	"EndDay": 17,
+	"Locations": [ "Forest", "Mountain", "BusStop", "Backwoods", "Railroad", "Town", "Woods" ]
+ 	},
+	{
+	"ShakeOff": "Grape",
+	"StartSeason": "summer",
+	"StartDay": 22,
+	"EndDay":23,
+	"Locations": [ "Forest", "Mountain", "BusStop", "Backwoods", "Railroad", "Town", "Woods" ]
+ 	},
+	{
+	"ShakeOff": "Grape",
+	"StartSeason": "summer",
+	"StartDay": 27,
+	"EndDay": 28,
+	"Locations": [ "Forest", "Mountain", "BusStop", "Backwoods", "Railroad", "Town", "Woods" ]
+ 	},
+//
+// Fall Fruit & Nuts
+//
+	{
+	"ShakeOff": "Wild Plum",
+	"StartSeason": "fall",
+	"StartDay": 1,
+	"EndDay": 5,
+	"Locations": [ "Forest", "Mountain", "BusStop", "Backwoods", "Railroad", "Town", "Woods" ]
+ 	},
+	{
+	"ShakeOff": "Wild Plum",
+	"StartSeason": "fall",
+	"StartDay": 12,
+	"EndDay": 17,
+	"Locations": [ "Forest", "Mountain", "BusStop", "Backwoods", "Railroad", "Town", "Woods" ]
+ 	},
+	{
+	"ShakeOff": "Hazelnut",
+	"StartSeason": "fall",
+	"StartDay": 20,
+	"EndDay":21,
+	"Locations": [ "Forest", "Mountain", "BusStop", "Backwoods", "Railroad", "Town", "Woods" ]
+ 	},
+	{
+	"ShakeOff": "Hazelnut",
+	"StartSeason": "fall",
+	"StartDay": 26,
+	"EndDay":27,
+	"Locations": [ "Forest", "Mountain", "BusStop", "Backwoods", "Railroad", "Town", "Woods" ]
+ 	},
+//
+// Winter Nuts
+//
+	{
+	"ShakeOff": "Hazelnut",
+	"StartSeason": "winter",
+	"StartDay": 3,
+	"EndDay": 12,
+	"Locations": [ "Forest", "Mountain", "BusStop", "Backwoods", "Railroad", "Town", "Woods" ]
+ 	}
+]

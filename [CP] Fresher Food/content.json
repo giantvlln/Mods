@@ -1,0 +1,2969 @@
+{
+  "Format": "1.21.0",
+  "ConfigSchema": {
+    "Algae Soup": {
+      "AllowValues": "On,Off",
+      "Default": "On"
+    },
+    "Algae Soup Bowl": {
+      "AllowValues": "Black,Blue,Brown,Green,Pink,Red,Cream,Recommended,Off",
+      "Default": "Recommended"
+    },
+    "Artichoke Dip": {
+      "AllowValues": "On,Off",
+      "Default": "On"
+    },
+    "Artichoke Dip Bowl": {
+      "AllowValues": "Black,Blue,Brown,Green,Pink,Red,Cream,Recommended,Off",
+      "Default": "Recommended"
+    },
+    "Autumns Bounty": {
+      "AllowValues": "On,Off",
+      "Default": "On"
+    },
+    "Autumns Bounty Plate": {
+      "AllowValues": "Black,Blue,Brown,Green,Pink,Red,Cream,Recommended,Off",
+      "Default": "Recommended"
+    },
+    "Baked Fish": {
+      "AllowValues": "On,Off",
+      "Default": "On"
+    },
+    "Baked Fish Plate": {
+      "AllowValues": "Black,Blue,Brown,Green,Pink,Red,Cream,Recommended,Off",
+      "Default": "Recommended"
+    },
+    "Banana Pudding": {
+      "AllowValues": "On,Off",
+      "Default": "On"
+    },
+    "Banana Pudding Bowl": {
+      "AllowValues": "Black,Blue,Brown,Green,Pink,Red,Cream,Recommended,Off",
+      "Default": "Recommended"
+    },
+    "Bean Hotpot": {
+      "AllowValues": "On,Off",
+      "Default": "On"
+    },
+    "Bean Hotpot Dish": {
+      "AllowValues": "Black,Blue,Brown,Green,Pink,Red,Cream,Recommended,Off",
+      "Default": "Recommended"
+    },
+    "Blackberry Cobbler": {
+      "AllowValues": "On,Off",
+      "Default": "On"
+    },
+    "Blackberry Cobbler Dish": {
+      "AllowValues": "Black,Blue,Brown,Green,Pink,Red,Cream,Recommended,Off",
+      "Default": "Recommended"
+    },
+    "Blueberry Tart": {
+      "AllowValues": "On,Off",
+      "Default": "On"
+    },
+    "Blueberry Tart Plate": {
+      "AllowValues": "Black,Blue,Brown,Green,Pink,Red,Cream,Recommended,Off",
+      "Default": "Recommended"
+    },
+    "Bread": {
+      "AllowValues": "Chunky,Slim,Off",
+      "Default": "Slim"
+    },
+    "Bruschetta": {
+      "AllowValues": "On,Off",
+      "Default": "On"
+    },
+    "Bruschetta Plate": {
+      "AllowValues": "Black,Blue,Brown,Green,Pink,Red,Cream,Recommended,Off",
+      "Default": "Recommended"
+    },
+    "Carp Surprise": {
+      "AllowValues": "On,Off",
+      "Default": "On"
+    },
+    "Carp Surprise Plate": {
+      "AllowValues": "Black,Blue,Brown,Green,Pink,Red,Cream,Recommended,Off",
+      "Default": "Recommended"
+    },
+    "Cheese Cauliflower": {
+      "AllowValues": "On,Off",
+      "Default": "On"
+    },
+    "Cheese Cauliflower Dish": {
+      "AllowValues": "Black,Blue,Brown,Green,Pink,Red,Cream,Recommended,Off",
+      "Default": "Recommended"
+    },
+    "Chocolate Cake": {
+      "AllowValues": "Full,Slice,Off",
+      "Default": "Full"
+    },
+    "Chocolate Cake Plate": {
+      "AllowValues": "Black,Blue,Brown,Green,Pink,Red,Cream,Recommended,Off",
+      "Default": "Off"
+    },
+    "Chowder": {
+      "AllowValues": "On,Off",
+      "Default": "On"
+    },
+    "Chowder Bowl": {
+      "AllowValues": "Black,Blue,Brown,Green,Pink,Red,Cream,Recommended,Off",
+      "Default": "Recommended"
+    },
+    "Coffee": {
+      "AllowValues": "Glass,Mug,Off",
+      "Default": "Mug"
+    },
+    "Coffee Plate": {
+      "AllowValues": "Black,Blue,Brown,Green,Pink,Red,Cream,Recommended,Off",
+      "Default": "Off"
+    },
+    "Coleslaw": {
+      "AllowValues": "On,Off",
+      "Default": "On"
+    },
+    "Coleslaw Bowl": {
+      "AllowValues": "Black,Blue,Brown,Green,Pink,Red,Cream,Recommended,Off",
+      "Default": "Recommended"
+    },
+    "Complete Breakfast": {
+      "AllowValues": "On,Off",
+      "Default": "On"
+    },
+    "Complete Breakfast Plate": {
+      "AllowValues": "Black,Blue,Brown,Green,Pink,Red,Cream,Recommended,Off",
+      "Default": "Recommended"
+    },
+    "Cookie": {
+      "AllowValues": "Multiple,Single,Vanilla,Off",
+      "Default": "Single"
+    },
+    "Cookie Plate": {
+      "AllowValues": "Black,Blue,Brown,Green,Pink,Red,Cream,Recommended,Off",
+      "Default": "Off"
+    },
+    "Crab Cakes": {
+      "AllowValues": "On,Off",
+      "Default": "On"
+    },
+    "Crab Cakes Plate": {
+      "AllowValues": "Black,Blue,Brown,Green,Pink,Red,Cream,Recommended,Off",
+      "Default": "Recommended"
+    },
+    "Cranberry Candy": {
+      "AllowValues": "On,Off",
+      "Default": "On"
+    },
+    "Cranberry Sauce": {
+      "AllowValues": "On,Off",
+      "Default": "On"
+    },
+    "Cranberry Sauce Bowl": {
+      "AllowValues": "Black,Blue,Brown,Green,Pink,Red,Cream,Recommended,Off",
+      "Default": "Recommended"
+    },
+    "Crispy Bass": {
+      "AllowValues": "On,Off",
+      "Default": "On"
+    },
+    "Crispy Bass Plate": {
+      "AllowValues": "Black,Blue,Brown,Green,Pink,Red,Cream,Recommended,Off",
+      "Default": "Recommended"
+    },
+    "Dish Of The Sea": {
+      "AllowValues": "On,Off",
+      "Default": "On"
+    },
+    "Dish Of The Sea Plate": {
+      "AllowValues": "Black,Blue,Brown,Green,Pink,Red,Cream,Recommended,Off",
+      "Default": "Recommended"
+    },
+    "Eggplant Parmesan": {
+      "AllowValues": "On,Off",
+      "Default": "On"
+    },
+    "Eggplant Parmesan Dish": {
+      "AllowValues": "Black,Blue,Brown,Green,Pink,Red,Cream,Recommended,Off",
+      "Default": "Recommended"
+    },
+    "Escargot": {
+      "AllowValues": "On,Off",
+      "Default": "On"
+    },
+    "Escargot Plate": {
+      "AllowValues": "Black,Blue,Brown,Green,Pink,Red,Cream,Recommended,Off",
+      "Default": "Recommended"
+    },
+    "Farmers Lunch": {
+      "AllowValues": "On,Off",
+      "Default": "On"
+    },
+    "Farmers Lunch Plate": {
+      "AllowValues": "Black,Blue,Brown,Green,Pink,Red,Cream,Recommended,Off",
+      "Default": "Recommended"
+    },
+    "Fiddlehead Risotto": {
+      "AllowValues": "Brown,Green,Off",
+      "Default": "Brown"
+    },
+    "Fiddlehead Risotto Plate": {
+      "AllowValues": "Black,Blue,Brown,Green,Pink,Red,Cream,Recommended,Off",
+      "Default": "Recommended"
+    },
+    "Fish Stew": {
+      "AllowValues": "On,Off",
+      "Default": "On"
+    },
+    "Fish Stew Bowl": {
+      "AllowValues": "Black,Blue,Brown,Green,Pink,Red,Cream,Recommended,Off",
+      "Default": "Recommended"
+    },
+    "Fish Taco": {
+      "AllowValues": "On,Off",
+      "Default": "On"
+    },
+    "Fried Calamari": {
+      "AllowValues": "On,Off",
+      "Default": "On"
+    },
+    "Fried Calamari Plate": {
+      "AllowValues": "Black,Blue,Brown,Green,Pink,Red,Cream,Recommended,Off",
+      "Default": "Recommended"
+    },
+    "Fried Eel": {
+      "AllowValues": "On,Off",
+      "Default": "On"
+    },
+    "Fried Eel Plate": {
+      "AllowValues": "Black,Blue,Brown,Green,Pink,Red,Cream,Recommended,Off",
+      "Default": "Recommended"
+    },
+    "Fried Egg": {
+      "AllowValues": "On,Off",
+      "Default": "On"
+    },
+    "Fried Egg Plate": {
+      "AllowValues": "Black,Blue,Brown,Green,Pink,Red,Cream,Recommended,Off",
+      "Default": "Recommended"
+    },
+    "Fried Mushroom": {
+      "AllowValues": "On,Off",
+      "Default": "On"
+    },
+    "Fried Mushroom Plate": {
+      "AllowValues": "Black,Blue,Brown,Green,Pink,Red,Cream,Recommended,Off",
+      "Default": "Recommended"
+    },
+    "Fruit Salad": {
+      "AllowValues": "On,Off",
+      "Default": "On"
+    },
+    "Fruit Salad Bowl": {
+      "AllowValues": "Black,Blue,Brown,Green,Pink,Red,Cream,Recommended,Off",
+      "Default": "Recommended"
+    },
+    "Ginger Ale": {
+      "AllowValues": "On,Off",
+      "Default": "On"
+    },
+    "Glazed Yams": {
+      "AllowValues": "On,Off",
+      "Default": "On"
+    },
+    "Glazed Yams Dish": {
+      "AllowValues": "Black,Blue,Brown,Green,Pink,Red,Cream,Recommended,Off",
+      "Default": "Recommended"
+    },
+    "Green Tea": {
+      "AllowValues": "On,Off",
+      "Default": "On"
+    },
+    "Green Tea Plate": {
+      "AllowValues": "Black,Blue,Brown,Green,Pink,Red,Cream,Recommended,Off",
+      "Default": "Recommended"
+    },
+    "Hashbrowns": {
+      "AllowValues": "On,Off",
+      "Default": "On"
+    },
+    "Hashbrowns Plate": {
+      "AllowValues": "Black,Blue,Brown,Green,Pink,Red,Cream,Recommended,Off",
+      "Default": "Recommended"
+    },
+    "Ice Cream": {
+      "AllowValues": "Chocolate,Pistachio,Strawberry,Vanilla,Random,Off",
+      "Default": "Random"
+    },
+    "Joja Cola": {
+      "AllowValues": "On,Off",
+      "Default": "On"
+    },
+    "Lobster Bisque": {
+      "AllowValues": "On,Off",
+      "Default": "On"
+    },
+    "Lobster Bisque Bowl": {
+      "AllowValues": "Black,Blue,Brown,Green,Pink,Red,Cream,Recommended,Off",
+      "Default": "Recommended"
+    },
+    "Lucky Lunch": {
+      "AllowValues": "On,Off",
+      "Default": "On"
+    },
+    "Lucky Lunch Plate": {
+      "AllowValues": "Black,Blue,Brown,Green,Pink,Red,Cream,Recommended,Off",
+      "Default": "Recommended"
+    },
+    "Maki Roll": {
+      "AllowValues": "On,Off",
+      "Default": "On"
+    },
+    "Maki Roll Board": {
+      "AllowValues": "Black,Bamboo,Cherry,Wood,Recommended,Off",
+      "Default": "Recommended"
+    },
+    "Mango Sticky Rice": {
+      "AllowValues": "On,Off",
+      "Default": "On"
+    },
+    "Mango Sticky Rice Plate": {
+      "AllowValues": "Black,Blue,Brown,Green,Pink,Red,Cream,Recommended,Off",
+      "Default": "Recommended"
+    },
+    "Maple Bar": {
+      "AllowValues": "On,Off",
+      "Default": "On"
+    },
+    "Miners Treat": {
+      "AllowValues": "On,Off",
+      "Default": "On"
+    },
+    "Omelette": {
+      "AllowValues": "On,Off",
+      "Default": "On"
+    },
+    "Omelette Plate": {
+      "AllowValues": "Black,Blue,Brown,Green,Pink,Red,Cream,Recommended,Off",
+      "Default": "Recommended"
+    },
+    "Pale Broth": {
+      "AllowValues": "On,Off",
+      "Default": "On"
+    },
+    "Pale Broth Bowl": {
+      "AllowValues": "Black,Blue,Brown,Green,Pink,Red,Cream,Recommended,Off",
+      "Default": "Recommended"
+    },
+    "Pancakes": {
+      "AllowValues": "On,Off",
+      "Default": "On"
+    },
+    "Pancakes Plate": {
+      "AllowValues": "Black,Blue,Brown,Green,Pink,Red,Cream,Recommended,Off",
+      "Default": "Recommended"
+    },
+    "Parsnip Soup": {
+      "AllowValues": "On,Off",
+      "Default": "On"
+    },
+    "Parsnip Soup Bowl": {
+      "AllowValues": "Black,Blue,Brown,Green,Pink,Red,Cream,Recommended,Off",
+      "Default": "Recommended"
+    },
+    "Pepper Poppers": {
+      "AllowValues": "Breaded,Fresh,Off",
+      "Default": "Breaded"
+    },
+    "Pepper Poppers Plate": {
+      "AllowValues": "Black,Blue,Brown,Green,Pink,Red,Cream,Recommended,Off",
+      "Default": "Recommended"
+    },
+    "Pink Cake": {
+      "AllowValues": "Marble,Sandwich,Slice,Off",
+      "Default": "Sandwich"
+    },
+    "Pink Cake Plate": {
+      "AllowValues": "Black,Blue,Brown,Green,Pink,Red,Cream,Recommended,Off",
+      "Default": "Off"
+    },
+    "Pizza": {
+      "AllowValues": "On,Off",
+      "Default": "On"
+    },
+    "Pizza Plate": {
+      "AllowValues": "Black,Blue,Brown,Green,Pink,Red,Cream,Recommended,Off",
+      "Default": "Recommended"
+    },
+    "Plum Pudding": {
+      "AllowValues": "On,Off",
+      "Default": "On"
+    },
+    "Plum Pudding Plate": {
+      "AllowValues": "Black,Blue,Brown,Green,Pink,Red,Cream,Recommended,Off",
+      "Default": "Recommended"
+    },
+    "Poi": {
+      "AllowValues": "On,Off",
+      "Default": "On"
+    },
+    "Poi Bowl": {
+      "AllowValues": "Black,Blue,Brown,Green,Pink,Red,Cream,Recommended,Off",
+      "Default": "Recommended"
+    },
+    "Poppyseed Muffin": {
+      "AllowValues": "On,Off",
+      "Default": "On"
+    },
+    "Pumpkin Pie": {
+      "AllowValues": "On,Off",
+      "Default": "On"
+    },
+    "Pumpkin Pie Plate": {
+      "AllowValues": "Black,Blue,Brown,Green,Pink,Red,Cream,Recommended,Off",
+      "Default": "Recommended"
+    },
+    "Pumpkin Soup": {
+      "AllowValues": "On,Off",
+      "Default": "On"
+    },
+    "Pumpkin Soup Bowl": {
+      "AllowValues": "Black,Blue,Brown,Green,Pink,Red,Cream,Recommended,Off",
+      "Default": "Recommended"
+    },
+    "Radish Salad": {
+      "AllowValues": "On,Off",
+      "Default": "On"
+    },
+    "Radish Salad Plate": {
+      "AllowValues": "Black,Blue,Brown,Green,Pink,Red,Cream,Recommended,Off",
+      "Default": "Recommended"
+    },
+    "Red Plate": {
+      "AllowValues": "On,Off",
+      "Default": "On"
+    },
+    "Red Plate Plate": {
+      "AllowValues": "Black,Blue,Brown,Green,Pink,Red,Cream,Recommended,Off",
+      "Default": "Recommended"
+    },
+    "Rhubarb Pie": {
+      "AllowValues": "On,Off",
+      "Default": "On"
+    },
+    "Rhubarb Pie Plate": {
+      "AllowValues": "Black,Blue,Brown,Green,Pink,Red,Cream,Recommended,Off",
+      "Default": "Recommended"
+    },
+    "Rice Pudding": {
+      "AllowValues": "On,Off",
+      "Default": "On"
+    },
+    "Rice Pudding Bowl": {
+      "AllowValues": "Black,Blue,Brown,Green,Pink,Red,Cream,Recommended,Off",
+      "Default": "Recommended"
+    },
+    "Roasted Hazelnuts": {
+      "AllowValues": "On,Off",
+      "Default": "On"
+    },
+    "Roasted Hazelnuts Bowl": {
+      "AllowValues": "Black,Blue,Brown,Green,Pink,Red,Cream,Recommended,Off",
+      "Default": "Recommended"
+    },
+    "Roots Platter": {
+      "AllowValues": "On,Off",
+      "Default": "On"
+    },
+    "Roots Platter Plate": {
+      "AllowValues": "Black,Blue,Brown,Green,Pink,Red,Cream,Recommended,Off",
+      "Default": "Recommended"
+    },
+    "Salad": {
+      "AllowValues": "On,Off",
+      "Default": "On"
+    },
+    "Salad Plate": {
+      "AllowValues": "Black,Blue,Brown,Green,Pink,Red,Cream,Recommended,Off",
+      "Default": "Recommended"
+    },
+    "Salmon Dinner": {
+      "AllowValues": "On,Off",
+      "Default": "On"
+    },
+    "Salmon Dinner Board": {
+      "AllowValues": "Black,Bamboo,Cherry,Wood,Recommended,Off",
+      "Default": "Recommended"
+    },
+    "Sashimi": {
+      "AllowValues": "On,Off",
+      "Default": "On"
+    },
+    "Sashimi Board": {
+      "AllowValues": "Black,Bamboo,Cherry,Wood,Recommended,Off",
+      "Default": "Recommended"
+    },
+    "Seafoam Pudding": {
+      "AllowValues": "Pale,Vibrant,Off",
+      "Default": "Pale"
+    },
+    "Seafoam Pudding Bowl": {
+      "AllowValues": "Black,Blue,Brown,Green,Pink,Red,Cream,Recommended,Off",
+      "Default": "Recommended"
+    },
+    "Shrimp Cocktail": {
+      "AllowValues": "On,Off",
+      "Default": "On"
+    },
+    "Spaghetti": {
+      "AllowValues": "On,Off",
+      "Default": "On"
+    },
+    "Spaghetti Plate": {
+      "AllowValues": "Black,Blue,Brown,Green,Pink,Red,Cream,Recommended,Off",
+      "Default": "Recommended"
+    },
+    "Spicy Eel": {
+      "AllowValues": "On,Off",
+      "Default": "On"
+    },
+    "Spicy Eel Plate": {
+      "AllowValues": "Black,Blue,Brown,Green,Pink,Red,Cream,Recommended,Off",
+      "Default": "Recommended"
+    },
+    "Squid Ink Ravioli": {
+      "AllowValues": "On,Off",
+      "Default": "On"
+    },
+    "Squid Ink Ravioli Bowl": {
+      "AllowValues": "Black,Blue,Brown,Green,Pink,Red,Cream,Recommended,Off",
+      "Default": "Recommended"
+    },
+    "Stir Fry": {
+      "AllowValues": "On,Off",
+      "Default": "On"
+    },
+    "Stir Fry Plate": {
+      "AllowValues": "Black,Blue,Brown,Green,Pink,Red,Cream,Recommended,Off",
+      "Default": "Recommended"
+    },
+    "Strange Bun": {
+      "AllowValues": "On,Off",
+      "Default": "On"
+    },
+    "Stuffing": {
+      "AllowValues": "On,Off",
+      "Default": "On"
+    },
+    "Stuffing Dish": {
+      "AllowValues": "Black,Blue,Brown,Green,Pink,Red,Cream,Recommended,Off",
+      "Default": "Recommended"
+    },
+    "Super Meal": {
+      "AllowValues": "On,Off",
+      "Default": "On"
+    },
+    "Super Meal Plate": {
+      "AllowValues": "Black,Blue,Brown,Green,Pink,Red,Cream,Recommended,Off",
+      "Default": "Recommended"
+    },
+    "Survival Burger": {
+      "AllowValues": "On,Off",
+      "Default": "On"
+    },
+    "Tom Kha Soup": {
+      "AllowValues": "On,Off",
+      "Default": "On"
+    },
+    "Tom Kha Soup Bowl": {
+      "AllowValues": "Black,Blue,Brown,Green,Pink,Red,Cream,Recommended,Off",
+      "Default": "Recommended"
+    },
+    "Tortilla": {
+      "AllowValues": "On,Off",
+      "Default": "On"
+    },
+    "Tortilla Plate": {
+      "AllowValues": "Black,Blue,Brown,Green,Pink,Red,Cream,Recommended,Off",
+      "Default": "Off"
+    },
+    "Triple Shot Espresso": {
+      "AllowValues": "Glass,Mug,Off",
+      "Default": "Glass"
+    },
+    "Triple Shot Espresso Plate": {
+      "AllowValues": "Black,Blue,Brown,Green,Pink,Red,Cream,Recommended,Off",
+      "Default": "Off"
+    },
+    "Tropical Curry": {
+      "AllowValues": "On,Off",
+      "Default": "On"
+    },
+    "Tropical Curry Bowl": {
+      "AllowValues": "On,Off",
+      "Default": "On"
+    },
+    "Trout Soup": {
+      "AllowValues": "On,Off",
+      "Default": "On"
+    },
+    "Trout Soup Bowl": {
+      "AllowValues": "Black,Blue,Brown,Green,Pink,Red,Cream,Recommended,Off",
+      "Default": "Recommended"
+    },
+    "Vegetable Medley": {
+      "AllowValues": "On,Off",
+      "Default": "On"
+    },
+    "Vegetable Medley Plate": {
+      "AllowValues": "Black,Blue,Brown,Green,Pink,Red,Cream,Recommended,Off",
+      "Default": "Recommended"
+    }
+  },
+  "DynamicTokens": [
+    {
+      "Name": "Fried Egg Plate Final",
+      "Value": "{{Fried Egg Plate}}"
+    },
+    {
+      "Name": "Fried Egg Plate Final",
+      "Value": "Blue",
+      "When": {
+        "Fried Egg Plate": "Recommended"
+      }
+    },
+    {
+      "Name": "Omelette Plate Final",
+      "Value": "{{Omelette Plate}}"
+    },
+    {
+      "Name": "Omelette Plate Final",
+      "Value": "Cream",
+      "When": {
+        "Omelette Plate": "Recommended"
+      }
+    },
+    {
+      "Name": "Salad Plate Final",
+      "Value": "{{Salad Plate}}"
+    },
+    {
+      "Name": "Salad Plate Final",
+      "Value": "Green",
+      "When": {
+        "Salad Plate": "Recommended"
+      }
+    },
+    {
+      "Name": "Cheese Cauliflower Dish Final",
+      "Value": "{{Cheese Cauliflower Dish}}"
+    },
+    {
+      "Name": "Cheese Cauliflower Dish Final",
+      "Value": "Green",
+      "When": {
+        "Cheese Cauliflower Dish": "Recommended"
+      }
+    },
+    {
+      "Name": "Baked Fish Plate Final",
+      "Value": "{{Baked Fish Plate}}"
+    },
+    {
+      "Name": "Baked Fish Plate Final",
+      "Value": "Brown",
+      "When": {
+        "Baked Fish Plate": "Recommended"
+      }
+    },
+    {
+      "Name": "Parsnip Soup Bowl Final",
+      "Value": "{{Parsnip Soup Bowl}}"
+    },
+    {
+      "Name": "Parsnip Soup Bowl Final",
+      "Value": "Red",
+      "When": {
+        "Parsnip Soup Bowl": "Recommended"
+      }
+    },
+    {
+      "Name": "Vegetable Medley Plate Final",
+      "Value": "{{Vegetable Medley Plate}}"
+    },
+    {
+      "Name": "Vegetable Medley Plate Final",
+      "Value": "Blue",
+      "When": {
+        "Vegetable Medley Plate": "Recommended"
+      }
+    },
+    {
+      "Name": "Complete Breakfast Plate Final",
+      "Value": "{{Complete Breakfast Plate}}"
+    },
+    {
+      "Name": "Complete Breakfast Plate Final",
+      "Value": "Blue",
+      "When": {
+        "Complete Breakfast Plate": "Recommended"
+      }
+    },
+    {
+      "Name": "Fried Calamari Plate Final",
+      "Value": "{{Fried Calamari Plate}}"
+    },
+    {
+      "Name": "Fried Calamari Plate Final",
+      "Value": "Red",
+      "When": {
+        "Fried Calamari Plate": "Recommended"
+      }
+    },
+    {
+      "Name": "Lucky Lunch Plate Final",
+      "Value": "{{Lucky Lunch Plate}}"
+    },
+    {
+      "Name": "Lucky Lunch Plate Final",
+      "Value": "Pink",
+      "When": {
+        "Lucky Lunch Plate": "Recommended"
+      }
+    },
+    {
+      "Name": "Fried Mushroom Plate Final",
+      "Value": "{{Fried Mushroom Plate}}"
+    },
+    {
+      "Name": "Fried Mushroom Plate Final",
+      "Value": "Green",
+      "When": {
+        "Fried Mushroom Plate": "Recommended"
+      }
+    },
+    {
+      "Name": "Pizza Plate Final",
+      "Value": "{{Pizza Plate}}"
+    },
+    {
+      "Name": "Pizza Plate Final",
+      "Value": "Cream",
+      "When": {
+        "Pizza Plate": "Recommended"
+      }
+    },
+    {
+      "Name": "Bean Hotpot Dish Final",
+      "Value": "{{Bean Hotpot Dish}}"
+    },
+    {
+      "Name": "Bean Hotpot Dish Final",
+      "Value": "Brown",
+      "When": {
+        "Bean Hotpot Dish": "Recommended"
+      }
+    },
+    {
+      "Name": "Glazed Yams Dish Final",
+      "Value": "{{Glazed Yams Dish}}"
+    },
+    {
+      "Name": "Glazed Yams Dish Final",
+      "Value": "Cream",
+      "When": {
+        "Glazed Yams Dish": "Recommended"
+      }
+    },
+    {
+      "Name": "Carp Surprise Plate Final",
+      "Value": "{{Carp Surprise Plate}}"
+    },
+    {
+      "Name": "Carp Surprise Plate Final",
+      "Value": "Green",
+      "When": {
+        "Carp Surprise Plate": "Recommended"
+      }
+    },
+    {
+      "Name": "Hashbrowns Plate Final",
+      "Value": "{{Hashbrowns Plate}}"
+    },
+    {
+      "Name": "Hashbrowns Plate Final",
+      "Value": "Blue",
+      "When": {
+        "Hashbrowns Plate": "Recommended"
+      }
+    },
+    {
+      "Name": "Pancakes Plate Final",
+      "Value": "{{Pancakes Plate}}"
+    },
+    {
+      "Name": "Pancakes Plate Final",
+      "Value": "Cream",
+      "When": {
+        "Pancakes Plate": "Recommended"
+      }
+    },
+    {
+      "Name": "Salmon Dinner Board Final",
+      "Value": "{{Salmon Dinner Board}}"
+    },
+    {
+      "Name": "Salmon Dinner Board Final",
+      "Value": "Bamboo",
+      "When": {
+        "Salmon Dinner Board": "Recommended"
+      }
+    },
+    {
+      "Name": "Crispy Bass Plate Final",
+      "Value": "{{Crispy Bass Plate}}"
+    },
+    {
+      "Name": "Crispy Bass Plate Final",
+      "Value": "Blue",
+      "When": {
+        "Crispy Bass Plate": "Recommended"
+      }
+    },
+    {
+      "Name": "Pepper Poppers Plate Final",
+      "Value": "{{Pepper Poppers Plate}}"
+    },
+    {
+      "Name": "Pepper Poppers Plate Final",
+      "Value": "Red",
+      "When": {
+        "Pepper Poppers Plate": "Recommended"
+      }
+    },
+    {
+      "Name": "Tom Kha Soup Bowl Final",
+      "Value": "{{Tom Kha Soup Bowl}}"
+    },
+    {
+      "Name": "Tom Kha Soup Bowl Final",
+      "Value": "Black",
+      "When": {
+        "Tom Kha Soup Bowl": "Recommended"
+      }
+    },
+    {
+      "Name": "Trout Soup Bowl Final",
+      "Value": "{{Trout Soup Bowl}}"
+    },
+    {
+      "Name": "Trout Soup Bowl Final",
+      "Value": "Blue",
+      "When": {
+        "Trout Soup Bowl": "Recommended"
+      }
+    },
+    {
+      "Name": "Chocolate Cake Plate Final",
+      "Value": "{{Chocolate Cake Plate}}"
+    },
+    {
+      "Name": "Chocolate Cake Plate Final",
+      "Value": "Cream",
+      "When": {
+        "Chocolate Cake Plate": "Recommended"
+      }
+    },
+    {
+      "Name": "Pink Cake Plate Final",
+      "Value": "{{Pink Cake Plate}}"
+    },
+    {
+      "Name": "Pink Cake Plate Final",
+      "Value": "Cream",
+      "When": {
+        "Pink Cake Plate": "Recommended"
+      }
+    },
+    {
+      "Name": "Rhubarb Pie Plate Final",
+      "Value": "{{Rhubarb Pie Plate}}"
+    },
+    {
+      "Name": "Rhubarb Pie Plate Final",
+      "Value": "Pink",
+      "When": {
+        "Rhubarb Pie Plate": "Recommended"
+      }
+    },
+    {
+      "Name": "Cookie Plate Final",
+      "Value": "{{Cookie Plate}}"
+    },
+    {
+      "Name": "Cookie Plate Final",
+      "Value": "Blue",
+      "When": {
+        "Cookie Plate": "Recommended"
+      }
+    },
+    {
+      "Name": "Spaghetti Plate Final",
+      "Value": "{{Spaghetti Plate}}"
+    },
+    {
+      "Name": "Spaghetti Plate Final",
+      "Value": "Cream",
+      "When": {
+        "Spaghetti Plate": "Recommended"
+      }
+    },
+    {
+      "Name": "Fried Eel Plate Final",
+      "Value": "{{Fried Eel Plate}}"
+    },
+    {
+      "Name": "Fried Eel Plate Final",
+      "Value": "Red",
+      "When": {
+        "Fried Eel Plate": "Recommended"
+      }
+    },
+    {
+      "Name": "Spicy Eel Plate Final",
+      "Value": "{{Spicy Eel Plate}}"
+    },
+    {
+      "Name": "Spicy Eel Plate Final",
+      "Value": "Black",
+      "When": {
+        "Spicy Eel Plate": "Recommended"
+      }
+    },
+    {
+      "Name": "Sashimi Board Final",
+      "Value": "{{Sashimi Board}}"
+    },
+    {
+      "Name": "Sashimi Board Final",
+      "Value": "Black",
+      "When": {
+        "Sashimi Board": "Recommended"
+      }
+    },
+    {
+      "Name": "Maki Roll Board Final",
+      "Value": "{{Maki Roll Board}}"
+    },
+    {
+      "Name": "Maki Roll Board Final",
+      "Value": "Wood",
+      "When": {
+        "Maki Roll Board": "Recommended"
+      }
+    },
+    {
+      "Name": "Tortilla Plate Final",
+      "Value": "{{Tortilla Plate}}"
+    },
+    {
+      "Name": "Tortilla Plate Final",
+      "Value": "Red",
+      "When": {
+        "Tortilla Plate": "Recommended"
+      }
+    },
+    {
+      "Name": "Red Plate Plate Final",
+      "Value": "{{Red Plate Plate}}"
+    },
+    {
+      "Name": "Red Plate Plate Final",
+      "Value": "Red",
+      "When": {
+        "Red Plate Plate": "Recommended"
+      }
+    },
+    {
+      "Name": "Eggplant Parmesan Dish Final",
+      "Value": "{{Eggplant Parmesan Dish}}"
+    },
+    {
+      "Name": "Eggplant Parmesan Dish Final",
+      "Value": "Blue",
+      "When": {
+        "Eggplant Parmesan Dish": "Recommended"
+      }
+    },
+    {
+      "Name": "Rice Pudding Bowl Final",
+      "Value": "{{Rice Pudding Bowl}}"
+    },
+    {
+      "Name": "Rice Pudding Bowl Final",
+      "Value": "Blue",
+      "When": {
+        "Rice Pudding Bowl": "Recommended"
+      }
+    },
+    {
+      "Name": "Ice Cream Final",
+      "Value": "{{Ice Cream}}"
+    },
+    {
+      "Name": "Ice Cream Final",
+      "Value": "{{Random: Chocolate, Pistachio, Strawberry, Vanilla}}",
+      "When": {
+        "Ice Cream": "Random"
+      }
+    },
+    {
+      "Name": "Blueberry Tart Plate Final",
+      "Value": "{{Blueberry Tart Plate}}"
+    },
+    {
+      "Name": "Blueberry Tart Plate Final",
+      "Value": "Pink",
+      "When": {
+        "Blueberry Tart Plate": "Recommended"
+      }
+    },
+    {
+      "Name": "Autumns Bounty Plate Final",
+      "Value": "{{Autumns Bounty Plate}}"
+    },
+    {
+      "Name": "Autumns Bounty Plate Final",
+      "Value": "Blue",
+      "When": {
+        "Autumns Bounty Plate": "Recommended"
+      }
+    },
+    {
+      "Name": "Pumpkin Soup Bowl Final",
+      "Value": "{{Pumpkin Soup Bowl}}"
+    },
+    {
+      "Name": "Pumpkin Soup Bowl Final",
+      "Value": "Pink",
+      "When": {
+        "Pumpkin Soup Bowl": "Recommended"
+      }
+    },
+    {
+      "Name": "Super Meal Plate Final",
+      "Value": "{{Super Meal Plate}}"
+    },
+    {
+      "Name": "Super Meal Plate Final",
+      "Value": "Brown",
+      "When": {
+        "Super Meal Plate": "Recommended"
+      }
+    },
+    {
+      "Name": "Cranberry Sauce Bowl Final",
+      "Value": "{{Cranberry Sauce Bowl}}"
+    },
+    {
+      "Name": "Cranberry Sauce Bowl Final",
+      "Value": "Brown",
+      "When": {
+        "Cranberry Sauce Bowl": "Recommended"
+      }
+    },
+    {
+      "Name": "Stuffing Dish Final",
+      "Value": "{{Stuffing Dish}}"
+    },
+    {
+      "Name": "Stuffing Dish Final",
+      "Value": "Green",
+      "When": {
+        "Stuffing Dish": "Recommended"
+      }
+    },
+    {
+      "Name": "Farmers Lunch Plate Final",
+      "Value": "{{Farmers Lunch Plate}}"
+    },
+    {
+      "Name": "Farmers Lunch Plate Final",
+      "Value": "Pink",
+      "When": {
+        "Farmers Lunch Plate": "Recommended"
+      }
+    },
+    {
+      "Name": "Dish Of The Sea Plate Final",
+      "Value": "{{Dish Of The Sea Plate}}"
+    },
+    {
+      "Name": "Dish Of The Sea Plate Final",
+      "Value": "Blue",
+      "When": {
+        "Dish Of The Sea Plate": "Recommended"
+      }
+    },
+    {
+      "Name": "Roots Platter Plate Final",
+      "Value": "{{Roots Platter Plate}}"
+    },
+    {
+      "Name": "Roots Platter Plate Final",
+      "Value": "Pink",
+      "When": {
+        "Roots Platter Plate": "Recommended"
+      }
+    },
+    {
+      "Name": "Triple Shot Espresso Plate Final",
+      "Value": "{{Triple Shot Espresso Plate}}"
+    },
+    {
+      "Name": "Triple Shot Espresso Plate Final",
+      "Value": "Cream",
+      "When": {
+        "Triple Shot Espresso Plate": "Recommended"
+      }
+    },
+    {
+      "Name": "Seafoam Pudding Bowl Final",
+      "Value": "{{Seafoam Pudding Bowl}}"
+    },
+    {
+      "Name": "Seafoam Pudding Bowl Final",
+      "Value": "Blue",
+      "When": {
+        "Seafoam Pudding Bowl": "Recommended"
+      }
+    },
+    {
+      "Name": "Algae Soup Bowl Final",
+      "Value": "{{Algae Soup Bowl}}"
+    },
+    {
+      "Name": "Algae Soup Bowl Final",
+      "Value": "Cream",
+      "When": {
+        "Algae Soup Bowl": "Recommended"
+      }
+    },
+    {
+      "Name": "Pale Broth Bowl Final",
+      "Value": "{{Pale Broth Bowl}}"
+    },
+    {
+      "Name": "Pale Broth Bowl Final",
+      "Value": "Cream",
+      "When": {
+        "Pale Broth Bowl": "Recommended"
+      }
+    },
+    {
+      "Name": "Plum Pudding Plate Final",
+      "Value": "{{Plum Pudding Plate}}"
+    },
+    {
+      "Name": "Plum Pudding Plate Final",
+      "Value": "Black",
+      "When": {
+        "Plum Pudding Plate": "Recommended"
+      }
+    },
+    {
+      "Name": "Artichoke Dip Bowl Final",
+      "Value": "{{Artichoke Dip Bowl}}"
+    },
+    {
+      "Name": "Artichoke Dip Bowl Final",
+      "Value": "Blue",
+      "When": {
+        "Artichoke Dip Bowl": "Recommended"
+      }
+    },
+    {
+      "Name": "Stir Fry Plate Final",
+      "Value": "{{Stir Fry Plate}}"
+    },
+    {
+      "Name": "Stir Fry Plate Final",
+      "Value": "Red",
+      "When": {
+        "Stir Fry Plate": "Recommended"
+      }
+    },
+    {
+      "Name": "Roasted Hazelnuts Bowl Final",
+      "Value": "{{Roasted Hazelnuts Bowl}}"
+    },
+    {
+      "Name": "Roasted Hazelnuts Bowl Final",
+      "Value": "Brown",
+      "When": {
+        "Roasted Hazelnuts Bowl": "Recommended"
+      }
+    },
+    {
+      "Name": "Pumpkin Pie Plate Final",
+      "Value": "{{Pumpkin Pie Plate}}"
+    },
+    {
+      "Name": "Pumpkin Pie Plate Final",
+      "Value": "Cream",
+      "When": {
+        "Pumpkin Pie Plate": "Recommended"
+      }
+    },
+    {
+      "Name": "Radish Salad Plate Final",
+      "Value": "{{Radish Salad Plate}}"
+    },
+    {
+      "Name": "Radish Salad Plate Final",
+      "Value": "Blue",
+      "When": {
+        "Radish Salad Plate": "Recommended"
+      }
+    },
+    {
+      "Name": "Fruit Salad Bowl Final",
+      "Value": "{{Fruit Salad Bowl}}"
+    },
+    {
+      "Name": "Fruit Salad Bowl Final",
+      "Value": "Red",
+      "When": {
+        "Fruit Salad Bowl": "Recommended"
+      }
+    },
+    {
+      "Name": "Blackberry Cobbler Dish Final",
+      "Value": "{{Blackberry Cobbler Dish}}"
+    },
+    {
+      "Name": "Blackberry Cobbler Dish Final",
+      "Value": "Cream",
+      "When": {
+        "Blackberry Cobbler Dish": "Recommended"
+      }
+    },
+    {
+      "Name": "Bruschetta Plate Final",
+      "Value": "{{Bruschetta Plate}}"
+    },
+    {
+      "Name": "Bruschetta Plate Final",
+      "Value": "Green",
+      "When": {
+        "Bruschetta Plate": "Recommended"
+      }
+    },
+    {
+      "Name": "Coleslaw Bowl Final",
+      "Value": "{{Coleslaw Bowl}}"
+    },
+    {
+      "Name": "Coleslaw Bowl Final",
+      "Value": "Brown",
+      "When": {
+        "Coleslaw Bowl": "Recommended"
+      }
+    },
+    {
+      "Name": "Fiddlehead Risotto Plate Final",
+      "Value": "{{Fiddlehead Risotto Plate}}"
+    },
+    {
+      "Name": "Fiddlehead Risotto Plate Final",
+      "Value": "Black",
+      "When": {
+        "Fiddlehead Risotto Plate": "Recommended"
+      }
+    },
+    {
+      "Name": "Chowder Bowl Final",
+      "Value": "{{Chowder Bowl}}"
+    },
+    {
+      "Name": "Chowder Bowl Final",
+      "Value": "Brown",
+      "When": {
+        "Chowder Bowl": "Recommended"
+      }
+    },
+    {
+      "Name": "Fish Stew Bowl Final",
+      "Value": "{{Fish Stew Bowl}}"
+    },
+    {
+      "Name": "Fish Stew Bowl Final",
+      "Value": "Blue",
+      "When": {
+        "Fish Stew Bowl": "Recommended"
+      }
+    },
+    {
+      "Name": "Escargot Plate Final",
+      "Value": "{{Escargot Plate}}"
+    },
+    {
+      "Name": "Escargot Plate Final",
+      "Value": "Black",
+      "When": {
+        "Escargot Plate": "Recommended"
+      }
+    },
+    {
+      "Name": "Lobster Bisque Bowl Final",
+      "Value": "{{Lobster Bisque Bowl}}"
+    },
+    {
+      "Name": "Lobster Bisque Bowl Final",
+      "Value": "Cream",
+      "When": {
+        "Lobster Bisque Bowl": "Recommended"
+      }
+    },
+    {
+      "Name": "Crab Cakes Plate Final",
+      "Value": "{{Crab Cakes Plate}}"
+    },
+    {
+      "Name": "Crab Cakes Plate Final",
+      "Value": "Red",
+      "When": {
+        "Crab Cakes Plate": "Recommended"
+      }
+    },
+    {
+      "Name": "Banana Pudding Bowl Final",
+      "Value": "{{Banana Pudding Bowl}}"
+    },
+    {
+      "Name": "Banana Pudding Bowl Final",
+      "Value": "Pink",
+      "When": {
+        "Banana Pudding Bowl": "Recommended"
+      }
+    },
+    {
+      "Name": "Mango Sticky Rice Plate Final",
+      "Value": "{{Mango Sticky Rice Plate}}"
+    },
+    {
+      "Name": "Mango Sticky Rice Plate Final",
+      "Value": "Black",
+      "When": {
+        "Mango Sticky Rice Plate": "Recommended"
+      }
+    },
+    {
+      "Name": "Poi Bowl Final",
+      "Value": "{{Poi Bowl}}"
+    },
+    {
+      "Name": "Poi Bowl Final",
+      "Value": "Brown",
+      "When": {
+        "Poi Bowl": "Recommended"
+      }
+    },
+    {
+      "Name": "Tropical Curry Bowl Final",
+      "Value": "{{Tropical Curry Bowl}}"
+    },
+    {
+      "Name": "Tropical Curry Bowl Final",
+      "Value": "Pineapple",
+      "When": {
+        "Tropical Curry Bowl": "On"
+      }
+    },
+    {
+      "Name": "Squid Ink Ravioli Bowl Final",
+      "Value": "{{Squid Ink Ravioli Bowl}}"
+    },
+    {
+      "Name": "Squid Ink Ravioli Bowl Final",
+      "Value": "Green",
+      "When": {
+        "Squid Ink Ravioli Bowl": "Recommended"
+      }
+    },
+    {
+      "Name": "Coffee Plate Final",
+      "Value": "{{Coffee Plate}}"
+    },
+    {
+      "Name": "Coffee Plate Final",
+      "Value": "Cream",
+      "When": {
+        "Coffee Plate": "Recommended"
+      }
+    },
+    {
+      "Name": "Green Tea Plate Final",
+      "Value": "{{Green Tea Plate}}"
+    },
+    {
+      "Name": "Green Tea Plate Final",
+      "Value": "Green",
+      "When": {
+        "Green Tea Plate": "Recommended"
+      }
+    }
+  ],
+  "Changes": [
+    {
+      "LogName": "Fried Egg",
+      "Action": "EditImage",
+      "PatchMode": "Replace",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/Fried Egg/Fried Egg Plate {{Fried Egg Plate Final}}.png",
+      "ToArea": {
+        "X": 32,
+        "Y": 128,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Fried Egg": "On"
+      }
+    },
+    {
+      "LogName": "Omelette",
+      "Action": "EditImage",
+      "PatchMode": "Replace",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/Omelette/Omelette Plate {{Omelette Plate Final}}.png",
+      "ToArea": {
+        "X": 48,
+        "Y": 128,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Omelette": "On"
+      }
+    },
+    {
+      "LogName": "Salad",
+      "Action": "EditImage",
+      "PatchMode": "Replace",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/Salad/Salad Plate {{Salad Plate Final}}.png",
+      "ToArea": {
+        "X": 64,
+        "Y": 128,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Salad": "On"
+      }
+    },
+    {
+      "LogName": "Cheese Cauliflower",
+      "Action": "EditImage",
+      "PatchMode": "Replace",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/Cheese Cauliflower/Cheese Cauliflower Dish {{Cheese Cauliflower Dish Final}}.png",
+      "ToArea": {
+        "X": 80,
+        "Y": 128,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Cheese Cauliflower": "On"
+      }
+    },
+    {
+      "LogName": "Baked Fish",
+      "Action": "EditImage",
+      "PatchMode": "Replace",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/Baked Fish/Baked Fish Plate {{Baked Fish Plate Final}}.png",
+      "ToArea": {
+        "X": 96,
+        "Y": 128,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Baked Fish": "On"
+      }
+    },
+    {
+      "LogName": "Parsnip Soup",
+      "Action": "EditImage",
+      "PatchMode": "Replace",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/Parsnip Soup/Parsnip Soup Bowl {{Parsnip Soup Bowl Final}}.png",
+      "ToArea": {
+        "X": 112,
+        "Y": 128,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Parsnip Soup": "On"
+      }
+    },
+    {
+      "LogName": "Vegetable Medley",
+      "Action": "EditImage",
+      "PatchMode": "Replace",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/Vegetable Medley/Vegetable Medley Plate {{Vegetable Medley Plate Final}}.png",
+      "ToArea": {
+        "X": 128,
+        "Y": 128,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Vegetable Medley": "On"
+      }
+    },
+    {
+      "LogName": "Complete Breakfast",
+      "Action": "EditImage",
+      "PatchMode": "Replace",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/Complete Breakfast/Complete Breakfast Plate {{Complete Breakfast Plate Final}}.png",
+      "ToArea": {
+        "X": 144,
+        "Y": 128,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Complete Breakfast": "On"
+      }
+    },
+    {
+      "LogName": "Fried Calamari",
+      "Action": "EditImage",
+      "PatchMode": "Replace",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/Fried Calamari/Fried Calamari Plate {{Fried Calamari Plate Final}}.png",
+      "ToArea": {
+        "X": 160,
+        "Y": 128,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Fried Calamari": "On"
+      }
+    },
+    {
+      "LogName": "Strange Bun",
+      "Action": "EditImage",
+      "PatchMode": "Replace",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/Strange Bun/Strange Bun.png",
+      "ToArea": {
+        "X": 176,
+        "Y": 128,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Strange Bun": "On"
+      }
+    },
+    {
+      "LogName": "Lucky Lunch",
+      "Action": "EditImage",
+      "PatchMode": "Replace",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/Lucky Lunch/Lucky Lunch Plate {{Lucky Lunch Plate Final}}.png",
+      "ToArea": {
+        "X": 192,
+        "Y": 128,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Lucky Lunch": "On"
+      }
+    },
+    {
+      "LogName": "Fried Mushroom",
+      "Action": "EditImage",
+      "PatchMode": "Replace",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/Fried Mushroom/Fried Mushroom Plate {{Fried Mushroom Plate Final}}.png",
+      "ToArea": {
+        "X": 208,
+        "Y": 128,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Fried Mushroom": "On"
+      }
+    },
+    {
+      "LogName": "Pizza",
+      "Action": "EditImage",
+      "PatchMode": "Replace",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/Pizza/Pizza Plate {{Pizza Plate Final}}.png",
+      "ToArea": {
+        "X": 224,
+        "Y": 128,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Pizza": "On"
+      }
+    },
+    {
+      "LogName": "Bean Hotpot",
+      "Action": "EditImage",
+      "PatchMode": "Replace",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/Bean Hotpot/Bean Hotpot Dish {{Bean Hotpot Dish Final}}.png",
+      "ToArea": {
+        "X": 240,
+        "Y": 128,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Bean Hotpot": "On"
+      }
+    },
+    {
+      "LogName": "Glazed Yams",
+      "Action": "EditImage",
+      "PatchMode": "Replace",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/Glazed Yams/Glazed Yams Dish {{Glazed Yams Dish Final}}.png",
+      "ToArea": {
+        "X": 256,
+        "Y": 128,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Glazed Yams": "On"
+      }
+    },
+    {
+      "LogName": "Carp Surprise",
+      "Action": "EditImage",
+      "PatchMode": "Replace",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/Carp Surprise/Carp Surprise Plate {{Carp Surprise Plate Final}}.png",
+      "ToArea": {
+        "X": 272,
+        "Y": 128,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Carp Surprise": "On"
+      }
+    },
+    {
+      "LogName": "Hashbrowns",
+      "Action": "EditImage",
+      "PatchMode": "Replace",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/Hashbrowns/Hashbrowns Plate {{Hashbrowns Plate Final}}.png",
+      "ToArea": {
+        "X": 288,
+        "Y": 128,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Hashbrowns": "On"
+      }
+    },
+    {
+      "LogName": "Pancakes",
+      "Action": "EditImage",
+      "PatchMode": "Replace",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/Pancakes/Pancakes Plate {{Pancakes Plate Final}}.png",
+      "ToArea": {
+        "X": 304,
+        "Y": 128,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Pancakes": "On"
+      }
+    },
+    {
+      "LogName": "Salmon Dinner",
+      "Action": "EditImage",
+      "PatchMode": "Replace",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/Salmon Dinner/Salmon Dinner Board {{Salmon Dinner Board Final}}.png",
+      "ToArea": {
+        "X": 320,
+        "Y": 128,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Salmon Dinner": "On"
+      }
+    },
+    {
+      "LogName": "Fish Taco",
+      "Action": "EditImage",
+      "PatchMode": "Replace",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/Fish Taco/Fish Taco.png",
+      "ToArea": {
+        "X": 336,
+        "Y": 128,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Fish Taco": "On"
+      }
+    },
+    {
+      "LogName": "Crispy Bass",
+      "Action": "EditImage",
+      "PatchMode": "Replace",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/Crispy Bass/Crispy Bass Plate {{Crispy Bass Plate Final}}.png",
+      "ToArea": {
+        "X": 352,
+        "Y": 128,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Crispy Bass": "On"
+      }
+    },
+    {
+      "LogName": "Pepper Poppers Breaded",
+      "Action": "EditImage",
+      "PatchMode": "Replace",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/Pepper Poppers/Pepper Poppers Breaded Plate {{Pepper Poppers Plate Final}}.png",
+      "ToArea": {
+        "X": 368,
+        "Y": 128,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Pepper Poppers": "Breaded"
+      }
+    },
+    {
+      "LogName": "Pepper Poppers Fresh",
+      "Action": "EditImage",
+      "PatchMode": "Replace",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/Pepper Poppers/Pepper Poppers Fresh Plate {{Pepper Poppers Plate Final}}.png",
+      "ToArea": {
+        "X": 368,
+        "Y": 128,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Pepper Poppers": "Fresh"
+      }
+    },
+    {
+      "LogName": "Bread Chunky",
+      "Action": "EditImage",
+      "PatchMode": "Replace",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/Bread/Bread Chunky.png",
+      "ToArea": {
+        "X": 0,
+        "Y": 144,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Bread": "Chunky"
+      }
+    },
+    {
+      "LogName": "Bread Slim",
+      "Action": "EditImage",
+      "PatchMode": "Replace",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/Bread/Bread Slim.png",
+      "ToArea": {
+        "X": 0,
+        "Y": 144,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Bread": "Slim"
+      }
+    },
+    {
+      "LogName": "Tom Kha Soup",
+      "Action": "EditImage",
+      "PatchMode": "Replace",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/Tom Kha Soup/Tom Kha Soup Bowl {{Tom Kha Soup Bowl Final}}.png",
+      "ToArea": {
+        "X": 32,
+        "Y": 144,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Tom Kha Soup": "On"
+      }
+    },
+    {
+      "LogName": "Trout Soup",
+      "Action": "EditImage",
+      "PatchMode": "Replace",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/Trout Soup/Trout Soup Bowl {{Trout Soup Bowl Final}}.png",
+      "ToArea": {
+        "X": 48,
+        "Y": 144,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Trout Soup": "On"
+      }
+    },
+    {
+      "LogName": "Chocolate Cake Full",
+      "Action": "EditImage",
+      "PatchMode": "Replace",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/Chocolate Cake/Chocolate Cake Full Plate {{Chocolate Cake Plate Final}}.png",
+      "ToArea": {
+        "X": 64,
+        "Y": 144,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Chocolate Cake": "Full"
+      }
+    },
+    {
+      "LogName": "Chocolate Cake Slice",
+      "Action": "EditImage",
+      "PatchMode": "Replace",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/Chocolate Cake/Chocolate Cake Slice Plate {{Chocolate Cake Plate Final}}.png",
+      "ToArea": {
+        "X": 64,
+        "Y": 144,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Chocolate Cake": "Slice"
+      }
+    },
+    {
+      "LogName": "Pink Cake Marble",
+      "Action": "EditImage",
+      "PatchMode": "Replace",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/Pink Cake/Pink Cake Marble Plate {{Pink Cake Plate Final}}.png",
+      "ToArea": {
+        "X": 80,
+        "Y": 144,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Pink Cake": "Marble"
+      }
+    },
+    {
+      "LogName": "Pink Cake Sandwich",
+      "Action": "EditImage",
+      "PatchMode": "Replace",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/Pink Cake/Pink Cake Sandwich Plate {{Pink Cake Plate Final}}.png",
+      "ToArea": {
+        "X": 80,
+        "Y": 144,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Pink Cake": "Sandwich"
+      }
+    },
+    {
+      "LogName": "Pink Cake Slice",
+      "Action": "EditImage",
+      "PatchMode": "Replace",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/Pink Cake/Pink Cake Slice Plate {{Pink Cake Plate Final}}.png",
+      "ToArea": {
+        "X": 80,
+        "Y": 144,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Pink Cake": "Slice"
+      }
+    },
+    {
+      "LogName": "Rhubarb Pie",
+      "Action": "EditImage",
+      "PatchMode": "Replace",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/Rhubarb Pie/Rhubarb Pie Plate {{Rhubarb Pie Plate Final}}.png",
+      "ToArea": {
+        "X": 96,
+        "Y": 144,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Rhubarb Pie": "On"
+      }
+    },
+    {
+      "LogName": "Cookie Multiple",
+      "Action": "EditImage",
+      "PatchMode": "Replace",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/Cookie/Cookie Multiple Plate {{Cookie Plate Final}}.png",
+      "ToArea": {
+        "X": 112,
+        "Y": 144,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Cookie": "Multiple"
+      }
+    },
+    {
+      "LogName": "Cookie Single",
+      "Action": "EditImage",
+      "PatchMode": "Replace",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/Cookie/Cookie Single Plate {{Cookie Plate Final}}.png",
+      "ToArea": {
+        "X": 112,
+        "Y": 144,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Cookie": "Single"
+      }
+    },
+    {
+      "LogName": "Cookie Vanilla",
+      "Action": "EditImage",
+      "PatchMode": "Replace",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/Cookie/Cookie Vanilla Plate {{Cookie Plate Final}}.png",
+      "ToArea": {
+        "X": 112,
+        "Y": 144,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Cookie": "Vanilla"
+      }
+    },
+    {
+      "LogName": "Spaghetti",
+      "Action": "EditImage",
+      "PatchMode": "Replace",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/Spaghetti/Spaghetti Plate {{Spaghetti Plate Final}}.png",
+      "ToArea": {
+        "X": 128,
+        "Y": 144,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Spaghetti": "On"
+      }
+    },
+    {
+      "LogName": "Fried Eel",
+      "Action": "EditImage",
+      "PatchMode": "Replace",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/Fried Eel/Fried Eel Plate {{Fried Eel Plate Final}}.png",
+      "ToArea": {
+        "X": 144,
+        "Y": 144,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Fried Eel": "On"
+      }
+    },
+    {
+      "LogName": "Spicy Eel",
+      "Action": "EditImage",
+      "PatchMode": "Replace",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/Spicy Eel/Spicy Eel Plate {{Spicy Eel Plate Final}}.png",
+      "ToArea": {
+        "X": 160,
+        "Y": 144,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Spicy Eel": "On"
+      }
+    },
+    {
+      "LogName": "Sashimi",
+      "Action": "EditImage",
+      "PatchMode": "Replace",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/Sashimi/Sashimi Board {{Sashimi Board Final}}.png",
+      "ToArea": {
+        "X": 176,
+        "Y": 144,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Sashimi": "On"
+      }
+    },
+    {
+      "LogName": "Maki Roll",
+      "Action": "EditImage",
+      "PatchMode": "Replace",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/Maki Roll/Maki Roll Board {{Maki Roll Board Final}}.png",
+      "ToArea": {
+        "X": 192,
+        "Y": 144,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Maki Roll": "On"
+      }
+    },
+    {
+      "LogName": "Tortilla",
+      "Action": "EditImage",
+      "PatchMode": "Replace",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/Tortilla/Tortilla Plate {{Tortilla Plate Final}}.png",
+      "ToArea": {
+        "X": 208,
+        "Y": 144,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Tortilla": "On"
+      }
+    },
+    {
+      "LogName": "Red Plate",
+      "Action": "EditImage",
+      "PatchMode": "Replace",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/Red Plate/Red Plate Plate {{Red Plate Plate Final}}.png",
+      "ToArea": {
+        "X": 224,
+        "Y": 144,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Red Plate": "On"
+      }
+    },
+    {
+      "LogName": "Eggplant Parmesan",
+      "Action": "EditImage",
+      "PatchMode": "Replace",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/Eggplant Parmesan/Eggplant Parmesan Dish {{Eggplant Parmesan Dish Final}}.png",
+      "ToArea": {
+        "X": 240,
+        "Y": 144,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Eggplant Parmesan": "On"
+      }
+    },
+    {
+      "LogName": "Rice Pudding",
+      "Action": "EditImage",
+      "PatchMode": "Replace",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/Rice Pudding/Rice Pudding Bowl {{Rice Pudding Bowl Final}}.png",
+      "ToArea": {
+        "X": 256,
+        "Y": 144,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Rice Pudding": "On"
+      }
+    },
+    {
+      "LogName": "Ice Cream Chocolate",
+      "Action": "EditImage",
+      "PatchMode": "Replace",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/Ice Cream/Ice Cream Chocolate.png",
+      "ToArea": {
+        "X": 272,
+        "Y": 144,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Ice Cream Final": "Chocolate"
+      }
+    },
+    {
+      "LogName": "Ice Cream Pistachio",
+      "Action": "EditImage",
+      "PatchMode": "Replace",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/Ice Cream/Ice Cream Pistachio.png",
+      "ToArea": {
+        "X": 272,
+        "Y": 144,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Ice Cream Final": "Pistachio"
+      }
+    },
+    {
+      "LogName": "Ice Cream Strawberry",
+      "Action": "EditImage",
+      "PatchMode": "Replace",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/Ice Cream/Ice Cream Strawberry.png",
+      "ToArea": {
+        "X": 272,
+        "Y": 144,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Ice Cream Final": "Strawberry"
+      }
+    },
+    {
+      "LogName": "Ice Cream Vanilla",
+      "Action": "EditImage",
+      "PatchMode": "Replace",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/Ice Cream/Ice Cream Vanilla.png",
+      "ToArea": {
+        "X": 272,
+        "Y": 144,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Ice Cream Final": "Vanilla"
+      }
+    },
+    {
+      "LogName": "Blueberry Tart",
+      "Action": "EditImage",
+      "PatchMode": "Replace",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/Blueberry Tart/Blueberry Tart Plate {{Blueberry Tart Plate Final}}.png",
+      "ToArea": {
+        "X": 288,
+        "Y": 144,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Blueberry Tart": "On"
+      }
+    },
+    {
+      "LogName": "Autumns Bounty",
+      "Action": "EditImage",
+      "PatchMode": "Replace",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/Autumns Bounty/Autumns Bounty Plate {{Autumns Bounty Plate Final}}.png",
+      "ToArea": {
+        "X": 304,
+        "Y": 144,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Autumns Bounty": "On"
+      }
+    },
+    {
+      "LogName": "Pumpkin Soup",
+      "Action": "EditImage",
+      "PatchMode": "Replace",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/Pumpkin Soup/Pumpkin Soup Bowl {{Pumpkin Soup Bowl Final}}.png",
+      "ToArea": {
+        "X": 320,
+        "Y": 144,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Pumpkin Soup": "On"
+      }
+    },
+    {
+      "LogName": "Super Meal",
+      "Action": "EditImage",
+      "PatchMode": "Replace",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/Super Meal/Super Meal Plate {{Super Meal Plate Final}}.png",
+      "ToArea": {
+        "X": 336,
+        "Y": 144,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Super Meal": "On"
+      }
+    },
+    {
+      "LogName": "Cranberry Sauce",
+      "Action": "EditImage",
+      "PatchMode": "Replace",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/Cranberry Sauce/Cranberry Sauce Bowl {{Cranberry Sauce Bowl Final}}.png",
+      "ToArea": {
+        "X": 352,
+        "Y": 144,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Cranberry Sauce": "On"
+      }
+    },
+    {
+      "LogName": "Stuffing",
+      "Action": "EditImage",
+      "PatchMode": "Replace",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/Stuffing/Stuffing Dish {{Stuffing Dish Final}}.png",
+      "ToArea": {
+        "X": 368,
+        "Y": 144,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Stuffing": "On"
+      }
+    },
+    {
+      "LogName": "Farmers Lunch",
+      "Action": "EditImage",
+      "PatchMode": "Replace",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/Farmers Lunch/Farmers Lunch Plate {{Farmers Lunch Plate Final}}.png",
+      "ToArea": {
+        "X": 0,
+        "Y": 160,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Farmers Lunch": "On"
+      }
+    },
+    {
+      "LogName": "Survival Burger",
+      "Action": "EditImage",
+      "PatchMode": "Replace",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/Survival Burger/Survival Burger.png",
+      "ToArea": {
+        "X": 16,
+        "Y": 160,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Survival Burger": "On"
+      }
+    },
+    {
+      "LogName": "Dish Of The Sea",
+      "Action": "EditImage",
+      "PatchMode": "Replace",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/Dish Of The Sea/Dish Of The Sea Plate {{Dish Of The Sea Plate Final}}.png",
+      "ToArea": {
+        "X": 32,
+        "Y": 160,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Dish Of The Sea": "On"
+      }
+    },
+    {
+      "LogName": "Miners Treat",
+      "Action": "EditImage",
+      "PatchMode": "Replace",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/Miners Treat/Miners Treat.png",
+      "ToArea": {
+        "X": 48,
+        "Y": 160,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Miners Treat": "On"
+      }
+    },
+    {
+      "LogName": "Roots Platter",
+      "Action": "EditImage",
+      "PatchMode": "Replace",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/Roots Platter/Roots Platter Plate {{Roots Platter Plate Final}}.png",
+      "ToArea": {
+        "X": 64,
+        "Y": 160,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Roots Platter": "On"
+      }
+    },
+    {
+      "LogName": "Triple Shot Espresso Glass",
+      "Action": "EditImage",
+      "PatchMode": "Replace",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/Triple Shot Espresso/Triple Shot Espresso Glass Plate {{Triple Shot Espresso Plate Final}}.png",
+      "ToArea": {
+        "X": 208,
+        "Y": 160,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Triple Shot Espresso": "Glass"
+      }
+    },
+    {
+      "LogName": "Triple Shot Espresso Mug",
+      "Action": "EditImage",
+      "PatchMode": "Replace",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/Triple Shot Espresso/Triple Shot Espresso Mug Plate {{Triple Shot Espresso Plate Final}}.png",
+      "ToArea": {
+        "X": 208,
+        "Y": 160,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Triple Shot Espresso": "Mug"
+      }
+    },
+    {
+      "LogName": "Seafoam Pudding Pale",
+      "Action": "EditImage",
+      "PatchMode": "Replace",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/Seafoam Pudding/Seafoam Pudding Pale Bowl {{Seafoam Pudding Bowl Final}}.png",
+      "ToArea": {
+        "X": 16,
+        "Y": 176,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Seafoam Pudding": "Pale"
+      }
+    },
+    {
+      "LogName": "Seafoam Pudding Vibrant",
+      "Action": "EditImage",
+      "PatchMode": "Replace",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/Seafoam Pudding/Seafoam Pudding Vibrant Bowl {{Seafoam Pudding Bowl Final}}.png",
+      "ToArea": {
+        "X": 16,
+        "Y": 176,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Seafoam Pudding": "Vibrant"
+      }
+    },
+    {
+      "LogName": "Algae Soup",
+      "Action": "EditImage",
+      "PatchMode": "Replace",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/Algae Soup/Algae Soup Bowl {{Algae Soup Bowl Final}}.png",
+      "ToArea": {
+        "X": 0,
+        "Y": 304,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Algae Soup": "On"
+      }
+    },
+    {
+      "LogName": "Pale Broth",
+      "Action": "EditImage",
+      "PatchMode": "Replace",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/Pale Broth/Pale Broth Bowl {{Pale Broth Bowl Final}}.png",
+      "ToArea": {
+        "X": 16,
+        "Y": 304,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Pale Broth": "On"
+      }
+    },
+    {
+      "LogName": "Plum Pudding",
+      "Action": "EditImage",
+      "PatchMode": "Replace",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/Plum Pudding/Plum Pudding Plate {{Plum Pudding Plate Final}}.png",
+      "ToArea": {
+        "X": 64,
+        "Y": 400,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Plum Pudding": "On"
+      }
+    },
+    {
+      "LogName": "Artichoke Dip",
+      "Action": "EditImage",
+      "PatchMode": "Replace",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/Artichoke Dip/Artichoke Dip Bowl {{Artichoke Dip Bowl Final}}.png",
+      "ToArea": {
+        "X": 80,
+        "Y": 400,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Artichoke Dip": "On"
+      }
+    },
+    {
+      "LogName": "Stir Fry",
+      "Action": "EditImage",
+      "PatchMode": "Replace",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/Stir Fry/Stir Fry Plate {{Stir Fry Plate Final}}.png",
+      "ToArea": {
+        "X": 96,
+        "Y": 400,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Stir Fry": "On"
+      }
+    },
+    {
+      "LogName": "Roasted Hazelnuts",
+      "Action": "EditImage",
+      "PatchMode": "Replace",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/Roasted Hazelnuts/Roasted Hazelnuts Bowl {{Roasted Hazelnuts Bowl Final}}.png",
+      "ToArea": {
+        "X": 112,
+        "Y": 400,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Roasted Hazelnuts": "On"
+      }
+    },
+    {
+      "LogName": "Pumpkin Pie",
+      "Action": "EditImage",
+      "PatchMode": "Replace",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/Pumpkin Pie/Pumpkin Pie Plate {{Pumpkin Pie Plate Final}}.png",
+      "ToArea": {
+        "X": 128,
+        "Y": 400,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Pumpkin Pie": "On"
+      }
+    },
+    {
+      "LogName": "Radish Salad",
+      "Action": "EditImage",
+      "PatchMode": "Replace",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/Radish Salad/Radish Salad Plate {{Radish Salad Plate Final}}.png",
+      "ToArea": {
+        "X": 144,
+        "Y": 400,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Radish Salad": "On"
+      }
+    },
+    {
+      "LogName": "Fruit Salad",
+      "Action": "EditImage",
+      "PatchMode": "Replace",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/Fruit Salad/Fruit Salad Bowl {{Fruit Salad Bowl Final}}.png",
+      "ToArea": {
+        "X": 160,
+        "Y": 400,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Fruit Salad": "On"
+      }
+    },
+    {
+      "LogName": "Blackberry Cobbler",
+      "Action": "EditImage",
+      "PatchMode": "Replace",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/Blackberry Cobbler/Blackberry Cobbler Dish {{Blackberry Cobbler Dish Final}}.png",
+      "ToArea": {
+        "X": 176,
+        "Y": 400,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Blackberry Cobbler": "On"
+      }
+    },
+    {
+      "LogName": "Cranberry Candy",
+      "Action": "EditImage",
+      "PatchMode": "Replace",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/Cranberry Candy/Cranberry Candy.png",
+      "ToArea": {
+        "X": 192,
+        "Y": 400,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Cranberry Candy": "On"
+      }
+    },
+    {
+      "LogName": "Bruschetta",
+      "Action": "EditImage",
+      "PatchMode": "Replace",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/Bruschetta/Bruschetta Plate {{Bruschetta Plate Final}}.png",
+      "ToArea": {
+        "X": 288,
+        "Y": 400,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Bruschetta": "On"
+      }
+    },
+    {
+      "LogName": "Coleslaw",
+      "Action": "EditImage",
+      "PatchMode": "Replace",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/Coleslaw/Coleslaw Bowl {{Coleslaw Bowl Final}}.png",
+      "ToArea": {
+        "X": 0,
+        "Y": 432,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Coleslaw": "On"
+      }
+    },
+    {
+      "LogName": "Fiddlehead Risotto Brown",
+      "Action": "EditImage",
+      "PatchMode": "Replace",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/Fiddlehead Risotto/Fiddlehead Risotto Brown Plate {{Fiddlehead Risotto Plate Final}}.png",
+      "ToArea": {
+        "X": 16,
+        "Y": 432,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Fiddlehead Risotto": "Brown"
+      }
+    },
+    {
+      "LogName": "Fiddlehead Risotto Green",
+      "Action": "EditImage",
+      "PatchMode": "Replace",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/Fiddlehead Risotto/Fiddlehead Risotto Green Plate {{Fiddlehead Risotto Plate Final}}.png",
+      "ToArea": {
+        "X": 16,
+        "Y": 432,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Fiddlehead Risotto": "Green"
+      }
+    },
+    {
+      "LogName": "Poppyseed Muffin",
+      "Action": "EditImage",
+      "PatchMode": "Replace",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/Poppyseed Muffin/Poppyseed Muffin.png",
+      "ToArea": {
+        "X": 48,
+        "Y": 432,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Poppyseed Muffin": "On"
+      }
+    },
+    {
+      "LogName": "Chowder",
+      "Action": "EditImage",
+      "PatchMode": "Replace",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/Chowder/Chowder Bowl {{Chowder Bowl Final}}.png",
+      "ToArea": {
+        "X": 112,
+        "Y": 480,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Chowder": "On"
+      }
+    },
+    {
+      "LogName": "Fish Stew",
+      "Action": "EditImage",
+      "PatchMode": "Replace",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/Fish Stew/Fish Stew Bowl {{Fish Stew Bowl Final}}.png",
+      "ToArea": {
+        "X": 128,
+        "Y": 480,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Fish Stew": "On"
+      }
+    },
+    {
+      "LogName": "Escargot",
+      "Action": "EditImage",
+      "PatchMode": "Replace",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/Escargot/Escargot Plate {{Escargot Plate Final}}.png",
+      "ToArea": {
+        "X": 144,
+        "Y": 480,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Escargot": "On"
+      }
+    },
+    {
+      "LogName": "Lobster Bisque",
+      "Action": "EditImage",
+      "PatchMode": "Replace",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/Lobster Bisque/Lobster Bisque Bowl {{Lobster Bisque Bowl Final}}.png",
+      "ToArea": {
+        "X": 160,
+        "Y": 480,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Lobster Bisque": "On"
+      }
+    },
+    {
+      "LogName": "Maple Bar",
+      "Action": "EditImage",
+      "PatchMode": "Replace",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/Maple Bar/Maple Bar.png",
+      "ToArea": {
+        "X": 176,
+        "Y": 480,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Maple Bar": "On"
+      }
+    },
+    {
+      "LogName": "Crab Cakes",
+      "Action": "EditImage",
+      "PatchMode": "Replace",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/Crab Cakes/Crab Cakes Plate {{Crab Cakes Plate Final}}.png",
+      "ToArea": {
+        "X": 192,
+        "Y": 480,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Crab Cakes": "On"
+      }
+    },
+    {
+      "LogName": "Shrimp Cocktail",
+      "Action": "EditImage",
+      "PatchMode": "Replace",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/Shrimp Cocktail/Shrimp Cocktail.png",
+      "ToArea": {
+        "X": 208,
+        "Y": 480,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Shrimp Cocktail": "On"
+      }
+    },
+    {
+      "LogName": "Ginger Ale",
+      "Action": "EditImage",
+      "PatchMode": "Replace",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/Ginger Ale/Ginger Ale.png",
+      "ToArea": {
+        "X": 240,
+        "Y": 592,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Ginger Ale": "On"
+      }
+    },
+    {
+      "LogName": "Banana Pudding",
+      "Action": "EditImage",
+      "PatchMode": "Replace",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/Banana Pudding/Banana Pudding Bowl {{Banana Pudding Bowl Final}}.png",
+      "ToArea": {
+        "X": 256,
+        "Y": 592,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Banana Pudding": "On"
+      }
+    },
+    {
+      "LogName": "Mango Sticky Rice",
+      "Action": "EditImage",
+      "PatchMode": "Replace",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/Mango Sticky Rice/Mango Sticky Rice Plate {{Mango Sticky Rice Plate Final}}.png",
+      "ToArea": {
+        "X": 272,
+        "Y": 592,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Mango Sticky Rice": "On"
+      }
+    },
+    {
+      "LogName": "Poi",
+      "Action": "EditImage",
+      "PatchMode": "Replace",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/Poi/Poi Bowl {{Poi Bowl Final}}.png",
+      "ToArea": {
+        "X": 288,
+        "Y": 592,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Poi": "On"
+      }
+    },
+    {
+      "LogName": "Tropical Curry",
+      "Action": "EditImage",
+      "PatchMode": "Replace",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/Tropical Curry/Tropical Curry Bowl {{Tropical Curry Bowl Final}}.png",
+      "ToArea": {
+        "X": 304,
+        "Y": 592,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Tropical Curry": "On"
+      }
+    },
+    {
+      "LogName": "Squid Ink Ravioli",
+      "Action": "EditImage",
+      "PatchMode": "Replace",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/Squid Ink Ravioli/Squid Ink Ravioli Bowl {{Squid Ink Ravioli Bowl Final}}.png",
+      "ToArea": {
+        "X": 144,
+        "Y": 608,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Squid Ink Ravioli": "On"
+      }
+    },
+    {
+      "LogName": "Coffee Glass",
+      "Action": "EditImage",
+      "PatchMode": "Replace",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/Coffee/Coffee Glass Plate {{Coffee Plate Final}}.png",
+      "ToArea": {
+        "X": 176,
+        "Y": 256,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Coffee": "Glass"
+      }
+    },
+    {
+      "LogName": "Coffee Mug",
+      "Action": "EditImage",
+      "PatchMode": "Replace",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/Coffee/Coffee Mug Plate {{Coffee Plate Final}}.png",
+      "ToArea": {
+        "X": 176,
+        "Y": 256,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Coffee": "Mug"
+      }
+    },
+    {
+      "LogName": "Green Tea",
+      "Action": "EditImage",
+      "PatchMode": "Replace",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/Green Tea/Green Tea Plate {{Green Tea Plate Final}}.png",
+      "ToArea": {
+        "X": 224,
+        "Y": 400,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Green Tea": "On"
+      }
+    },
+    {
+      "LogName": "Joja Cola",
+      "Action": "EditImage",
+      "PatchMode": "Replace",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/Joja Cola/Joja Cola.png",
+      "ToArea": {
+        "X": 368,
+        "Y": 96,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Joja Cola": "On"
+      }
+    }
+  ]
+}

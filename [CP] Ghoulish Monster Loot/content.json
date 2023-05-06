@@ -1,0 +1,165 @@
+{
+   "Format": "1.21.0",
+   "ConfigSchema": {
+	   "Bait": {
+			"AllowValues": "flesh,blue,off",
+			"Default": "flesh"
+		},
+	   "Bat Wing": {
+			"AllowValues": "on,off",
+			"Default": "on"
+		},
+	   "Bug Meat": {
+			"AllowValues": "flesh,blue,off",
+			"Default": "flesh"
+		},
+	   "Bug Steak": {
+			"AllowValues": "flesh,blue,off",
+			"Default": "flesh"
+		},
+	   "Magic Bait": {
+			"AllowValues": "on,off",
+			"Default": "on"
+		},
+	   "Slime": {
+			"AllowValues": "seasonal,blue,green,grey,pink,off",
+			"Default": "seasonal"
+		},
+	   "Solar Essence": {
+			"AllowValues": "on,off",
+			"Default": "on"
+		},
+	   "Void Essence": {
+			"AllowValues": "on,off",
+			"Default": "on"
+		},
+
+   },
+   "Changes": [
+		{
+			"LogName": "Bait",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "assets/Bait {{Bait}}.png",
+			"ToArea": { "X": 208, "Y": 448, "Width": 16, "Height": 16 },
+			"When": {
+				"Query: '{{Bait}}' LIKE 'off'": false
+			}
+		},
+                {
+			"LogName": "Bat Wing",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "assets/Bat Wing.png",
+			"ToArea": { "X": 368, "Y": 496, "Width": 16, "Height": 16 },
+			"When": {
+				"Bat Wing": "on"
+			}
+		},
+		{
+			"LogName": "Bug Meat",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "assets/Bug Meat {{Bug Meat}}.png",
+			"ToArea": { "X": 192, "Y": 448, "Width": 16, "Height": 16 },
+			"When": {
+				"Query: '{{Bug Meat}}' LIKE 'off'": false
+			}
+		},
+		{
+			"LogName": "Bug Steak",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "assets/Bug Steak {{Bug Steak}}.png",
+			"ToArea": { "X": 160, "Y": 576, "Width": 16, "Height": 16 },
+			"When": {
+				"Query: '{{Bug Steak}}' LIKE 'off'": false
+			}
+		},
+                {
+			"LogName": "Magic Bait",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "assets/Magic Bait.png",
+			"ToArea": { "X": 320, "Y": 592, "Width": 16, "Height": 16 },
+			"When": {
+				"Magic Bait": "on"
+			}
+		},
+		{
+			"LogName": "Slime",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "assets/Slime {{Slime}}.png",
+			"ToArea": { "X": 352, "Y": 496, "Width": 16, "Height": 16 },
+			"When": {
+				"Query: '{{Slime}}' LIKE 'off'": false,
+				"Query: '{{Slime}}' LIKE 'seasonal'": false,
+			}
+		},
+		{
+			"LogName": "Seasonal Slime Spring",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "assets/Slime green.png",
+			"ToArea": { "X": 352, "Y": 496, "Width": 16, "Height": 16 },
+			"When": {
+				"Slime": "seasonal",
+				"Season": "Spring",
+			}
+		},
+		{
+			"LogName": "Seasonal Slime Summer",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "assets/Slime blue.png",
+			"ToArea": { "X": 352, "Y": 496, "Width": 16, "Height": 16 },
+			"When": {
+				"Slime": "seasonal",
+				"Season": "Summer",
+			}
+		},
+		{
+			"LogName": "Seasonal Slime Fall",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "assets/Slime pink.png",
+			"ToArea": { "X": 352, "Y": 496, "Width": 16, "Height": 16 },
+			"When": {
+				"Slime": "seasonal",
+				"Season": "Fall",
+			}
+		},
+		{
+			"LogName": "Seasonal Slime Winter",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "assets/Slime grey.png",
+			"ToArea": { "X": 352, "Y": 496, "Width": 16, "Height": 16 },
+			"When": {
+				"Slime": "seasonal",
+				"Season": "Winter",
+			}
+		},
+                {
+			"LogName": "Solar Essence",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "assets/Solar Essence.png",
+			"ToArea": { "X": 0, "Y": 512, "Width": 16, "Height": 16 },
+			"When": {
+				"Solar Essence": "on"
+			}
+		},
+                {
+			"LogName": "Void Essence",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "assets/Void Essence.png",
+			"ToArea": { "X": 16, "Y": 512, "Width": 16, "Height": 16 },
+			"When": {
+				"Void Essence": "on"
+			}
+		},
+   ]
+}

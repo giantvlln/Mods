@@ -1,0 +1,17 @@
+{
+    "Name": "Earthy Recolour Vintage V2 Interface Patch",
+    "Author": "space3045",
+    "Version": "1.0.0",
+    "UniqueID": "space3045.EarthyRecolourVI2patch",
+    "MinimumApiVersion": "2.11.2",
+    "ContentPackFor": {
+        "UniqueID": "Pathoschild.ContentPatcher"
+    },
+    "Dependencies":
+    [
+        {
+            "UniqueID":"DaisyNiko.EarthyRecolour",
+            "IsRequired":true
+        }
+    ]
+}

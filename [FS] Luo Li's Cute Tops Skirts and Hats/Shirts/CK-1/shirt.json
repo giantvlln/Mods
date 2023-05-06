@@ -2,21 +2,9 @@
 	"Name": "CK-1",
 	"FrontShirt": {
 		"SleeveColors": [
-			[
-				225,
-				218,
-				218
-			],
-			[
-				241,
-				234,
-				234
-			],
-			[
-				250,
-				243,
-				243
-			]
+			[ 213, 228, 249 ],
+			[ 220, 229, 241 ],
+			[ 220, 229, 241 ]
 		],
 		"DisableGrayscale": true,
 		"StartingPosition": {
@@ -34,21 +22,9 @@
 	},
 	"RightShirt": {
 		"SleeveColors": [
-			[
-				225,
-				218,
-				218
-			],
-			[
-				241,
-				234,
-				234
-			],
-			[
-				250,
-				243,
-				243
-			]
+			[ 213, 228, 249 ],
+			[ 220, 229, 241 ],
+			[ 220, 229, 241 ]
 		],
 		"DisableGrayscale": true,
 		"StartingPosition": {
@@ -66,21 +42,9 @@
 	},
 	"LeftShirt": {
 		"SleeveColors": [
-			[
-				225,
-				218,
-				218
-			],
-			[
-				241,
-				234,
-				234
-			],
-			[
-				250,
-				243,
-				243
-			]
+			[ 213, 228, 249 ],
+			[ 220, 229, 241 ],
+			[ 220, 229, 241 ]
 		],
 		"DisableGrayscale": true,
 		"StartingPosition": {
@@ -98,21 +62,9 @@
 	},
 	"BackShirt": {
 		"SleeveColors": [
-			[
-				225,
-				218,
-				218
-			],
-			[
-				241,
-				234,
-				234
-			],
-			[
-				250,
-				243,
-				243
-			]
+			[ 213, 228, 249 ],
+			[ 220, 229, 241 ],
+			[ 220, 229, 241 ]
 		],
 		"DisableGrayscale": true,
 		"StartingPosition": {

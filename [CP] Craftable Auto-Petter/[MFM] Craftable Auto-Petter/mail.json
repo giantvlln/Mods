@@ -1,0 +1,11 @@
+[
+{
+"Id": "CraftableAuto-Petter",
+"GroupID": "CAP.CraftingBlueprint",
+"Text": "auto-petter.text",
+"Recipe": "Auto-Petter",
+"SkillConditions":
+[
+{"SkillName": "Farming", "SkillLevel": 7}
+]
+}]

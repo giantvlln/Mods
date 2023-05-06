@@ -1,0 +1,29 @@
+{
+   "Name": "Better Crops and Artisan Goods in SVE",
+   "Author": "herbivoor",
+   "Version": "1.0.1",
+   "Description": "Replaces the crops and artisan goods used in Stardew Valley Expanded with those from Better Crops and Foraging and Better Artisan Goods by cometkins. With optional support for Gweniaczek's MSVE.",
+   "UniqueID": "herbivoor.bettercropsandartisangoodsinsve",
+   "UpdateKeys": ["Nexus:6749"],
+   "ContentPackFor": {
+		"UniqueID": "Pathoschild.ContentPatcher",
+	},
+	"Dependencies": [
+		{
+			"UniqueID": "FlashShifter.StardewValleyExpandedCP",
+			"IsRequired": true,
+		},
+		{
+			"UniqueID": "cometkins.BetterCropsAndForaging",
+			"IsRequired": true,
+		},
+		{
+			"UniqueID": "cometkins.BetterArtisanGoods",
+			"IsRequired": true,
+		},
+		{
+			"UniqueID": "Gweniaczek.MSVE",
+			"IsRequired": false,
+		}
+	],
+}

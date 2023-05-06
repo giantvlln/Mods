@@ -1,0 +1,20 @@
+﻿{
+	"Name":"Ghoulish Monster Loot",
+	"Author":"herbivoor",
+	"Version":"1.1.0",
+	"Description":"Retextures of the game's long overlooked monster loot to make them a little more interesting, with a spooky flair ⊂(´･◡･⊂ )∘˚˳°",
+	"UniqueID":"herbivoor.ghoulishmonsterloot",
+	"LogName":"Ghoulish Monster Loot",
+	"MinimumApiVersion":"3.13.0",
+	"UpdateKeys": ["Nexus:12286"],
+	"ContentPackFor":{
+		"UniqueID":"Pathoschild.ContentPatcher",
+		"MinimumVersion":"1.10.1"
+	},
+	"Dependencies":[
+		{
+			"UniqueID": "Gweniaczek.Grandpas_Tools",
+			"IsRequired": false,
+		},
+	]
+}

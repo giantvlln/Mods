@@ -12,6 +12,12 @@
   "FrontMountain": "random",
   "BackMountain": "random",
   "Trees": "random",
+  "TreesFall": "random",
+  "TreesWinter": "random",
   "Sparkles": "random",
-  "Mist": "random"
+  "SparklesFall": "random",
+  "SparklesWinter": "random",
+  "Mist": "random",
+  "MistFall": "random",
+  "MistWinter": "random"
 }

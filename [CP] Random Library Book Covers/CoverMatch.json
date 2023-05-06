@@ -1,0 +1,29 @@
+{
+	"Changes": 
+    [
+		{
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "assets/book_{{Render: 0{{Query:{{Vertigon.StatsAsTokens/Stats:player=hostPlayer|stat=notesFound}} + 1}} }}.png",
+			"ToArea" : { "X": 96, "Y": 64, "Width": 16, "Height": 16},
+			"When": 
+			{
+				"Vertigon.StatsAsTokens/Stats:player=hostPlayer|stat=notesFound":"{{Range: 0, 9}}",
+				"HasMod |contains= Vertigon.StatsAsTokens": true
+			},
+			"Update": "OnLocationChange"
+		},
+		{
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "assets/book_{{Query:{{Vertigon.StatsAsTokens/Stats:player=hostPlayer|stat=notesFound}} + 1}}.png",
+			"ToArea" : { "X": 96, "Y": 64, "Width": 16, "Height": 16},
+			"When": 
+			{
+				"Vertigon.StatsAsTokens/Stats:player=hostPlayer|stat=notesFound":"{{Range: 10, 20}}",
+				"HasMod |contains= Vertigon.StatsAsTokens": true
+			},
+			"Update": "OnLocationChange"
+		}
+    ]
+}

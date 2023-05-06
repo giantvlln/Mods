@@ -1,0 +1,12 @@
+{
+   "Name": "Otters Horse mod",
+   "Author": "Thatotterthing",
+   "Version": "1.2.0",
+   "Descript ion": "Adds some new horses",
+   "UniqueID": "thatotterthing.ottershorsemod",
+   "UpdateKeys": [ "Nexus:15621" ],
+   "ContentPackFor": {
+		"UniqueID": "Pathoschild.ContentPatcher",
+		"MinimumVersion": "1.20.0"
+   }
+}

@@ -1,0 +1,163 @@
+{
+	"Format": "1.13",
+
+	"DynamicTokens": [
+		{
+		"Name": "SVE",
+		"Value": "false",
+		},
+		{
+		"Name": "SVE",
+		"Value": "true",
+			"When": { "HasMod:FlashShifter.StardewValleyExpandedCP": "true" },
+		},
+		{
+		"Name": "MSVE",
+		"Value": "false",
+		},
+		{
+		"Name": "MSVE",
+		"Value": "true",
+			"When": { "HasMod:Gweniaczek.MSVE": "true" },
+		}
+	],
+
+	"Changes": [
+		// crops Left
+		{
+			"Action": "EditImage",
+			"Target": "Maps/{{season}}_z_extras",
+			"FromFile": "assets/{{season}} crops l.png",
+			"ToArea": { "X": 144, "Y": 0, "Width": 32, "Height": 144 },
+			"When": {
+				"SVE": true,
+				"season": "spring, summer, fall"
+			},
+		},
+		// crops Right without Medieval
+		{
+			"Action": "EditImage",
+			"Target": "Maps/{{season}}_z_extras",
+			"FromFile": "assets/{{season}} crops r sve.png",
+			"ToArea": { "X": 176, "Y": 0, "Width": 224, "Height": 288 },
+			"When": {
+				"SVE": true,
+				"MSVE": false,
+				"season": "spring, summer, fall"
+			},
+		},
+
+		// crops Right with Medieval
+		{
+			"Action": "EditImage",
+			"Target": "Maps/{{season}}_z_extras",
+			"FromFile": "assets/Medieval SVE/{{season}} crops r msve.png",
+			"ToArea": { "X": 176, "Y": 0, "Width": 224, "Height": 288 },
+			"When": {
+				"SVE": true,
+				"MSVE": true,
+				"season": "spring, summer, fall"
+			},
+		},
+
+		// crops Winter
+		{
+			"Action": "EditImage",
+			"Target": "Maps/{{season}}_z_extras",
+			"FromFile": "assets/{{season}} crops.png",
+			"ToArea": { "X": 179, "Y": 128, "Width": 137, "Height": 32 },
+			"When": {
+				"SVE": true,
+				"season": "winter"
+			},
+		},
+
+		// Seasonal winery 1 with Medieval
+		{
+			"Action": "EditImage",
+			"Target": "Maps/{{season}}_z_extras",
+			"FromFile": "assets/Medieval SVE/{{season}} winery 1 msve.png",
+			"ToArea": { "X": 0, "Y": 144, "Width": 176, "Height": 144 },
+			"When": {
+				"SVE": true,
+				"MSVE": true
+			},
+		},
+
+		// Seasonal winery 1 without Medieval
+		{
+			"Action": "EditImage",
+			"Target": "Maps/{{season}}_z_extras",
+			"FromFile": "assets/SVE Wineries/{{season}} winery 1.png",
+			"ToArea": { "X": 0, "Y": 144, "Width": 176, "Height": 143 },
+			"When": {
+				"SVE": true,
+				"MSVE": false,
+			},
+		},
+
+		// Seasonal winery 2 with Medieval
+		{
+			"Action": "EditImage",
+			"Target": "Maps/{{season}}_z_extras",
+			"FromFile": "assets/Medieval SVE/{{season}} winery 2 msve.png",
+			"ToArea": { "X": 224, "Y": 800, "Width": 176, "Height": 144 },
+			"When": {
+				"SVE": true,
+				"MSVE": true,
+				"season": "spring, summer, fall"
+			},
+		},
+
+		// Seasonal winery 2 without Medieval
+		{
+			"Action": "EditImage",
+			"Target": "Maps/{{season}}_z_extras",
+			"FromFile": "assets/SVE Wineries/{{season}} winery 2.png",
+			"ToArea": { "X": 224, "Y": 800, "Width": 176, "Height": 144 },
+			"When": {
+				"SVE": true,
+				"MSVE": false,
+				"season": "spring, summer, winter"
+			},
+		},
+
+		// presentation tables
+		{
+			"Action": "EditImage",
+			"Target": "Maps/{{season}}_z_extras",
+			"FromFile": "assets/presentation tables.png",
+			"ToArea": { "X": 0, "Y": 645, "Width": 96, "Height": 59 },
+			"When": {
+				"SVE": true,
+			},
+		},
+
+		// grape press
+		{
+			"Action": "EditImage",
+			"Target": "Maps/{{season}}_z_extras",
+			"FromFile": "assets/Medieval SVE/grape press.png",
+			"ToArea": { "X": 208, "Y": 288, "Width": 32, "Height": 32 },
+			"When": {
+				"SVE": true,
+				"MSVE": true,
+				"season": "fall"
+			},
+		},
+
+		//Fixes BlueMoonVineyard grape press
+		{
+			 "Action": "EditMap",
+			 "Target": "Maps/BlueMoonVineyard",
+			 "MapTiles":
+			[{
+               			"Position": { "X": 11, "Y": 21 },
+               			"Layer": "Front",
+			   	"SetTilesheet": "spring_z_extras",
+              			 "SetIndex": "463"
+            		}]
+		},
+
+     ]
+}
