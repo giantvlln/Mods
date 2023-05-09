@@ -1,5 +1,5 @@
 {
-  "WeatherForYesterday": "Sunny",
+  "WeatherForYesterday": "Rain",
   "LNOSCounter": {},
   "ExistingObjectLocations": {},
   "SavedObjects": [
@@ -9,7 +9,7 @@
       "Tile": "7, 7",
       "Type": "Ore",
       "ID": 751,
-      "DaysUntilExpire": 5,
+      "DaysUntilExpire": 4,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -20,6 +20,17 @@
       "Tile": "10, 11",
       "Type": "Ore",
       "ID": 75,
+      "DaysUntilExpire": 4,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_FarmCliff",
+      "Name": "Iron",
+      "Tile": "4, 10",
+      "Type": "Ore",
+      "ID": 290,
       "DaysUntilExpire": 5,
       "SpawnTime": 600,
       "ConfigItem": null,
@@ -28,7 +39,7 @@
     {
       "MapName": "Custom_GrandpasGrove",
       "Name": null,
-      "Tile": "11, 21",
+      "Tile": "34, 37",
       "Type": "Forage",
       "ID": 16,
       "DaysUntilExpire": 1,
@@ -39,7 +50,18 @@
     {
       "MapName": "Custom_GrandpasGrove",
       "Name": null,
-      "Tile": "40, 23",
+      "Tile": "12, 18",
+      "Type": "Forage",
+      "ID": 20,
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_GrandpasGrove",
+      "Name": null,
+      "Tile": "30, 22",
       "Type": "Forage",
       "ID": 16,
       "DaysUntilExpire": 1,
@@ -50,29 +72,7 @@
     {
       "MapName": "Custom_GrandpasGrove",
       "Name": null,
-      "Tile": "15, 17",
-      "Type": "Forage",
-      "ID": 20,
-      "DaysUntilExpire": 1,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_GrandpasGrove",
-      "Name": null,
-      "Tile": "30, 15",
-      "Type": "Forage",
-      "ID": 20,
-      "DaysUntilExpire": 1,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_GrandpasGrove",
-      "Name": null,
-      "Tile": "36, 27",
+      "Tile": "15, 19",
       "Type": "Forage",
       "ID": 16,
       "DaysUntilExpire": 1,
@@ -83,9 +83,9 @@
     {
       "MapName": "Custom_GrandpasGrove",
       "Name": null,
-      "Tile": "15, 32",
+      "Tile": "31, 37",
       "Type": "Forage",
-      "ID": 20,
+      "ID": 16,
       "DaysUntilExpire": 1,
       "SpawnTime": 600,
       "ConfigItem": null,
@@ -94,9 +94,9 @@
     {
       "MapName": "Custom_GrandpasGrove",
       "Name": null,
-      "Tile": "16, 35",
+      "Tile": "22, 37",
       "Type": "Forage",
-      "ID": 20,
+      "ID": 16,
       "DaysUntilExpire": 1,
       "SpawnTime": 600,
       "ConfigItem": null,
