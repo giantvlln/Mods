@@ -1,0 +1,166 @@
+[
+	{	// LADDER
+		// Change these coordinates if you put the hatch anywhere but right of the house above the mailbox (70, 15) or use a custom farm map
+        "$ItemType": "Furniture",
+        "ID": "Ladder",
+        "Type": "Decoration",
+        "Configurations": [
+            {
+                "Texture": "assets/ladder.png:0",
+                "DisplaySize": {
+                    "X": 1,
+                    "Y": 4
+                },
+                "CollisionHeight": 1,
+				"TileProperties": {
+					"0, 0": {
+						"Buildings": {
+							
+							// Replace these two numbers with your desired location
+							"Action": "Warp 55 20 Farm"
+							
+						}
+					}
+				}
+            }
+        ]
+    },	
+	
+    {	// HATCH
+		// Change these coordinates if you put the ladder anywhere but the top left corner (2, 7)
+        "$ItemType": "Furniture",
+        "ID": "Hatch",
+        "Type": "Decoration",
+        "Configurations": [
+            {
+                "Texture": "assets/hatch.png:0",
+                "DisplaySize": {
+                    "X": 2,
+                    "Y": 2
+                },
+                "CollisionHeight": 1,
+                "Flipped": false,
+				"TileProperties": {
+					"0, 0": {
+						"Buildings": {
+							
+							// Replace these two numbers with your desired location
+							"Action": "Warp 2 7 Cellar"
+							
+						}
+					},
+					"0, 1": {
+						"Buildings": {
+							
+							// Replace these two numbers with your desired location
+							"Action": "Warp 2 7 Cellar"
+							
+						}
+					},
+					"1, 0": {
+						"Buildings": {
+							
+							// Replace these two numbers with your desired location
+							"Action": "Warp 2 7 Cellar"
+							
+						}
+					},
+					"1, 1": {
+						"Buildings": {
+							
+							// Replace these two numbers with your desired location
+							"Action": "Warp 2 7 Cellar"
+							
+						}
+					},
+				}
+            },
+			{
+                "Texture": "assets/hatch.png:0",
+                "DisplaySize": {
+                    "X": 2,
+                    "Y": 2
+                },
+                "CollisionHeight": 1,
+                "Flipped": true,
+				"TileProperties": {
+					"0, 0": {
+						"Buildings": {
+							
+							// Replace these two numbers with your desired location
+							"Action": "Warp 2 7 Cellar"
+							
+						}
+					},
+					"0, 1": {
+						"Buildings": {
+							
+							// Replace these two numbers with your desired location
+							"Action": "Warp 2 7 Cellar"
+							
+						}
+					},
+					"1, 0": {
+						"Buildings": {
+							
+							// Replace these two numbers with your desired location
+							"Action": "Warp 2 7 Cellar"
+							
+						}
+					},
+					"1, 1": {
+						"Buildings": {
+							
+							// Replace these two numbers with your desired location
+							"Action": "Warp 2 7 Cellar"
+							
+						}
+					},
+				}
+            },
+            {
+                "Texture": "assets/hatch.png:1",
+                "DisplaySize": {
+                    "X": 2,
+                    "Y": 2
+                },
+                "CollisionHeight": 1,
+                "Flipped": false,
+				"TileProperties": {
+					"0, 0": {
+						"Buildings": {
+							
+							// Replace these two numbers with your desired location
+							"Action": "Warp 2 7 Cellar"
+							
+						}
+					},
+					"0, 1": {
+						"Buildings": {
+							
+							// Replace these two numbers with your desired location
+							"Action": "Warp 2 7 Cellar"
+							
+						}
+					},
+					"1, 0": {
+						"Buildings": {
+							
+							// Replace these two numbers with your desired location
+							"Action": "Warp 2 7 Cellar"
+							
+						}
+					},
+					"1, 1": {
+						"Buildings": {
+							
+							// Replace these two numbers with your desired location
+							"Action": "Warp 2 7 Cellar"
+							
+						}
+					},
+				}
+            },
+        ]
+    },
+]

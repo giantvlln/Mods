@@ -1,0 +1,23 @@
+To change where the ladder or hatch take you
+
+I'm sorry but this is the only way I could get it to work. If you can help, please let me know on the Nexus.
+
+In game, move your character to you want to end up. In the SMAPI console, type:
+
+debug ppp
+
+and take note of the (X,Y) coordinates. Close the game and open furniture.json in a text editor. For the hatch or ladder, replace the two numbers in every "Action": "Warp # # Farm/Cellar" with your coordinates. There are 12 sets to replace for the hatch and 1 set for the ladder. Make sure you only change the numbers, everything else should look the same! Save the file and open the game to try it out.
+
+Suggested coordinates (vanilla farms):
+Right of house, just above mailbox (default) - 70, 15
+Right of house, further up - 70, 13
+Left of house, further up - 56, 13
+
+Ladder: 
+Left of staircase (default) - 2, 7
+Right of staircase - 5, 7
+
+If SMAPI throws red errors you may have made a mistake, just delete and reinstall the mod and start over. If errors persist, feel free to ask on the Nexus page for help.
+
+Good luck!
+NotOnLand

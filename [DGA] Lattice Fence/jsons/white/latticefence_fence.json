@@ -1,0 +1,16 @@
+﻿[
+    {
+        "$ItemType": "Fence",
+        "ID": "latticefencewhite",
+		"ObjectTexture": "assets/white/object.png",
+		"PlacedTilesheet": "assets/white/fence.png",
+		"MaxHealth": 150,
+		"RepairMaterial":
+			{
+				"Type": "DGAItem",
+				"Value": "ghostcabbage.DynamicGameAssets.latticefences/latticefencewhite"
+			},
+		"PlacementSound": "hammer",
+		"RepairSound": "hammer",
+    }
+]	

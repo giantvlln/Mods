@@ -1,0 +1,344 @@
+[
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "barfyscorpionandsylveonne.DGA.BarfyscorpionDecor/SkyPillowBench0"
+        },
+        "ShopId": "Carpenter",
+        "MaxSold": 1,
+        "Cost": 100
+    },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "barfyscorpionandsylveonne.DGA.BarfyscorpionDecor/CreamBench1"
+        },
+        "ShopId": "Carpenter",
+        "MaxSold": 1,
+        "Cost": 100
+    },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "barfyscorpionandsylveonne.DGA.BarfyscorpionDecor/CreamSofa2"
+        },
+        "ShopId": "Carpenter",
+        "MaxSold": 1,
+        "Cost": 100
+    },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "barfyscorpionandsylveonne.DGA.BarfyscorpionDecor/CreamCarpet3"
+        },
+        "ShopId": "Carpenter",
+        "MaxSold": 1,
+        "Cost": 100
+    },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "barfyscorpionandsylveonne.DGA.BarfyscorpionDecor/PinkCarpet4"
+        },
+        "ShopId": "Carpenter",
+        "MaxSold": 1,
+        "Cost": 100
+    },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "barfyscorpionandsylveonne.DGA.BarfyscorpionDecor/BlueRug5"
+        },
+        "ShopId": "Carpenter",
+        "MaxSold": 1,
+        "Cost": 100
+    },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "barfyscorpionandsylveonne.DGA.BarfyscorpionDecor/PinkLamp6"
+        },
+        "ShopId": "Carpenter",
+        "MaxSold": 1,
+        "Cost": 100
+    },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "barfyscorpionandsylveonne.DGA.BarfyscorpionDecor/PinkPillowChair7"
+        },
+        "ShopId": "Carpenter",
+        "MaxSold": 1,
+        "Cost": 100
+    },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "barfyscorpionandsylveonne.DGA.BarfyscorpionDecor/BlueSeatedChair8"
+        },
+        "ShopId": "Carpenter",
+        "MaxSold": 1,
+        "Cost": 100
+    },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "barfyscorpionandsylveonne.DGA.BarfyscorpionDecor/SloppyChair9"
+        },
+        "ShopId": "Carpenter",
+        "MaxSold": 1,
+        "Cost": 100
+    },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "barfyscorpionandsylveonne.DGA.BarfyscorpionDecor/CreamStool10"
+        },
+        "ShopId": "Carpenter",
+        "MaxSold": 1,
+        "Cost": 100
+    },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "barfyscorpionandsylveonne.DGA.BarfyscorpionDecor/BlueFloorCushion11"
+        },
+        "ShopId": "Carpenter",
+        "MaxSold": 1,
+        "Cost": 100
+    },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "barfyscorpionandsylveonne.DGA.BarfyscorpionDecor/RoundPinkTable12"
+        },
+        "ShopId": "Carpenter",
+        "MaxSold": 1,
+        "Cost": 100
+    },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "barfyscorpionandsylveonne.DGA.BarfyscorpionDecor/RoundWhiteTable13"
+        },
+        "ShopId": "Carpenter",
+        "MaxSold": 1,
+        "Cost": 100
+    },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "barfyscorpionandsylveonne.DGA.BarfyscorpionDecor/OvalAccentRug14"
+        },
+        "ShopId": "Carpenter",
+        "MaxSold": 1,
+        "Cost": 100
+    },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "barfyscorpionandsylveonne.DGA.BarfyscorpionDecor/TallOakBookcase15"
+        },
+        "ShopId": "Carpenter",
+        "MaxSold": 1,
+        "Cost": 100
+    },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "barfyscorpionandsylveonne.DGA.BarfyscorpionDecor/ShortOakBookcase16"
+        },
+        "ShopId": "Carpenter",
+        "MaxSold": 1,
+        "Cost": 100
+    },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "barfyscorpionandsylveonne.DGA.BarfyscorpionDecor/GamingTV17"
+        },
+        "ShopId": "Carpenter",
+        "MaxSold": 1,
+        "Cost": 100
+    },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "barfyscorpionandsylveonne.DGA.BarfyscorpionDecor/CreamChinaCabinet18"
+        },
+        "ShopId": "Carpenter",
+        "MaxSold": 1,
+        "Cost": 100
+    },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "barfyscorpionandsylveonne.DGA.BarfyscorpionDecor/SpringCityscape19"
+        },
+        "ShopId": "Carpenter",
+        "MaxSold": 1,
+        "Cost": 100
+    },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "barfyscorpionandsylveonne.DGA.BarfyscorpionDecor/WindingRiver20"
+        },
+        "ShopId": "Carpenter",
+        "MaxSold": 1,
+        "Cost": 100
+    },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "barfyscorpionandsylveonne.DGA.BarfyscorpionDecor/TreeSnapshot21"
+        },
+        "ShopId": "Carpenter",
+        "MaxSold": 1,
+        "Cost": 100
+    },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "barfyscorpionandsylveonne.DGA.BarfyscorpionDecor/FlowerSnapshot22"
+        },
+        "ShopId": "Carpenter",
+        "MaxSold": 1,
+        "Cost": 100
+    },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "barfyscorpionandsylveonne.DGA.BarfyscorpionDecor/TinyPlant23"
+        },
+        "ShopId": "Carpenter",
+        "MaxSold": 1,
+        "Cost": 100
+    },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "barfyscorpionandsylveonne.DGA.BarfyscorpionDecor/Noteboard24"
+        },
+        "ShopId": "Carpenter",
+        "MaxSold": 1,
+        "Cost": 100
+    },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "barfyscorpionandsylveonne.DGA.BarfyscorpionDecor/StickyNoteshigh25"
+        },
+        "ShopId": "Carpenter",
+        "MaxSold": 1,
+        "Cost": 100
+    },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "barfyscorpionandsylveonne.DGA.BarfyscorpionDecor/StickyNotesmid26"
+        },
+        "ShopId": "Carpenter",
+        "MaxSold": 1,
+        "Cost": 100
+    },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "barfyscorpionandsylveonne.DGA.BarfyscorpionDecor/StickyNoteslow27"
+        },
+        "ShopId": "Carpenter",
+        "MaxSold": 1,
+        "Cost": 100
+    },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "barfyscorpionandsylveonne.DGA.BarfyscorpionDecor/BlackGamerguyX28"
+        },
+        "ShopId": "Carpenter",
+        "MaxSold": 1,
+        "Cost": 100000
+    },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "barfyscorpionandsylveonne.DGA.BarfyscorpionDecor/BunbunPlush29"
+        },
+        "ShopId": "Carpenter",
+        "MaxSold": 1,
+        "Cost": 100
+    },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "barfyscorpionandsylveonne.DGA.BarfyscorpionDecor/Pitcher30"
+        },
+        "ShopId": "Carpenter",
+        "MaxSold": 1,
+        "Cost": 100
+    },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "barfyscorpionandsylveonne.DGA.BarfyscorpionDecor/BedsideLamp31"
+        },
+        "ShopId": "Carpenter",
+        "MaxSold": 1,
+        "Cost": 100
+    },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "barfyscorpionandsylveonne.DGA.BarfyscorpionDecor/Radio32"
+        },
+        "ShopId": "Carpenter",
+        "MaxSold": 1,
+        "Cost": 100
+    },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "barfyscorpionandsylveonne.DGA.BarfyscorpionDecor/VividTree33"
+        },
+        "ShopId": "Carpenter",
+        "MaxSold": 1,
+        "Cost": 100
+    },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "barfyscorpionandsylveonne.DGA.BarfyscorpionDecor/SquareOakTable34"
+        },
+        "ShopId": "Carpenter",
+        "MaxSold": 1,
+        "Cost": 100
+    },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "barfyscorpionandsylveonne.DGA.BarfyscorpionDecor/OakStand35"
+        },
+        "ShopId": "Carpenter",
+        "MaxSold": 1,
+        "Cost": 100
+    },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "barfyscorpionandsylveonne.DGA.BarfyscorpionDecor/CreamBedsideStand36"
+        },
+        "ShopId": "Carpenter",
+        "MaxSold": 1,
+        "Cost": 100
+    },
+    {
+        "$ItemType": "ShopEntry",
+        "Item": {
+            "Value": "barfyscorpionandsylveonne.DGA.BarfyscorpionDecor/CreamRectangularTable37"
+        },
+        "ShopId": "Carpenter",
+        "MaxSold": 1,
+        "Cost": 100
+    }
+]

@@ -1,0 +1,78 @@
+{
+   "Format": "1.28.0",
+   
+     "ConfigSchema": {
+   
+		"Mod Enabled": { 
+		"AllowValues": "true, false",
+		"Default": "true",
+		},
+		
+	},
+		
+   "Changes": [
+   {
+           "Action": "EditImage",
+           "Target": "LooseSprites/Cursors",
+           "FromFile": "assets/digspotspring.png",
+           "FromArea": { "X": 0, "Y": 0,"Width": 64, "Height": 16},
+           "ToArea": { "X": 368, "Y": 32,"Width": 64, "Height": 16},
+		   "When": {
+				"Season": "Spring", "Mod Enabled": "true"
+			}
+    },
+	{
+           "Action": "EditImage",
+           "Target": "LooseSprites/Cursors",
+           "FromFile": "assets/digspotfall.png",
+           "FromArea": { "X": 0, "Y": 0,"Width": 64, "Height": 16},
+           "ToArea": { "X": 368, "Y": 32,"Width": 64, "Height": 16},
+		   "When": {
+				"Season": "Fall", "Mod Enabled": "true"
+			}
+    },
+	{
+           "Action": "EditImage",
+           "Target": "LooseSprites/Cursors",
+           "FromFile": "assets/digspotsummer.png",
+           "FromArea": { "X": 0, "Y": 0,"Width": 64, "Height": 16},
+           "ToArea": { "X": 368, "Y": 32,"Width": 64, "Height": 16},
+		   "When": {
+				"Season": "Summer", "Mod Enabled": "true"
+			}
+    },
+	{
+           "Action": "EditImage",
+           "Target": "LooseSprites/Cursors",
+           "FromFile": "assets/digspotwinter.png",
+           "FromArea": { "X": 0, "Y": 0,"Width": 64, "Height": 16},
+           "ToArea": { "X": 368, "Y": 32,"Width": 64, "Height": 16},
+		   "When": {
+				"Season": "Winter", "Mod Enabled": "true"
+			}
+    },
+	
+	{
+           "Action": "EditImage",
+           "Target": "LooseSprites/Cursors",
+           "FromFile": "assets/digspotginger.png",
+           "FromArea": { "X": 0, "Y": 0,"Width": 64, "Height": 16},
+           "ToArea": { "X": 368, "Y": 32,"Width": 64, "Height": 16},
+		   "Update": "OnLocationChange",
+		   "When": {
+				"LocationContext": "Island", "Mod Enabled": "true", 
+			},
+    },
+	{
+           "Action": "EditImage",
+           "Target": "LooseSprites/Cursors",
+           "FromFile": "assets/digspotdesert.png",
+           "FromArea": { "X": 0, "Y": 0,"Width": 64, "Height": 16},
+           "ToArea": { "X": 368, "Y": 32,"Width": 64, "Height": 16},
+		   "Update": "OnLocationChange",
+		   "When": {
+				"LocationName": "Desert", "Mod Enabled": "true", 
+			},
+    },
+	]
+}

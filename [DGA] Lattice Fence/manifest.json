@@ -1,0 +1,12 @@
+{
+  "Name": "[DGA] Lattice Fences",
+  "Author": "strawberrymilk95/unknownearth/ghostcabbage",
+  "Version": "1.0",
+  "Description": "Dynamic Game Assets conversion of 'Ali's Lattice Fence' by strawberrymilk95.",
+  "UniqueID": "ghostcabbage.DynamicGameAssets.latticefences",
+  "ContentPackFor": { "UniqueID": "spacechase0.DynamicGameAssets" },
+  "UpdateKeys": [""],
+  
+  "DGA.FormatVersion": 2,
+  "DGA.ConditionsFormatVersion": "1.23.0"
+}

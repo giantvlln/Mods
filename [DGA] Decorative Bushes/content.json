@@ -1,0 +1,13 @@
+[
+    // Loads furniture
+    {
+        "$ItemType": "ContentIndex",
+        "FilePath": "json/furniture.json",
+    },
+    // Loads shop entries
+    {
+        "$ItemType": "ContentIndex",
+        "FilePath": "json/furniture_shop_entries.json",
+        "EnableConditions": { "Query: {{Sell In Shops}} = true": true}
+    },
+]

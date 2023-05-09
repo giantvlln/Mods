@@ -1,0 +1,22 @@
+[
+  {
+    "$ItemType": "ShopEntry",
+    "Item": { "Value": "NotOnLand.DGA.CellarDoor/Hatch" },
+    "ShopId": "Carpenter",
+    "MaxSold": 1,
+    "Cost": 100,
+    "EnableConditions": {
+        "Query: {{Allow purchase early}} = true OR {{FarmhouseUpgrade}} >= 3": true
+    }
+  },
+  {
+    "$ItemType": "ShopEntry",
+    "Item": { "Value": "NotOnLand.DGA.CellarDoor/Ladder" },
+    "ShopId": "Carpenter",
+    "MaxSold": 1,
+    "Cost": 100,
+    "EnableConditions": {
+        "Query: {{Allow purchase early}} = true OR {{FarmhouseUpgrade}} >= 3": true
+    }
+  },
+]

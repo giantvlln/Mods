@@ -1,0 +1,27 @@
+﻿[
+	{
+		"$ItemType": "CraftingRecipe",
+		"ID": "latticefencewhitecrafting",
+		"IsCooking": false,
+		"KnownByDefault": false,
+		"Result": [
+			{
+				"Weight": 1,
+				"Value": {
+					"Type": "DGAItem",
+					"Value": "ghostcabbage.DynamicGameAssets.latticefences/latticefencewhite",
+				}
+			}
+		],
+		"Ingredients":[
+			{
+				"Type": "VanillaObject",
+				"Value": 388
+			},
+			{
+				"Type": "VanillaObject",
+				"Value": 709
+			}
+		]
+	}
+]

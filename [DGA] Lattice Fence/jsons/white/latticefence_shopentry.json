@@ -1,0 +1,9 @@
+[
+  {
+    "$ItemType": "ShopEntry",
+	"ShopId": "AnimalSupplies",
+    "Item": { "Value": "ghostcabbage.DynamicGameAssets.latticefences/latticefencewhitecrafting" },
+	"MaxSold": 1,
+    "Cost": 500,
+  },
+]

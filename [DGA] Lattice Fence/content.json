@@ -1,0 +1,14 @@
+﻿[
+    {
+        "$ItemType": "ContentIndex",
+        "FilePath": "jsons/white/latticefence_fence.json"
+    },
+    {
+        "$ItemType": "ContentIndex",
+        "FilePath": "jsons/white/latticefence_crafting.json"
+    },
+    {
+        "$ItemType": "ContentIndex",
+        "FilePath": "jsons/white/latticefence_shopentry.json"
+    }
+]

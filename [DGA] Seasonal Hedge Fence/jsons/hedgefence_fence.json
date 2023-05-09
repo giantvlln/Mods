@@ -1,0 +1,36 @@
+﻿[
+    {
+        "$ItemType": "Fence",
+        "ID": "hedgefence",
+		"MaxHealth": 150,
+		"RepairMaterial":
+			{
+				"Type": "DGAItem",
+				"Value": "ghostcabbage.DynamicGameAssets.hedgefence/hedgefence"
+			},
+		"PlacementSound": "grassyStep",
+		"RepairSound": "grassyStep",
+        "DynamicFields": [
+            {
+                "Conditions": {"Season |contains=spring": true },
+				"PlacedTilesheet": "assets/fence_spring.png",
+				"ObjectTexture": "assets/object_spring.png"
+            },
+            {
+                "Conditions": {"Season |contains=summer": true },
+				"PlacedTilesheet": "assets/fence_summer.png",
+				"ObjectTexture": "assets/object_summer.png"
+            },
+            {
+                "Conditions": {"Season |contains=fall": true },
+				"PlacedTilesheet": "assets/fence_fall.png",
+				"ObjectTexture": "assets/object_fall.png"
+            },
+            {
+                "Conditions": {"Season |contains=winter": true },
+				"PlacedTilesheet": "assets/fence_winter.png",
+				"ObjectTexture": "assets/object_fall.png"
+			}
+        ]
+    }
+]	

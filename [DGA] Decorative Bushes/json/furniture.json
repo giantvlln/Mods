@@ -1,0 +1,142 @@
+[
+    {
+        "$ItemType": "Furniture",
+        "ID": "BerryBush",
+        "Type": "Decoration",
+        "Configurations": [
+            {
+                "Texture": "assets/berrybush.png:0",
+                "DisplaySize": { "X": 2, "Y": 3 },
+                "CollisionHeight": 1,
+            }
+        ],
+        "DynamicFields" : [
+            {
+                "Conditions": { "Season": "spring"},
+                "Configurations[ 0 ].Texture": "assets/berrybush.png:0",
+            },
+            {
+                "Conditions": { "Query: '{{Season}}' = 'spring' AND '{{Day}}' IN ('15','16','17','18')": true },
+                "Configurations[ 0 ].Texture": "assets/berrybush.png:1",
+            },
+            {
+                "Conditions": { "Season": "summer" },
+                "Configurations[ 0 ].Texture": "assets/berrybush.png:2"
+            },
+            {
+                "Conditions": { "Season": "fall"},
+                "Configurations[ 0 ].Texture": "assets/berrybush.png:3",
+            },
+            {
+                "Conditions": { "Query: '{{Season}}' = 'fall' AND '{{Day}}' IN ('8','9','10','11')": true },
+                "Configurations[ 0 ].Texture": "assets/berrybush.png:4",
+            },
+            {
+                "Conditions": { "Season": "winter"},
+                "Configurations[ 0 ].Texture": "assets/berrybush.png:5",
+            }
+        ],
+    },
+    {
+        "$ItemType": "Furniture",
+        "ID": "MediumBush",
+        "Type": "Decoration",
+        "Configurations": [
+            {
+                "Texture": "assets/mediumbush.png:0",
+                "DisplaySize": { "X": 2, "Y": 2 },
+                "CollisionHeight": 1,
+            }
+        ],
+        "DynamicFields" : [
+            {
+                "Conditions": { "Season": "spring"},
+                "Configurations[ 0 ].Texture": "assets/mediumbush.png:0",
+            },
+            {
+                "Conditions": { "Season": "summer"},
+                "Configurations[ 0 ].Texture": "assets/mediumbush.png:1",
+            },
+            {
+                "Conditions": { "Season": "fall"},
+                "Configurations[ 0 ].Texture": "assets/mediumbush.png:2",
+            },
+            {
+                "Conditions": { "Season": "winter"},
+                "Configurations[ 0 ].Texture": "assets/mediumbush.png:3",
+            }
+        ],
+    },
+    {
+        "$ItemType": "Furniture",
+        "ID": "BigBush",
+        "Type": "Decoration",
+        "Configurations": [
+            {
+                "Texture": "assets/bigbush.png:0",
+                "DisplaySize": { "X": 3, "Y": 3 },
+                "CollisionHeight": 1,
+            }
+        ],
+        "DynamicFields" : [
+            {
+                "Conditions": { "Season": "spring"},
+                "Configurations[ 0 ].Texture": "assets/bigbush.png:0",
+            },
+            {
+                "Conditions": { "Season": "summer"},
+                "Configurations[ 0 ].Texture": "assets/bigbush.png:0",
+            },
+            {
+                "Conditions": { "Season": "fall"},
+                "Configurations[ 0 ].Texture": "assets/bigbush.png:1",
+            },
+            {
+                "Conditions": { "Season": "winter"},
+                "Configurations[ 0 ].Texture": "assets/bigbush.png:2",
+            }
+        ],
+    },
+    {
+        "$ItemType": "Furniture",
+        "ID": "SmallBush",
+        "Type": "Decoration",
+        "Configurations": [
+            {
+                "Texture": "assets/smallbush.png:0",
+                "DisplaySize": { "X": 1, "Y": 2 },
+                "CollisionHeight": 1,
+            }
+        ],
+        "DynamicFields" : [
+            {
+                "Conditions": { "Season": "spring"},
+                "Configurations[ 0 ].Texture": "assets/smallbush.png:0",
+            },
+            {
+                "Conditions": { "Season": "summer"},
+                "Configurations[ 0 ].Texture": "assets/smallbush.png:0",
+            },
+            {
+                "Conditions": { "Season": "fall"},
+                "Configurations[ 0 ].Texture": "assets/smallbush.png:1",
+            },
+            {
+                "Conditions": { "Season": "winter"},
+                "Configurations[ 0 ].Texture": "assets/smallbush.png:2",
+            }
+        ],
+    },
+    {
+        "$ItemType": "Furniture",
+        "ID": "IslandBush",
+        "Type": "Decoration",
+        "Configurations": [
+            {
+                "Texture": "assets/islandbush.png:0",
+                "DisplaySize": { "X": 2, "Y": 2 },
+                "CollisionHeight": 1,
+            }
+        ],
+    },
+]

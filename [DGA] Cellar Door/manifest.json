@@ -1,0 +1,14 @@
+{
+    "Name": "Cellar Door",
+    "Author": "NotOnLand",
+    "Version": "1.1.0",
+    "Description": "Adds an exterior entrance to and from the cellar, for Dynamic Game Assets",
+    "UniqueID": "NotOnLand.DGA.CellarDoor",
+    "UpdateKeys": ["Nexus:14055"],
+    "ContentPackFor": {
+        "UniqueID": "spacechase0.DynamicGameAssets",
+        "MinimumVersion": "1.4.2"
+    },
+    "DGA.FormatVersion": 2,
+    "DGA.ConditionsFormatVersion": "1.25.0"
+}

@@ -1,0 +1,10 @@
+﻿[
+    {
+        "$ItemType": "ContentIndex",
+        "FilePath": "jsons/hedgefence_fence.json"
+    },
+    {
+        "$ItemType": "ContentIndex",
+        "FilePath": "jsons/hedgefence_crafting.json"
+    },
+]

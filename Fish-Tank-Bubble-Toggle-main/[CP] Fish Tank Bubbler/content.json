@@ -1,0 +1,50 @@
+{
+    "Format": "1.23.0",
+    "Changes": [
+      {
+          "Action": "EditData",
+      "LogName": "Fish Object Data",
+          "Target": "Data/ObjectInformation",
+          "Entries": {
+             "2472": "Fish Tank Bubbler/10/-300/Crafting -8/Fish Tank Bubbler/Fish tanks with water wont look quite right without this.",
+          },
+       },
+      {
+      "Action": "EditData",
+      "Target": "Data/AquariumFish",
+      "Entries": {
+         "2472": "1080/static",
+      },
+      },
+      {
+      "Action": "EditImage",
+      "Target": "LooseSprites/AquariumFish",
+      "FromFile": "assets/bubbler_aquarium.png",
+      "ToArea": {
+         "X": 0,
+         "Y": 2592,
+         "Width": 24,
+         "Height": 48
+         },
+      },
+      {
+      "Action": "EditImage",
+      "Target": "Maps/SpringObjects",
+      "FromFile": "assets/bubbler.png",
+      "ToArea": {
+         "X": 0,
+         "Y": 1648,
+         "Width": 16,
+         "Height": 16
+      },
+      },
+        {
+      "Action": "EditData",
+      "LogName": "Decoration Crafting Recipes",
+      "Target": "Data/CraftingRecipes",
+      "Entries": {
+          "Fish Tank Bubbler": "685 5/Home/2472 1/false/Fishing 1",
+       }
+     },
+   ]
+}

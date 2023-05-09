@@ -1,0 +1,12 @@
+{
+  "furniture.BerryBush.name": "Berry Bush",
+  "furniture.BerryBush.description": "A bush that grows berries during some seasons.",
+  "furniture.MediumBush.name": "Medium Bush",
+  "furniture.MediumBush.description": "A medium bush that sprouts flowers during some seasons.",
+  "furniture.BigBush.name": "Big Bush",
+  "furniture.BigBush.description": "A big bush.",
+  "furniture.SmallBush.name": "Small Bush",
+  "furniture.SmallBush.description": "A small bush.",
+  "furniture.IslandBush.name": "Island Bush",
+  "furniture.IslandBush.description": "A bush native to Ginger Island.",
+}

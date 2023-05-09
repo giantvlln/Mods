@@ -1,6 +1,6 @@
 {
   "SiloSize": 1000,
-  "MorningReport": true,
+  "MorningReport": false,
   "LowWarning": 3,
   "AutoHayBuildings": [
     "Deluxe Barn",

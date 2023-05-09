@@ -1,0 +1,1051 @@
+[
+    {
+        "$ItemType": "Furniture",
+        "ID": "SkyPillowBench0",
+        "Type": "Decoration",
+        "ShowInCatalogue": true,
+        "Configurations": [
+            {
+                "Texture": "dga_furniture_tilesheet.png:35",
+                "DisplaySize": {
+                    "X": 2,
+                    "Y": 2
+                },
+                "CollisionHeight": 1,
+                "Seats": [
+                    {
+                        "X": 0.5,
+                        "Y": 0
+                    },
+                    {
+                        "X": 1.5,
+                        "Y": 0
+                    }
+                ],
+                "SittingDirection": "Down",
+                "FrontTexture": "dga_front_tilesheet.png:35"
+            },
+            {
+                "Texture": "dga_furniture_tilesheet.png:43",
+                "DisplaySize": {
+                    "X": 1,
+                    "Y": 2
+                },
+                "CollisionHeight": 1,
+                "Seats": [
+                    {
+                        "X": 1,
+                        "Y": 0.5
+                    },
+                    {
+                        "X": 1,
+                        "Y": 1.5
+                    }
+                ],
+                "SittingDirection": "Right",
+                "FrontTexture": "dga_front_tilesheet.png:43"
+            },
+            {
+                "Texture": "dga_furniture_tilesheet.png:36",
+                "DisplaySize": {
+                    "X": 2,
+                    "Y": 2
+                },
+                "CollisionHeight": 1,
+                "Seats": [
+                    {
+                        "X": 0.5,
+                        "Y": 0
+                    },
+                    {
+                        "X": 1.5,
+                        "Y": 0
+                    }
+                ],
+                "SittingDirection": "Up",
+                "FrontTexture": "dga_front_tilesheet.png:36"
+            },
+            {
+                "Texture": "dga_furniture_tilesheet.png:44",
+                "DisplaySize": {
+                    "X": 1,
+                    "Y": 2
+                },
+                "CollisionHeight": 1,
+                "Seats": [
+                    {
+                        "X": 0,
+                        "Y": 0.5
+                    },
+                    {
+                        "X": 0,
+                        "Y": 1.5
+                    }
+                ],
+                "SittingDirection": "Left",
+                "FrontTexture": "dga_front_tilesheet.png:44"
+            }
+        ]
+    },
+    {
+        "$ItemType": "Furniture",
+        "ID": "CreamBench1",
+        "Type": "Decoration",
+        "ShowInCatalogue": true,
+        "Configurations": [
+            {
+                "Texture": "dga_furniture_tilesheet.png:37",
+                "DisplaySize": {
+                    "X": 2,
+                    "Y": 2
+                },
+                "CollisionHeight": 1,
+                "Seats": [
+                    {
+                        "X": 0.5,
+                        "Y": 0
+                    },
+                    {
+                        "X": 1.5,
+                        "Y": 0
+                    }
+                ],
+                "SittingDirection": "Down",
+                "FrontTexture": "dga_front_tilesheet.png:37"
+            },
+            {
+                "Texture": "dga_furniture_tilesheet.png:55",
+                "DisplaySize": {
+                    "X": 1,
+                    "Y": 2
+                },
+                "CollisionHeight": 1,
+                "Seats": [
+                    {
+                        "X": 1,
+                        "Y": 0.5
+                    },
+                    {
+                        "X": 1,
+                        "Y": 1.5
+                    }
+                ],
+                "SittingDirection": "Right",
+                "FrontTexture": "dga_front_tilesheet.png:55"
+            },
+            {
+                "Texture": "dga_furniture_tilesheet.png:38",
+                "DisplaySize": {
+                    "X": 2,
+                    "Y": 2
+                },
+                "CollisionHeight": 1,
+                "Seats": [
+                    {
+                        "X": 0.5,
+                        "Y": 0
+                    },
+                    {
+                        "X": 1.5,
+                        "Y": 0
+                    }
+                ],
+                "SittingDirection": "Up",
+                "FrontTexture": "dga_front_tilesheet.png:38"
+            },
+            {
+                "Texture": "dga_furniture_tilesheet.png:56",
+                "DisplaySize": {
+                    "X": 1,
+                    "Y": 2
+                },
+                "CollisionHeight": 1,
+                "Seats": [
+                    {
+                        "X": 0,
+                        "Y": 0.5
+                    },
+                    {
+                        "X": 0,
+                        "Y": 1.5
+                    }
+                ],
+                "SittingDirection": "Left",
+                "FrontTexture": "dga_front_tilesheet.png:56"
+            }
+        ]
+    },
+    {
+        "$ItemType": "Furniture",
+        "ID": "CreamSofa2",
+        "Type": "Decoration",
+        "ShowInCatalogue": true,
+        "Configurations": [
+            {
+                "Texture": "dga_furniture_tilesheet.png:15",
+                "DisplaySize": {
+                    "X": 3,
+                    "Y": 2
+                },
+                "CollisionHeight": 1,
+                "Seats": [
+                    {
+                        "X": 1,
+                        "Y": 0
+                    },
+                    {
+                        "X": 2,
+                        "Y": 0
+                    }
+                ],
+                "SittingDirection": "Down",
+                "FrontTexture": "dga_front_tilesheet.png:15"
+            },
+            {
+                "Texture": "dga_furniture_tilesheet.png:6",
+                "DisplaySize": {
+                    "X": 2,
+                    "Y": 3
+                },
+                "CollisionHeight": 2,
+                "Seats": [
+                    {
+                        "X": 1,
+                        "Y": 1
+                    },
+                    {
+                        "X": 1,
+                        "Y": 2
+                    }
+                ],
+                "SittingDirection": "Right",
+                "FrontTexture": "dga_front_tilesheet.png:6"
+            },
+            {
+                "Texture": "dga_furniture_tilesheet.png:19",
+                "DisplaySize": {
+                    "X": 3,
+                    "Y": 2
+                },
+                "CollisionHeight": 1,
+                "Seats": [
+                    {
+                        "X": 1,
+                        "Y": 0
+                    },
+                    {
+                        "X": 2,
+                        "Y": 0
+                    }
+                ],
+                "SittingDirection": "Up",
+                "FrontTexture": "dga_front_tilesheet.png:19"
+            },
+            {
+                "Texture": "dga_furniture_tilesheet.png:7",
+                "DisplaySize": {
+                    "X": 2,
+                    "Y": 3
+                },
+                "CollisionHeight": 2,
+                "Seats": [
+                    {
+                        "X": 0,
+                        "Y": 1
+                    },
+                    {
+                        "X": 0,
+                        "Y": 2
+                    }
+                ],
+                "SittingDirection": "Left",
+                "FrontTexture": "dga_front_tilesheet.png:7"
+            }
+        ]
+    },
+    {
+        "$ItemType": "Furniture",
+        "ID": "CreamCarpet3",
+        "Type": "Rug",
+        "ShowInCatalogue": true,
+        "Configurations": [
+            {
+                "Texture": "dga_furniture_tilesheet.png:20",
+                "DisplaySize": {
+                    "X": 3,
+                    "Y": 2
+                },
+                "CollisionHeight": 2
+            },
+            {
+                "Texture": "dga_furniture_tilesheet.png:8",
+                "DisplaySize": {
+                    "X": 2,
+                    "Y": 3
+                },
+                "CollisionHeight": 3
+            }
+        ]
+    },
+    {
+        "$ItemType": "Furniture",
+        "ID": "PinkCarpet4",
+        "Type": "Rug",
+        "ShowInCatalogue": true,
+        "Configurations": [
+            {
+                "Texture": "dga_furniture_tilesheet.png:21",
+                "DisplaySize": {
+                    "X": 3,
+                    "Y": 2
+                },
+                "CollisionHeight": 2
+            },
+            {
+                "Texture": "dga_furniture_tilesheet.png:9",
+                "DisplaySize": {
+                    "X": 2,
+                    "Y": 3
+                },
+                "CollisionHeight": 3
+            }
+        ]
+    },
+    {
+        "$ItemType": "Furniture",
+        "ID": "BlueRug5",
+        "Type": "Rug",
+        "ShowInCatalogue": true,
+        "Configurations": [
+            {
+                "Texture": "dga_furniture_tilesheet.png:39",
+                "DisplaySize": {
+                    "X": 2,
+                    "Y": 2
+                },
+                "CollisionHeight": 2
+            }
+        ]
+    },
+    {
+        "$ItemType": "Furniture",
+        "ID": "PinkLamp6",
+        "Type": "Lamp",
+        "ShowInCatalogue": true,
+        "Configurations": [
+            {
+                "Texture": "dga_furniture_tilesheet.png:26",
+                "DisplaySize": {
+                    "X": 1,
+                    "Y": 3
+                },
+                "CollisionHeight": 1,
+                "NightTexture": "dga_furniture_tilesheet.png:27"
+            }
+        ]
+    },
+    {
+        "$ItemType": "Furniture",
+        "ID": "PinkPillowChair7",
+        "Type": "Decoration",
+        "ShowInCatalogue": true,
+        "Configurations": [
+            {
+                "Texture": "dga_furniture_tilesheet.png:69",
+                "DisplaySize": {
+                    "X": 1,
+                    "Y": 2
+                },
+                "CollisionHeight": 1,
+                "Seats": [
+                    {
+                        "X": 0,
+                        "Y": 0
+                    }
+                ],
+                "SittingDirection": "Down",
+                "FrontTexture": "dga_front_tilesheet.png:69"
+            },
+            {
+                "Texture": "dga_furniture_tilesheet.png:88",
+                "DisplaySize": {
+                    "X": 1,
+                    "Y": 2
+                },
+                "CollisionHeight": 1,
+                "Seats": [
+                    {
+                        "X": 0,
+                        "Y": 0
+                    }
+                ],
+                "SittingDirection": "Right",
+                "FrontTexture": "dga_front_tilesheet.png:88"
+            },
+            {
+                "Texture": "dga_furniture_tilesheet.png:89",
+                "DisplaySize": {
+                    "X": 1,
+                    "Y": 2
+                },
+                "CollisionHeight": 1,
+                "Seats": [
+                    {
+                        "X": 0,
+                        "Y": 0
+                    }
+                ],
+                "SittingDirection": "Up",
+                "FrontTexture": "dga_front_tilesheet.png:89"
+            },
+            {
+                "Texture": "dga_furniture_tilesheet.png:90",
+                "DisplaySize": {
+                    "X": 1,
+                    "Y": 2
+                },
+                "CollisionHeight": 1,
+                "Seats": [
+                    {
+                        "X": 0,
+                        "Y": 0
+                    }
+                ],
+                "SittingDirection": "Left",
+                "FrontTexture": "dga_front_tilesheet.png:90"
+            }
+        ]
+    },
+    {
+        "$ItemType": "Furniture",
+        "ID": "BlueSeatedChair8",
+        "Type": "Decoration",
+        "ShowInCatalogue": true,
+        "Configurations": [
+            {
+                "Texture": "dga_furniture_tilesheet.png:91",
+                "DisplaySize": {
+                    "X": 1,
+                    "Y": 2
+                },
+                "CollisionHeight": 1,
+                "Seats": [
+                    {
+                        "X": 0,
+                        "Y": 0
+                    }
+                ],
+                "SittingDirection": "Down",
+                "FrontTexture": "dga_front_tilesheet.png:91"
+            },
+            {
+                "Texture": "dga_furniture_tilesheet.png:92",
+                "DisplaySize": {
+                    "X": 1,
+                    "Y": 2
+                },
+                "CollisionHeight": 1,
+                "Seats": [
+                    {
+                        "X": 0,
+                        "Y": 0
+                    }
+                ],
+                "SittingDirection": "Right",
+                "FrontTexture": "dga_front_tilesheet.png:92"
+            },
+            {
+                "Texture": "dga_furniture_tilesheet.png:93",
+                "DisplaySize": {
+                    "X": 1,
+                    "Y": 2
+                },
+                "CollisionHeight": 1,
+                "Seats": [
+                    {
+                        "X": 0,
+                        "Y": 0
+                    }
+                ],
+                "SittingDirection": "Up",
+                "FrontTexture": "dga_front_tilesheet.png:93"
+            },
+            {
+                "Texture": "dga_furniture_tilesheet.png:94",
+                "DisplaySize": {
+                    "X": 1,
+                    "Y": 2
+                },
+                "CollisionHeight": 1,
+                "Seats": [
+                    {
+                        "X": 0,
+                        "Y": 0
+                    }
+                ],
+                "SittingDirection": "Left",
+                "FrontTexture": "dga_front_tilesheet.png:94"
+            }
+        ]
+    },
+    {
+        "$ItemType": "Furniture",
+        "ID": "SloppyChair9",
+        "Type": "Decoration",
+        "ShowInCatalogue": true,
+        "Configurations": [
+            {
+                "Texture": "dga_furniture_tilesheet.png:95",
+                "DisplaySize": {
+                    "X": 1,
+                    "Y": 2
+                },
+                "CollisionHeight": 1,
+                "Seats": [
+                    {
+                        "X": 0,
+                        "Y": 0
+                    }
+                ],
+                "SittingDirection": "Down",
+                "FrontTexture": "dga_front_tilesheet.png:95"
+            },
+            {
+                "Texture": "dga_furniture_tilesheet.png:96",
+                "DisplaySize": {
+                    "X": 1,
+                    "Y": 2
+                },
+                "CollisionHeight": 1,
+                "Seats": [
+                    {
+                        "X": 0,
+                        "Y": 0
+                    }
+                ],
+                "SittingDirection": "Right",
+                "FrontTexture": "dga_front_tilesheet.png:96"
+            },
+            {
+                "Texture": "dga_furniture_tilesheet.png:97",
+                "DisplaySize": {
+                    "X": 1,
+                    "Y": 2
+                },
+                "CollisionHeight": 1,
+                "Seats": [
+                    {
+                        "X": 0,
+                        "Y": 0
+                    }
+                ],
+                "SittingDirection": "Up",
+                "FrontTexture": "dga_front_tilesheet.png:97"
+            },
+            {
+                "Texture": "dga_furniture_tilesheet.png:98",
+                "DisplaySize": {
+                    "X": 1,
+                    "Y": 2
+                },
+                "CollisionHeight": 1,
+                "Seats": [
+                    {
+                        "X": 0,
+                        "Y": 0
+                    }
+                ],
+                "SittingDirection": "Left",
+                "FrontTexture": "dga_front_tilesheet.png:98"
+            }
+        ]
+    },
+    {
+        "$ItemType": "Furniture",
+        "ID": "CreamStool10",
+        "Type": "Decoration",
+        "ShowInCatalogue": true,
+        "Configurations": [
+            {
+                "Texture": "dga_furniture_tilesheet.png:110",
+                "DisplaySize": {
+                    "X": 1,
+                    "Y": 1
+                },
+                "CollisionHeight": 1,
+                "Seats": [
+                    {
+                        "X": 0,
+                        "Y": 0
+                    }
+                ],
+                "SittingDirection": "Any",
+                "FrontTexture": "dga_front_tilesheet.png:110"
+            }
+        ]
+    },
+    {
+        "$ItemType": "Furniture",
+        "ID": "BlueFloorCushion11",
+        "Type": "Decoration",
+        "ShowInCatalogue": true,
+        "Configurations": [
+            {
+                "Texture": "dga_furniture_tilesheet.png:111",
+                "DisplaySize": {
+                    "X": 1,
+                    "Y": 1
+                },
+                "CollisionHeight": 1,
+                "Seats": [
+                    {
+                        "X": 0,
+                        "Y": 0
+                    }
+                ],
+                "SittingDirection": "Down",
+                "FrontTexture": "dga_front_tilesheet.png:111"
+            }
+        ]
+    },
+    {
+        "$ItemType": "Furniture",
+        "ID": "RoundPinkTable12",
+        "Type": "Table",
+        "ShowInCatalogue": true,
+        "Configurations": [
+            {
+                "Texture": "dga_furniture_tilesheet.png:0",
+                "DisplaySize": {
+                    "X": 3,
+                    "Y": 3
+                },
+                "CollisionHeight": 2
+            }
+        ]
+    },
+    {
+        "$ItemType": "Furniture",
+        "ID": "RoundWhiteTable13",
+        "Type": "Decoration",
+        "ShowInCatalogue": true,
+        "Configurations": [
+            {
+                "Texture": "dga_furniture_tilesheet.png:1",
+                "DisplaySize": {
+                    "X": 3,
+                    "Y": 3
+                },
+                "CollisionHeight": 2
+            }
+        ]
+    },
+    {
+        "$ItemType": "Furniture",
+        "ID": "OvalAccentRug14",
+        "Type": "Rug",
+        "ShowInCatalogue": true,
+        "Configurations": [
+            {
+                "Texture": "dga_furniture_tilesheet.png:22",
+                "DisplaySize": {
+                    "X": 3,
+                    "Y": 2
+                },
+                "CollisionHeight": 2
+            },
+            {
+                "Texture": "dga_furniture_tilesheet.png:10",
+                "DisplaySize": {
+                    "X": 2,
+                    "Y": 3
+                },
+                "CollisionHeight": 3
+            }
+        ]
+    },
+    {
+        "$ItemType": "Furniture",
+        "ID": "TallOakBookcase15",
+        "Type": "Decoration",
+        "ShowInCatalogue": true,
+        "Configurations": [
+            {
+                "Texture": "dga_furniture_tilesheet.png:11",
+                "DisplaySize": {
+                    "X": 2,
+                    "Y": 3
+                },
+                "CollisionHeight": 1
+            }
+        ]
+    },
+    {
+        "$ItemType": "Furniture",
+        "ID": "ShortOakBookcase16",
+        "Type": "Decoration",
+        "ShowInCatalogue": true,
+        "Configurations": [
+            {
+                "Texture": "dga_furniture_tilesheet.png:40",
+                "DisplaySize": {
+                    "X": 2,
+                    "Y": 2
+                },
+                "CollisionHeight": 1
+            }
+        ]
+    },
+    {
+        "$ItemType": "Furniture",
+        "ID": "GamingTV17",
+        "Type": "Decoration",
+        "ShowInCatalogue": true,
+        "Configurations": [
+            {
+                "Texture": "dga_furniture_tilesheet.png:12",
+                "DisplaySize": {
+                    "X": 2,
+                    "Y": 3
+                },
+                "CollisionHeight": 2
+            }
+        ]
+    },
+    {
+        "$ItemType": "Furniture",
+        "ID": "CreamChinaCabinet18",
+        "Type": "Decoration",
+        "ShowInCatalogue": true,
+        "Configurations": [
+            {
+                "Texture": "dga_furniture_tilesheet.png:2",
+                "DisplaySize": {
+                    "X": 3,
+                    "Y": 3
+                },
+                "CollisionHeight": 1
+            }
+        ]
+    },
+    {
+        "$ItemType": "Furniture",
+        "ID": "SpringCityscape19",
+        "Type": "Painting",
+        "ShowInCatalogue": true,
+        "Configurations": [
+            {
+                "Texture": "dga_furniture_tilesheet.png:41",
+                "DisplaySize": {
+                    "X": 2,
+                    "Y": 2
+                },
+                "CollisionHeight": 2
+            }
+        ]
+    },
+    {
+        "$ItemType": "Furniture",
+        "ID": "WindingRiver20",
+        "Type": "Painting",
+        "ShowInCatalogue": true,
+        "Configurations": [
+            {
+                "Texture": "dga_furniture_tilesheet.png:42",
+                "DisplaySize": {
+                    "X": 2,
+                    "Y": 2
+                },
+                "CollisionHeight": 2
+            }
+        ]
+    },
+    {
+        "$ItemType": "Furniture",
+        "ID": "TreeSnapshot21",
+        "Type": "Painting",
+        "ShowInCatalogue": true,
+        "Configurations": [
+            {
+                "Texture": "dga_furniture_tilesheet.png:28",
+                "DisplaySize": {
+                    "X": 1,
+                    "Y": 3
+                },
+                "CollisionHeight": 2
+            }
+        ]
+    },
+    {
+        "$ItemType": "Furniture",
+        "ID": "FlowerSnapshot22",
+        "Type": "Painting",
+        "ShowInCatalogue": true,
+        "Configurations": [
+            {
+                "Texture": "dga_furniture_tilesheet.png:29",
+                "DisplaySize": {
+                    "X": 1,
+                    "Y": 3
+                },
+                "CollisionHeight": 2
+            }
+        ]
+    },
+    {
+        "$ItemType": "Furniture",
+        "ID": "TinyPlant23",
+        "Type": "Decoration",
+        "ShowInCatalogue": true,
+        "Configurations": [
+            {
+                "Texture": "dga_furniture_tilesheet.png:112",
+                "DisplaySize": {
+                    "X": 1,
+                    "Y": 1
+                },
+                "CollisionHeight": 1
+            }
+        ]
+    },
+    {
+        "$ItemType": "Furniture",
+        "ID": "Noteboard24",
+        "Type": "Painting",
+        "ShowInCatalogue": true,
+        "Configurations": [
+            {
+                "Texture": "dga_furniture_tilesheet.png:99",
+                "DisplaySize": {
+                    "X": 1,
+                    "Y": 2
+                },
+                "CollisionHeight": 2
+            }
+        ]
+    },
+    {
+        "$ItemType": "Furniture",
+        "ID": "StickyNoteshigh25",
+        "Type": "Painting",
+        "ShowInCatalogue": true,
+        "Configurations": [
+            {
+                "Texture": "dga_furniture_tilesheet.png:100",
+                "DisplaySize": {
+                    "X": 1,
+                    "Y": 2
+                },
+                "CollisionHeight": 2
+            }
+        ]
+    },
+    {
+        "$ItemType": "Furniture",
+        "ID": "StickyNotesmid26",
+        "Type": "Painting",
+        "ShowInCatalogue": true,
+        "Configurations": [
+            {
+                "Texture": "dga_furniture_tilesheet.png:101",
+                "DisplaySize": {
+                    "X": 1,
+                    "Y": 2
+                },
+                "CollisionHeight": 2
+            }
+        ]
+    },
+    {
+        "$ItemType": "Furniture",
+        "ID": "StickyNoteslow27",
+        "Type": "Painting",
+        "ShowInCatalogue": true,
+        "Configurations": [
+            {
+                "Texture": "dga_furniture_tilesheet.png:102",
+                "DisplaySize": {
+                    "X": 1,
+                    "Y": 2
+                },
+                "CollisionHeight": 2
+            }
+        ]
+    },
+    {
+        "$ItemType": "Furniture",
+        "ID": "BlackGamerguyX28",
+        "Type": "Decoration",
+        "ShowInCatalogue": true,
+        "Configurations": [
+            {
+                "Texture": "dga_furniture_tilesheet.png:113",
+                "DisplaySize": {
+                    "X": 1,
+                    "Y": 1
+                },
+                "CollisionHeight": 1
+            }
+        ]
+    },
+    {
+        "$ItemType": "Furniture",
+        "ID": "BunbunPlush29",
+        "Type": "Decoration",
+        "ShowInCatalogue": true,
+        "Configurations": [
+            {
+                "Texture": "dga_furniture_tilesheet.png:114",
+                "DisplaySize": {
+                    "X": 1,
+                    "Y": 1
+                },
+                "CollisionHeight": 1
+            }
+        ]
+    },
+    {
+        "$ItemType": "Furniture",
+        "ID": "Pitcher30",
+        "Type": "Decoration",
+        "ShowInCatalogue": true,
+        "Configurations": [
+            {
+                "Texture": "dga_furniture_tilesheet.png:202",
+                "DisplaySize": {
+                    "X": 1,
+                    "Y": 1
+                },
+                "CollisionHeight": 1
+            }
+        ]
+    },
+    {
+        "$ItemType": "Furniture",
+        "ID": "BedsideLamp31",
+        "Type": "Decoration",
+        "ShowInCatalogue": true,
+        "Configurations": [
+            {
+                "Texture": "dga_furniture_tilesheet.png:203",
+                "DisplaySize": {
+                    "X": 1,
+                    "Y": 1
+                },
+                "CollisionHeight": 1
+            }
+        ]
+    },
+    {
+        "$ItemType": "Furniture",
+        "ID": "Radio32",
+        "Type": "Decoration",
+        "ShowInCatalogue": true,
+        "Configurations": [
+            {
+                "Texture": "dga_furniture_tilesheet.png:214",
+                "DisplaySize": {
+                    "X": 1,
+                    "Y": 1
+                },
+                "CollisionHeight": 1
+            }
+        ]
+    },
+    {
+        "$ItemType": "Furniture",
+        "ID": "VividTree33",
+        "Type": "Decoration",
+        "ShowInCatalogue": true,
+        "Configurations": [
+            {
+                "Texture": "dga_furniture_tilesheet.png:103",
+                "DisplaySize": {
+                    "X": 1,
+                    "Y": 2
+                },
+                "CollisionHeight": 1
+            }
+        ]
+    },
+    {
+        "$ItemType": "Furniture",
+        "ID": "SquareOakTable34",
+        "Type": "Table",
+        "ShowInCatalogue": true,
+        "Configurations": [
+            {
+                "Texture": "dga_furniture_tilesheet.png:3",
+                "DisplaySize": {
+                    "X": 3,
+                    "Y": 3
+                },
+                "CollisionHeight": 2
+            }
+        ]
+    },
+    {
+        "$ItemType": "Furniture",
+        "ID": "OakStand35",
+        "Type": "Table",
+        "ShowInCatalogue": true,
+        "Configurations": [
+            {
+                "Texture": "dga_furniture_tilesheet.png:104",
+                "DisplaySize": {
+                    "X": 1,
+                    "Y": 2
+                },
+                "CollisionHeight": 1
+            }
+        ]
+    },
+    {
+        "$ItemType": "Furniture",
+        "ID": "CreamBedsideStand36",
+        "Type": "Table",
+        "ShowInCatalogue": true,
+        "Configurations": [
+            {
+                "Texture": "dga_furniture_tilesheet.png:105",
+                "DisplaySize": {
+                    "X": 1,
+                    "Y": 2
+                },
+                "CollisionHeight": 1
+            },
+            {
+                "Texture": "dga_furniture_tilesheet.png:54",
+                "DisplaySize": {
+                    "X": 2,
+                    "Y": 1
+                },
+                "CollisionHeight": 1
+            }
+        ]
+    },
+    {
+        "$ItemType": "Furniture",
+        "ID": "CreamRectangularTable37",
+        "Type": "Table",
+        "ShowInCatalogue": true,
+        "Configurations": [
+            {
+                "Texture": "dga_furniture_tilesheet.png:43",
+                "DisplaySize": {
+                    "X": 2,
+                    "Y": 2
+                },
+                "CollisionHeight": 1
+            },
+            {
+                "Texture": "dga_furniture_tilesheet.png:30",
+                "DisplaySize": {
+                    "X": 1,
+                    "Y": 3
+                },
+                "CollisionHeight": 3
+            }
+        ]
+    }
+]

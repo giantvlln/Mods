@@ -1,0 +1,32 @@
+[
+  {
+    "$ItemType": "ShopEntry",
+    "Item": { "Value": "maplelog.DecorativeBushes.DGA/BerryBush" },
+    "ShopId": "Carpenter",
+    "Cost": 600,
+  },
+  {
+    "$ItemType": "ShopEntry",
+    "Item": { "Value": "maplelog.DecorativeBushes.DGA/MediumBush" },
+    "ShopId": "Carpenter",
+    "Cost": 600,
+  },
+  {
+    "$ItemType": "ShopEntry",
+    "Item": { "Value": "maplelog.DecorativeBushes.DGA/BigBush" },
+    "ShopId": "Carpenter",
+    "Cost": 1000,
+  },
+  {
+    "$ItemType": "ShopEntry",
+    "Item": { "Value": "maplelog.DecorativeBushes.DGA/SmallBush" },
+    "ShopId": "Carpenter",
+    "Cost": 250,
+  },
+  {
+    "$ItemType": "ShopEntry",
+    "Item": { "Value": "maplelog.DecorativeBushes.DGA/IslandBush" },
+    "ShopId": "IslandMerchant",
+    "Cost": 500,
+  },
+]

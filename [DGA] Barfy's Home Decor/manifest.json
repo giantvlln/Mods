@@ -1,0 +1,14 @@
+{
+    "Name": "Barfy's Home Decor",
+    "Author": "barfyscorpionandsylveonne",
+    "Version": "1.1.0",
+    "Description": "A CF pack containing barfy's furniture replacements. Converted from an XNB mod by sylveonne.",
+    "UniqueID": "barfyscorpionandsylveonne.DGA.BarfyscorpionDecor",
+    "UpdateKeys": [],
+    "ContentPackFor": {
+        "UniqueID": "spacechase0.DynamicGameAssets",
+        "MinimumVersion": "1.4.2"
+    },
+    "DGA.FormatVersion": 2,
+    "DGA.ConditionsFormatVersion": "1.25.0"
+}

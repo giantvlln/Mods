@@ -1,0 +1,144 @@
+{
+	"Format": "1.11",
+
+	"ConfigSchema": {
+
+		"SpringColor": {
+			"AllowValues": "Green, Pink",
+			"Default": "Pink"
+			},
+		"FallColor": {
+			"AllowValues": "Green, Orange",
+			"Default": "Green"
+			},
+		"DirtColor": {
+			"AllowValues": "Classic, Light",
+			"Default": "Classic"
+			},
+		"UseFallBushes": {
+			"AllowValues": "true, false",
+			"Default": true
+			},
+		"UseEemiePine": {
+			"AllowValues": "true, false",
+			"Default": true
+			},
+		"GrassVariant": {
+			"AllowValues": "Eemie, AliEemie, AliVibrant, AliNormal, AliAlternate, AliAlternateVibrant, disable",
+			"Default": "AliEemie"
+			},
+		"UseWorldMapRecolor": {
+			"AllowValues": "true, false",
+			"Default": true
+			},
+		"Petbowl": {
+			"AllowValues": "vanilla, void, dirt, grass, darkgrass",
+			"Default": "vanilla"
+			},
+	},
+
+	"Changes": [
+
+		//Dirt - same for all versions
+		{
+		"LogName": "Hoe Dirt",
+		"Action": "EditImage",
+		"PatchMode": "Replace",
+		"Target": "TerrainFeatures/hoeDirt",
+		"FromFile": "assets/hoeDirt_{{DirtColor}}.png",
+			"FromArea": {"X":0, "Y":0, "Width":128, "Height":64},
+			"ToArea": {"X":0, "Y":0, "Width":128, "Height":64},
+		},
+		{
+		"LogName": "Hoe Dirt",
+		"Action": "EditImage",
+		"PatchMode": "Replace",
+		"Target": "TerrainFeatures/hoeDirtDark",
+		"FromFile": "assets/hoeDirtDark_{{DirtColor}}.png",
+			"FromArea": {"X":0, "Y":0, "Width":128, "Height":64},
+			"ToArea": {"X":0, "Y":0, "Width":128, "Height":64},
+		},
+
+		//Petbowl
+		{
+			"LogName": "Pet Bowl - Void",
+			"Action": "EditImage",
+			"Target": "{{season}}_outdoorsTileSheet, Maps/{{season}}_outdoorsTileSheet",
+			"FromFile": "assets/petbowls/petbowl.png",
+			"ToArea": { "X": 208, "Y": 1232, "Width": 32, "Height": 16 },
+			"When": {
+				"Petbowl": "void"
+			}
+		},
+
+		{
+			"LogName": "Pet Bowl - Spring/Summer/Winter",
+			"Action": "EditImage",
+			"Target": "{{season}}_outdoorsTileSheet, Maps/{{season}}_outdoorsTileSheet",
+			"FromFile": "assets/petbowls/petbowl_{{petbowl}}_{{season}}.png",
+			"ToArea": { "X": 208, "Y": 1232, "Width": 32, "Height": 16 },
+			"When": {
+				"Petbowl": "dirt, grass, darkgrass",
+				"Season": "spring, summer, winter"
+			}
+		},
+
+		{
+			"LogName": "Pet Bowl - Fall",
+			"Action": "EditImage",
+			"Target": "{{season}}_outdoorsTileSheet, Maps/{{season}}_outdoorsTileSheet",
+			"FromFile": "assets/petbowls/petbowl_{{petbowl}}_{{season}}{{FallColor}}.png",
+			"ToArea": { "X": 208, "Y": 1232, "Width": 32, "Height": 16 },
+			"When": {
+				"Petbowl": "dirt, grass, darkgrass",
+				"Season": "fall"
+			}
+		},
+
+		//Witch Swamp
+
+		{
+		"LogName": "Witch Swamp Tiles",
+		"Action": "EditImage",
+		"PatchMode": "Replace",
+		"Target": "witchSwampTiles, Maps/witchSwampTiles",
+		"FromFile": "assets/witchSwampTiles.png",
+		},
+
+		//Bushes
+		{
+		"LogName": "Bushes",
+		"Action": "EditImage",
+		"PatchMode": "Overlay",
+		"Target": "TileSheets/bushes",
+		"FromFile": "assets/bushes_standard.png",
+		"When": {
+			"season": "spring, summer, fall"
+			}
+		},
+
+		{
+		"LogName": "Red Fall Bushes",
+		"Action": "EditImage",
+		"PatchMode": "Overlay",
+		"Target": "TileSheets/bushes",
+		"FromFile": "assets/bushes_red.png",
+		"When": {
+			"UseFallBushes": true,
+			"season": "fall"
+			}
+		},
+
+		//Grass
+		{
+		"LogName": "Grass Variants",
+		"Action": "EditImage",
+		"PatchMode": "Replace",
+		"Target": "TerrainFeatures/grass",
+		"FromFile": "assets/grass_{{GrassVariant}}.png",
+		"When": {
+			"GrassVariant:disable": false
+			}
+		},
+	]
+}

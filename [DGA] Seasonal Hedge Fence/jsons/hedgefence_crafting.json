@@ -1,0 +1,29 @@
+﻿[
+	{
+		"$ItemType": "CraftingRecipe",
+		"ID": "hedgefencecrafting",
+		"IsCooking": false,
+		"KnownByDefault": false,
+		"SKillUnlockName": "Farming",
+		"SkillUnlockLevel": 3,
+		"Result": [
+			{
+				"Weight": 1,
+				"Value": {
+					"Type": "DGAItem",
+					"Value": "ghostcabbage.DynamicGameAssets.hedgeFence/hedgefence",
+				}
+			}
+		],
+		"Ingredients":[
+			{
+				"Type": "VanillaObject",
+				"Value": 390
+			},
+			{
+				"Type": "VanillaObject",
+				"Value": 771
+			}
+		]
+	}
+]

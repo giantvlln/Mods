@@ -1,0 +1,6 @@
+{
+    "furniture.Ladder.name": "Cellar Ladder",
+    "furniture.Ladder.description": "Allows quick exit from the cellar. Ideally placed to the left of the stairs.",
+    "furniture.Hatch.name": "Cellar Hatch",
+    "furniture.Hatch.description": "Allows quick entry to the cellar. Ideally placed to the right of the house above the mailbox.",
+}

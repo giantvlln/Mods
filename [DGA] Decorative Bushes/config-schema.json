@@ -1,0 +1,8 @@
+[
+    {
+        "Name": "Sell In Shops",
+        "Description": "Whether or not the bushes should be sold in shops.",
+        "ValueType": "Boolean",
+        "DefaultValue": true
+    },
+]

@@ -1,0 +1,12 @@
+{
+  "Name": "[DGA] Seasonal Hedge Fence",
+  "Author": "ghostcabbage and Ashajin",
+  "Version": "1.0",
+  "Description": "Dynamic Game Assets conversion of 'FOUR-SEASONS HEDGE(fence 2)' by Ashajin.",
+  "UniqueID": "ghostcabbage.DynamicGameAssets.HedgeFence",
+  "ContentPackFor": { "UniqueID": "spacechase0.DynamicGameAssets" },
+  "UpdateKeys": [""],
+  
+  "DGA.FormatVersion": 2,
+  "DGA.ConditionsFormatVersion": "1.23.0"
+}
